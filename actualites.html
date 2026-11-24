@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Actualités — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
+<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
+</head><body data-page="news"><div id="shell"></div><main><div class="wrap">
+<h1>Actualités en direct</h1>
+<p class="lead">Chaque case : titre, résumé de 2 à 3 lignes et lien vers l'article. Filtrer par jour et par thème, suivre l'avancement dans le pipeline, garder des favoris et des notes pour y revenir plus tard.</p>
+<div class="toolbar">
+ <div class="grp"><button data-hbtn="" class="on">Tous</button><button data-hbtn="H1">H1 Cybersécurité</button><button data-hbtn="H2">H2 IA</button><button data-hbtn="H3">H3 SecOps</button></div>
+ <div><label for="range">Période</label><select id="range"><option value="all">Tout</option><option value="today">Aujourd'hui</option><option value="7">7 derniers jours</option><option value="week">Semaine en cours</option><option value="month">Mois en cours</option></select></div>
+ <div><label for="day">Jour précis</label><input type="date" id="day"></div>
+ <div><label for="statut">Étape</label><select id="statut"></select></div>
+ <div><label for="only">Afficher</label><select id="only"><option value="">Tout</option><option value="fav">Favoris</option><option value="later">À lire plus tard</option><option value="sf">Signaux faibles</option></select></div>
+ <div><label for="sort">Tri</label><select id="sort"><option value="date">Par jour</option><option value="imp">Par importance</option></select></div>
+ <div><label for="txt">Recherche</label><input type="search" id="txt" placeholder="mot-clé…"></div>
+ <div class="mono small" id="count"></div>
+</div>
+<div id="list"></div>
+<details class="panel" id="ajout"><summary>+ Ajouter un article</summary>
+<form id="add-form"><div class="form-grid">
+ <div class="full"><label for="f-titre">Titre</label><input type="text" id="f-titre" required style="width:100%"></div>
+ <div class="full"><label for="f-resume">Résumé (2 à 3 lignes)</label><textarea id="f-resume" required></textarea></div>
+ <div class="full"><label for="f-url">Lien</label><input type="url" id="f-url" required style="width:100%" placeholder="https://"></div>
+ <div><label for="f-date">Date</label><input type="date" id="f-date" required></div>
+ <div><label for="f-h">Horizon / thème</label><select id="f-h"><option value="H1">H1 Cybersécurité</option><option value="H2">H2 IA</option><option value="H3">H3 SecOps</option></select></div>
+ <div><label for="f-source">Source</label><select id="f-source"></select></div>
+ <div><label for="f-obj">Objectif</label><select id="f-obj"></select></div>
+ <div><label for="f-imp">Importance</label><select id="f-imp"><option>0</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></div>
+ <div><label for="f-statut">Étape</label><select id="f-statut"><option value="collecte">Collecté</option><option value="trie">Trié</option><option value="lu" selected>Lu &amp; évalué</option><option value="important">À surveiller</option><option value="publie">Publié</option></select></div>
+ <div><label><input type="checkbox" id="f-sf"> Signal faible</label></div>
+</div><p><button type="submit">Ajouter</button></p></form></details>
+<section class="panel" id="sauvegarde"><h2 style="margin-top:0">Stockage &amp; sauvegarde</h2>
+<p class="small">Vos statuts, notes, favoris et articles ajoutés sont conservés dans ce navigateur (stockage local). Pour les reprendre plus tard ou sur une autre machine : exportez la sauvegarde, puis importez-la. Pour les inscrire définitivement dans le dossier, exportez <b>articles.js</b> et remplacez <code>data/articles.js</code>.</p>
+<div class="grp" style="display:flex;flex-wrap:wrap;gap:8px">
+<button id="b-export">⬇ Sauvegarde (.json)</button>
+<label class="btn" style="margin:0">⬆ Importer<input type="file" id="b-import" accept=".json" hidden></label>
+<button id="b-js">⬇ articles.js (pour le dossier)</button>
+<button id="b-csv">⬇ Export CSV</button>
+<button id="b-reset" class="danger">Réinitialiser le local</button></div></section>
+</div></main><div id="foot"></div></body></html>

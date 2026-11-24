@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sources — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
+<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
+</head><body data-page="sources"><div id="shell"></div><main><div class="wrap">
+<h1>Sources &amp; évaluation</h1>
+<p class="lead">10 sources françaises, des sources européennes, puis des références internationales. Chaque critère est noté sur 10 ; le score est la moyenne des six critères. Les notes sont une évaluation initiale : cliquez sur « Mode édition » pour les ajuster à chaque itération.</p>
+<div class="toolbar">
+ <div><label for="zone">Zone</label><select id="zone"><option value="">Toutes</option><option value="FR">France</option><option value="EU">Europe</option><option value="INTL">International</option></select></div>
+ <div><label for="hh">Objectif</label><select id="hh"><option value="">H1 / H2 / H3</option><option value="H1">H1 Cybersécurité</option><option value="H2">H2 IA</option><option value="H3">H3 SecOps</option></select></div>
+ <div><label for="txt">Recherche</label><input type="search" id="txt" placeholder="nom ou type…"></div>
+ <div><button id="b-edit">✎ Mode édition</button></div>
+ <div class="mono small" id="summary"></div>
+</div>
+<div class="tablewrap"><table id="tbl"></table></div>
+<p class="small muted">Cliquer sur un en-tête pour trier. « Retenus » = nombre d'articles retenus (à surveiller ou publiés) issus de la source.</p>
+<h2>Définition des critères</h2>
+<div class="smart" id="legend"></div>
+<details class="panel"><summary>+ Ajouter une source</summary>
+<form id="src-form"><div class="form-grid">
+ <div><label for="s-nom">Nom</label><input type="text" id="s-nom" required></div>
+ <div><label for="s-url">Site</label><input type="url" id="s-url" required placeholder="https://"></div>
+ <div><label for="s-zone">Zone</label><select id="s-zone"><option value="FR">France</option><option value="EU">Europe</option><option value="INTL">International</option></select></div>
+ <div><label for="s-type">Type</label><input type="text" id="s-type" placeholder="Média, institution…"></div>
+ <div><label>Objectif</label><label><input type="checkbox" class="s-h" value="H1" checked> H1</label> <label><input type="checkbox" class="s-h" value="H2"> H2</label> <label><input type="checkbox" class="s-h" value="H3"> H3</label></div>
+ <div><label for="s-maj">Mises à jour</label><input type="number" id="s-maj" min="0" max="10" value="7"></div>
+ <div><label for="s-cred">Crédibilité</label><input type="number" id="s-cred" min="0" max="10" value="7"></div>
+ <div><label for="s-lis">Lisibilité</label><input type="number" id="s-lis" min="0" max="10" value="7"></div>
+ <div><label for="s-freq">Fréquence</label><input type="number" id="s-freq" min="0" max="10" value="7"></div>
+ <div><label for="s-ver">Véracité</label><input type="number" id="s-ver" min="0" max="10" value="7"></div>
+ <div><label for="s-pert">Pertinence</label><input type="number" id="s-pert" min="0" max="10" value="7"></div>
+</div><p><button type="submit">Ajouter</button></p></form></details>
+</div></main><div id="foot"></div></body></html>
