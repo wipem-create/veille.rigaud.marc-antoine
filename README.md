@@ -1,6 +1,6 @@
 # Veille·Info — site de pilotage de la veille (H1 · H2 · H3)
 
-Site statique rétro beige à bandes de couleur : aucune installation, aucun serveur obligatoire.
+aucune installation, aucun serveur obligatoire.
 
 | Horizon | Thème | Itération | Publication sur le site |
 |---|---|---|---|
@@ -11,7 +11,7 @@ Site statique rétro beige à bandes de couleur : aucune installation, aucun ser
 ## Ouvrir le site
 - **Le plus simple** : double-clic sur `index.html` (fonctionne hors ligne, depuis n'importe quel dossier).
 - **Avec un petit serveur local** : `outils/lancer.bat` (Windows) ou `outils/lancer.sh` (Mac/Linux).
-- **Hébergement** : copier tout le dossier chez n'importe quel hébergeur statique (GitHub Pages, Netlify, OVH…).
+- **Hébergement** : tout le dossier chez n'importe quel hébergeur statique (GitHub Pages, Netlify, OVH…).
 
 ## Contenu du dossier
 ```
