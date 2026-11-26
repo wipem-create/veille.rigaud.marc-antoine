@@ -19,8 +19,15 @@ python serve.py            # ouvre http://localhost:8080 et collecte automatique
 ```
 Windows : double-cliquez `planification/1_lancer_site.bat`.
 
-Le bouton **▶ Collecter** du site lance une itération immédiatement (quand `serve.py` tourne).
-Sans serveur, ouvrez simplement `index.html` : le site affiche les dernières données enregistrées (mode hors-ligne).
+### Collecter depuis le site, sans commande (bouton « Mode hors-ligne » → « En ligne »)
+
+1. Sur GitHub : **Settings → Pages → Source = GitHub Actions** et **Settings → Actions → General → Workflow permissions = Read and write**.
+2. Créez un jeton *fine-grained* (github.com/settings/personal-access-tokens/new) limité au dépôt, avec **Actions : Read and write**.
+3. Sur le site, cliquez **○ Mode hors-ligne**, collez le jeton, **▶ Activer** → le bouton devient **● En ligne · ▶ Collecter**.
+4. Chaque clic lance une collecte sur GitHub Actions (1 à 2 min), puis la page se recharge avec les nouvelles news.
+
+Le jeton est stocké uniquement dans votre navigateur ; les visiteurs du site restent en « Mode hors-ligne ». Le bouton **⚙** permet de changer ou retirer le jeton.
+Si `serve.py` tourne, le bouton passe en **● Local · ▶ Collecter** et collecte sur votre PC.
 
 ## 2. Commandes du moteur
 
@@ -38,8 +45,8 @@ Choisissez **une** option :
 
 - **Windows** : lancez une fois `planification/3_installer_tache_windows.bat` → tâche planifiée 7h00, répétée toutes les 2 h pendant 12 h.
 - **macOS / Linux** : `sh planification/installer_cron_mac_linux.sh` → crontab `0 7-19/2 * * *`.
-- **En ligne (GitHub, gratuit)** : poussez le dossier dans un dépôt GitHub, activez *Settings → Pages* (branche `main`, dossier `/`).
-  Le workflow `.github/workflows/veille.yml` collecte à 7h, 9h… 19h (heure de Paris, été/hiver gérés) et publie le site.
+- **En ligne (GitHub, gratuit)** : poussez le dossier dans un dépôt GitHub, réglez *Settings → Pages → Source* sur **GitHub Actions**.
+  Le workflow `.github/workflows/veille.yml` collecte à 7h, 9h… 19h (heure de Paris, été/hiver gérés), enregistre les données dans le dépôt et publie le site.
 - **Autre hébergeur** (OVH, Netlify, serveur perso…) : copiez le dossier et planifiez `python veille.py collect` avec le cron de l'hébergeur.
 
 Les collectes de la journée ajoutent les nouveaux articles ; ceux dont le score ≥ 80 apparaissent en **⚡ FLASH** sur l'accueil dès la collecte suivante.

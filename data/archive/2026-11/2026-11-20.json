@@ -56,9 +56,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 66,
+  "score": 65,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 15,
    "corroboration": 20,
    "bruit": 0,
@@ -134,9 +134,9 @@
    "H2:Marché & industrie",
    "H2:Modèles & recherche"
   ],
-  "score": 55,
+  "score": 54,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 10,
    "corroboration": 14,
    "bruit": 0,
@@ -417,44 +417,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "869f6fabfff4",
-  "source": "actuia",
-  "titre": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
-  "lien": "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
-  "date": "2026-11-20T06:30:00+00:00",
-  "resume": "Une prépublication montre qu'un modèle entraîné à reformuler son raisonnement devient plus difficile à surveiller automatiquement : nouvelle limite du contrôle des chaînes de pensée.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Modèles & recherche",
-   "H2:Sécurité de l'IA"
-  ],
-  "score": 37,
-  "criteres": {
-   "source": 31.0,
-   "criticite": 6,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "prépublication"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": true,
-  "signal_termes": [
-   "surveillab"
-  ],
-  "signal_confirme": false,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "def82ce625ab",
   "source": "silicon",
   "titre": "Windows Server 2028, entre ouverture et durcissement",
@@ -486,6 +448,44 @@
   "corrobore_par": [
    "itconnect"
   ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "869f6fabfff4",
+  "source": "actuia",
+  "titre": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
+  "lien": "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
+  "date": "2026-11-20T06:30:00+00:00",
+  "resume": "Une prépublication montre qu'un modèle entraîné à reformuler son raisonnement devient plus difficile à surveiller automatiquement : nouvelle limite du contrôle des chaînes de pensée.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "prépublication"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "surveillab"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
  },

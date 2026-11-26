@@ -193,3 +193,22 @@ footer b{font-family:var(--pixel);font-size:9px;color:var(--b3)}
 kbd{font-family:var(--texte);background:var(--encre);color:var(--b3);padding:1px 5px}
 .alerte-flash{border:3px solid var(--encre);background:repeating-linear-gradient(-45deg,var(--b3) 0 14px,#f2d76a 14px 28px);padding:12px 16px;box-shadow:var(--ombre);margin-top:22px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
 .alerte-flash b{font-family:var(--pixel);font-size:10px;background:var(--rouge);color:#fff;padding:6px 8px}
+
+/* ---------- collecte en ligne ---------- */
+.collecte-zone{margin-left:auto;display:flex;gap:6px}
+.statusbar .collecte-zone .btn{margin-left:0}
+.btn-on{background:var(--b4);color:#fff}
+.btn-off{background:#cfc3ad;color:var(--encre)}
+.btn-off:hover{background:var(--b3)}
+.btn:disabled{opacity:.85;cursor:wait}
+.btn-reglage{padding:8px 9px}
+.modale-fond{position:fixed;inset:0;background:rgba(46,38,34,.6);display:flex;align-items:center;justify-content:center;z-index:100;padding:16px}
+.modale{max-width:560px;width:100%;padding-top:0}
+.modale .bandeau .x{background:none;border:0;color:#fff;font-family:var(--pixel);font-size:11px;cursor:pointer}
+.modale ol{padding-left:20px}
+.modale .champs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.modale .champs label{font-family:var(--pixel);font-size:8px;display:flex;flex-direction:column;gap:6px}
+.modale .champs .large{grid-column:1/-1}
+.modale input{font-family:var(--texte);font-size:13px;padding:8px;border:2px solid var(--encre);background:#fffaf0;box-shadow:2px 2px 0 var(--encre)}
+.modale .msg{min-height:20px;font-size:13px;color:var(--rouge)}
+.modale .actions{display:flex;gap:10px;justify-content:flex-end;margin-top:8px}

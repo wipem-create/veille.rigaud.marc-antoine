@@ -342,5 +342,11 @@
     "sujets_emergents": "agent|mcp|prompt injection|injection de prompt|ebpf|post-quanti|quantique|deepfake|vishing|ipfs|llm|satellite|supply chain|nuget|npm|pypi|registr|rdma|usb4|ia offensive|ai-driven|ai-assisted|assistée par l'ia|autonom|modèles de décision|surveillab|zero data retention|vol de prompts|prompt theft|device code|sha pinning|espace|orbite|ver usb |tpu|silicium|olfacti|serial gateway|passerelles série",
     "frequence_max_terme": 3,
     "credibilite_min": 7
+  },
+  "github": {
+    "_comment": "Dépôt utilisé par le bouton « Collecter » du site (GitHub Actions).",
+    "owner": "wipem-create",
+    "repo": "veille.rigaud.marc-antoine",
+    "workflow": "veille.yml"
   }
 }

@@ -59,7 +59,7 @@
   ],
   "score": 79,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 28,
    "corroboration": 20,
    "bruit": 0,
@@ -101,9 +101,9 @@
    "H2:Marché & industrie",
    "H2:Régulation & éthique"
   ],
-  "score": 74,
+  "score": 73,
   "criteres": {
-   "source": 32.2,
+   "source": 31.4,
    "criticite": 22,
    "corroboration": 20,
    "bruit": 0,
@@ -312,9 +312,9 @@
    "H2:Usages & outils",
    "H3:Durcissement & DevSecOps"
   ],
-  "score": 60,
+  "score": 59,
   "criteres": {
-   "source": 31.7,
+   "source": 30.9,
    "criticite": 8,
    "corroboration": 20,
    "bruit": 0,
@@ -393,7 +393,7 @@
   ],
   "score": 56,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 11,
    "corroboration": 14,
    "bruit": 0,
@@ -430,9 +430,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 56,
+  "score": 55,
   "criteres": {
-   "source": 32.2,
+   "source": 31.4,
    "criticite": 17,
    "corroboration": 7,
    "bruit": 0,
@@ -504,9 +504,9 @@
   "sous_themes": [
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 52,
+  "score": 51,
   "criteres": {
-   "source": 32.2,
+   "source": 31.4,
    "criticite": 0,
    "corroboration": 20,
    "bruit": 0,
@@ -565,43 +565,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "da1ca74ef9e2",
-  "source": "securityweek",
-  "titre": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-  "lien": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-  "date": "2026-11-25T08:12:24+00:00",
-  "resume": "Faille Fragnesia corrigée : combinée à PHP2Shell dans des attaques assistées par IA contre 25 serveurs.",
-  "horizon": "H1",
-  "themes": [
-   "H1",
-   "H2"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 46,
-  "criteres": {
-   "source": 32.2,
-   "criticite": 0,
-   "corroboration": 14,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "darkreading",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "8185d47c9074",
   "source": "therecord",
   "titre": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
@@ -630,6 +593,43 @@
   "corroboration": 3,
   "corrobore_par": [
    "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "da1ca74ef9e2",
+  "source": "securityweek",
+  "titre": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+  "lien": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+  "date": "2026-11-25T08:12:24+00:00",
+  "resume": "Faille Fragnesia corrigée : combinée à PHP2Shell dans des attaques assistées par IA contre 25 serveurs.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
    "thn"
   ],
   "iteration": 1,
@@ -1037,136 +1037,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "f9ed0111d38b",
-  "source": "securityweek",
-  "titre": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
-  "lien": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-  "date": "2026-11-25T15:27:36+00:00",
-  "resume": "Des instances GeoServer sondées pour deux failles chaînables en RCE sans authentification.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 39,
-  "criteres": {
-   "source": 32.2,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "1b14f153c9ad",
-  "source": "securityweek",
-  "titre": "US Treasury's FinCEN Disconnects Systems Following Cyber Incident",
-  "lien": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-  "date": "2026-11-25T13:39:21+00:00",
-  "resume": "FinCEN déconnecte ses systèmes et prolonge les échéances des déclarants pendant l'enquête.",
-  "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
-  "score": 39,
-  "criteres": {
-   "source": 32.2,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "8088163fedc8",
-  "source": "securityweek",
-  "titre": "Plagiarism Checker Turnitin Investigating Cyberattack",
-  "lien": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-  "date": "2026-11-25T10:40:07+00:00",
-  "resume": "Turnitin enquête sur une cyberattaque, services déclarés opérationnels.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [],
-  "score": 39,
-  "criteres": {
-   "source": 32.2,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "bleeping"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "25b96cb5563f",
-  "source": "lemagit",
-  "titre": "Gestion du risque lié aux tiers : fournisseurs et clients, impossibles à réconcilier ?",
-  "lien": "https://www.lemagit.fr/actualites/366655500/Gestion-du-risque-lie-aux-tiers-fournisseurs-et-clients-impossible-a-reconcilier",
-  "date": "2026-11-25T10:51:00+00:00",
-  "resume": "40 % des entreprises ont subi une attaque via un fournisseur (Cesin / Board of Cyber) ; questionnaires jugés inefficaces.",
-  "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
-  "score": 39,
-  "criteres": {
-   "source": 31.7,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "silicon"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "065d0388e858",
   "source": "bleeping",
   "titre": "Hackers reportedly breached CIA intelligence analysis system",
@@ -1203,18 +1073,22 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "0d5efb3eaf04",
-  "source": "darkreading",
-  "titre": "Attackers Target .NET Developers With Poisoned Job Assessments",
-  "lien": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
-  "date": "2026-11-25T15:48:04+00:00",
-  "resume": "13 paquets NuGet malveillants diffusés via une fausse campagne de recrutement.",
+  "id": "f9ed0111d38b",
+  "source": "securityweek",
+  "titre": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+  "lien": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+  "date": "2026-11-25T15:27:36+00:00",
+  "resume": "Des instances GeoServer sondées pour deux failles chaînables en RCE sans authentification.",
   "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
   "score": 38,
   "criteres": {
-   "source": 30.6,
+   "source": 31.4,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1234,20 +1108,18 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "16f6f0d6fc1c",
-  "source": "darkreading",
-  "titre": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
-  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
-  "date": "2026-11-25T14:00:00+00:00",
-  "resume": "Les cyberattaques visent de plus en plus les systèmes industriels d'Amérique latine.",
+  "id": "1b14f153c9ad",
+  "source": "securityweek",
+  "titre": "US Treasury's FinCEN Disconnects Systems Following Cyber Incident",
+  "lien": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+  "date": "2026-11-25T13:39:21+00:00",
+  "resume": "FinCEN déconnecte ses systèmes et prolonge les échéances des déclarants pendant l'enquête.",
   "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
+  "themes": [],
   "sous_themes": [],
   "score": 38,
   "criteres": {
-   "source": 30.6,
+   "source": 31.4,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1261,7 +1133,71 @@
   "signal_confirme": null,
   "corroboration": 2,
   "corrobore_par": [
-   "mittr"
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8088163fedc8",
+  "source": "securityweek",
+  "titre": "Plagiarism Checker Turnitin Investigating Cyberattack",
+  "lien": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+  "date": "2026-11-25T10:40:07+00:00",
+  "resume": "Turnitin enquête sur une cyberattaque, services déclarés opérationnels.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "bleeping"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "25b96cb5563f",
+  "source": "lemagit",
+  "titre": "Gestion du risque lié aux tiers : fournisseurs et clients, impossibles à réconcilier ?",
+  "lien": "https://www.lemagit.fr/actualites/366655500/Gestion-du-risque-lie-aux-tiers-fournisseurs-et-clients-impossible-a-reconcilier",
+  "date": "2026-11-25T10:51:00+00:00",
+  "resume": "40 % des entreprises ont subi une attaque via un fournisseur (Cesin / Board of Cyber) ; questionnaires jugés inefficaces.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 30.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -1326,6 +1262,70 @@
   "corroboration": 2,
   "corrobore_par": [
    "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "0d5efb3eaf04",
+  "source": "darkreading",
+  "titre": "Attackers Target .NET Developers With Poisoned Job Assessments",
+  "lien": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+  "date": "2026-11-25T15:48:04+00:00",
+  "resume": "13 paquets NuGet malveillants diffusés via une fausse campagne de recrutement.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "16f6f0d6fc1c",
+  "source": "darkreading",
+  "titre": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+  "date": "2026-11-25T14:00:00+00:00",
+  "resume": "Les cyberattaques visent de plus en plus les systèmes industriels d'Amérique latine.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "mittr"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -1401,41 +1401,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "b9a49d835e76",
-  "source": "zataz",
-  "titre": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
-  "lien": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
-  "date": "2026-11-25T07:40:26+00:00",
-  "resume": "Le CHU de Bordeaux reconnaît une intrusion ; le groupe ScarlettGroup menace de divulguer des données et revendique aussi SIG Sauer.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Fuites & intrusions"
-  ],
-  "score": 33,
-  "criteres": {
-   "source": 27.2,
-   "criticite": 6,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "chu"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "0408c3e588c7",
   "source": "bleeping",
   "titre": "Microsoft confirms authentication issues after November updates",
@@ -1452,6 +1417,41 @@
    "corroboration": 0,
    "bruit": 0,
    "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b9a49d835e76",
+  "source": "zataz",
+  "titre": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
+  "lien": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
+  "date": "2026-11-25T07:40:26+00:00",
+  "resume": "Le CHU de Bordeaux reconnaît une intrusion ; le groupe ScarlettGroup menace de divulguer des données et revendique aussi SIG Sauer.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "chu"
+   ]
   },
   "retenu": false,
   "une": false,
@@ -1496,42 +1496,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "67e23752ce41",
-  "source": "lemagit",
-  "titre": "Dette technique : l'IA offensive risque de la faire payer au prix fort",
-  "lien": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
-  "date": "2026-11-25T10:32:00+00:00",
-  "resume": "Les attaquants exploitent plus vite la dette technique grâce à l'IA ; intégrer la correction des failles aux indicateurs de performance.",
-  "horizon": "H1",
-  "themes": [
-   "H1",
-   "H2"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs",
-   "H2:Régulation & éthique",
-   "H2:Sécurité de l'IA"
-  ],
-  "score": 32,
-  "criteres": {
-   "source": 31.7,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "6703cf24d2ce",
   "source": "itconnect",
   "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
@@ -1543,7 +1507,7 @@
   "sous_themes": [],
   "score": 31,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1577,7 +1541,43 @@
   ],
   "score": 31,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "67e23752ce41",
+  "source": "lemagit",
+  "titre": "Dette technique : l'IA offensive risque de la faire payer au prix fort",
+  "lien": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
+  "date": "2026-11-25T10:32:00+00:00",
+  "resume": "Les attaquants exploitent plus vite la dette technique grâce à l'IA ; intégrer la correction des failles aux indicateurs de performance.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 30.9,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1608,9 +1608,9 @@
   "sous_themes": [
    "H2:Marché & industrie"
   ],
-  "score": 31,
+  "score": 30,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1663,72 +1663,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "c09bc6bff242",
-  "source": "zataz",
-  "titre": "Skimming en Alsace, des cartes bancaires piégées à la pompe",
-  "lien": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
-  "date": "2026-11-25T11:40:44+00:00",
-  "resume": "Des retraits frauduleux après un plein d'essence inquiètent les gendarmes alsaciens ; comment réagir face au skimming.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Phishing & fraude"
-  ],
-  "score": 27,
-  "criteres": {
-   "source": 27.2,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "b196de00df77",
-  "source": "zataz",
-  "titre": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
-  "lien": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
-  "date": "2026-11-25T10:46:52+00:00",
-  "resume": "Une fausse loterie sur TikTok pousse à saisir ses coordonnées bancaires : arnaque de phishing saisonnière.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Phishing & fraude"
-  ],
-  "score": 27,
-  "criteres": {
-   "source": 27.2,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "f30cab37fe70",
   "source": "huggingface",
   "titre": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
@@ -1762,6 +1696,72 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "c09bc6bff242",
+  "source": "zataz",
+  "titre": "Skimming en Alsace, des cartes bancaires piégées à la pompe",
+  "lien": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
+  "date": "2026-11-25T11:40:44+00:00",
+  "resume": "Des retraits frauduleux après un plein d'essence inquiètent les gendarmes alsaciens ; comment réagir face au skimming.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b196de00df77",
+  "source": "zataz",
+  "titre": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
+  "lien": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
+  "date": "2026-11-25T10:46:52+00:00",
+  "resume": "Une fausse loterie sur TikTok pousse à saisir ses coordonnées bancaires : arnaque de phishing saisonnière.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "a799ae479090",
   "source": "itconnect",
   "titre": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
@@ -1777,7 +1777,7 @@
   ],
   "score": 19,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 9,
    "corroboration": 14,
    "bruit": -35,
@@ -1829,39 +1829,6 @@
    "securityweek",
    "therecord",
    "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "00180c3ac87a",
-  "source": "darkreading",
-  "titre": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
-  "lien": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
-  "date": "2026-11-25T15:00:00+00:00",
-  "resume": "Podcast : les assureurs cyber décrivent un fossé entre organisations équipées d'IA défensive et les autres.",
-  "horizon": "H1",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [],
-  "score": 3,
-  "criteres": {
-   "source": 30.6,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": -35,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "sans"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -1930,6 +1897,39 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "00180c3ac87a",
+  "source": "darkreading",
+  "titre": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+  "date": "2026-11-25T15:00:00+00:00",
+  "resume": "Podcast : les assureurs cyber décrivent un fossé entre organisations équipées d'IA défensive et les autres.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 2,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sans"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "244d7ce3739d",
   "source": "itconnect",
   "titre": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
@@ -1941,7 +1941,7 @@
   "sous_themes": [],
   "score": 0,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 0,
    "bruit": -35,

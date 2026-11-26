@@ -100,9 +100,9 @@
    "H2:Agents IA",
    "H2:Marché & industrie"
   ],
-  "score": 64,
+  "score": 63,
   "criteres": {
-   "source": 31.7,
+   "source": 30.9,
    "criticite": 12,
    "corroboration": 20,
    "bruit": 0,
@@ -224,9 +224,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 60,
+  "score": 59,
   "criteres": {
-   "source": 32.2,
+   "source": 31.4,
    "criticite": 8,
    "corroboration": 20,
    "bruit": 0,
@@ -266,7 +266,7 @@
   ],
   "score": 57,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 12,
    "corroboration": 14,
    "bruit": 0,
@@ -604,45 +604,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "691331cff56a",
-  "source": "securityweek",
-  "titre": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-  "lien": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-  "date": "2026-11-24T22:41:58+00:00",
-  "resume": "Un système non classifié de la CIA compromis selon une source de l'AP.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Fuites & intrusions",
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 52,
-  "criteres": {
-   "source": 32.2,
-   "criticite": 6,
-   "corroboration": 14,
-   "bruit": 0,
-   "motifs": [
-    "breach"
-   ]
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "elastic",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "91d6efcdd0ef",
   "source": "lebigdata",
   "titre": "Cloudera lance une plateforme de souveraineté numérique",
@@ -724,6 +685,45 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "691331cff56a",
+  "source": "securityweek",
+  "titre": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+  "lien": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+  "date": "2026-11-24T22:41:58+00:00",
+  "resume": "Un système non classifié de la CIA compromis selon une source de l'AP.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "elastic",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "d292b87b3b25",
   "source": "darkreading",
   "titre": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
@@ -739,9 +739,9 @@
    "H1:Menaces & APT",
    "H3:Détection & threat hunting"
   ],
-  "score": 50,
+  "score": 49,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 5,
    "corroboration": 14,
    "bruit": 0,
@@ -775,9 +775,9 @@
   "sous_themes": [
    "H2:Marché & industrie"
   ],
-  "score": 49,
+  "score": 48,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 11,
    "corroboration": 7,
    "bruit": 0,
@@ -852,7 +852,7 @@
   ],
   "score": 44,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 13,
    "corroboration": 0,
    "bruit": 0,
@@ -888,7 +888,7 @@
   ],
   "score": 44,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 6,
    "corroboration": 7,
    "bruit": 0,
@@ -948,6 +948,43 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "f0e387461552",
+  "source": "itconnect",
+  "titre": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
+  "lien": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
+  "date": "2026-11-24T03:00:00+00:00",
+  "resume": "Outil open source pour piloter un agent IA qui réécrit une application en Rust, avec vérification de chaque étape.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "311a4a4aa1d9",
   "source": "lemagit",
   "titre": "Cybersécurité : la CNIL est passée à la vitesse supérieure",
@@ -965,9 +1002,9 @@
    "H3:Durcissement & DevSecOps",
    "H3:Journalisation & supervision"
   ],
-  "score": 44,
+  "score": 43,
   "criteres": {
-   "source": 31.7,
+   "source": 30.9,
    "criticite": 5,
    "corroboration": 7,
    "bruit": 0,
@@ -985,43 +1022,6 @@
   "corrobore_par": [
    "silicon"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "f0e387461552",
-  "source": "itconnect",
-  "titre": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
-  "lien": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
-  "date": "2026-11-24T03:00:00+00:00",
-  "resume": "Outil open source pour piloter un agent IA qui réécrit une application en Rust, avec vérification de chaque étape.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Agents IA",
-   "H2:Usages & outils"
-  ],
-  "score": 43,
-  "criteres": {
-   "source": 31.4,
-   "criticite": 12,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "agent",
-    "open source"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
  },
@@ -1059,45 +1059,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "798e905bbe23",
-  "source": "lemagit",
-  "titre": "IA : tout savoir sur l'émergence des modèles de décision",
-  "lien": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
-  "date": "2026-11-24T13:55:00+00:00",
-  "resume": "Petits modèles de décision rapides pouvant trier des alertes SOC ou contrôler des agents IA.",
-  "horizon": "H2",
-  "themes": [
-   "H2",
-   "H3"
-  ],
-  "sous_themes": [
-   "H2:Agents IA",
-   "H2:Modèles & recherche",
-   "H3:Automatisation & IA au SOC",
-   "H3:SOC & SIEM"
-  ],
-  "score": 40,
-  "criteres": {
-   "source": 31.7,
-   "criticite": 8,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "agent"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "cbdcfcb23a63",
   "source": "bleeping",
   "titre": "Turnitin discloses cyberattack affecting customer-facing systems",
@@ -1131,6 +1092,45 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "798e905bbe23",
+  "source": "lemagit",
+  "titre": "IA : tout savoir sur l'émergence des modèles de décision",
+  "lien": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
+  "date": "2026-11-24T13:55:00+00:00",
+  "resume": "Petits modèles de décision rapides pouvant trier des alertes SOC ou contrôler des agents IA.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 30.9,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "05e0a7251671",
   "source": "itconnect",
   "titre": "ElixirOffice : une suite bureautique open source qui s'adresse aux habitués de Microsoft Office",
@@ -1144,7 +1144,7 @@
   ],
   "score": 38,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1175,7 +1175,7 @@
   "sous_themes": [],
   "score": 38,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1315,9 +1315,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 38,
+  "score": 37,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1333,41 +1333,6 @@
   "corrobore_par": [
    "thn"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "9217252b709b",
-  "source": "lemagit",
-  "titre": "Stockage : Huawei propose disponibilité et fonctions inédites pour l'IA",
-  "lien": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
-  "date": "2026-11-24T12:53:00+00:00",
-  "resume": "Nouvelles baies de stockage Huawei pour l'inférence IA en Europe.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Modèles & recherche"
-  ],
-  "score": 37,
-  "criteres": {
-   "source": 31.7,
-   "criticite": 5,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "europe"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
  },
@@ -1407,6 +1372,41 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "9217252b709b",
+  "source": "lemagit",
+  "titre": "Stockage : Huawei propose disponibilité et fonctions inédites pour l'IA",
+  "lien": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
+  "date": "2026-11-24T12:53:00+00:00",
+  "resume": "Nouvelles baies de stockage Huawei pour l'inférence IA en Europe.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.9,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "europe"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "86a717cdf423",
   "source": "itconnect",
   "titre": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d'IA",
@@ -1422,7 +1422,7 @@
   ],
   "score": 35,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 4,
    "corroboration": 0,
    "bruit": 0,
@@ -1522,70 +1522,6 @@
   ],
   "score": 31,
   "criteres": {
-   "source": 31.4,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": true,
-  "signal_termes": [
-   "ver usb"
-  ],
-  "signal_confirme": false,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "a110e0a0aa96",
-  "source": "actuia",
-  "titre": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l'intelligence artificielle ?",
-  "lien": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
-  "date": "2026-11-24T12:21:25+00:00",
-  "resume": "Présentation de trois parcours de formation à l'IA proposés par IMT-BS.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Usages & outils"
-  ],
-  "score": 31,
-  "criteres": {
-   "source": 31.0,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "55c29acf0e7a",
-  "source": "darkreading",
-  "titre": "Satellites Have a Ground-Level Cybersecurity Problem",
-  "lien": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
-  "date": "2026-11-24T22:05:34+00:00",
-  "resume": "Les infrastructures terrestres des services satellitaires deviennent un point faible émergent.",
-  "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
-  "score": 31,
-  "criteres": {
    "source": 30.6,
    "criticite": 0,
    "corroboration": 0,
@@ -1597,7 +1533,7 @@
   "flash": false,
   "signal": true,
   "signal_termes": [
-   "satellite"
+   "ver usb"
   ],
   "signal_confirme": false,
   "corroboration": 1,
@@ -1639,6 +1575,70 @@
   "corrobore_par": [
    "thn"
   ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a110e0a0aa96",
+  "source": "actuia",
+  "titre": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l'intelligence artificielle ?",
+  "lien": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
+  "date": "2026-11-24T12:21:25+00:00",
+  "resume": "Présentation de trois parcours de formation à l'IA proposés par IMT-BS.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "55c29acf0e7a",
+  "source": "darkreading",
+  "titre": "Satellites Have a Ground-Level Cybersecurity Problem",
+  "lien": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+  "date": "2026-11-24T22:05:34+00:00",
+  "resume": "Les infrastructures terrestres des services satellitaires deviennent un point faible émergent.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "satellite"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
  },
@@ -1828,7 +1828,7 @@
   "sous_themes": [],
   "score": 0,
   "criteres": {
-   "source": 31.4,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 0,
    "bruit": -35,

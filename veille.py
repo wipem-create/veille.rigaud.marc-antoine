@@ -409,7 +409,7 @@ def publier(arts, sources, kpi, history, journal, cfg, ref_utc):
     dernier = history[-1] if history else {}
     site = {
         "genere_le": ref_utc.isoformat(), "genere_paris": ref_p.strftime("%d/%m/%Y %H:%M"), "jour_ref": ref_p.date().isoformat(),
-        "iteration": dernier.get("n", 0), "config": {k: cfg[k] for k in ("horizons", "seuils", "kpi", "planification", "sous_themes")},
+        "iteration": dernier.get("n", 0), "config": {k: cfg[k] for k in ("horizons", "seuils", "kpi", "planification", "sous_themes", "github") if k in cfg},
         "poids": lire_json(os.path.join(DATA, "sources.json"), {}).get("poids"),
         "sources": sources, "articles": out_arts, "kpi": kpi, "historique": history, "flux": journal,
     }

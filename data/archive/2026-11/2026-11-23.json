@@ -40,49 +40,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "2b69983178be",
-  "source": "actuia",
-  "titre": "Les agents d'OpenAI surveillent mieux les entraînements qu'ils ne codent",
-  "lien": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
-  "date": "2026-11-23T15:30:00+00:00",
-  "resume": "Second bilan d'OpenAI sur l'usage d'agents de code en recherche : autonomie très variable selon la tâche.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Agents IA",
-   "H2:Marché & industrie",
-   "H2:Modèles & recherche"
-  ],
-  "score": 69,
-  "criteres": {
-   "source": 31.0,
-   "criticite": 18,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": [
-    "agent",
-    "recherche",
-    "openai"
-   ]
-  },
-  "retenu": true,
-  "une": true,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 4,
-  "corrobore_par": [
-   "bleeping",
-   "lemagit",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "1a7dccccfdec",
   "source": "thn",
   "titre": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
@@ -121,34 +78,31 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "4a2fe969df35",
-  "source": "elastic",
-  "titre": "AlertZero in Elastic Security: Every alert answered. Every decision yours",
-  "lien": "https://www.elastic.co/security-labs/blog/ai-soc-agents-alertzero-workers",
-  "date": "2026-11-23T11:12:50+00:00",
-  "resume": "Quatre équipes d'agents (triage, threat hunting, ingénierie de détection, forensic) avec autonomie réglable.",
-  "horizon": "H3",
+  "id": "2b69983178be",
+  "source": "actuia",
+  "titre": "Les agents d'OpenAI surveillent mieux les entraînements qu'ils ne codent",
+  "lien": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
+  "date": "2026-11-23T15:30:00+00:00",
+  "resume": "Second bilan d'OpenAI sur l'usage d'agents de code en recherche : autonomie très variable selon la tâche.",
+  "horizon": "H2",
   "themes": [
-   "H2",
-   "H3"
+   "H2"
   ],
   "sous_themes": [
    "H2:Agents IA",
-   "H3:Automatisation & IA au SOC",
-   "H3:Détection & threat hunting",
-   "H3:Réponse à incident & forensic"
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
   ],
   "score": 68,
   "criteres": {
-   "source": 31.0,
-   "criticite": 30,
-   "corroboration": 7,
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 20,
    "bruit": 0,
    "motifs": [
-    "threat hunting",
-    "forensic",
-    "alert",
-    "détection"
+    "agent",
+    "recherche",
+    "openai"
    ]
   },
   "retenu": true,
@@ -157,8 +111,10 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 2,
+  "corroboration": 4,
   "corrobore_par": [
+   "bleeping",
+   "lemagit",
    "thn"
   ],
   "iteration": 1,
@@ -201,6 +157,50 @@
   "corrobore_par": [
    "bleeping",
    "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4a2fe969df35",
+  "source": "elastic",
+  "titre": "AlertZero in Elastic Security: Every alert answered. Every decision yours",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-soc-agents-alertzero-workers",
+  "date": "2026-11-23T11:12:50+00:00",
+  "resume": "Quatre équipes d'agents (triage, threat hunting, ingénierie de détection, forensic) avec autonomie réglable.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 67,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 30,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting",
+    "forensic",
+    "alert",
+    "détection"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -262,9 +262,9 @@
    "H2:Régulation & éthique",
    "H2:Usages & outils"
   ],
-  "score": 60,
+  "score": 59,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 15,
    "corroboration": 14,
    "bruit": 0,
@@ -344,9 +344,9 @@
    "H3:Durcissement & DevSecOps",
    "H3:SOC & SIEM"
   ],
-  "score": 58,
+  "score": 57,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 20,
    "corroboration": 7,
    "bruit": 0,
@@ -383,9 +383,9 @@
   "sous_themes": [
    "H2:Agents IA"
   ],
-  "score": 57,
+  "score": 56,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 19,
    "corroboration": 7,
    "bruit": 0,
@@ -423,9 +423,9 @@
    "H2:Modèles & recherche",
    "H2:Sécurité de l'IA"
   ],
-  "score": 57,
+  "score": 56,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 12,
    "corroboration": 14,
    "bruit": 0,
@@ -443,46 +443,6 @@
   "corrobore_par": [
    "securityweek",
    "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "b423867a4c69",
-  "source": "actuia",
-  "titre": "L'action Anthropic frôle son prix d'introduction à sa deuxième séance",
-  "lien": "https://www.actuia.com/actualite/laction-anthropic-frole-son-prix-dintroduction-a-sa-deuxieme-seance/",
-  "date": "2026-11-23T09:30:00+00:00",
-  "resume": "Après une première séance euphorique, l'action Anthropic recule vers son prix d'introduction dans un marché tech en repli.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Marché & industrie"
-  ],
-  "score": 55,
-  "criteres": {
-   "source": 31.0,
-   "criticite": 4,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": [
-    "anthropic"
-   ]
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 5,
-  "corrobore_par": [
-   "lemagit",
-   "mittr",
-   "securityweek",
-   "silicon"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -523,6 +483,46 @@
    "bleeping",
    "lebigdata",
    "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b423867a4c69",
+  "source": "actuia",
+  "titre": "L'action Anthropic frôle son prix d'introduction à sa deuxième séance",
+  "lien": "https://www.actuia.com/actualite/laction-anthropic-frole-son-prix-dintroduction-a-sa-deuxieme-seance/",
+  "date": "2026-11-23T09:30:00+00:00",
+  "resume": "Après une première séance euphorique, l'action Anthropic recule vers son prix d'introduction dans un marché tech en repli.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "anthropic"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "lemagit",
+   "mittr",
+   "securityweek",
+   "silicon"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -665,9 +665,9 @@
    "H3:Automatisation & IA au SOC",
    "H3:Détection & threat hunting"
   ],
-  "score": 53,
+  "score": 52,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 22,
    "corroboration": 0,
    "bruit": 0,
@@ -702,9 +702,9 @@
   "sous_themes": [
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 53,
+  "score": 52,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 8,
    "corroboration": 14,
    "bruit": 0,
@@ -740,9 +740,9 @@
   "sous_themes": [
    "H1:Menaces & APT"
   ],
-  "score": 52,
+  "score": 51,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 11,
    "corroboration": 14,
    "bruit": 0,
@@ -784,9 +784,9 @@
    "H3:Automatisation & IA au SOC",
    "H3:Détection & threat hunting"
   ],
-  "score": 51,
+  "score": 50,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 20,
    "corroboration": 0,
    "bruit": 0,
@@ -820,9 +820,9 @@
   "sous_themes": [
    "H2:Marché & industrie"
   ],
-  "score": 42,
+  "score": 41,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 4,
    "corroboration": 7,
    "bruit": 0,
@@ -857,9 +857,9 @@
   "sous_themes": [
    "H2:Régulation & éthique"
   ],
-  "score": 41,
+  "score": 40,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 10,
    "corroboration": 0,
    "bruit": 0,
@@ -892,9 +892,9 @@
   "sous_themes": [
    "H2:Régulation & éthique"
   ],
-  "score": 41,
+  "score": 40,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 10,
    "corroboration": 0,
    "bruit": 0,
@@ -928,9 +928,9 @@
    "H2:Modèles & recherche",
    "H2:Sécurité de l'IA"
   ],
-  "score": 38,
+  "score": 37,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -964,9 +964,9 @@
    "H2:Marché & industrie",
    "H2:Modèles & recherche"
   ],
-  "score": 37,
+  "score": 36,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 6,
    "corroboration": 0,
    "bruit": 0,
@@ -1109,9 +1109,9 @@
   "sous_themes": [
    "H1:Fuites & intrusions"
   ],
-  "score": 33,
+  "score": 32,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 6,
    "corroboration": 0,
    "bruit": 0,
@@ -1147,9 +1147,9 @@
    "H2:Modèles & recherche",
    "H2:Sécurité de l'IA"
   ],
-  "score": 32,
+  "score": 31,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 5,
    "corroboration": 0,
    "bruit": 0,
@@ -1182,9 +1182,9 @@
    "H2"
   ],
   "sous_themes": [],
-  "score": 31,
+  "score": 30,
   "criteres": {
-   "source": 31.0,
+   "source": 30.2,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1211,9 +1211,9 @@
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 31,
+  "score": 30,
   "criteres": {
-   "source": 30.6,
+   "source": 29.8,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1244,9 +1244,9 @@
   "sous_themes": [
    "H1:Fuites & intrusions"
   ],
-  "score": 27,
+  "score": 26,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1277,9 +1277,9 @@
   "sous_themes": [
    "H2:Usages & outils"
   ],
-  "score": 27,
+  "score": 26,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1308,9 +1308,9 @@
    "H1"
   ],
   "sous_themes": [],
-  "score": 27,
+  "score": 26,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1342,9 +1342,9 @@
    "H1:Phishing & fraude",
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 27,
+  "score": 26,
   "criteres": {
-   "source": 27.2,
+   "source": 26.4,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
