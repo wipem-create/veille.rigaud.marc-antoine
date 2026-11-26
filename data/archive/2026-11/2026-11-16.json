@@ -1,0 +1,70 @@
+[
+ {
+  "id": "92ce5ee0e1ef",
+  "source": "lmi",
+  "titre": "PostgreSQL corrige 52 failles, dont une vieille de 22 ans",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/postgresql-corrige-52-failles-dont-une-vieille-de-",
+  "date": "2026-11-16T07:38:50+00:00",
+  "resume": "52 vulnérabilités corrigées dont CVE-2026-6460 permettant une exécution de code à distance ; fin de maintenance de PostgreSQL 14.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "59856adca313",
+  "source": "mittr",
+  "titre": "Building trustworthy AI by fencing it in, not predicting it",
+  "lien": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+  "date": "2026-11-16T16:04:28+00:00",
+  "resume": "Contenu sponsorisé sur l'encadrement de l'IA par des limites externes.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 2,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "bleeping"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

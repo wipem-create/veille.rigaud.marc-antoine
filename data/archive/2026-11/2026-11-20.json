@@ -1,0 +1,597 @@
+[
+ {
+  "id": "14447bbf3569",
+  "source": "thn",
+  "titre": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+  "lien": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+  "date": "2026-11-20T09:38:15+00:00",
+  "resume": "Armory Castle aurait exploité en zero-day CVE-2026-123890 (CVSS 9.8) de vCenter pour voler des données.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 94,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 40,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "hackers exploit",
+    "cvss 9",
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "itconnect",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "60aa968c3038",
+  "source": "darkreading",
+  "titre": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+  "date": "2026-11-20T21:03:27+00:00",
+  "resume": "Armory Castle disposait probablement déjà de son prochain zero-day vCenter lors de la dernière vague de correctifs.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 66,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 15,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "zero-day"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "itconnect",
+   "securityweek",
+   "therecord",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "27408ba5dd80",
+  "source": "thn",
+  "titre": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+  "lien": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+  "date": "2026-11-20T05:30:01+00:00",
+  "resume": "FastUnlock, zero-day Windows non corrigé, permet de lancer des programmes sur un PC verrouillé avec un accès physique.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 15,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "0-day"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "735a685f77ed",
+  "source": "actuia",
+  "titre": "Mistral fait de Singapour son siège Asie-Pacifique et un pôle de recherche",
+  "lien": "https://www.actuia.com/actualite/mistral-fait-de-singapour-son-siege-asie-pacifique-et-un-pole-de-recherche/",
+  "date": "2026-11-20T14:42:40+00:00",
+  "resume": "Mistral AI installe son siège Asie-Pacifique à Singapour avec environ 200 personnes prévues d'ici 2027.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 10,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "recherche",
+    "mistral"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "itconnect",
+   "lebigdata"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e50a556e9eb3",
+  "source": "silicon",
+  "titre": "Les chiffres fous de l'IPO d'Anthropic",
+  "lien": "https://www.silicon.fr/business-1367/les-chiffres-fous-de-lipo-danthropic-230561",
+  "date": "2026-11-20T11:49:05+00:00",
+  "resume": "Plus grande introduction en Bourse de l'histoire : environ 81 Md$ levés.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "actuia",
+   "lemagit",
+   "mittr",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "839d4b870ab2",
+  "source": "thn",
+  "titre": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+  "lien": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+  "date": "2026-11-20T10:38:22+00:00",
+  "resume": "Fin des correctifs pour les pare-feu SonicWall Gen 6 : remplacement immédiat recommandé.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "33c8a84a3827",
+  "source": "silicon",
+  "titre": "Le déploiement de Matrix à la Commission européenne prend corps",
+  "lien": "https://www.silicon.fr/workspace-1376/matrix-element-commission-europeenne-230604",
+  "date": "2026-11-20T16:39:06+00:00",
+  "resume": "Premier déploiement de la messagerie Matrix à la Commission, hébergée chez des clouds européens.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 49,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "commission européenne"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "itconnect"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a700523f4b91",
+  "source": "silicon",
+  "titre": "Project Suncatcher : Google teste ses TPU dans l'espace",
+  "lien": "https://www.silicon.fr/business-1367/project-suncatcher-google-teste-ses-tpu-dans-lespace-230552",
+  "date": "2026-11-20T10:25:23+00:00",
+  "resume": "Google prépare une constellation de satellites équipés de TPU pour du calcul IA en orbite, premier lancement prévu en 2029.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 47,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "lance",
+    "google"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "dc10fbcf018b",
+  "source": "thn",
+  "titre": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+  "lien": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+  "date": "2026-11-20T12:20:00+00:00",
+  "resume": "Une faille KVM a permis de lire environ 127 Go de mémoire d'un hôte cloud depuis une VM invitée (hôtes AMD).",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "24a9d0c6f149",
+  "source": "thn",
+  "titre": "The Path to AI Autonomy in the SOC",
+  "lien": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+  "date": "2026-11-20T12:00:00+00:00",
+  "resume": "36 % des CISO prêts à laisser des agents IA agir seuls sur des actions à faible risque ; l'AI SOC en tête des projets 2027.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2becaff4e49e",
+  "source": "thn",
+  "titre": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+  "lien": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+  "date": "2026-11-20T16:58:16+00:00",
+  "resume": "Bazuka, framework malveillant Android intégrant un LLM pour piloter les appareils infectés à grande échelle.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Modèles & recherche"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "krebs"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "869f6fabfff4",
+  "source": "actuia",
+  "titre": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
+  "lien": "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
+  "date": "2026-11-20T06:30:00+00:00",
+  "resume": "Une prépublication montre qu'un modèle entraîné à reformuler son raisonnement devient plus difficile à surveiller automatiquement : nouvelle limite du contrôle des chaînes de pensée.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "prépublication"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "surveillab"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "def82ce625ab",
+  "source": "silicon",
+  "titre": "Windows Server 2028, entre ouverture et durcissement",
+  "lien": "https://www.silicon.fr/cloud-1370/windows-server-2028-230571",
+  "date": "2026-11-20T14:05:16+00:00",
+  "resume": "La préversion active davantage de protections par défaut et ouvre l'administration à Intune et Entra ID.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "12a96840525c",
+  "source": "mittr",
+  "titre": "The most misunderstood graph in AI just got a major update",
+  "lien": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+  "date": "2026-11-20T18:15:15+00:00",
+  "resume": "Le rapport METR confirme une progression exponentielle des capacités des IA sur les tâches vérifiables.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "rapport"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "6d65577bf45a",
+  "source": "msft",
+  "titre": "Microsoft named a Leader in the 2026 Gartner Magic Quadrant for SIEM",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+  "date": "2026-11-20T17:00:00+00:00",
+  "resume": "Microsoft Sentinel reconnu Leader du Magic Quadrant SIEM, intégré au SOC unifié de Defender.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 25.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a4f31a72ec57",
+  "source": "huggingface",
+  "titre": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "lien": "https://huggingface.co/blog/inkling2mini",
+  "date": "2026-11-20T00:00:00+00:00",
+  "resume": "Sortie d'Inkling 2 Mini, modèle performant pour exécution locale.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 33,
+  "criteres": {
+   "source": 26.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

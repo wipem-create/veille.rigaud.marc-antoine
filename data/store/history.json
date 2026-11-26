@@ -1,0 +1,18 @@
+[
+ {
+  "n": 1,
+  "date": "2026-11-26T10:30:00+00:00",
+  "mode": "import",
+  "collectes": 192,
+  "nouveaux": 192,
+  "retenus": 80,
+  "une": 19,
+  "flash": 5,
+  "signaux": 5,
+  "sources_ok": 21,
+  "sources_ko": 7,
+  "kpi1": 8.04,
+  "kpi2": 100,
+  "kpi3": 5
+ }
+]

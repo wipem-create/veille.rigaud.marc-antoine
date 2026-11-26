@@ -1,0 +1,346 @@
+{
+  "_comment": "Paramètres de pilotage de la veille. Modifiez les seuils et objectifs ici : tout est recalculé à la prochaine exécution de veille.py.",
+  "horizons": {
+    "H1": {
+      "nom": "Cybersécurité",
+      "frequence": "Hebdomadaire (collecte quotidienne dès 7h)",
+      "periode": "jour",
+      "publication": "Infos importantes du jour",
+      "couleur": "#c8452c",
+      "objectif_volume": {
+        "valeur": 5,
+        "unite": "articles retenus / jour"
+      }
+    },
+    "H2": {
+      "nom": "Intelligence artificielle",
+      "frequence": "Hebdomadaire",
+      "periode": "semaine",
+      "publication": "Infos les plus importantes de la semaine (lundi → dimanche)",
+      "couleur": "#2b7a8c",
+      "objectif_volume": {
+        "valeur": 10,
+        "unite": "articles retenus / semaine"
+      }
+    },
+    "H3": {
+      "nom": "SecOps",
+      "frequence": "Mensuelle",
+      "periode": "mois",
+      "publication": "Infos vraiment importantes du 1er au dernier jour du mois",
+      "couleur": "#6a4c93",
+      "objectif_volume": {
+        "valeur": 8,
+        "unite": "articles retenus / mois"
+      }
+    }
+  },
+  "seuils": {
+    "retenu": 45,
+    "a_la_une": 65,
+    "flash": 80
+  },
+  "planification": {
+    "premiere_collecte": "07:00",
+    "derniere_collecte": "19:00",
+    "intervalle_heures": 2
+  },
+  "kpi": {
+    "KPI1": {
+      "cible": 7.5,
+      "alerte": 6.5
+    },
+    "KPI2": {
+      "cible": 80,
+      "alerte": 60
+    },
+    "KPI3": {
+      "cible": 3,
+      "alerte": 1
+    }
+  },
+  "mots_cles": {
+    "H1": [
+      "faille",
+      "vulnérab",
+      "vulnerab",
+      "cve-",
+      "zero-day",
+      "0-day",
+      "ransomware",
+      "rançongiciel",
+      "fuite",
+      "breach",
+      "hack",
+      "pirat",
+      "malware",
+      "phishing",
+      "hameçonnage",
+      "vishing",
+      "exploit",
+      "cyberattaque",
+      "cyberattack",
+      "cyber intrusion",
+      "apt",
+      "botnet",
+      "correctif",
+      "patch",
+      "kev",
+      "backdoor",
+      "porte dérobée",
+      "espionnage",
+      "espionage",
+      "extorsion",
+      "extortion",
+      "rce",
+      "injection sql",
+      "sql injection",
+      "intrusion",
+      "data theft",
+      "vol de données",
+      "skimming",
+      "arnaque",
+      "scam",
+      "infostealer",
+      "loader",
+      "compromi",
+      "cisa",
+      "cnil",
+      "anssi"
+    ],
+    "H2": [
+      "ia",
+      "l'ia",
+      "d'ia",
+      "ai",
+      "intelligence artificielle",
+      "artificial intelligence",
+      "llm",
+      "gpt",
+      "openai",
+      "anthropic",
+      "mistral",
+      "nvidia",
+      "modèle",
+      "model",
+      "agent",
+      "générative",
+      "genai",
+      "machine learning",
+      "apprentissage",
+      "prompt",
+      "ai act",
+      "hugging face",
+      "inférence",
+      "inference",
+      "deep learning",
+      "chatbot",
+      "claude",
+      "gemini",
+      "tpu",
+      "gpu"
+    ],
+    "H3": [
+      "soc",
+      "siem",
+      "soar",
+      "edr",
+      "xdr",
+      "mdr",
+      "détection",
+      "detection",
+      "threat hunting",
+      "chasse aux menaces",
+      "réponse à incident",
+      "incident response",
+      "dfir",
+      "forensic",
+      "règles de détection",
+      "detection rules",
+      "yara",
+      "sigma",
+      "mitre",
+      "honeypot",
+      "syslog",
+      "journalisation",
+      "logging",
+      "triage",
+      "alertes",
+      "alert",
+      "playbook",
+      "devsecops",
+      "ebpf",
+      "posture",
+      "dspm",
+      "red team",
+      "threat intel",
+      "renseignement sur les menaces",
+      "gestion de configuration",
+      "mfa",
+      "durcissement",
+      "hardening",
+      "zero trust",
+      "sentinel",
+      "scanning",
+      "supervision",
+      "remédiation",
+      "remediation",
+      "secrets"
+    ]
+  },
+  "criticite": {
+    "_comment": "Critères d'importance propres à chaque horizon (points cumulés, plafonnés à 40) + critères communs.",
+    "commun": [
+      {
+        "motif": "france|français|française|anssi|cnil|europe|européen|commission européenne",
+        "points": 5
+      }
+    ],
+    "H1": [
+      {
+        "motif": "zero-day|0-day|zero day",
+        "points": 15
+      },
+      {
+        "motif": "exploited|exploité|exploitée|exploitation active|actively exploit|under active|in the wild|dans la nature|now exploit|hackers exploit|exploit ",
+        "points": 12
+      },
+      {
+        "motif": "kev",
+        "points": 10
+      },
+      {
+        "motif": "cvss 9|cvss 10|9\\.8|9\\.9|10\\.0",
+        "points": 10
+      },
+      {
+        "motif": "critique|critical",
+        "points": 8
+      },
+      {
+        "motif": "ransomware|rançongiciel",
+        "points": 8
+      },
+      {
+        "motif": "chu |hôpital|hospital|infrastructure critique|critical infrastructure|énergie|energy",
+        "points": 6
+      },
+      {
+        "motif": "fuite|breach|data theft|vol de données|stolen|dérobé",
+        "points": 6
+      },
+      {
+        "motif": "cve-",
+        "points": 5
+      },
+      {
+        "motif": "apt|espionnage|espionage|typhoon|manticore",
+        "points": 5
+      }
+    ],
+    "H2": [
+      {
+        "motif": "sécurité|security|vulnérab|vulnerab|attaque|attack|vol de|theft|injection|jailbreak|exploit",
+        "points": 12
+      },
+      {
+        "motif": "ai act|régulation|regulation|loi |legislation|résolution|cedh|cnil|sanction|interdi|bannit|ban ",
+        "points": 10
+      },
+      {
+        "motif": "agent",
+        "points": 8
+      },
+      {
+        "motif": "nouveau modèle|new model|lance|launch|unveil|annonce|sortie|release|welcome|introducing|présente",
+        "points": 6
+      },
+      {
+        "motif": "rapport|report|étude|study|recherche|research|prépublication|metr|benchmark",
+        "points": 6
+      },
+      {
+        "motif": "milliard|billion|ipo|introduction en bourse|rachat|rachète|acqui",
+        "points": 6
+      },
+      {
+        "motif": "openai|anthropic|mistral|google|meta|nvidia|microsoft",
+        "points": 4
+      },
+      {
+        "motif": "open source|open-source|souverain",
+        "points": 4
+      }
+    ],
+    "H3": [
+      {
+        "motif": "règles de détection|detection rules|yara|sigma|mitre|att&ck|atlas",
+        "points": 12
+      },
+      {
+        "motif": "threat hunting|chasse|indicateurs|iocs?|hunting",
+        "points": 10
+      },
+      {
+        "motif": "soc|siem|xdr|edr|soar|sentinel",
+        "points": 8
+      },
+      {
+        "motif": "réponse à incident|incident response|forensic|dfir|remédiation|remediation",
+        "points": 8
+      },
+      {
+        "motif": "agent|automatis|triage|alert",
+        "points": 6
+      },
+      {
+        "motif": "ebpf|durcissement|hardening|configuration|mfa|secrets|zero trust",
+        "points": 6
+      },
+      {
+        "motif": "detection|détection|evade|évasion|scanning|honeypot|log",
+        "points": 6
+      },
+      {
+        "motif": "nouveau|new|lance|launch|disponibilité générale|generally available|release|9\\.6",
+        "points": 4
+      }
+    ]
+  },
+  "penalites": {
+    "motif": "bon plan|black friday|promo|sponsoris|sponsored|webinar|webinaire|podcast|stormcast|weekly recap|récapitulatif hebdo|gta 6|gta vi|cfp tracker|netmedia",
+    "points": -35
+  },
+  "sous_themes": {
+    "H1": {
+      "Vulnérabilités & correctifs": "faille|vulnérab|vulnerab|cve-|patch|correctif|zero-day|0-day|kev|rce",
+      "Rançongiciels & extorsion": "ransomware|rançongiciel|extorsion|extortion|qilin|shinyhunters|inception",
+      "Fuites & intrusions": "fuite|breach|vol de données|data theft|intrusion|compromi|hacked|piraté|pirater",
+      "Menaces & APT": "apt|espionnage|espionage|malware|backdoor|botnet|loader|infostealer|typhoon|manticore|webworm",
+      "Phishing & fraude": "phishing|hameçonnage|vishing|arnaque|scam|skimming|fraude|fraud",
+      "Réglementation & conformité": "cnil|nis 2|nis2|rgpd|gdpr|dora|cyber resilience act|loi |legislation|amende|sanction|sénat"
+    },
+    "H2": {
+      "Modèles & recherche": "modèle|model|llm|recherche|research|prépublication|metr|inférence|inference",
+      "Agents IA": "agent",
+      "Sécurité de l'IA": "prompt|jailbreak|ia offensive|ai-driven|ai-assisted|assistée par l'ia|surveillable|zero data retention",
+      "Régulation & éthique": "ai act|régulation|résolution|resolution|loi|legislation|cedh|éthique|conscience|souveraineté",
+      "Marché & industrie": "nvidia|ipo|introduction en bourse|rachat|rachète|acquisition|milliards|billion|centres de données|amd|mistral|anthropic|openai",
+      "Usages & outils": "outil|tool|open source|assistant|plateforme|platform|formation"
+    },
+    "H3": {
+      "SOC & SIEM": "soc|siem|sentinel|xdr|edr|mdr",
+      "Détection & threat hunting": "détection|detection|threat hunting|chasse|yara|sigma|règles|rules|honeypot|mitre|indicateurs",
+      "Réponse à incident & forensic": "incident|forensic|dfir|réponse|remédiation|remediation",
+      "Automatisation & IA au SOC": "soar|automatis|agent|alertzero|triage|playbook",
+      "Journalisation & supervision": "syslog|journalisation|logging|supervision|monitoring|scanning|scan",
+      "Durcissement & DevSecOps": "durcissement|hardening|ebpf|configuration|mfa|devsecops|github actions|secrets|zero trust"
+    }
+  },
+  "signaux_faibles": {
+    "marqueurs": "nouveau|nouvelle|new |first|premier|première|inédit|émergent|emerging|prototype|préversion|preview|prépublication|preprint|demonstrat|démonstration|research|recherche|could|pourrait|prépare|anticip|réactivé|revient|returns|resurfaces",
+    "sujets_emergents": "agent|mcp|prompt injection|injection de prompt|ebpf|post-quanti|quantique|deepfake|vishing|ipfs|llm|satellite|supply chain|nuget|npm|pypi|registr|rdma|usb4|ia offensive|ai-driven|ai-assisted|assistée par l'ia|autonom|modèles de décision|surveillab|zero data retention|vol de prompts|prompt theft|device code|sha pinning|espace|orbite|ver usb |tpu|silicium|olfacti|serial gateway|passerelles série",
+    "frequence_max_terme": 3,
+    "credibilite_min": 7
+  }
+}

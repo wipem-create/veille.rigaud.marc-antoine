@@ -1,0 +1,272 @@
+[
+ {
+  "id": "c9193c545379",
+  "source": "thn",
+  "titre": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+  "date": "2026-11-21T08:49:13+00:00",
+  "resume": "Quatre failles ajoutées au catalogue KEV : Apache Roller, Cisco Expressway, SAP NetWeaver et VMware vCenter.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 89,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 35,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "kev",
+    "critical",
+    "espionage"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 7,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "elastic",
+   "itconnect",
+   "lemagit",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a489a5e538d1",
+  "source": "thn",
+  "titre": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+  "lien": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+  "date": "2026-11-21T11:03:17+00:00",
+  "resume": "Des agents IA autonomes ont découvert un zero-day dans MONAI Label et obtenu un accès root sur un serveur universitaire.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA"
+  ],
+  "score": 69,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 15,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "zero-day"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "krebs",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f1b8d3045a6d",
+  "source": "thn",
+  "titre": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+  "lien": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+  "date": "2026-11-21T11:05:53+00:00",
+  "resume": "Une clé OpenPGP malveillante peut déclencher un bug mémoire critique dans GPGME (CVE-2026-129975), corrigé en 2.3.0.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 13,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b109155be4cf",
+  "source": "darkreading",
+  "titre": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+  "lien": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
+  "date": "2026-11-21T01:31:23+00:00",
+  "resume": "Contrôle d'identité et d'exécution des agents IA : les approches divergent, les RSSI doivent choisir.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "3cc14de93930",
+  "source": "thn",
+  "titre": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+  "lien": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+  "date": "2026-11-21T11:53:07+00:00",
+  "resume": "Démonstration d'injection de prompt : une page web malveillante extrait conversations et mémoire de l'assistant Meta Muse.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA",
+   "H2:Usages & outils"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "lebigdata"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ff94b1333b87",
+  "source": "thn",
+  "titre": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+  "lien": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+  "date": "2026-11-21T08:49:20+00:00",
+  "resume": "Signal bloque par défaut les captures d'écran pour empêcher les agents IA de lire les conversations.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "cec5cefa403c",
+  "source": "krebs",
+  "titre": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+  "lien": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+  "date": "2026-11-21T00:36:39+00:00",
+  "resume": "La société payait les rançons puis facturait les victimes avec une forte marge, sans réel déchiffrement.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

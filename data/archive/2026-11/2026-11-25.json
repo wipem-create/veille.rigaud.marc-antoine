@@ -1,0 +1,1961 @@
+[
+ {
+  "id": "bbeceacfa79f",
+  "source": "thn",
+  "titre": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+  "lien": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+  "date": "2026-11-25T11:23:26+00:00",
+  "resume": "CVE-2026-132165 (CVSS 9.8) ajoutée au catalogue KEV de la CISA, correction exigée au 27 novembre : RCE dans le cœur de Drupal.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 94,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 40,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "exploit",
+    "kev",
+    "cvss 9",
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "itconnect",
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "5cda52f72a24",
+  "source": "itconnect",
+  "titre": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
+  "lien": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
+  "date": "2026-11-25T06:05:00+00:00",
+  "resume": "Broadcom corrige 23 vulnérabilités VMware dont une critique dans vCenter (CVE-2026-123903) et deux dans ESX, quelques jours après un zero-day distinct.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 79,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 28,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "critique",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ebca9d0f445f",
+  "source": "securityweek",
+  "titre": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+  "lien": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+  "date": "2026-11-25T08:01:06+00:00",
+  "resume": "La faille Drupal, découverte par un scanner IA, est ajoutée au catalogue KEV avec trois jours pour corriger.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Marché & industrie",
+   "H2:Régulation & éthique"
+  ],
+  "score": 74,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 22,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "exploited",
+    "kev"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 7,
+  "corrobore_par": [
+   "actuia",
+   "bleeping",
+   "lemagit",
+   "mittr",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "1d3163d5a49f",
+  "source": "therecord",
+  "titre": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+  "lien": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+  "date": "2026-11-25T13:30:00+00:00",
+  "resume": "Ransomware présumé au CHU de Guadeloupe : chirurgies reportées, traitements suspendus, l'ANSSI enquête.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 71,
+  "criteres": {
+   "source": 32.0,
+   "criticite": 19,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "ransomware",
+    "hospital",
+    "anssi"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "lmi",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "6f10a49edc41",
+  "source": "thn",
+  "titre": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+  "date": "2026-11-25T09:06:59+00:00",
+  "resume": "Exécution de commandes sur six serveurs du registre Hex.pm (Elixir/Erlang) via une faille présente depuis 2016.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 70,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 22,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "cvss 10"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c63221e0086b",
+  "source": "bleeping",
+  "titre": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+  "lien": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+  "date": "2026-11-25T10:10:20+00:00",
+  "resume": "L'équipe sécurité de Drupal confirme l'exploitation active d'une faille critique permettant de prendre le contrôle des sites non corrigés. Correctifs à appliquer sans tarder.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 66,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 20,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "now exploit",
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "afec099d4c59",
+  "source": "thn",
+  "titre": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+  "lien": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+  "date": "2026-11-25T06:50:19+00:00",
+  "resume": "Campagne utilisant des outils offensifs pilotés par IA contre des serveurs Check Point de 22 organisations (finance, énergie, gouvernement).",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H2:Sécurité de l'IA",
+   "H2:Usages & outils"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "énergie"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "lebigdata",
+   "therecord"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ca07af25704e",
+  "source": "lemagit",
+  "titre": "Shirudo : le « bouclier » IA pour Linux d'OpenAI et Cisco, encore loin de parer tous les assauts",
+  "lien": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
+  "date": "2026-11-25T13:15:00+00:00",
+  "resume": "Projet open source d'Isovalent utilisant eBPF pour des correctifs temporaires générés par IA, encore au stade de prototype.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Marché & industrie",
+   "H2:Régulation & éthique",
+   "H2:Usages & outils",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "openai",
+    "open source"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "bleeping",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4f0d3e1550c9",
+  "source": "thn",
+  "titre": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+  "date": "2026-11-25T12:48:54+00:00",
+  "resume": "Deux failles GeoServer récemment corrigées sont exploitées activement (CVE-2026-120705), chaînables en RCE sans authentification.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 17,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a743c1eae359",
+  "source": "itconnect",
+  "titre": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d'EU Academy ont fuité",
+  "lien": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
+  "date": "2026-11-25T06:31:00+00:00",
+  "resume": "La Commission européenne confirme une cyberattaque assistée par l'IA contre EU Academy. Noms et e-mails des utilisateurs ont été dérobés.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 11,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "dérobé",
+    "commission européenne"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "7f32156e3615",
+  "source": "securityweek",
+  "titre": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+  "lien": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+  "date": "2026-11-25T09:05:13+00:00",
+  "resume": "CVE-2026-131914 dans une bibliothèque abandonnée permet une RCE via une seule requête.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 17,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e4132a54ccab",
+  "source": "thn",
+  "titre": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+  "lien": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+  "date": "2026-11-25T12:30:08+00:00",
+  "resume": "Le FinCEN met hors ligne une partie de ses systèmes après une intrusion.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "lebigdata",
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c417043d070b",
+  "source": "securityweek",
+  "titre": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+  "lien": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+  "date": "2026-11-25T14:15:25+00:00",
+  "resume": "ShinyHunters annonce son retour ; le groupe Inception nie tout lien malgré l'analyse d'Okta.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8f18f9818833",
+  "source": "thn",
+  "titre": "Credential Remediation Is Slow When You Don't Know What Will Break",
+  "lien": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+  "date": "2026-11-25T11:51:48+00:00",
+  "resume": "Selon GitGuardian, la plupart des secrets valides détectés en 2022 fonctionnaient encore début 2026 ; prioriser la révocation selon l'impact.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "remediation",
+    "secrets"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "da1ca74ef9e2",
+  "source": "securityweek",
+  "titre": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+  "lien": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+  "date": "2026-11-25T08:12:24+00:00",
+  "resume": "Faille Fragnesia corrigée : combinée à PHP2Shell dans des attaques assistées par IA contre 25 serveurs.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8185d47c9074",
+  "source": "therecord",
+  "titre": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+  "lien": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+  "date": "2026-11-25T17:07:00+00:00",
+  "resume": "Nouvelle loi australienne imposant aux plateformes d'anticiper les préjudices prévisibles.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 32.0,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "531d1fe57e7e",
+  "source": "silicon",
+  "titre": "Microsoft lance un « Code Red » après la panne majeure de Microsoft 365",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/microsoft-lance-un-code-red-apres-la-panne-majeure-de-microsoft-365-230670",
+  "date": "2026-11-25T14:22:29+00:00",
+  "resume": "Après une panne d'environ 24 h d'Outlook, Teams et Exchange Online, Microsoft mobilise ses équipes au niveau d'alerte maximal.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "sans",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d7fbe04121e6",
+  "source": "lebigdata",
+  "titre": "Après le FBI, la CIA se fait pirater : même les espions ne sont plus à l'abri",
+  "lien": "https://www.lebigdata.fr/apres-le-fbi-la-cia-se-fait-pirater-meme-les-espions-ne-sont-plus-a-labri",
+  "date": "2026-11-25T05:10:07+00:00",
+  "resume": "Intrusion sur un réseau CIA/ODNI d'analyse en sources ouvertes ; systèmes classifiés non compromis selon les autorités.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "lmi",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "fd5a94251fe6",
+  "source": "therecord",
+  "titre": "Microsoft: China's Salt Typhoon hackers are using Artex",
+  "lien": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+  "date": "2026-11-25T21:18:00+00:00",
+  "resume": "Un outil d'IA offensif lié à plusieurs intrusions majeures est intégré aux arsenaux de groupes chinois et nord-coréens.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H2:Usages & outils"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 32.0,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "typhoon"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "90c63cf0b5ff",
+  "source": "lmi",
+  "titre": "Cyberattaque contre Ipsos : le groupe Qilin revendique un vol de données sensibles",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-ipsos-le-groupe-qilin-revendique-un-vol-de-donnees-sensibles",
+  "date": "2026-11-25T07:00:00+00:00",
+  "resume": "Le ransomware Qilin revendique le vol de documents d'Ipsos ; le groupe reconnaît une intrusion dans un système interne.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware",
+    "vol de données"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e8e23ac8a26f",
+  "source": "silicon",
+  "titre": "Dépendances cyber : la souveraineté s'invite dans les stratégies, pas encore dans les outils",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/dependances-cyber-la-souverainete-sinvite-dans-les-strategies-pas-encore-dans-les-outils-230666",
+  "date": "2026-11-25T13:56:23+00:00",
+  "resume": "Étude Cesin / Campus Cyber : la souveraineté est dans les stratégies mais les outils restent majoritairement extra-européens.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "européen"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lemagit"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4e126d2e0866",
+  "source": "silicon",
+  "titre": "Cybersécurité des collectivités : la CNIL prononce dix amendes",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/cybersecurite-des-collectivites-la-cnil-prononce-dix-amendes-230645",
+  "date": "2026-11-25T10:11:42+00:00",
+  "resume": "Dix collectivités sanctionnées par la CNIL (3 000 à 20 000 €) pour défauts d'authentification, d'accès prestataires et de mots de passe.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "cnil"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lemagit"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a31aeedbbcb7",
+  "source": "thn",
+  "titre": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+  "lien": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+  "date": "2026-11-25T06:21:12+00:00",
+  "resume": "Six extensions WP Connect backdoorées bloquées avant publication après compromission probable du compte développeur.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "fd2477216c7a",
+  "source": "lmi",
+  "titre": "Collectivités territoriales : la cybersécurité passe par la mutualisation des moyens",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/collectivites-territoriales-la-cybersecurite-passe-par-la-mutualisation-des-moyens",
+  "date": "2026-11-25T07:00:00+00:00",
+  "resume": "Devant le Sénat, l'ANSSI et le GIP ACYMA recommandent la mutualisation des moyens pour les petites communes.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "anssi"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "therecord"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "90c954854d30",
+  "source": "silicon",
+  "titre": "Comment Jensen Huang a repris les clés de Nvidia",
+  "lien": "https://www.silicon.fr/business-1367/comment-jensen-huang-a-repris-les-cles-de-nvidia-230664",
+  "date": "2026-11-25T13:04:56+00:00",
+  "resume": "Retour de Jensen Huang à la tête de Nvidia onze jours après sa démission.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "actuia"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ee7f6fcb499a",
+  "source": "thn",
+  "titre": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+  "lien": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+  "date": "2026-11-25T06:37:06+00:00",
+  "resume": "Unit 42 suit des vagues de vishing d'acteurs liés au Com aboutissant à vol de données et extorsion.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "data theft"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4216af160cae",
+  "source": "therecord",
+  "titre": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+  "lien": "https://therecord.media/ransomware-doj-indictment-recovery",
+  "date": "2026-11-25T17:30:00+00:00",
+  "resume": "Le PDG d'une société de récupération ransomware inculpé pour avoir menti et payé des rançons.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 32.0,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f9ed0111d38b",
+  "source": "securityweek",
+  "titre": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+  "lien": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+  "date": "2026-11-25T15:27:36+00:00",
+  "resume": "Des instances GeoServer sondées pour deux failles chaînables en RCE sans authentification.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "1b14f153c9ad",
+  "source": "securityweek",
+  "titre": "US Treasury's FinCEN Disconnects Systems Following Cyber Incident",
+  "lien": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+  "date": "2026-11-25T13:39:21+00:00",
+  "resume": "FinCEN déconnecte ses systèmes et prolonge les échéances des déclarants pendant l'enquête.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8088163fedc8",
+  "source": "securityweek",
+  "titre": "Plagiarism Checker Turnitin Investigating Cyberattack",
+  "lien": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+  "date": "2026-11-25T10:40:07+00:00",
+  "resume": "Turnitin enquête sur une cyberattaque, services déclarés opérationnels.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "bleeping"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "25b96cb5563f",
+  "source": "lemagit",
+  "titre": "Gestion du risque lié aux tiers : fournisseurs et clients, impossibles à réconcilier ?",
+  "lien": "https://www.lemagit.fr/actualites/366655500/Gestion-du-risque-lie-aux-tiers-fournisseurs-et-clients-impossible-a-reconcilier",
+  "date": "2026-11-25T10:51:00+00:00",
+  "resume": "40 % des entreprises ont subi une attaque via un fournisseur (Cesin / Board of Cyber) ; questionnaires jugés inefficaces.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "065d0388e858",
+  "source": "bleeping",
+  "titre": "Hackers reportedly breached CIA intelligence analysis system",
+  "lien": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+  "date": "2026-11-25T07:45:03+00:00",
+  "resume": "Des pirates auraient infiltré un système d'analyse de renseignement en sources ouvertes de la CIA ; l'ampleur reste à établir.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "0d5efb3eaf04",
+  "source": "darkreading",
+  "titre": "Attackers Target .NET Developers With Poisoned Job Assessments",
+  "lien": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+  "date": "2026-11-25T15:48:04+00:00",
+  "resume": "13 paquets NuGet malveillants diffusés via une fausse campagne de recrutement.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "16f6f0d6fc1c",
+  "source": "darkreading",
+  "titre": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+  "date": "2026-11-25T14:00:00+00:00",
+  "resume": "Les cyberattaques visent de plus en plus les systèmes industriels d'Amérique latine.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "mittr"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "90999d2b55da",
+  "source": "silicon",
+  "titre": "CrowdStrike casse sa tirelire pour Zscaler",
+  "lien": "https://www.silicon.fr/business-1367/pourquoi-crowdstrike-casse-sa-tirelire-pour-zscaler-230674",
+  "date": "2026-11-25T18:18:04+00:00",
+  "resume": "CrowdStrike rachète Zscaler pour près de 44 Md$ en actions afin d'entrer sur la sécurité réseau.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a6dc5eeb9fae",
+  "source": "mittr",
+  "titre": "AI is straining America's open records systems",
+  "lien": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+  "date": "2026-11-25T10:00:00+00:00",
+  "resume": "Les demandes d'accès aux documents publics générées par IA saturent les administrations américaines.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e75e0ef6805f",
+  "source": "huggingface",
+  "titre": "Where scientists draw the line on AI agents",
+  "lien": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+  "date": "2026-11-25T18:52:55+00:00",
+  "resume": "Les limites que les scientifiques fixent à l'autonomie des agents d'IA.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 26.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "18ed269c8046",
+  "source": "huggingface",
+  "titre": "An Indic Voice Agent with CUGA",
+  "lien": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+  "date": "2026-11-25T10:22:09+00:00",
+  "resume": "Construction d'un agent vocal pour les langues indiennes avec le framework CUGA.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 26.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b9a49d835e76",
+  "source": "zataz",
+  "titre": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
+  "lien": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
+  "date": "2026-11-25T07:40:26+00:00",
+  "resume": "Le CHU de Bordeaux reconnaît une intrusion ; le groupe ScarlettGroup menace de divulguer des données et revendique aussi SIG Sauer.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 33,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "chu"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "0408c3e588c7",
+  "source": "bleeping",
+  "titre": "Microsoft confirms authentication issues after November updates",
+  "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+  "date": "2026-11-25T09:02:57+00:00",
+  "resume": "Les mises à jour de sécurité de novembre peuvent provoquer des problèmes d'authentification ; Microsoft travaille avec les clients touchés.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "aacf9922c99c",
+  "source": "therecord",
+  "titre": "FIFA says hackers accessed 'limited set of personal and business information'",
+  "lien": "https://therecord.media/fifa-data-breach-limited",
+  "date": "2026-11-25T20:40:00+00:00",
+  "resume": "La FIFA confirme un accès à un volume restreint de données personnelles et commerciales.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "67e23752ce41",
+  "source": "lemagit",
+  "titre": "Dette technique : l'IA offensive risque de la faire payer au prix fort",
+  "lien": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
+  "date": "2026-11-25T10:32:00+00:00",
+  "resume": "Les attaquants exploitent plus vite la dette technique grâce à l'IA ; intégrer la correction des failles aux indicateurs de performance.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "6703cf24d2ce",
+  "source": "itconnect",
+  "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
+  "lien": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
+  "date": "2026-11-25T10:38:32+00:00",
+  "resume": "Le rapport final de la panne reconnaît que certains messages n'ont jamais été livrés. Microsoft détaille les évolutions prévues pour limiter ce type d'incident.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 31,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "717edeab7708",
+  "source": "itconnect",
+  "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
+  "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
+  "date": "2026-11-25T08:15:00+00:00",
+  "resume": "Tutoriel d'installation de Rudder sous Linux, avec une démarche audit puis application pour corriger la dérive de configuration, et comparaison avec Ansible.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d568e3d6081c",
+  "source": "actuia",
+  "titre": "Bulle de l'IA : qui paiera la note si elle éclate ?",
+  "lien": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/",
+  "date": "2026-11-25T14:29:54+00:00",
+  "resume": "Les géants de la tech investissent massivement dans les centres de données alors que les revenus IA restent bien inférieurs ; dette et montages financiers comblent l'écart.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "20efd459c261",
+  "source": "lmi",
+  "titre": "Cyberattaques dopées à l'IA : IBM appelle les entreprises à anticiper les défaillances",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
+  "date": "2026-11-25T07:30:00+00:00",
+  "resume": "IBM Consulting estime que les attaquants exploitent les failles plus vite que les défenseurs et conseille de se préparer aux pannes.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique"
+  ],
+  "score": 29,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c09bc6bff242",
+  "source": "zataz",
+  "titre": "Skimming en Alsace, des cartes bancaires piégées à la pompe",
+  "lien": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
+  "date": "2026-11-25T11:40:44+00:00",
+  "resume": "Des retraits frauduleux après un plein d'essence inquiètent les gendarmes alsaciens ; comment réagir face au skimming.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b196de00df77",
+  "source": "zataz",
+  "titre": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
+  "lien": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
+  "date": "2026-11-25T10:46:52+00:00",
+  "resume": "Une fausse loterie sur TikTok pousse à saisir ses coordonnées bancaires : arnaque de phishing saisonnière.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f30cab37fe70",
+  "source": "huggingface",
+  "titre": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "lien": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "Optimisations successives de l'inférence du modèle Inkling 2 Mini sur un seul GPU.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 26.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a799ae479090",
+  "source": "itconnect",
+  "titre": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
+  "lien": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
+  "date": "2026-11-25T06:49:00+00:00",
+  "resume": "Mistral offre un mois de Vibe Pro aux Européens via un code promo, puis l'abonnement passe à 17,99 € par mois.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 19,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 9,
+   "corroboration": 14,
+   "bruit": -35,
+   "motifs": [
+    "mistral",
+    "européen"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "actuia",
+   "lebigdata"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "41f8db2ab15d",
+  "source": "silicon",
+  "titre": "NetMedia Group lance The Makers, une nouvelle offre fondée sur ses communautés propriétaires",
+  "lien": "https://www.silicon.fr/business-1367/netmedia-group-lance-the-makers-une-nouvelle-offre-fondee-sur-ses-communautes-proprietaires-230661",
+  "date": "2026-11-25T14:12:17+00:00",
+  "resume": "Nouvelle offre marketing B2B de l'éditeur.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 15,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "securityweek",
+   "therecord",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "00180c3ac87a",
+  "source": "darkreading",
+  "titre": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+  "date": "2026-11-25T15:00:00+00:00",
+  "resume": "Podcast : les assureurs cyber décrivent un fossé entre organisations équipées d'IA défensive et les autres.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 3,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sans"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f43fb382f576",
+  "source": "lebigdata",
+  "titre": "Portage de GTA 6 sur PC : Take-Two vient de doucher les espoirs des joueurs",
+  "lien": "https://www.lebigdata.fr/portage-de-gta-6-sur-pc-take-two-vient-de-doucher-les-espoirs-des-joueurs",
+  "date": "2026-11-25T06:13:34+00:00",
+  "resume": "Take-Two fait retirer de GitHub le projet de portage Leonida.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 3,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lemagit",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "bcc4f940bd81",
+  "source": "sans",
+  "titre": "Stormcast du mercredi 25 novembre 2026",
+  "lien": "https://isc.sans.edu/diary/rss/33554",
+  "date": "2026-11-25T02:00:03+00:00",
+  "resume": "Podcast quotidien de l'ISC.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 2,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "244d7ce3739d",
+  "source": "itconnect",
+  "titre": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
+  "lien": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
+  "date": "2026-11-25T11:00:00+00:00",
+  "resume": "Bon plan : un mini-PC Core Ultra 9 passe à environ 839 € avec un code promo, soit jusqu'à 26 % de remise.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

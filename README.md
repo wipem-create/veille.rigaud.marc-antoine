@@ -1,47 +1,87 @@
-# Veille·Info — site de pilotage de la veille (H1 · H2 · H3)
+# VEILLE//INFO — Outil de pilotage de veille (H1 · H2 · H3)
 
-aucune installation, aucun serveur obligatoire.
+Site web rétro + moteur Python qui **collecte, trie, note, stocke et publie** automatiquement la veille :
 
-| Horizon | Thème | Itération | Publication sur le site |
+| Horizon | Thème | Fréquence | Publié sur le site |
 |---|---|---|---|
-| H1 | Cybersécurité | hebdomadaire | quotidienne (infos importantes de la journée) |
-| H2 | IA | hebdomadaire | hebdomadaire, lundi → dimanche |
-| H3 | SecOps | mensuelle | mensuelle, du 1er au 30 du mois |
+| **H1** | Cybersécurité | Hebdomadaire, collecte quotidienne dès **7h** puis toutes les 2 h jusqu'à 19h | Infos importantes **du jour** (+ onglet semaine) |
+| **H2** | Intelligence artificielle | Hebdomadaire | Infos les plus importantes de la **semaine (lun → dim)** |
+| **H3** | SecOps | Mensuelle | Infos vraiment importantes **du mois (1 → 30)** |
 
-## Ouvrir le site
-- **Le plus simple** : double-clic sur `index.html` (fonctionne hors ligne, depuis n'importe quel dossier).
-- **Avec un petit serveur local** : `outils/lancer.bat` (Windows) ou `outils/lancer.sh` (Mac/Linux).
-- **Hébergement** : tout le dossier chez n'importe quel hébergeur statique (GitHub Pages, Netlify, OVH…).
+Aucune dépendance : **Python 3.8+ uniquement** (bibliothèque standard). Fonctionne sous Windows, macOS, Linux et sur n'importe quel hébergeur statique.
 
-## Contenu du dossier
+---
+
+## 1. Démarrage rapide
+
+```bash
+python serve.py            # ouvre http://localhost:8080 et collecte automatiquement à 7h, 9h, … 19h
 ```
-index.html        Accueil : dernières nouvelles H1 / H2 / H3, éléments à surveiller, KPI
-pipeline.html     Méthode en 5 étapes, entonnoir, rythme, grille d'importance, objectifs
-actualites.html   Articles filtrables (thème, jour, étape), favoris, notes, ajout, sauvegarde
-sources.html      25 sources notées /10 sur 6 critères (FR, Europe, International)
-kpi.html          Fiches KPI1/2/3 (SMART), valeurs recalculées, historique, contrôle des données
-assets/           style.css, app.js
-data/             config.js (objectifs, seuils, cibles KPI, étapes) · sources.js · articles.js · articles_auto.js
-outils/           maj_veille.py (collecte RSS) · lancer.bat · lancer.sh
+Windows : double-cliquez `planification/1_lancer_site.bat`.
+
+Le bouton **▶ Collecter** du site lance une itération immédiatement (quand `serve.py` tourne).
+Sans serveur, ouvrez simplement `index.html` : le site affiche les dernières données enregistrées (mode hors-ligne).
+
+## 2. Commandes du moteur
+
+```bash
+python veille.py collect             # 1 itération : collecte RSS → triage → score → signaux → KPI → site
+python veille.py build               # recalcule tout sans réseau (après modif. de config.json / sources.json)
+python veille.py import fichier.txt  # importe une collecte manuelle (format : source ||| titre ||| lien ||| date ||| résumé)
+python veille.py auto                # boucle : collectes à 7h puis toutes les 2 h jusqu'à 19h (heure de Paris)
+python veille.py status              # résumé de la dernière itération
 ```
 
-## Faire vivre la veille à chaque itération
-1. **Collecte** : `python3 outils/maj_veille.py` (ou `--jours 30` pour H3) ajoute les nouveaux articles au statut « Collecté » dans `data/articles_auto.js`. Les flux RSS (champ `rss` de `data/sources.js`) sont à vérifier ; un flux en erreur est ignoré et signalé.
-2. **Triage → publication** : dans la page *Actualités*, changer l'étape, l'importance, l'objectif (O1…O9), le signal faible. Un article est publié sur l'accueil quand son étape est « Publié ».
-3. **Sources** : ajuster les notes en *Mode édition* (page Sources).
-4. **KPI** : rien à faire, ils se recalculent à partir des articles et des sources.
-5. **Sauvegarde** : page *Actualités* → bas de page. « Sauvegarde .json » pour reprendre plus tard ; « articles.js » à glisser dans `data/` pour inscrire définitivement les modifications dans le dossier.
+## 3. Avoir des news chaque jour dès 7h (même site fermé)
 
-Les modifications faites dans le navigateur sont stockées localement (une copie de travail par navigateur) ; les fichiers de `data/` restent la référence.
+Choisissez **une** option :
 
-## Définitions des KPI
-- **KPI1 – Qualité moyenne des sources** = moyenne des scores (/10) des sources des articles retenus (« À surveiller » + « Publié »). Cible ≥ 7,5.
-- **KPI2 – Couverture des objectifs** = objectifs couverts par ≥ 1 article retenu ÷ objectifs de l'horizon. Cible ≥ 80 %.
-- **KPI3 – Signaux faibles détectés** = articles « signal faible » non rejetés sur la période. Cible ≥ 2 par semaine (H1, H2), ≥ 3 par mois (H3).
+- **Windows** : lancez une fois `planification/3_installer_tache_windows.bat` → tâche planifiée 7h00, répétée toutes les 2 h pendant 12 h.
+- **macOS / Linux** : `sh planification/installer_cron_mac_linux.sh` → crontab `0 7-19/2 * * *`.
+- **En ligne (GitHub, gratuit)** : poussez le dossier dans un dépôt GitHub, activez *Settings → Pages* (branche `main`, dossier `/`).
+  Le workflow `.github/workflows/veille.yml` collecte à 7h, 9h… 19h (heure de Paris, été/hiver gérés) et publie le site.
+- **Autre hébergeur** (OVH, Netlify, serveur perso…) : copiez le dossier et planifiez `python veille.py collect` avec le cron de l'hébergeur.
 
-Seuils, objectifs et textes de méthode : `data/config.js` (à aligner sur le fichier Excel de Teams).
+Les collectes de la journée ajoutent les nouveaux articles ; ceux dont le score ≥ 80 apparaissent en **⚡ FLASH** sur l'accueil dès la collecte suivante.
 
-## Limites à connaître
-- Les notes des sources et les importances sont une **première évaluation** à valider.
-- Les relevés antérieurs à la semaine S47 sont partiels (« n/d » = aucune itération).
-- Certains liens pointent vers la page d'accueil d'une source (articles consultés sur une page d'actualité en direct).
+## 4. Stockage (pour reprendre plus tard)
+
+```
+data/
+├── sources.json            référentiel des 28 sources + notes expertes (à ajuster)
+├── config.json             seuils, mots-clés, sous-thèmes, objectifs, cibles KPI, planning
+├── store/articles.json     base complète de tous les articles collectés (jamais purgée)
+├── store/history.json      historique des itérations et des KPI
+├── store/feeds.json        état de chaque flux (OK/KO, erreur)
+├── archive/AAAA-MM/AAAA-MM-JJ.json   archive par jour, triée par importance
+├── export/articles.csv     export tableur (Excel : séparateur « ; »)
+├── export/kpi_historique.csv
+├── import/                 collectes manuelles (itération n°1)
+└── site-data.js / .json    données lues par le site (régénérées à chaque itération)
+```
+Sauvegarder la veille = copier le dossier `data/`.
+
+## 5. Pages du site
+
+1. **Accueil** — à la une H1 (jour/semaine), H2 (semaine), H3 (mois), bandeau flash, tuiles KPI, signaux faibles, rythme.
+2. **Pipeline** — la méthode en 5 étapes (Collecte → Triage → Lecture & évaluation → Infos qui peuvent devenir importantes → Suivi & partage) avec les compteurs réels de la dernière itération, formule du score, planning, journal des itérations.
+3. **Actus live** — une case par article (titre, résumé 2-3 lignes, lien), filtres par **jour** et par **thème**, tri, recherche.
+4. **Sources** — tableau des 28 sources (10 FR, 5 EU, 13 internationales) : site, objectif H1/H2/H3, type, mises à jour, crédibilité, lisibilité, fréquence, véracité, pertinence, **score /10**.
+5. **Fiches KPI** — définition, formule, critères SMART, seuils de contrôle et détail recalculé pour KPI1, KPI2, KPI3 + courbe d'évolution.
+
+## 6. Comment les valeurs sont calculées
+
+- **Score d'article (0-100)** = note source × 4 + critères de criticité propres à l'horizon (≤ 40) + corroboration × 7 (≤ 20) − bruit (35). Retenu ≥ 45, à la une ≥ 65, flash ≥ 80.
+- **Score source /10** = crédibilité 25 % + véracité 20 % + pertinence 20 % + fréquence 15 % + lisibilité 10 % + mises à jour 10 %.
+  *Mises à jour*, *fréquence* et la moitié de *pertinence* (taux d'articles retenus) sont **mesurées automatiquement**.
+- **KPI1** qualité moyenne des sources, pondérée par les articles retenus sur 7 j — cible ≥ 7,5/10.
+- **KPI2** couverture des objectifs : % de sous-thèmes couverts par horizon (H1/H2 semaine, H3 mois) — cible ≥ 80 %.
+- **KPI3** signaux faibles détectés sur 7 j glissants (+ taux de confirmation) — cible ≥ 3/semaine.
+
+Toutes les cibles et seuils sont modifiables dans `data/config.json` (ex. pour les aligner sur le document KPI et le fichier de fréquence de Teams), puis `python veille.py build`.
+
+## 7. Itération n°1 (26/11/2026)
+
+192 articles réels collectés sur 21 flux → 80 retenus, 5 flash, 5 signaux faibles.
+KPI1 = 8,04/10 · KPI2 = 100 % · KPI3 = 5.
+Points d'action relevés : flux CERT-FR déplacé (404, nouvelle URL à vérifier sur cert.cyber.gouv.fr/flux-rss), volume H2 (11/10 semaine) correct mais H3 sous l'objectif mensuel (7/8), 7 flux non lus lors de la 1re collecte (à revérifier à la prochaine itération locale).

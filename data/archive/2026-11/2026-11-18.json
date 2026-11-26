@@ -1,0 +1,142 @@
+[
+ {
+  "id": "b48326e6ee07",
+  "source": "krebs",
+  "titre": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+  "lien": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+  "date": "2026-11-18T02:52:04+00:00",
+  "resume": "Une faille d'Optimizely a servi à injecter des malwares dans au moins 178 grands sites.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "43c2cbca071d",
+  "source": "sans",
+  "titre": "Java4Shell, NGINX2Shell and more: Why we are not at Yellow",
+  "lien": "https://isc.sans.edu/diary/rss/33532",
+  "date": "2026-11-18T19:54:50+00:00",
+  "resume": "Pourquoi l'ISC reste au niveau Green : automatiser les correctifs et réduire l'exposition plutôt que tout traiter en urgence.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "automatis"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "6a98e43cc50e",
+  "source": "mittr",
+  "titre": "This smell startup says its AI nose is as good as a human's",
+  "lien": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+  "date": "2026-11-18T10:20:30+00:00",
+  "resume": "Osmo affirme que son IA olfactive égale un humain ; les experts restent sceptiques.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "747f88f77579",
+  "source": "welivesecurity",
+  "titre": "Who was that trying to phone me just now? How one-ring phone scams work",
+  "lien": "https://www.welivesecurity.com/en/scams/who-was-trying-phone-how-one-ring-phone-scams-work/",
+  "date": "2026-11-18T10:00:00+00:00",
+  "resume": "Fonctionnement des arnaques « wangiri » et moyens de s'en protéger.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 29,
+  "criteres": {
+   "source": 29.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

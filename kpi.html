@@ -1,14 +1,172 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fiches KPI — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
-<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
-</head><body data-page="kpi"><div id="shell"></div><main><div class="wrap">
-<h1>Fiches KPI</h1>
-<p class="lead">Chaque indicateur est défini, calculé et contrôlé selon les critères SMART. Les valeurs sont recalculées automatiquement à partir des articles et des sources, pour la période en cours de chaque horizon.</p>
-<div id="fiches"></div>
-<h2>Historique par itération</h2>
-<div class="tablewrap"><table id="histo"></table></div>
-<p class="small muted">Les périodes antérieures à la première itération complète (S47) sont des relevés partiels : « n/d » signifie qu'aucune itération n'a été réalisée. Les seuils sont modifiables dans <code>data/config.js</code>.</p>
-<h2>Contrôle qualité des données</h2>
-<div class="panel"><ul class="checks" id="checks" style="list-style:none;padding:0;margin:0"></ul></div>
-</div></main><div id="foot"></div></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEILLE//INFO — Fiches KPI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="data/site-data.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div id="entete"></div>
+<main class="wrap">
+  <section class="page-titre">
+    <div class="sur-titre">&gt; STATS SCREEN</div>
+    <h1>Fiches KPI</h1>
+    <p>Comment chaque indicateur est défini, calculé et contrôlé (critères SMART). Les valeurs ci-dessous sont
+      <b>recalculées automatiquement</b> par <kbd>veille.py</kbd> à chaque itération à partir des données réelles de la veille.</p>
+  </section>
+  <div id="fiches"></div>
+
+  <h2 class="sec">Évolution des KPI par itération</h2>
+  <section class="panel" id="histo"></section>
+</main>
+<div id="pied"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const K = V.kpi, C = V.config, A = V.articles;
+  const jauge = (pct, cible, etat) => `<div class="jauge t-${etat}"><div class="rempli" style="width:${Math.min(100, Math.round(pct))}%"></div><div class="cible" style="left:${cible}%" title="cible"></div></div>`;
+  const smart = rows => `<table class="smart">${rows.map(([l, t, d]) => `<tr><td>${l}</td><td>${t}</td><td>${d}</td></tr>`).join("")}</table>`;
+  const controle = (k, unite) => `<table class="smart"><tr><td style="background:var(--vert)">●</td><td>VERT</td><td>≥ ${C.kpi[k].cible}${unite} — objectif atteint, on maintient.</td></tr>
+    <tr><td style="background:var(--orange)">●</td><td>ORANGE</td><td>entre ${C.kpi[k].alerte} et ${C.kpi[k].cible}${unite} — vigilance, analyse à la revue hebdomadaire.</td></tr>
+    <tr><td style="background:var(--rouge)">●</td><td>ROUGE</td><td>&lt; ${C.kpi[k].alerte}${unite} — action corrective immédiate (voir ci-dessous).</td></tr></table>`;
+
+  /* ---------------- KPI1 ---------------- */
+  const k1 = K.KPI1, rep = Object.entries(k1.repartition).sort((a, b) => b[1] - a[1]), maxr = Math.max(...rep.map(r => r[1]), 1);
+  const f1 = `<article class="fiche" id="KPI1">
+    <h2 class="sec">KPI1 · Qualité moyenne des sources</h2>
+    <div class="tete">
+      <div class="panel">
+        <h3>Valeur actuelle</h3>
+        <div class="grosse-valeur t-${k1.etat}">${k1.valeur}<small style="font-size:36px">/10</small></div>
+        ${jauge(k1.valeur * 10, C.kpi.KPI1.cible * 10, k1.etat)}
+        <span class="etat ${k1.etat}">${k1.etat.toUpperCase()}</span> <span class="petit">cible ≥ ${k1.cible}/10 · moyenne non pondérée des ${k1.sources_total} sources : ${k1.moyenne_brute}/10 · ${k1.sources_actives} flux actifs</span>
+        <h3 class="mt">Formule de calcul</h3>
+        <div class="formule">score_source = Σ (note_critère × poids)
+  crédibilité 25 % · véracité 20 % · pertinence 20 %
+  fréquence 15 % · lisibilité 10 % · mises à jour 10 %
+
+KPI1 = Σ (score_source × nb_articles_retenus_7j)
+       ─────────────────────────────────────────
+             Σ nb_articles_retenus_7j</div>
+        <p class="petit">Pondérer par les articles retenus mesure la qualité de ce qui <i>nourrit réellement</i> la veille, pas seulement la liste théorique.</p>
+      </div>
+      <div class="panel">
+        <h3>Critères SMART</h3>
+        ${smart([["S", "Spécifique", "Mesurer la fiabilité des sources qui alimentent effectivement la veille H1/H2/H3."],
+                 ["M", "Mesurable", "Score /10 issu de 6 critères notés (3 notes expertes + 3 recalculées : mises à jour, fréquence, pertinence observée)."],
+                 ["A", "Atteignable", `Cible ${C.kpi.KPI1.cible}/10 : la majorité des sources retenues (CERT, médias spécialisés) dépasse déjà 7.`],
+                 ["R", "Relevant", "Une veille fondée sur des sources fiables limite les fausses alertes et la désinformation."],
+                 ["T", "Temporel", "Recalcul à chaque itération (quotidienne), sur une fenêtre glissante de 7 jours ; revue des notes expertes chaque mois."]])}
+        <h3 class="mt">Contrôle</h3>
+        ${controle("KPI1", "/10")}
+        <p class="petit"><b>Action corrective :</b> remplacer ou déclasser les sources &lt; 6/10, réparer les flux KO (onglet Sources), ajouter une source primaire (CERT, éditeur).</p>
+      </div>
+    </div>
+    <div class="panel mt"><h3>Contribution des sources (articles retenus sur 7 jours)</h3>
+      ${rep.map(([id, n]) => `<div class="barre-src"><span>${esc(SRC[id]?.nom || id)} <b>${SRC[id]?.score_global.toFixed(1)}</b></span><div class="b" style="width:${100 * n / maxr}%"></div><span class="compteur">${n}</span></div>`).join("")}
+    </div></article>`;
+
+  /* ---------------- KPI2 ---------------- */
+  const k2 = K.KPI2;
+  const f2 = `<article class="fiche" id="KPI2">
+    <h2 class="sec">KPI2 · Couverture des objectifs</h2>
+    <div class="tete">
+      <div class="panel">
+        <h3>Valeur actuelle</h3>
+        <div class="grosse-valeur t-${k2.etat}">${k2.valeur}<small style="font-size:36px">%</small></div>
+        ${jauge(k2.valeur, C.kpi.KPI2.cible, k2.etat)}
+        <span class="etat ${k2.etat}">${k2.etat.toUpperCase()}</span> <span class="petit">cible ≥ ${k2.cible} %</span>
+        <h3 class="mt">Formule de calcul</h3>
+        <div class="formule">couverture(Hx) = sous-thèmes couverts (≥ 1 article retenu)
+               ───────────────────────────────────────── × 100
+                    sous-thèmes définis pour Hx (6)
+
+période : H1 et H2 = semaine lun→dim · H3 = mois
+
+KPI2 = moyenne(couverture H1, H2, H3)
++ indicateur de volume : retenus / objectif de l'horizon</div>
+      </div>
+      <div class="panel">
+        <h3>Critères SMART</h3>
+        ${smart([["S", "Spécifique", "Vérifier que chaque horizon couvre tous ses sous-thèmes (ex. H1 : vulnérabilités, rançongiciels, fuites, APT, phishing, réglementation)."],
+                 ["M", "Mesurable", "% de sous-thèmes ayant au moins un article retenu sur la période + volume retenu vs objectif."],
+                 ["A", "Atteignable", `Cible ${C.kpi.KPI2.cible} % : 5 sous-thèmes sur 6 par horizon avec ~28 sources.`],
+                 ["R", "Relevant", "Évite une veille biaisée vers un seul sujet (ex. tout CVE, aucune réglementation)."],
+                 ["T", "Temporel", "H1/H2 évalués chaque semaine (lun→dim), H3 chaque mois ; recalcul à chaque itération."]])}
+        <h3 class="mt">Contrôle</h3>
+        ${controle("KPI2", " %")}
+        <p class="petit"><b>Action corrective :</b> pour chaque sous-thème en rouge ci-dessous, ajouter une source dédiée ou un mot-clé dans <kbd>config.json</kbd>.</p>
+      </div>
+    </div>
+    <div class="grille g3 mt">${Object.entries(k2.detail).map(([h, d]) => `<div class="panel titre-bande bd-${h}">
+      <div class="bandeau bg-${h}"><span>${h} · ${HZ[h].court}</span><span>${d.taux} %</span></div>
+      <div class="petit" style="margin-top:-6px">Période ${d.periode.replace(/(\d{4})-(\d\d)-(\d\d)/g, "$3/$2")}</div>
+      <div class="st-grid mt" style="grid-template-columns:1fr 1fr">${Object.entries(d.sous_themes).map(([n, c]) => `<div class="case ${c ? "ok" : "manque"}">${esc(n)}<br><b class="compteur">${c}</b> art.</div>`).join("")}</div>
+      <p class="mb0 mt">Volume : <b class="compteur">${d.volume}</b> / objectif ${d.objectif_volume} ${esc(d.unite)}
+        <span class="etat ${d.volume >= d.objectif_volume ? "vert" : d.volume >= d.objectif_volume / 2 ? "orange" : "rouge"}">${d.volume >= d.objectif_volume ? "OK" : "SOUS L'OBJECTIF"}</span></p>
+    </div>`).join("")}</div></article>`;
+
+  /* ---------------- KPI3 ---------------- */
+  const k3 = K.KPI3, sig = A.filter(a => a.signal).sort((a, b) => b.date.localeCompare(a.date));
+  const f3 = `<article class="fiche" id="KPI3">
+    <h2 class="sec">KPI3 · Signaux faibles détectés</h2>
+    <div class="tete">
+      <div class="panel">
+        <h3>Valeur actuelle (7 derniers jours)</h3>
+        <div class="grosse-valeur t-${k3.etat}">${k3.valeur}</div>
+        ${jauge(Math.min(100, k3.valeur / (k3.cible * 2) * 100), 50, k3.etat)}
+        <span class="etat ${k3.etat}">${k3.etat.toUpperCase()}</span> <span class="petit">cible ≥ ${k3.cible} / semaine ·
+        H1 ${k3.par_horizon.H1} · H2 ${k3.par_horizon.H2} · H3 ${k3.par_horizon.H3} · taux de confirmation : ${k3.taux_confirmation == null ? "n.d. (signaux trop récents)" : k3.taux_confirmation + " %"}</span>
+        <h3 class="mt">Règle de détection</h3>
+        <div class="formule">signal faible = article qui
+  ✓ contient un SUJET ÉMERGENT (agent IA, MCP, eBPF, IPFS,
+    vishing, supply chain, IA offensive, satellites…)
+    mentionné ≤ ${3} fois sur les 30 derniers jours
+  ✓ contient un MARQUEUR de nouveauté (nouveau, première,
+    prototype, recherche, « pourrait »…)
+  ✓ provient d'une source de crédibilité ≥ 7/10
+  ✓ n'est PAS encore repris par d'autres sources
+  ✓ n'est ni un flash ni du bruit
+
+KPI3 = nb de signaux faibles sur 7 jours glissants
+Taux de confirmation = signaux repris ensuite par ≥ 2
+  autres sources / signaux de plus de 7 jours</div>
+      </div>
+      <div class="panel">
+        <h3>Critères SMART</h3>
+        ${smart([["S", "Spécifique", "Repérer tôt les sujets qui peuvent devenir importants (étape 4 du pipeline) avant qu'ils ne fassent la une."],
+                 ["M", "Mesurable", "Nombre de signaux détectés automatiquement / semaine + taux de confirmation a posteriori."],
+                 ["A", "Atteignable", `Cible ${C.kpi.KPI3.cible} signaux / semaine : réaliste avec ~200 articles collectés par semaine.`],
+                 ["R", "Relevant", "C'est la valeur ajoutée de l'anticipation : passer de la réaction à la prospective (H2/H3)."],
+                 ["T", "Temporel", "Fenêtre glissante de 7 jours ; confirmation évaluée à J+7 → J+30 ; revue humaine hebdomadaire."]])}
+        <h3 class="mt">Contrôle</h3>
+        ${controle("KPI3", "")}
+        <p class="petit"><b>Action corrective :</b> élargir la liste des sujets émergents, ajouter des sources de recherche (blogs CTI, prépublications). Si le taux de confirmation est &lt; 20 %, durcir la règle.</p>
+      </div>
+    </div>
+    <div class="panel mt"><h3>Signaux détectés</h3>${sig.length ? `<table class="t"><tr><th>Date</th><th>H</th><th>Article</th><th>Sujet(s) émergent(s)</th><th>Source</th><th>Statut</th></tr>${sig.map(a => `<tr><td>${dateCourte(a.jour)}</td><td><span class="chip ${a.horizon}">${a.horizon}</span></td><td><a href="${esc(a.lien)}" target="_blank" rel="noopener">${esc(a.titre)}</a></td><td>${a.signal_termes.map(t => `<span class="chip signal">${esc(t)}</span>`).join("")}</td><td>${esc(SRC[a.source]?.nom)}</td><td>${a.signal_confirme ? '<span class="chip ok">confirmé</span>' : '<span class="chip">à suivre</span>'}</td></tr>`).join("")}</table>` : `<div class="vide">Aucun signal.</div>`}</div>
+  </article>`;
+
+  document.getElementById("fiches").innerHTML = f1 + f2 + f3;
+
+  /* ---------------- historique ---------------- */
+  const H = V.historique, W = 1100, Hh = 220, pad = 40;
+  const series = [["kpi1", "KPI1 (/10)", v => v * 10, "var(--b5)"], ["kpi2", "KPI2 (%)", v => v, "var(--b1)"], ["kpi3", "KPI3 (×10)", v => Math.min(100, v * 10), "var(--b4)"]];
+  const x = i => H.length < 2 ? W / 2 : pad + i * (W - 2 * pad) / (H.length - 1), y = v => Hh - 25 - v / 100 * (Hh - 50);
+  document.getElementById("histo").innerHTML = `<svg class="histo" viewBox="0 0 ${W} ${Hh}" width="100%" role="img" aria-label="Évolution des KPI">
+    ${[0, 25, 50, 75, 100].map(g => `<line x1="${pad}" x2="${W - pad}" y1="${y(g)}" y2="${y(g)}" stroke="#2e2622" stroke-opacity=".15" stroke-dasharray="4 4"/><text x="4" y="${y(g) + 5}">${g}</text>`).join("")}
+    ${series.map(([k, l, f, c]) => `<polyline fill="none" stroke="${c}" stroke-width="4" points="${H.map((h, i) => `${x(i)},${y(f(h[k]))}`).join(" ")}"/>
+      ${H.map((h, i) => `<rect x="${x(i) - 6}" y="${y(f(h[k])) - 6}" width="12" height="12" fill="${c}" stroke="#2e2622" stroke-width="2"><title>${l} itération ${h.n} : ${h[k]}</title></rect>`).join("")}`).join("")}
+    ${H.map((h, i) => `<text x="${x(i) - 14}" y="${Hh - 4}">#${h.n}</text>`).join("")}
+  </svg>
+  <p class="petit mb0">${series.map(([k, l, f, c]) => `<span style="display:inline-block;width:12px;height:12px;background:${c};border:2px solid #2e2622;vertical-align:middle"></span> ${l}`).join(" &nbsp; ")}
+   — ${H.length} itération(s). Historique complet : <kbd>data/store/history.json</kbd> et <kbd>data/export/kpi_historique.csv</kbd>.</p>`;
+});
+</script>
+</body>
+</html>

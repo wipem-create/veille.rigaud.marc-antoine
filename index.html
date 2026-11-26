@@ -1,15 +1,128 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Accueil — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
-<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
-</head><body data-page="home"><div id="shell"></div><main><div class="wrap">
-<h1>Dernières nouvelles</h1>
-<p class="lead mono" id="edition"></p>
-<div class="counters" id="counters"></div>
-<div id="bands"></div>
-<h2>Infos qui peuvent devenir importantes</h2>
-<p class="lead">Étape 4 du pipeline : signaux faibles et sujets sous surveillance, réévalués à chaque itération.</p>
-<div id="watch"></div>
-<h2>Pilotage en un coup d'œil</h2>
-<div id="kpistrip"></div>
-</div></main><div id="foot"></div></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEILLE//INFO — Accueil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="data/site-data.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div id="entete"></div>
+<div class="ticker" id="ticker"></div>
+
+<main class="wrap">
+  <section class="page-titre">
+    <div class="sur-titre">&gt; PLAYER 1 READY_</div>
+    <h1>Les infos qui comptent,<br>trois horizons de veille</h1>
+    <p>Une sélection automatique des actualités les plus importantes, triées et notées par le moteur de veille :
+      <b class="c-H1">H1 Cybersécurité</b> (infos du jour, synthèse hebdomadaire), <b class="c-H2">H2 Intelligence artificielle</b> (semaine du lundi au dimanche)
+      et <b class="c-H3">H3 SecOps</b> (mois en cours).</p>
+  </section>
+
+  <div id="flash"></div>
+
+  <section class="grille g3 mt" id="unes"></section>
+
+  <h2 class="sec">Tableau de bord KPI</h2>
+  <section class="grille g3" id="kpis"></section>
+
+  <h2 class="sec">Signaux faibles à surveiller</h2>
+  <section class="panel" id="signaux"></section>
+
+  <h2 class="sec">Rythme de veille</h2>
+  <section class="table-wrap">
+    <table class="t" id="rythme"></table>
+  </section>
+</main>
+<div id="pied"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const A = V.articles || [], ref = V.jour_ref, H = V.config.horizons;
+  const N = 6;
+
+  /* --- ticker : flashs + top du jour --- */
+  const tick = A.filter(a => a.retenu).sort((a, b) => b.score - a.score).slice(0, 12);
+  document.getElementById("ticker").innerHTML = `<span class="lbl">EN DIRECT</span><span class="defile">${
+    tick.map(a => `<span>${a.flash ? "⚡" : "▸"} [${a.horizon}] ${esc(a.titre)}</span>`).join("")}</span>`;
+
+  /* --- alerte flash du jour (collectes intra-journée) --- */
+  const flashs = A.filter(a => a.flash && a.jour >= periode("semaine", ref)[0]).sort((a, b) => b.score - a.score);
+  if (flashs.length) document.getElementById("flash").innerHTML = `<div class="alerte-flash"><b>⚡ FLASH</b>
+    <span>${flashs.length} info(s) critique(s) cette semaine (score ≥ ${V.config.seuils.flash}) :
+    <a href="${esc(flashs[0].lien)}" target="_blank" rel="noopener"><strong>${esc(flashs[0].titre)}</strong></a>
+    ${flashs.length > 1 ? ` · <a href="actualites.html?flash=1">voir les ${flashs.length}</a>` : ""}</span></div>`;
+
+  /* --- à la une par horizon --- */
+  function top(h, type) {
+    let [d, f] = periode(type, ref);
+    let l = A.filter(a => a.horizon === h && a.retenu && a.jour >= d && a.jour <= f);
+    let note = "";
+    if (!l.length && type === "jour") {               // avant 7h ou jour sans info : on montre le dernier jour couvert
+      const jours = [...new Set(A.filter(a => a.horizon === h && a.retenu && a.jour <= ref).map(a => a.jour))].sort();
+      if (jours.length) { d = f = jours[jours.length - 1]; l = A.filter(a => a.horizon === h && a.retenu && a.jour === d); note = " (dernier jour couvert)"; }
+    }
+    const lbl = type === "jour" ? `${dateLongue(d)}${note}` : type === "semaine" ? `semaine du ${dateCourte(d)} au ${dateCourte(f)}` : moisNom(d);
+    return { lbl, l: l.sort((a, b) => b.score - a.score || b.date.localeCompare(a.date)) };
+  }
+  function bloc(h, type) {
+    const { lbl, l } = top(h, type);
+    const items = l.slice(0, N).map(a => `<li><div><a href="${esc(a.lien)}" target="_blank" rel="noopener">${esc(a.titre)}</a>
+        <div class="meta">${esc(SRC[a.source]?.nom || a.source)} · ${dateCourte(a.jour)} ${heure(a.date)}
+        ${a.flash ? '<span class="chip flash">flash</span>' : ""}${a.corroboration > 1 ? `<span class="chip" title="Repris par ${a.corroboration} sources">×${a.corroboration} sources</span>` : ""}</div>
+        <p>${esc(a.resume)}</p></div><span class="score ${scoreCls(a.score)}" title="Score d'importance /100">${a.score}</span></li>`).join("");
+    return `<div class="petit" style="margin-bottom:6px">▸ ${esc(lbl)} — <b>${l.length}</b> info(s) retenue(s)</div>
+      ${items ? `<ol class="une-liste">${items}</ol>` : `<div class="vide">Aucune info retenue sur la période pour l'instant.</div>`}
+      <div style="text-align:right;margin-top:8px"><a class="chip ${h}" href="actualites.html?theme=${h}">tout voir ▸</a></div>`;
+  }
+  const defs = [["H1", "jour"], ["H2", "semaine"], ["H3", "mois"]];
+  document.getElementById("unes").innerHTML = defs.map(([h, t]) => `
+    <article class="panel titre-bande bd-${h}" id="une-${h}">
+      <div class="bandeau bg-${h}"><span>${h} · ${HZ[h].nom.toUpperCase()}</span>
+        ${h === "H1" ? `<span class="onglets"><button class="on" data-t="jour">JOUR</button><button data-t="semaine">SEMAINE</button></span>` : `<span>${h === "H2" ? "LUN → DIM" : "DU 1ER AU " + periode("mois", ref)[1].slice(8)}</span>`}</div>
+      <div class="petit" style="margin-top:-6px;margin-bottom:8px">Fréquence : ${esc(H[h].frequence)}</div>
+      <div class="contenu">${bloc(h, t)}</div>
+    </article>`).join("");
+  document.querySelectorAll("#une-H1 .onglets button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll("#une-H1 .onglets button").forEach(x => x.classList.toggle("on", x === b));
+    document.querySelector("#une-H1 .contenu").innerHTML = bloc("H1", b.dataset.t);
+  }));
+
+  /* --- KPI --- */
+  const K = V.kpi || {};
+  const kdef = [
+    ["KPI1", "Qualité moyenne des sources", v => `${v.valeur}<small style="font-size:28px">/10</small>`, v => v.valeur / 10, v => v.cible / 10, `cible ≥ ${K.KPI1?.cible}/10`],
+    ["KPI2", "Couverture des objectifs", v => `${v.valeur}<small style="font-size:28px">%</small>`, v => v.valeur / 100, v => v.cible / 100, `cible ≥ ${K.KPI2?.cible} %`],
+    ["KPI3", "Signaux faibles détectés (7 j)", v => `${v.valeur}`, v => Math.min(1, v.valeur / (v.cible * 2)), v => 0.5, `cible ≥ ${K.KPI3?.cible} / semaine`]
+  ];
+  document.getElementById("kpis").innerHTML = kdef.map(([k, lib, val, pct, cib, txt]) => {
+    const v = K[k]; if (!v) return "";
+    return `<a class="panel kpi-tuile" href="kpi.html#${k}">
+      <div class="lib">${k} · ${lib}</div>
+      <div class="val t-${v.etat}">${val(v)}</div>
+      <div class="jauge t-${v.etat}"><div class="rempli" style="width:${Math.round(pct(v) * 100)}%"></div><div class="cible" style="left:${Math.round(cib(v) * 100)}%"></div></div>
+      <span class="etat ${v.etat}">${v.etat.toUpperCase()}</span> <span class="petit">${txt} · fiche ▸</span></a>`;
+  }).join("");
+
+  /* --- signaux faibles --- */
+  const sig = A.filter(a => a.signal).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8);
+  document.getElementById("signaux").innerHTML = sig.length ? `<ol class="une-liste">${sig.map(a => `<li><div>
+      <a href="${esc(a.lien)}" target="_blank" rel="noopener">${esc(a.titre)}</a>
+      <div class="meta"><span class="chip ${a.horizon}">${a.horizon}</span>${a.signal_termes.map(t => `<span class="chip signal">${esc(t)}</span>`).join("")}
+      ${esc(SRC[a.source]?.nom || a.source)} · ${dateCourte(a.jour)} ${a.signal_confirme ? '<span class="chip ok">confirmé</span>' : '<span class="chip">à suivre</span>'}</div>
+      <p>${esc(a.resume)}</p></div><span class="score s-lo">${a.score}</span></li>`).join("")}</ol>
+      <p class="petit mb0">Signal faible = sujet émergent rare (≤ ${3} mentions sur 30 j), source crédible, non encore repris par d'autres sources. Il est « confirmé » dès que 2 autres sources en parlent.</p>`
+    : `<div class="vide">Aucun signal faible détecté.</div>`;
+
+  /* --- rythme --- */
+  document.getElementById("rythme").innerHTML = `<tr><th>Horizon</th><th>Thème</th><th>Fréquence</th><th>Ce qui est publié</th><th>Période en cours</th><th>Retenus</th></tr>` +
+    defs.map(([h, t]) => { const [d, f] = periode(t, ref); const n = A.filter(a => a.horizon === h && a.retenu && a.jour >= d && a.jour <= f).length;
+      return `<tr><td><span class="chip ${h}">${h}</span></td><td>${esc(H[h].nom)}</td><td>${esc(H[h].frequence)}</td><td>${esc(H[h].publication)}</td><td>${dateCourte(d)} → ${dateCourte(f)}</td><td class="compteur">${n}</td></tr>`; }).join("");
+});
+</script>
+</body>
+</html>

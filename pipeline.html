@@ -1,13 +1,103 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pipeline — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
-<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
-</head><body data-page="pipeline"><div id="shell"></div><main><div class="wrap">
-<h1>Pipeline de veille</h1>
-<p class="lead">De la collecte à la publication : cinq étapes, des règles explicites et un rythme propre à chaque horizon. Les compteurs sont calculés en direct sur les articles de la veille.</p>
-<div class="steps" id="steps"></div>
-<h2>Entonnoir de la veille</h2><div class="panel"><div class="funnel" id="funnel"></div></div>
-<h2>Rythme et publication par horizon</h2><div class="tablewrap"><table id="rythme"></table></div>
-<h2>Grille d'importance</h2><div class="tablewrap"><table id="grille"></table></div>
-<h2>Objectifs de veille</h2><div class="tablewrap"><table id="objectifs"></table></div>
-</div></main><div id="foot"></div></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEILLE//INFO — Pipeline de veille</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="data/site-data.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div id="entete"></div>
+<main class="wrap">
+  <section class="page-titre">
+    <div class="sur-titre">&gt; STAGE SELECT</div>
+    <h1>Pipeline de veille :<br>de la collecte à la publication</h1>
+    <p>Ma méthode en 5 étapes. Chaque étape est exécutée automatiquement par <kbd>veille.py</kbd> à chaque itération ;
+      les compteurs en bas de chaque bloc sont ceux de la dernière itération (<b id="it"></b>).</p>
+  </section>
+
+  <section class="etapes" id="etapes"></section>
+
+  <h2 class="sec">Calcul du score d'importance (0 → 100)</h2>
+  <section class="grille g2">
+    <div class="panel">
+      <h3>Formule</h3>
+      <div class="formule">score = note_source × 4          (0 → 40)
+      + critères de criticité    (0 → 40, propres à H1/H2/H3)
+      + corroboration × 7        (0 → 20, autres sources sur le même sujet)
+      − bruit (promo, sponsorisé, podcast…)   (−35)</div>
+      <p class="petit">Seuils : <b>retenu</b> ≥ <span id="s1"></span> · <b>à la une</b> ≥ <span id="s2"></span> · <b>flash</b> ≥ <span id="s3"></span>.
+        Les seuils et mots-clés se règlent dans <kbd>data/config.json</kbd>.</p>
+    </div>
+    <div class="panel">
+      <h3>Répartition des scores (dernière itération)</h3>
+      <div id="distrib"></div>
+    </div>
+  </section>
+
+  <h2 class="sec">Planning de publication</h2>
+  <section class="table-wrap"><table class="t" id="planning"></table></section>
+
+  <h2 class="sec">Journal des itérations</h2>
+  <section class="table-wrap"><table class="t" id="journal"></table></section>
+</main>
+<div id="pied"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const A = V.articles, it = V.iteration, S = V.config.seuils, P = V.config.planification;
+  const last = V.historique[V.historique.length - 1] || {};
+  const cetteIt = A.filter(a => a.iteration === it);
+  document.getElementById("it").textContent = `#${it} du ${V.genere_paris}`;
+  ["s1", "s2", "s3"].forEach((id, i) => document.getElementById(id).textContent = [S.retenu, S.a_la_une, S.flash][i]);
+  const okS = V.sources.filter(s => s.stats.flux_ok).length;
+  const bruit = cetteIt.filter(a => a.criteres.bruit < 0).length;
+  const parH = h => cetteIt.filter(a => a.horizon === h).length;
+  const ret = cetteIt.filter(a => a.retenu);
+  const sig = cetteIt.filter(a => a.signal);
+  const ref = V.jour_ref;
+  const pub = [["H1", "jour"], ["H2", "semaine"], ["H3", "mois"]].map(([h, t]) => { const [d, f] = periode(t, ref); return [h, A.filter(a => a.horizon === h && a.retenu && a.jour >= d && a.jour <= f).length]; });
+
+  const E = [
+    ["e1", "STAGE 1 · COLLECTE", `<p>Lecture automatique des flux RSS/Atom de ${V.sources.length} sources (10 françaises, européennes, internationales).</p>
+      <ul><li>1re collecte à <b>${P.premiere_collecte}</b>, puis toutes les <b>${P.intervalle_heures} h</b> jusqu'à ${P.derniere_collecte}</li><li>Dédoublonnage par lien (empreinte SHA-1)</li><li>Stockage : <kbd>data/store</kbd> + archives par jour</li></ul>`,
+      `<b>${cetteIt.length}</b> articles collectés<br><b>${okS}</b>/${V.sources.length} flux lus`],
+    ["e2", "STAGE 2 · TRIAGE", `<p>Classement de chaque article dans un horizon par mots-clés + objectif de la source, puis filtrage du bruit.</p>
+      <ul><li><b class="c-H1">H1</b> cyber · <b class="c-H2">H2</b> IA · <b class="c-H3">H3</b> SecOps</li><li>Rejet : promos, sponsorisé, podcasts, récap</li><li>Rattachement à des sous-thèmes (couverture KPI2)</li></ul>`,
+      `<b>${parH("H1")}</b> H1 · <b>${parH("H2")}</b> H2 · <b>${parH("H3")}</b> H3<br><b>${bruit}</b> écartés (bruit)`],
+    ["e3", "STAGE 3 · LECTURE & ÉVALUATION", `<p>Score d'importance /100 : fiabilité de la source, criticité (zero-day, exploitation active, KEV, régulation, détection…), corroboration multi-sources.</p>
+      <ul><li>Résumé de 2-3 lignes conservé</li><li>Note des sources recalculée (KPI1)</li></ul>`,
+      `<b>${ret.length}</b> retenus (≥ ${S.retenu})<br><b>${cetteIt.filter(a => a.une).length}</b> à la une · <b>${cetteIt.filter(a => a.flash).length}</b> flash`],
+    ["e4", "STAGE 4 · INFOS QUI PEUVENT DEVENIR IMPORTANTES", `<p>Détection des <b>signaux faibles</b> : sujet émergent rare, source crédible, pas encore repris ailleurs.</p>
+      <ul><li>Suivi automatique : « confirmé » si 2 autres sources le reprennent</li><li>Revue humaine chaque semaine</li></ul>`,
+      `<b>${sig.length}</b> signaux faibles<br>${sig.slice(0, 3).map(a => esc(a.signal_termes.join(", "))).join(" · ")}`],
+    ["e5", "STAGE 5 · SUIVI & PARTAGE", `<p>Publication sur le site, archives et exports :</p>
+      <ul><li><b class="c-H1">H1</b> infos importantes <b>de la journée</b></li><li><b class="c-H2">H2</b> les plus importantes de la <b>semaine</b> (lun → dim)</li><li><b class="c-H3">H3</b> les vraiment importantes <b>du mois</b> (1 → 30)</li><li>Exports CSV pour partage</li></ul>`,
+      pub.map(([h, n]) => `<b>${n}</b> ${h}`).join(" · ") + `<br>publiés sur la période`]
+  ];
+  document.getElementById("etapes").innerHTML = E.map(([c, t, b, l]) => `<div class="etape ${c}"><div class="num">${t}</div><div class="corps">${b}</div><div class="live">${l}</div></div>`).join("");
+
+  /* distribution */
+  const tr = [[0, 25], [25, 45], [45, 65], [65, 80], [80, 101]], lib = ["0-24 bruit", "25-44 écarté", "45-64 retenu", "65-79 à la une", "80+ flash"];
+  const max = Math.max(...tr.map(([a, b]) => cetteIt.filter(x => x.score >= a && x.score < b).length), 1);
+  document.getElementById("distrib").innerHTML = tr.map(([a, b], i) => { const n = cetteIt.filter(x => x.score >= a && x.score < b).length;
+    return `<div class="barre-src"><span>${lib[i]}</span><div class="b" style="width:${100 * n / max}%;background:${["#bfb3a2", "#d9cba9", "var(--b4)", "var(--b2)", "var(--b1)"][i]}"></div><span class="compteur">${n}</span></div>`; }).join("");
+
+  /* planning */
+  const creneaux = []; for (let h = +P.premiere_collecte.slice(0, 2); h <= +P.derniere_collecte.slice(0, 2); h += +P.intervalle_heures) creneaux.push(h + "h");
+  document.getElementById("planning").innerHTML = `<tr><th>Horizon</th><th>Collecte</th><th>Publication sur le site</th><th>Revue / synthèse</th><th>Période de référence</th></tr>
+    <tr><td><span class="chip H1">H1</span> Cybersécurité</td><td>Chaque jour : ${creneaux.join(", ")}</td><td>Infos du jour dès 7h ; flashs (score ≥ ${S.flash}) dès la collecte suivante</td><td>Hebdomadaire</td><td>Jour J (00h → 23h59)</td></tr>
+    <tr><td><span class="chip H2">H2</span> IA</td><td>Chaque jour (mêmes créneaux)</td><td>Top de la semaine mis à jour en continu</td><td>Hebdomadaire (dimanche soir)</td><td>Lundi → dimanche</td></tr>
+    <tr><td><span class="chip H3">H3</span> SecOps</td><td>Chaque jour (mêmes créneaux)</td><td>Top du mois mis à jour en continu</td><td>Mensuelle (dernier jour du mois)</td><td>1er → dernier jour du mois</td></tr>`;
+
+  /* journal */
+  document.getElementById("journal").innerHTML = `<tr><th>#</th><th>Date (Paris)</th><th>Mode</th><th>Base</th><th>Nouveaux</th><th>Retenus</th><th>Flash</th><th>Signaux</th><th>Flux OK / KO</th><th>KPI1</th><th>KPI2</th><th>KPI3</th></tr>` +
+    V.historique.slice().reverse().map(h => `<tr><td>${h.n}</td><td>${new Date(h.date).toLocaleString("fr-FR", { timeZone: "Europe/Paris" })}</td><td>${h.mode}</td><td>${h.collectes}</td><td>${h.nouveaux}</td><td>${h.retenus}</td><td>${h.flash}</td><td>${h.signaux}</td><td>${h.sources_ok} / ${h.sources_ko}</td><td>${h.kpi1}</td><td>${h.kpi2} %</td><td>${h.kpi3}</td></tr>`).join("");
+});
+</script>
+</body>
+</html>

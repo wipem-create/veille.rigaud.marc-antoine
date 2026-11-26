@@ -1,0 +1,70 @@
+[
+ {
+  "id": "f2ef0539169b",
+  "source": "krebs",
+  "titre": "Who Runs the Ransomware Group Qilin?",
+  "lien": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+  "date": "2026-11-11T18:06:01+00:00",
+  "resume": "Enquête OSINT remontant à l'administrateur présumé du ransomware Qilin.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "553b951a7bec",
+  "source": "ncsc",
+  "titre": "NCSC scheme will help critical organisations test their cyber defences",
+  "lien": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",
+  "date": "2026-11-11T00:00:00+00:00",
+  "resume": "Programme de simulation d'adversaires (red team) pour les organisations critiques britanniques.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

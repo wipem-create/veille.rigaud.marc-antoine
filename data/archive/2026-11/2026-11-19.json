@@ -1,0 +1,143 @@
+[
+ {
+  "id": "3edcebfdb9c9",
+  "source": "sans",
+  "titre": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI",
+  "lien": "https://isc.sans.edu/diary/rss/33534",
+  "date": "2026-11-19T01:53:48+00:00",
+  "resume": "Analyses de honeypot versionnées dans git avec relecture humaine obligatoire des contributions IA.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "honeypot"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d0560a3e29be",
+  "source": "actuia",
+  "titre": "Microsoft lance une initiative pour rendre les agents d'IA vérifiables",
+  "lien": "https://www.actuia.com/actualite/microsoft-lance-une-initiative-pour-rendre-les-agents-dia-verifiables/",
+  "date": "2026-11-19T18:00:00+00:00",
+  "resume": "Initiative soutenue par plus de quarante organisations pour permettre l'évaluation indépendante des agents d'IA.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "lance",
+    "microsoft"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a260728933f4",
+  "source": "lmi",
+  "titre": "Présidentielle 2027 : Numeum propose cinq mesures pour renforcer la souveraineté numérique française",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/presidentielle-2027-numeum-propose-cinq-mesures-pour-renforcer-la-souverainete-numerique-francaise",
+  "date": "2026-11-19T09:27:33+00:00",
+  "resume": "Cinq propositions de Numeum pour la souveraineté numérique, dont une R&D à 4 % du PIB d'ici 2035.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "français"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "thn",
+   "zataz"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "5c5e4cda65ed",
+  "source": "welivesecurity",
+  "titre": "My IoT devices are no longer supported – is my smart home safe?",
+  "lien": "https://www.welivesecurity.com/en/internet-of-things/iot-devices-no-longer-supported-smart-home-safe/",
+  "date": "2026-11-19T08:00:00+00:00",
+  "resume": "Conseils pour protéger une maison connectée dont les appareils ne reçoivent plus de mises à jour.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 29,
+  "criteres": {
+   "source": 29.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

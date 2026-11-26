@@ -1,0 +1,69 @@
+[
+ {
+  "id": "c785342b88e7",
+  "source": "ncsc",
+  "titre": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+  "lien": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+  "date": "2026-11-03T00:00:00+00:00",
+  "resume": "Le NCSC anticipe des attaques assistées par IA contre les infrastructures critiques d'ici deux ans.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 44,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "critical infrastructure"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "dd2965c3b5ac",
+  "source": "welivesecurity",
+  "titre": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+  "lien": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/",
+  "date": "2026-11-03T09:50:00+00:00",
+  "resume": "Nouveau groupe aligné sur la Russie utilisant des infostealers contre des organisations ukrainiennes proches du front.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 29,
+  "criteres": {
+   "source": 29.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

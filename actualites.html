@@ -1,40 +1,98 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Actualités — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
-<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
-</head><body data-page="news"><div id="shell"></div><main><div class="wrap">
-<h1>Actualités en direct</h1>
-<p class="lead">Chaque case : titre, résumé de 2 à 3 lignes et lien vers l'article. Filtrer par jour et par thème, suivre l'avancement dans le pipeline, garder des favoris et des notes pour y revenir plus tard.</p>
-<div class="toolbar">
- <div class="grp"><button data-hbtn="" class="on">Tous</button><button data-hbtn="H1">H1 Cybersécurité</button><button data-hbtn="H2">H2 IA</button><button data-hbtn="H3">H3 SecOps</button></div>
- <div><label for="range">Période</label><select id="range"><option value="all">Tout</option><option value="today">Aujourd'hui</option><option value="7">7 derniers jours</option><option value="week">Semaine en cours</option><option value="month">Mois en cours</option></select></div>
- <div><label for="day">Jour précis</label><input type="date" id="day"></div>
- <div><label for="statut">Étape</label><select id="statut"></select></div>
- <div><label for="only">Afficher</label><select id="only"><option value="">Tout</option><option value="fav">Favoris</option><option value="later">À lire plus tard</option><option value="sf">Signaux faibles</option></select></div>
- <div><label for="sort">Tri</label><select id="sort"><option value="date">Par jour</option><option value="imp">Par importance</option></select></div>
- <div><label for="txt">Recherche</label><input type="search" id="txt" placeholder="mot-clé…"></div>
- <div class="mono small" id="count"></div>
-</div>
-<div id="list"></div>
-<details class="panel" id="ajout"><summary>+ Ajouter un article</summary>
-<form id="add-form"><div class="form-grid">
- <div class="full"><label for="f-titre">Titre</label><input type="text" id="f-titre" required style="width:100%"></div>
- <div class="full"><label for="f-resume">Résumé (2 à 3 lignes)</label><textarea id="f-resume" required></textarea></div>
- <div class="full"><label for="f-url">Lien</label><input type="url" id="f-url" required style="width:100%" placeholder="https://"></div>
- <div><label for="f-date">Date</label><input type="date" id="f-date" required></div>
- <div><label for="f-h">Horizon / thème</label><select id="f-h"><option value="H1">H1 Cybersécurité</option><option value="H2">H2 IA</option><option value="H3">H3 SecOps</option></select></div>
- <div><label for="f-source">Source</label><select id="f-source"></select></div>
- <div><label for="f-obj">Objectif</label><select id="f-obj"></select></div>
- <div><label for="f-imp">Importance</label><select id="f-imp"><option>0</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></div>
- <div><label for="f-statut">Étape</label><select id="f-statut"><option value="collecte">Collecté</option><option value="trie">Trié</option><option value="lu" selected>Lu &amp; évalué</option><option value="important">À surveiller</option><option value="publie">Publié</option></select></div>
- <div><label><input type="checkbox" id="f-sf"> Signal faible</label></div>
-</div><p><button type="submit">Ajouter</button></p></form></details>
-<section class="panel" id="sauvegarde"><h2 style="margin-top:0">Stockage &amp; sauvegarde</h2>
-<p class="small">Vos statuts, notes, favoris et articles ajoutés sont conservés dans ce navigateur (stockage local). Pour les reprendre plus tard ou sur une autre machine : exportez la sauvegarde, puis importez-la. Pour les inscrire définitivement dans le dossier, exportez <b>articles.js</b> et remplacez <code>data/articles.js</code>.</p>
-<div class="grp" style="display:flex;flex-wrap:wrap;gap:8px">
-<button id="b-export">⬇ Sauvegarde (.json)</button>
-<label class="btn" style="margin:0">⬆ Importer<input type="file" id="b-import" accept=".json" hidden></label>
-<button id="b-js">⬇ articles.js (pour le dossier)</button>
-<button id="b-csv">⬇ Export CSV</button>
-<button id="b-reset" class="danger">Réinitialiser le local</button></div></section>
-</div></main><div id="foot"></div></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEILLE//INFO — Actualités en live</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="data/site-data.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div id="entete"></div>
+<main class="wrap">
+  <section class="page-titre">
+    <div class="sur-titre">&gt; LIVE FEED</div>
+    <h1>Actualités en live</h1>
+    <p>Chaque case = un article : titre, résumé de 2-3 lignes et lien vers la source. Triez par jour et par thème.
+      Par défaut seuls les articles <b>retenus</b> au triage sont affichés.</p>
+  </section>
+
+  <section class="panel filtres" id="filtres">
+    <div class="grp" id="themes">
+      <label>THÈME</label>
+      <button class="f on" data-t="">Tous</button>
+      <button class="f H1" data-t="H1">Cybersécurité</button>
+      <button class="f H2" data-t="H2">IA</button>
+      <button class="f H3" data-t="H3">SecOps</button>
+    </div>
+    <div class="grp"><label for="jour">JOUR</label><select id="jour"></select></div>
+    <div class="grp"><label for="tri">TRI</label>
+      <select id="tri"><option value="date">Plus récents</option><option value="score">Plus importants</option></select></div>
+    <div class="grp"><label for="vue">AFFICHER</label>
+      <select id="vue"><option value="retenu">Retenus</option><option value="tous">Tous (y compris écartés)</option><option value="flash">Flash uniquement</option><option value="signal">Signaux faibles</option></select></div>
+    <div class="grp" style="flex:1"><input type="search" id="q" placeholder="Rechercher (ex. VMware, ransomware, agent)…" style="width:100%"></div>
+    <div class="compteur" id="nb"></div>
+  </section>
+
+  <section id="liste"></section>
+  <div style="text-align:center;margin-top:24px"><button class="btn" id="plus" style="display:none">▼ Afficher plus</button></div>
+</main>
+<div id="pied"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const A = V.articles;
+  const qs = new URLSearchParams(location.search);
+  const st = { theme: qs.get("theme") || "", jour: qs.get("jour") || "", tri: "date", vue: qs.get("flash") ? "flash" : "retenu", q: "", lim: 60 };
+  const jours = [...new Set(A.map(a => a.jour))].sort().reverse();
+  document.getElementById("jour").innerHTML = `<option value="">Tous les jours</option>` +
+    jours.map(j => `<option value="${j}">${dateLongue(j)} (${A.filter(a => a.jour === j && a.retenu).length})</option>`).join("");
+  document.getElementById("jour").value = st.jour;
+  document.getElementById("vue").value = st.vue;
+  document.querySelectorAll("#themes button").forEach(b => b.classList.toggle("on", b.dataset.t === st.theme));
+
+  const carte = a => {
+    const s = SRC[a.source] || { nom: a.source };
+    return `<article class="carte bd-${a.horizon} ${a.retenu ? "" : "ecarte"}" style="border-top-color:${HZ[a.horizon].c}">
+      <div class="in">
+        <div><span class="chip ${a.horizon}">${a.horizon} ${HZ[a.horizon].court}</span>${a.flash ? '<span class="chip flash">⚡ flash</span>' : ""}${a.signal ? '<span class="chip signal">signal faible</span>' : ""}${a.retenu ? "" : '<span class="chip">écarté</span>'}</div>
+        <h4>${esc(a.titre)}</h4>
+        <p>${esc(a.resume || "—")}</p>
+      </div>
+      <div class="pied"><span><b>${esc(s.nom)}</b><br>${dateCourte(a.jour)} · ${heure(a.date)}</span>
+        <span class="score ${scoreCls(a.score)}" title="Score : source ${a.criteres.source} + criticité ${a.criteres.criticite} + corroboration ${a.criteres.corroboration}${a.criteres.bruit ? " " + a.criteres.bruit + " (bruit)" : ""}">${a.score}</span>
+        <a class="lire" href="${esc(a.lien)}" target="_blank" rel="noopener">LIRE ▸</a></div>
+    </article>`;
+  };
+
+  function rendu() {
+    const q = st.q.toLowerCase();
+    let l = A.filter(a => (!st.theme || a.horizon === st.theme) && (!st.jour || a.jour === st.jour)
+      && (st.vue === "tous" || (st.vue === "retenu" && a.retenu) || (st.vue === "flash" && a.flash) || (st.vue === "signal" && a.signal))
+      && (!q || (a.titre + " " + a.resume + " " + (SRC[a.source]?.nom || "")).toLowerCase().includes(q)));
+    l.sort(st.tri === "score" ? (a, b) => b.score - a.score || b.date.localeCompare(a.date) : (a, b) => b.date.localeCompare(a.date));
+    document.getElementById("nb").textContent = `${l.length} article(s)`;
+    const vis = l.slice(0, st.lim);
+    let html = "";
+    if (st.tri === "date") {
+      const g = {}; vis.forEach(a => (g[a.jour] = g[a.jour] || []).push(a));
+      html = Object.keys(g).sort().reverse().map(j => `<div class="jour-titre">${dateLongue(j).toUpperCase()} · ${g[j].length}</div><div class="cartes">${g[j].map(carte).join("")}</div>`).join("");
+    } else html = `<div class="cartes mt">${vis.map(carte).join("")}</div>`;
+    document.getElementById("liste").innerHTML = html || `<div class="panel mt vide">Aucun article ne correspond à ces filtres.</div>`;
+    document.getElementById("plus").style.display = l.length > st.lim ? "inline-block" : "none";
+  }
+  document.querySelectorAll("#themes button").forEach(b => b.addEventListener("click", () => {
+    st.theme = b.dataset.t; st.lim = 60;
+    document.querySelectorAll("#themes button").forEach(x => x.classList.toggle("on", x === b)); rendu();
+  }));
+  ["jour", "tri", "vue"].forEach(id => document.getElementById(id).addEventListener("change", e => { st[id] = e.target.value; st.lim = 60; rendu(); }));
+  document.getElementById("q").addEventListener("input", e => { st.q = e.target.value; rendu(); });
+  document.getElementById("plus").addEventListener("click", () => { st.lim += 60; rendu(); });
+  rendu();
+});
+</script>
+</body>
+</html>

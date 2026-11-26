@@ -1,0 +1,114 @@
+[
+ {
+  "id": "29480262e1ea",
+  "source": "msft",
+  "titre": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+  "date": "2026-11-17T00:08:41+00:00",
+  "resume": "Campagne de phishing usurpant des notifications d'incident M365 ; indicateurs et étapes de threat hunting fournis.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H3:Détection & threat hunting",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 25.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "indicateurs"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ba3cb83c335f",
+  "source": "msft",
+  "titre": "The risks of device code authentication for AI coding agents",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+  "date": "2026-11-17T15:00:00+00:00",
+  "resume": "Détournement du flux OAuth device code contre les agents de code IA, avec conseils de détection et d'atténuation.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 25.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2dd2aeab8f26",
+  "source": "msft",
+  "titre": "Security for the agentic era, powered by Microsoft Perception",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+  "date": "2026-11-17T18:14:00+00:00",
+  "resume": "Perception orchestre des agents red, blue et green team pour simuler, détecter et corriger les menaces.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 25.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

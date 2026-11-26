@@ -1,0 +1,1848 @@
+[
+ {
+  "id": "21f1442e8bc5",
+  "source": "thn",
+  "titre": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+  "lien": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+  "date": "2026-11-24T13:28:26+00:00",
+  "resume": "Broadcom corrige CVE-2026-123903 (CVSS 9.8), contournement d'authentification dans vmdir de vCenter, après un zero-day.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 92,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 38,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "9.8",
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "itconnect",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "9f3ae6899a47",
+  "source": "thn",
+  "titre": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+  "date": "2026-11-24T06:02:45+00:00",
+  "resume": "MailAssure (CVE-2026-134624, CVSS 9.3) et un zero-day MONAI Label ajoutés au catalogue KEV pour exploitation active.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA",
+   "H2:Régulation & éthique"
+  ],
+  "score": 81,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 40,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "hackers exploit",
+    "kev",
+    "cvss 9",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4c298f219dc2",
+  "source": "lemagit",
+  "titre": "Claude Ship : Anthropic veut confier la revue de code aux agents IA",
+  "lien": "https://www.lemagit.fr/actualites/366655341/Claude-Ship-Anthropic-veut-confier-la-revue-de-code-aux-agents-IA",
+  "date": "2026-11-24T12:04:00+00:00",
+  "resume": "Suite d'agents IA qui analysent les pull requests GitHub et corrigent certains problèmes, encadrés par des règles.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie"
+  ],
+  "score": 64,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 12,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "anthropic"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 8,
+  "corrobore_par": [
+   "actuia",
+   "itconnect",
+   "lebigdata",
+   "mittr",
+   "securityweek",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "df477a7911ec",
+  "source": "thn",
+  "titre": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+  "lien": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+  "date": "2026-11-24T12:01:54+00:00",
+  "resume": "Cinq priorités pour réduire les coûts du SOC et le temps d'analyse des alertes en 2027.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 62,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 14,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "alert"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lmi",
+   "zataz"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ced3ca19b762",
+  "source": "thn",
+  "titre": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+  "lien": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+  "date": "2026-11-24T13:28:21+00:00",
+  "resume": "Okta relie le groupe O-UNC-053, lié à ShinyHunters, au nouveau site de fuite Inception.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "fuite"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "securityweek",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "79075960ac41",
+  "source": "securityweek",
+  "titre": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+  "lien": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+  "date": "2026-11-24T16:32:56+00:00",
+  "resume": "Correctifs pour des failles critiques ESX et vCenter, dont un contournement d'authentification.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "itconnect",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e207f9d49eea",
+  "source": "itconnect",
+  "titre": "Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft",
+  "lien": "https://www.it-connect.fr/entra-connect-health-faille-exploitee-metadonnees-tenants/",
+  "date": "2026-11-24T02:00:00+00:00",
+  "resume": "Une faille de l'API Entra Connect Health a été exploitée pour lire les métadonnées de tenants Microsoft, exposant les e-mails des administrateurs.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 12,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "exploité"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "38f1aecccaf9",
+  "source": "bleeping",
+  "titre": "European Commission confirms data theft in EU Academy breach",
+  "lien": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+  "date": "2026-11-24T16:22:44+00:00",
+  "resume": "La Commission européenne confirme la compromission d'EU Academy et le vol de données personnelles d'utilisateurs.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 11,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "data theft",
+    "europe"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "itconnect",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "cbe3bc59bf44",
+  "source": "lebigdata",
+  "titre": "Meta glisse Muse dans vos messages privés d'Instagram : qu'est-ce que ça change ?",
+  "lien": "https://www.lebigdata.fr/meta-glisse-muse-dans-vos-messages-prives-dinstagram-quest-ce-que-ca-change",
+  "date": "2026-11-24T18:40:34+00:00",
+  "resume": "L'agent IA Muse arrive dans la messagerie Instagram, d'abord hors de France.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 17,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "meta",
+    "france"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "actuia",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a771d7f6d808",
+  "source": "thn",
+  "titre": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+  "lien": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+  "date": "2026-11-24T12:02:00+00:00",
+  "resume": "Project Zero montre qu'une particularité de chargement .NET permet de contourner l'intégrité du code Windows.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 54,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "actuia",
+   "darkreading",
+   "sans",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a952304652cf",
+  "source": "thn",
+  "titre": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+  "lien": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+  "date": "2026-11-24T06:02:57+00:00",
+  "resume": "Shirudo : runtime Linux open source où des agents IA génèrent des contrôles eBPF pour bloquer les exploits avant correctif.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA",
+   "H2:Marché & industrie",
+   "H2:Régulation & éthique",
+   "H2:Sécurité de l'IA",
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "bleeping",
+   "lemagit"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c2510bd23f3d",
+  "source": "thn",
+  "titre": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+  "lien": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+  "date": "2026-11-24T16:54:07+00:00",
+  "resume": "Le groupe Volant Manticore utilise la porte dérobée KuboShell avec un C2 sur IPFS contre télécoms et infrastructures critiques à Chypre.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 53,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 19,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critique",
+    "dérobé",
+    "manticore"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ba3f51348523",
+  "source": "thn",
+  "titre": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+  "lien": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+  "date": "2026-11-24T10:44:49+00:00",
+  "resume": "Faille Azure API Management exploitée pour chercher jetons et secrets clients, dont Equinor ; Microsoft a corrigé.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 53,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 12,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "exploité"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lebigdata"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "51d7ec861501",
+  "source": "bleeping",
+  "titre": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+  "lien": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+  "date": "2026-11-24T16:30:19+00:00",
+  "resume": "Le gang ShinyHunters revendique son retour sur un nouveau site de fuite, preuves par d'anciennes clés PGP à l'appui.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "fuite"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c0ee93ec79d7",
+  "source": "bleeping",
+  "titre": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+  "lien": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+  "date": "2026-11-24T13:34:23+00:00",
+  "resume": "OpenAI et Cisco lancent Shirudo, outil open source qui applique des protections temporaires à l'exécution sous Linux en attendant les correctifs.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Marché & industrie",
+   "H2:Régulation & éthique",
+   "H2:Usages & outils"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "lemagit",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "691331cff56a",
+  "source": "securityweek",
+  "titre": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+  "lien": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+  "date": "2026-11-24T22:41:58+00:00",
+  "resume": "Un système non classifié de la CIA compromis selon une source de l'AP.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "elastic",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "91d6efcdd0ef",
+  "source": "lebigdata",
+  "titre": "Cloudera lance une plateforme de souveraineté numérique",
+  "lien": "https://www.lebigdata.fr/souverainete-numerique-ia-cloudera-lance",
+  "date": "2026-11-24T15:56:03+00:00",
+  "resume": "Gouvernance des données et de l'IA pour clouds souverains, avec les modèles Mistral.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche",
+   "H2:Régulation & éthique",
+   "H2:Usages & outils"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 14,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "lance",
+    "mistral",
+    "souverain"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "actuia",
+   "itconnect"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ace29c3daa18",
+  "source": "bleeping",
+  "titre": "Hackers compromise Check Point Servers in 22 organizations",
+  "lien": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+  "date": "2026-11-24T16:15:23+00:00",
+  "resume": "Plusieurs vulnérabilités exploitées pour compromettre des serveurs de gestion Check Point dans 22 organisations.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 12,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "exploité"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d292b87b3b25",
+  "source": "darkreading",
+  "titre": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+  "lien": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+  "date": "2026-11-24T21:48:06+00:00",
+  "resume": "Webworm a recompilé SoftEther VPN en supprimant les éléments de détection.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a07c2bdb26f0",
+  "source": "actuia",
+  "titre": "À Choose France, les 3 milliards de centres de données datent de juillet",
+  "lien": "https://www.actuia.com/actualite/a-choose-france-les-3-milliards-de-centres-de-donnees-datent-de-juillet/",
+  "date": "2026-11-24T13:01:00+00:00",
+  "resume": "Le seul projet numérique chiffré en milliards présenté à Choose France avait été annoncé plusieurs mois plus tôt.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 11,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "milliard",
+    "france"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lebigdata"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "23c626d8f3e5",
+  "source": "bleeping",
+  "titre": "New Inception extortion gang launches large-scale vishing campaign",
+  "lien": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+  "date": "2026-11-24T20:21:20+00:00",
+  "resume": "Le nouveau groupe d'extorsion Inception mène une vaste campagne de vishing visant les identifiants SSO de grandes entreprises.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "db74cb7dd11b",
+  "source": "itconnect",
+  "titre": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
+  "lien": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
+  "date": "2026-11-24T10:33:39+00:00",
+  "resume": "Chrome 158.0.8127.88 corrige la CVE-2026-134401, faille critique permettant de sortir de la sandbox. Mise à jour rapide recommandée.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 13,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critique",
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2aa97911f22a",
+  "source": "itconnect",
+  "titre": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l'Active Directory",
+  "lien": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
+  "date": "2026-11-24T08:45:00+00:00",
+  "resume": "Tutoriel d'installation du serveur MFA open source privacyIDEA, relié à l'Active Directory pour la double authentification Windows.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "mfa"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "53d6755a44cf",
+  "source": "lmi",
+  "titre": "Cybersécurité : des failles Bluetooth permettent de contrôler à distance les freins de remorques",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-des-failles-bluetooth-permettent-de-controler-a-distance-les-freins-de-remorques",
+  "date": "2026-11-24T11:45:01+00:00",
+  "resume": "Failles critiques dans des contrôleurs de freinage Bluetooth Elecbrakes ; la CISA publie une alerte.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critique"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "311a4a4aa1d9",
+  "source": "lemagit",
+  "titre": "Cybersécurité : la CNIL est passée à la vitesse supérieure",
+  "lien": "https://www.lemagit.fr/conseil/Cybersecurite-la-CNIL-est-passee-a-la-vitesse-superieure",
+  "date": "2026-11-24T11:32:00+00:00",
+  "resume": "La CNIL sanctionne les failles connues avant violation : MFA, habilitations, journalisation et tests attendus.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Réglementation & conformité",
+   "H1:Vulnérabilités & correctifs",
+   "H3:Durcissement & DevSecOps",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "cnil"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f0e387461552",
+  "source": "itconnect",
+  "titre": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
+  "lien": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
+  "date": "2026-11-24T03:00:00+00:00",
+  "resume": "Outil open source pour piloter un agent IA qui réécrit une application en Rust, avec vérification de chaque étape.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e36eb87be488",
+  "source": "thn",
+  "titre": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+  "lien": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+  "date": "2026-11-24T08:34:20+00:00",
+  "resume": "Injection SQL sans authentification dans WHMCS exposant données clients et hachés de mots de passe admin.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 41,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "798e905bbe23",
+  "source": "lemagit",
+  "titre": "IA : tout savoir sur l'émergence des modèles de décision",
+  "lien": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
+  "date": "2026-11-24T13:55:00+00:00",
+  "resume": "Petits modèles de décision rapides pouvant trier des alertes SOC ou contrôler des agents IA.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "cbdcfcb23a63",
+  "source": "bleeping",
+  "titre": "Turnitin discloses cyberattack affecting customer-facing systems",
+  "lien": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+  "date": "2026-11-24T18:59:52+00:00",
+  "resume": "Turnitin signale des activités non autorisées sur certains systèmes clients, sans préciser l'étendue de l'incident.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "05e0a7251671",
+  "source": "itconnect",
+  "titre": "ElixirOffice : une suite bureautique open source qui s'adresse aux habitués de Microsoft Office",
+  "lien": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
+  "date": "2026-11-24T17:00:00+00:00",
+  "resume": "Suite libre basée sur Euro-Office qui reprend l'interface ruban de Microsoft Office pour faciliter la transition.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lemagit"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "3adde04a43fc",
+  "source": "itconnect",
+  "titre": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
+  "lien": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
+  "date": "2026-11-24T10:47:59+00:00",
+  "resume": "Service intégré au réseau mobile Free qui traduit les appels en direct dans dix langues, inclus dans l'offre Free Max.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "1d3b1805ce64",
+  "source": "bleeping",
+  "titre": "Rackspace shuts down Spot cloud platform after security breach",
+  "lien": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+  "date": "2026-11-24T21:37:30+00:00",
+  "resume": "Rackspace ferme sa plateforme Spot après une brèche donnant accès aux clusters Kubernetes et aux secrets clients. Migration possible jusqu'au 8 décembre.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "929eebac1cbb",
+  "source": "bleeping",
+  "titre": "Radware discloses breach exposing customer cloud access keys",
+  "lien": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+  "date": "2026-11-24T17:49:05+00:00",
+  "resume": "Des attaquants ont obtenu des clés d'accès cloud de clients Radware via une interface de gestion de WAF exposée sur Internet.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ac57ed5358f1",
+  "source": "bleeping",
+  "titre": "McDonald's Japan data breach exposes customer location information",
+  "lien": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+  "date": "2026-11-24T14:09:37+00:00",
+  "resume": "Fuite de données chez McDonald's Japon : des données de localisation des utilisateurs de l'application sont concernées.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "fef6f0d7aa94",
+  "source": "darkreading",
+  "titre": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+  "lien": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+  "date": "2026-11-24T21:36:11+00:00",
+  "resume": "Des failles dans des systèmes de visa en ligne auraient pu perturber l'entrée de voyageurs dans six pays.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "9217252b709b",
+  "source": "lemagit",
+  "titre": "Stockage : Huawei propose disponibilité et fonctions inédites pour l'IA",
+  "lien": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
+  "date": "2026-11-24T12:53:00+00:00",
+  "resume": "Nouvelles baies de stockage Huawei pour l'inférence IA en Europe.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 31.7,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "europe"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "3ab7933eead0",
+  "source": "sans",
+  "titre": "Scanning from Subnet 109.160.32.0/24",
+  "lien": "https://isc.sans.edu/diary/rss/33550",
+  "date": "2026-11-24T02:32:00+00:00",
+  "resume": "Un sous-réseau roumain scanne les capteurs DShield en SSH avec identifiants courants ; comportement TTL atypique à surveiller.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Journalisation & supervision"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "scanning"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "86a717cdf423",
+  "source": "itconnect",
+  "titre": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d'IA",
+  "lien": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
+  "date": "2026-11-24T08:20:00+00:00",
+  "resume": "Microsoft prépare RDMA over USB4 pour relier plusieurs PC et répartir un grand modèle d'IA entre eux.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "microsoft"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "rdma",
+   "usb4"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c7401cd0e2a4",
+  "source": "lebigdata",
+  "titre": "Tidal bannit la musique générée par IA : 29 millions de titres vont disparaître",
+  "lien": "https://www.lebigdata.fr/tidal-bannit-la-musique-generee-par-ia-29-millions-de-titres-vont-disparaitre",
+  "date": "2026-11-24T17:56:17+00:00",
+  "resume": "Suppression des morceaux entièrement générés par IA à partir du 9 décembre 2026.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "bannit"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a2f1a5be4b84",
+  "source": "bleeping",
+  "titre": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+  "lien": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+  "date": "2026-11-24T15:10:10+00:00",
+  "resume": "Les autorités de onze pays démantèlent 57 services de streaming illégaux totalisant 7,3 millions de visites par an.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e46adf0bf1de",
+  "source": "itconnect",
+  "titre": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
+  "lien": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
+  "date": "2026-11-24T08:00:00+00:00",
+  "resume": "Le botnet Retadup, démantelé en 2019 par la gendarmerie, est réactivé via d'anciens domaines pour diffuser le loader CoffeeLoader.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "ver usb"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a110e0a0aa96",
+  "source": "actuia",
+  "titre": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l'intelligence artificielle ?",
+  "lien": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
+  "date": "2026-11-24T12:21:25+00:00",
+  "resume": "Présentation de trois parcours de formation à l'IA proposés par IMT-BS.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "55c29acf0e7a",
+  "source": "darkreading",
+  "titre": "Satellites Have a Ground-Level Cybersecurity Problem",
+  "lien": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+  "date": "2026-11-24T22:05:34+00:00",
+  "resume": "Les infrastructures terrestres des services satellitaires deviennent un point faible émergent.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 31,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "satellite"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "3dbb1f81fb16",
+  "source": "lebigdata",
+  "titre": "Microsoft corrige une faille Azure, mais les pirates pourraient encore avoir les clés",
+  "lien": "https://www.lebigdata.fr/microsoft-corrige-une-faille-azure-mais-les-pirates-pourraient-encore-avoir-les-cles",
+  "date": "2026-11-24T17:10:50+00:00",
+  "resume": "Le correctif Azure API Management ne révoque pas les secrets déjà volés : rotation des clés nécessaire.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "46c160dd6d49",
+  "source": "lmi",
+  "titre": "IA et Cybersécurité : les entreprises contraintes de revoir leur priorités",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/la-bataille-des-priorites-dans-les-budgets-it",
+  "date": "2026-11-24T11:25:03+00:00",
+  "resume": "Coûts d'infrastructure et projets d'IA obligent les entreprises à arbitrer leurs budgets IT.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 29,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ff23c2d7d70a",
+  "source": "lmi",
+  "titre": "Règlementation : les entreprises doivent intégrer les contraintes dès la conception de leurs systèmes IT",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/reglementation-les-entreprises-doivent-integrer-les-contraintes-des-la-conception-de-leurs-systemes-it",
+  "date": "2026-11-24T09:30:57+00:00",
+  "resume": "AI Act, NIS 2, RGPD, DORA : la conformité devient centrale pour les DSI, à intégrer dès la conception.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Réglementation & conformité",
+   "H2:Régulation & éthique"
+  ],
+  "score": 29,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "fbc1cb1be0ad",
+  "source": "thn",
+  "titre": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+  "lien": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+  "date": "2026-11-24T12:42:09+00:00",
+  "resume": "Webinaire sur le contournement de l'épinglage SHA des GitHub Actions.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 19,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "lebigdata",
+   "lemagit",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "0ef58a1a5d84",
+  "source": "bleeping",
+  "titre": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+  "lien": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+  "date": "2026-11-24T15:01:11+00:00",
+  "resume": "Contenu sponsorisé sur la réduction du bruit des vulnérabilités dans la chaîne logicielle assistée par l'IA.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 4,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b840f48fb16e",
+  "source": "lebigdata",
+  "titre": "Black Friday : plus de 10 000 faux sites guettent votre carte bancaire et la France est la plus visée",
+  "lien": "https://www.lebigdata.fr/faux-sites-black-friday-france-nordvpn",
+  "date": "2026-11-24T17:00:00+00:00",
+  "resume": "Plus de 10 000 domaines frauduleux imitant 166 marques, dont 144 visant la France (phishing).",
+  "horizon": "H2",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 1,
+  "criteres": {
+   "source": 24.3,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "actuia"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e3ea05c0b6ef",
+  "source": "itconnect",
+  "titre": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
+  "lien": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
+  "date": "2026-11-24T08:55:00+00:00",
+  "resume": "Sélection de produits UGREEN en promotion jusqu'au 30 novembre.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 31.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

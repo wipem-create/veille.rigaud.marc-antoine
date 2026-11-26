@@ -1,0 +1,110 @@
+[
+ {
+  "id": "0261c63cc351",
+  "source": "thn",
+  "titre": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+  "lien": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+  "date": "2026-11-22T05:06:55+00:00",
+  "resume": "Selon Dragos, des prompts ont été volés pendant des mois chez trois fournisseurs d'inférence ; OpenRouter s'en sépare.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 59,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 18,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "theft",
+    "research"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "actuia"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "fae6f7fa4056",
+  "source": "sans",
+  "titre": "A brief history of syslog timestamps",
+  "lien": "https://isc.sans.edu/diary/rss/33530",
+  "date": "2026-11-22T18:40:18+00:00",
+  "resume": "Histoire des horodatages syslog et options de format dans journalctl et syslog-ng : utile pour la journalisation SOC.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Journalisation & supervision",
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2a922873bb9f",
+  "source": "thn",
+  "titre": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+  "lien": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+  "date": "2026-11-22T05:03:41+00:00",
+  "resume": "Un fichier piégé permet de sortir du bac à sable Ghostscript et d'exécuter des commandes sur le serveur.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

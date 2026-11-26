@@ -1,0 +1,35 @@
+[
+ {
+  "id": "5e4d08b265df",
+  "source": "welivesecurity",
+  "titre": "SlippyNunchucks hijacks Sogou Input Method's brand promotion mechanism to distribute malware",
+  "lien": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/",
+  "date": "2026-11-04T09:55:00+00:00",
+  "resume": "Détournement DNS exploitant les communications HTTP non chiffrées de Sogou Input Method pour diffuser des malwares.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 0,
+  "criteres": {
+   "source": 29.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

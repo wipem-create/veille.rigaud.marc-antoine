@@ -1,0 +1,35 @@
+# Collecte automatique hébergée sur GitHub (gratuit) + publication GitHub Pages.
+# 1re collecte à 7h (heure de Paris) puis toutes les 2 h jusqu'à 19h.
+# Les horaires cron sont en UTC : on couvre l'heure d'hiver (UTC+1) ET l'heure d'été (UTC+2) ;
+# les doublons sont sans effet (dédoublonnage des articles).
+name: veille-collecte
+on:
+  schedule:
+    - cron: "0 5,6,7,8,9,10,11,12,13,14,15,16,17,18 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Garder uniquement les créneaux 7h-19h (Paris), toutes les 2 h
+        id: creneau
+        run: |
+          H=$(TZ=Europe/Paris date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ $((10#$H)) -ge 7 ] && [ $((10#$H)) -le 19 ] && [ $(( (10#$H - 7) % 2 )) -eq 0 ]; }; then echo "go=1" >> $GITHUB_OUTPUT; fi
+      - name: Itération de veille
+        if: steps.creneau.outputs.go == '1'
+        run: python veille.py collect
+      - name: Enregistrer les données
+        if: steps.creneau.outputs.go == '1'
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Veille : itération $(TZ=Europe/Paris date '+%d/%m/%Y %H:%M')" || echo "Rien de nouveau"
+          git push

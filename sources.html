@@ -1,33 +1,101 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sources — Veille·Info</title><link rel="stylesheet" href="assets/style.css">
-<script src="data/config.js"></script><script src="data/sources.js"></script><script src="data/articles.js"></script><script src="data/articles_auto.js"></script><script src="assets/app.js"></script>
-</head><body data-page="sources"><div id="shell"></div><main><div class="wrap">
-<h1>Sources &amp; évaluation</h1>
-<p class="lead">10 sources françaises, des sources européennes, puis des références internationales. Chaque critère est noté sur 10 ; le score est la moyenne des six critères. Les notes sont une évaluation initiale : cliquez sur « Mode édition » pour les ajuster à chaque itération.</p>
-<div class="toolbar">
- <div><label for="zone">Zone</label><select id="zone"><option value="">Toutes</option><option value="FR">France</option><option value="EU">Europe</option><option value="INTL">International</option></select></div>
- <div><label for="hh">Objectif</label><select id="hh"><option value="">H1 / H2 / H3</option><option value="H1">H1 Cybersécurité</option><option value="H2">H2 IA</option><option value="H3">H3 SecOps</option></select></div>
- <div><label for="txt">Recherche</label><input type="search" id="txt" placeholder="nom ou type…"></div>
- <div><button id="b-edit">✎ Mode édition</button></div>
- <div class="mono small" id="summary"></div>
-</div>
-<div class="tablewrap"><table id="tbl"></table></div>
-<p class="small muted">Cliquer sur un en-tête pour trier. « Retenus » = nombre d'articles retenus (à surveiller ou publiés) issus de la source.</p>
-<h2>Définition des critères</h2>
-<div class="smart" id="legend"></div>
-<details class="panel"><summary>+ Ajouter une source</summary>
-<form id="src-form"><div class="form-grid">
- <div><label for="s-nom">Nom</label><input type="text" id="s-nom" required></div>
- <div><label for="s-url">Site</label><input type="url" id="s-url" required placeholder="https://"></div>
- <div><label for="s-zone">Zone</label><select id="s-zone"><option value="FR">France</option><option value="EU">Europe</option><option value="INTL">International</option></select></div>
- <div><label for="s-type">Type</label><input type="text" id="s-type" placeholder="Média, institution…"></div>
- <div><label>Objectif</label><label><input type="checkbox" class="s-h" value="H1" checked> H1</label> <label><input type="checkbox" class="s-h" value="H2"> H2</label> <label><input type="checkbox" class="s-h" value="H3"> H3</label></div>
- <div><label for="s-maj">Mises à jour</label><input type="number" id="s-maj" min="0" max="10" value="7"></div>
- <div><label for="s-cred">Crédibilité</label><input type="number" id="s-cred" min="0" max="10" value="7"></div>
- <div><label for="s-lis">Lisibilité</label><input type="number" id="s-lis" min="0" max="10" value="7"></div>
- <div><label for="s-freq">Fréquence</label><input type="number" id="s-freq" min="0" max="10" value="7"></div>
- <div><label for="s-ver">Véracité</label><input type="number" id="s-ver" min="0" max="10" value="7"></div>
- <div><label for="s-pert">Pertinence</label><input type="number" id="s-pert" min="0" max="10" value="7"></div>
-</div><p><button type="submit">Ajouter</button></p></form></details>
-</div></main><div id="foot"></div></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEILLE//INFO — Sources & évaluation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="data/site-data.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div id="entete"></div>
+<main class="wrap">
+  <section class="page-titre">
+    <div class="sur-titre">&gt; HIGH SCORES</div>
+    <h1>Sources & évaluation</h1>
+    <p>10 sources françaises, 5 européennes et 13 internationales reconnues, notées sur 10 selon 6 critères.
+      Les colonnes marquées <span style="color:var(--b4)">⚙</span> sont <b>recalculées automatiquement</b> à chaque itération à partir des flux réels ;
+      les autres sont des notes d'expert à ajuster dans <kbd>data/sources.json</kbd>.</p>
+  </section>
+
+  <section class="grille g3" id="resume"></section>
+
+  <section class="panel filtres mt">
+    <div class="grp"><label>ORIGINE</label>
+      <button class="f on" data-o="">Toutes</button><button class="f" data-o="FR">France</button><button class="f" data-o="EU">Europe</button><button class="f" data-o="INT">International</button></div>
+    <div class="grp"><label>OBJECTIF</label>
+      <button class="f on" data-h="">Tous</button><button class="f H1" data-h="H1">H1</button><button class="f H2" data-h="H2">H2</button><button class="f H3" data-h="H3">H3</button></div>
+    <span class="petit">Cliquez sur un en-tête de colonne pour trier.</span>
+  </section>
+
+  <section class="table-wrap mt"><table class="t" id="tab"></table></section>
+
+  <h2 class="sec">Grille de notation</h2>
+  <section class="table-wrap"><table class="t" id="grille"></table></section>
+</main>
+<div id="pied"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const S = V.sources, W = V.poids;
+  const st = { o: "", h: "", tri: "score_global", sens: -1 };
+  const cols = [
+    ["nom", "Source / site", false], ["origine", "Origine", false], ["objectif", "Objectif", false], ["type", "Type", false],
+    ["mises_a_jour", "Mises à jour", true], ["credibilite", "Crédibilité", false], ["lisibilite", "Lisibilité", false],
+    ["frequence", "Fréq. publication", true], ["veracite", "Véracité", false], ["pertinence", "Pertinence", true],
+    ["score_global", "Score /10", true], ["flux", "Flux", false]
+  ];
+  const val = (s, k) => k in (s.notes || {}) ? s.notes[k] : k === "score_global" ? s.score_global : k === "objectif" ? s.objectif.join() : k === "flux" ? (s.stats.flux_ok ? 1 : 0) : s[k];
+  const N = n => `<span class="note ${noteCls(n)}">${Number.isInteger(n) ? n : n.toFixed(1)}</span>`;
+
+  function rendu() {
+    const l = S.filter(s => (!st.o || s.origine === st.o) && (!st.h || s.objectif.includes(st.h)))
+      .sort((a, b) => { const x = val(a, st.tri), y = val(b, st.tri); return (x > y ? 1 : x < y ? -1 : 0) * st.sens; });
+    document.getElementById("tab").innerHTML = `<tr>${cols.map(([k, l, auto]) => `<th data-k="${k}" class="${auto ? "auto" : ""}">${l}${st.tri === k ? (st.sens < 0 ? " ▼" : " ▲") : ""}</th>`).join("")}</tr>` +
+      l.map(s => `<tr>
+        <td><b>${esc(s.nom)}</b><br><a class="petit" href="${esc(s.site)}" target="_blank" rel="noopener">${esc(s.site.replace(/^https?:\/\/(www\.)?/, ""))}</a></td>
+        <td><span class="drap ${s.origine}">${s.origine}</span></td>
+        <td>${s.objectif.map(h => `<span class="chip ${h}">${h}</span>`).join("")}</td>
+        <td>${esc(s.type)}</td>
+        <td title="Fraîcheur du dernier article">${N(s.notes.mises_a_jour)}</td>
+        <td>${N(s.notes.credibilite)}</td><td>${N(s.notes.lisibilite)}</td>
+        <td title="${s.stats.par_semaine} article(s)/semaine observé(s)">${N(s.notes.frequence)}<br><span class="petit">${s.stats.par_semaine}/sem.</span></td>
+        <td>${N(s.notes.veracite)}</td>
+        <td title="50 % note experte + 50 % taux d'articles retenus">${N(s.notes.pertinence)}${s.stats.taux_retenu != null ? `<br><span class="petit">${s.stats.taux_retenu} % retenus</span>` : ""}</td>
+        <td><span class="score10">${s.score_global.toFixed(1)}</span></td>
+        <td>${s.stats.flux_ok ? '<span class="chip ok">OK</span>' : `<span class="chip ko" title="${esc(s.stats.erreur || "")}">KO</span>`}<br><span class="petit">${s.stats.articles_total} art.</span></td>
+      </tr>`).join("");
+    document.querySelectorAll("#tab th").forEach(th => th.addEventListener("click", () => {
+      const k = th.dataset.k; st.sens = st.tri === k ? -st.sens : -1; st.tri = k; rendu();
+    }));
+  }
+  document.querySelectorAll("[data-o]").forEach(b => b.addEventListener("click", () => { st.o = b.dataset.o; document.querySelectorAll("[data-o]").forEach(x => x.classList.toggle("on", x === b)); rendu(); }));
+  document.querySelectorAll("[data-h]").forEach(b => b.addEventListener("click", () => { st.h = b.dataset.h; document.querySelectorAll("[data-h]").forEach(x => x.classList.toggle("on", x === b)); rendu(); }));
+  rendu();
+
+  /* résumé */
+  const moy = o => { const l = S.filter(s => s.origine === o); return (l.reduce((t, s) => t + s.score_global, 0) / l.length).toFixed(2); };
+  const best = S.slice().sort((a, b) => b.score_global - a.score_global)[0];
+  document.getElementById("resume").innerHTML = [["FR", "Sources françaises"], ["EU", "Sources européennes"], ["INT", "Sources internationales"]].map(([o, l]) =>
+    `<div class="panel kpi-tuile"><div class="lib">${l} (${S.filter(s => s.origine === o).length})</div><div class="val">${moy(o)}<small style="font-size:26px">/10</small></div>
+     <div class="petit">score moyen · ${S.filter(s => s.origine === o && s.stats.flux_ok).length} flux actifs${o === "FR" ? "" : ""}</div></div>`).join("");
+
+  /* grille */
+  const G = [
+    ["Mises à jour", "mises_a_jour", "⚙ Auto", "Fraîcheur du dernier article publié : < 24 h = 10 · < 3 j = 8 · < 7 j = 6 · < 30 j = 4 · plus = 2 · flux en panne = 0 (−3 si erreur)"],
+    ["Crédibilité", "credibilite", "Expert", "Réputation, statut (institution, CERT, média reconnu, éditeur), transparence des auteurs et des sources citées"],
+    ["Lisibilité", "lisibilite", "Expert", "Clarté, structure, langue (français favorisé), présence de résumés exploitables"],
+    ["Fréquence de publication", "frequence", "⚙ Auto", "Articles/semaine observés sur 14 j : ≥ 20 = 10 · ≥ 10 = 9 · ≥ 5 = 7 · ≥ 2 = 5 · ≥ 1 = 3"],
+    ["Véracité", "veracite", "Expert", "Exactitude constatée, recoupement avec sources primaires (CVE, avis éditeurs), correctifs publiés en cas d'erreur"],
+    ["Pertinence", "pertinence", "⚙ Mixte", "50 % note experte + 50 % taux d'articles de la source retenus par le triage (si ≥ 3 articles)"]
+  ];
+  document.getElementById("grille").innerHTML = `<tr><th>Critère</th><th>Poids</th><th>Mode</th><th>Règle de notation</th></tr>` +
+    G.map(([l, k, m, r]) => `<tr><td><b>${l}</b></td><td class="compteur">${Math.round(W[k] * 100)} %</td><td>${m}</td><td>${r}</td></tr>`).join("") +
+    `<tr><td><b>Score global /10</b></td><td class="compteur">100 %</td><td>⚙ Auto</td><td>Moyenne pondérée des 6 critères — alimente le score des articles et le KPI1</td></tr>`;
+});
+</script>
+</body>
+</html>

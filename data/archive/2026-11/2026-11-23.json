@@ -1,0 +1,1364 @@
+[
+ {
+  "id": "08c6523d8eb7",
+  "source": "thn",
+  "titre": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+  "date": "2026-11-23T09:11:56+00:00",
+  "resume": "CVE-2026-131914 (CVSS 9.3) dans Idunno.AntiCsrf exploitée : RCE sans authentification, bibliothèque à abandonner.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 76,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 35,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "cvss 9",
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2b69983178be",
+  "source": "actuia",
+  "titre": "Les agents d'OpenAI surveillent mieux les entraînements qu'ils ne codent",
+  "lien": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
+  "date": "2026-11-23T15:30:00+00:00",
+  "resume": "Second bilan d'OpenAI sur l'usage d'agents de code en recherche : autonomie très variable selon la tâche.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 69,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 18,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "recherche",
+    "openai"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "lemagit",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "1a7dccccfdec",
+  "source": "thn",
+  "titre": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+  "date": "2026-11-23T12:41:04+00:00",
+  "resume": "CVE-2026-84869 (CVSS 9.9) dans ScreenConnect exploitée pour cibler les postes de techniciens MSP.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 69,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 35,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "cvss 9",
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4a2fe969df35",
+  "source": "elastic",
+  "titre": "AlertZero in Elastic Security: Every alert answered. Every decision yours",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-soc-agents-alertzero-workers",
+  "date": "2026-11-23T11:12:50+00:00",
+  "resume": "Quatre équipes d'agents (triage, threat hunting, ingénierie de détection, forensic) avec autonomie réglable.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 68,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 30,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting",
+    "forensic",
+    "alert",
+    "détection"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "63ca593d0a95",
+  "source": "thn",
+  "titre": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+  "lien": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+  "date": "2026-11-23T12:28:09+00:00",
+  "resume": "SSRF critique CVE-2026-134624 découverte lors de l'enquête sur la violation de Mail Assure et SpamExperts.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 67,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 19,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "breach",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a7cc390681d2",
+  "source": "thn",
+  "titre": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+  "date": "2026-11-23T09:04:08+00:00",
+  "resume": "Faille du service GoodCloud de GL.iNet exploitée pour installer des malwares sur routeurs et KVM.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 12,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "krebs",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a9554f24cb82",
+  "source": "darkreading",
+  "titre": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+  "date": "2026-11-23T16:17:21+00:00",
+  "resume": "Un acteur lié à la Chine a utilisé l'outil Cairn pour exploiter un zero-day d'imagerie médicale en 11 minutes.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA",
+   "H2:Régulation & éthique",
+   "H2:Usages & outils"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 15,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "zero-day"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4b98c0d1f759",
+  "source": "bleeping",
+  "titre": "South Korea's power giant KEPCO confirms data breach impacting 1.5 million",
+  "lien": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+  "date": "2026-11-23T20:54:51+00:00",
+  "resume": "Intrusion dans le réseau interne de KEPCO : données de clients, employés et sous-traitants, environ 1,5 million de personnes touchées.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "lebigdata",
+   "lmi",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "14ed1c99f4db",
+  "source": "darkreading",
+  "titre": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
+  "lien": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+  "date": "2026-11-23T21:21:42+00:00",
+  "resume": "Le rachat de Zscaler (44 Md$) réunirait EDR et zero trust pour mieux contrôler les agents IA.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie",
+   "H3:Automatisation & IA au SOC",
+   "H3:Durcissement & DevSecOps",
+   "H3:SOC & SIEM"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 20,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "edr",
+    "agent",
+    "zero trust"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "46a2f9e8ab88",
+  "source": "actuia",
+  "titre": "Les prix de près d'un marchand sur deux échappent aux robots d'IA",
+  "lien": "https://www.actuia.com/actualite/les-prix-de-pres-dun-marchand-sur-deux-echappent-aux-robots-dia/",
+  "date": "2026-11-23T14:30:00+00:00",
+  "resume": "Étude sur mille sites français : beaucoup de prix ne sont visibles qu'après JavaScript, que la plupart des agents IA n'exécutent pas.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 19,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "étude",
+    "français"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "767eaa89e7b0",
+  "source": "elastic",
+  "titre": "Thinking fast about prompt injection: New System 1 models in Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/prompt-injection-detection-ai-agents",
+  "date": "2026-11-23T08:00:15+00:00",
+  "resume": "Quatre petits modèles notent le trafic GenAI à l'indexation pour repérer les injections de prompt avant escalade vers un LLM.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 12,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "injection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b423867a4c69",
+  "source": "actuia",
+  "titre": "L'action Anthropic frôle son prix d'introduction à sa deuxième séance",
+  "lien": "https://www.actuia.com/actualite/laction-anthropic-frole-son-prix-dintroduction-a-sa-deuxieme-seance/",
+  "date": "2026-11-23T09:30:00+00:00",
+  "resume": "Après une première séance euphorique, l'action Anthropic recule vers son prix d'introduction dans un marché tech en repli.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 4,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "anthropic"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "lemagit",
+   "mittr",
+   "securityweek",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "448fdc856485",
+  "source": "lmi",
+  "titre": "Cyberattaque : la Banque Delubac & Cie déjoue une tentative de fraude mais subit une fuite de données",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-la-banque-delubac-cie-dejoue-une-tentative-de-fraude-mais-subit-une-fuite-de-donnees",
+  "date": "2026-11-23T11:16:34+00:00",
+  "resume": "Intrusion détectée le 20 novembre : fraude déjouée mais fuite de données de clients.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Phishing & fraude"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 28.8,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "fuite"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "lebigdata",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2ab3977e7a06",
+  "source": "thn",
+  "titre": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+  "lien": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+  "date": "2026-11-23T17:45:15+00:00",
+  "resume": "Le groupe Webworm utiliserait un SoftEther VPN modifié se faisant passer pour un outil de supervision.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "evade"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "therecord"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d3eee9148f71",
+  "source": "thn",
+  "titre": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+  "lien": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+  "date": "2026-11-23T13:22:20+00:00",
+  "resume": "Faille critique CVE-2026-134814 dans la bibliothèque binary-parser (< 2.3.1) permettant l'injection de code JavaScript.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 13,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "actuia"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "bd0756bfa731",
+  "source": "mittr",
+  "titre": "A legendary philosopher isn't buying Anthropic's consciousness argument",
+  "lien": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+  "date": "2026-11-23T17:36:08+00:00",
+  "resume": "Thomas Nagel rejette l'idée d'une conscience des modèles d'IA.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche",
+   "H2:Régulation & éthique"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 4,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "anthropic"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "actuia",
+   "lemagit",
+   "securityweek",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2b38b97acd88",
+  "source": "elastic",
+  "titre": "Press play on Elastic Security 9.6, banger after banger",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-security-9-6-release-highlights",
+  "date": "2026-11-23T12:34:52+00:00",
+  "resume": "AlertZero (agents IA de triage d'alertes soumis à approbation), protection ransomware Linux et analyse mémoire YARA.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion",
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 53,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 22,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "yara",
+    "alert",
+    "9.6"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "211935a85d11",
+  "source": "darkreading",
+  "titre": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+  "date": "2026-11-23T17:45:52+00:00",
+  "resume": "Un cadre d'analyse pour remonter à l'origine des acteurs ransomware.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 53,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "therecord",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e56f753ac0b1",
+  "source": "zataz",
+  "titre": "Cyberespionnage en Bulgarie, 62 millions de pages volées",
+  "lien": "https://www.zataz.com/cyberespionnage-en-bulgarie-62-millions-de-pages-volees/",
+  "date": "2026-11-23T10:59:22+00:00",
+  "resume": "Cinq années d'espionnage informatique contre les réseaux administratifs bulgares, au moins 62 millions de pages dérobées.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 11,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "dérobé",
+    "espionnage"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lmi",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "cba4feb91c25",
+  "source": "elastic",
+  "titre": "Elastic ships 143 detection rules for AI agents and LLM platforms",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-security-detection-rules-coding-agents-mcp",
+  "date": "2026-11-23T10:50:41+00:00",
+  "resume": "143 règles de détection couvrant agents de code, serveurs MCP malveillants et vol de clés API d'IA.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "vol de",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c44d222e325a",
+  "source": "actuia",
+  "titre": "Nvidia rappelle Jensen Huang à sa tête onze jours après sa démission",
+  "lien": "https://www.actuia.com/actualite/nvidia-rappelle-jensen-huang-a-sa-tete-onze-jours-apres-sa-demission/",
+  "date": "2026-11-23T17:50:26+00:00",
+  "resume": "Le conseil de Nvidia vote le retour de Jensen Huang à la direction générale ; une enquête interne se poursuit.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 4,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f2ea8af31204",
+  "source": "actuia",
+  "titre": "La résolution mondiale sur l'IA à l'école vise d'abord les éditeurs",
+  "lien": "https://www.actuia.com/actualite/la-resolution-mondiale-sur-lia-a-lecole-vise-dabord-les-editeurs/",
+  "date": "2026-11-23T14:50:00+00:00",
+  "resume": "Résolution non contraignante sur l'IA en milieu scolaire : les éditeurs doivent écarter certaines fonctions sensibles et encadrer les données des élèves.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Régulation & éthique"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "résolution"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "44c55e578ffc",
+  "source": "actuia",
+  "titre": "La CEDH écarte pour deux ans une avocate qui citait une jurisprudence inventée par l'IA",
+  "lien": "https://www.actuia.com/actualite/la-cedh-ecarte-pour-deux-ans-une-avocate-qui-citait-une-jurisprudence-inventee-par-lia/",
+  "date": "2026-11-23T12:00:00+00:00",
+  "resume": "Sanction de deux ans pour des écrits contenant des décisions inexistantes générées par IA ; obligation de vérifier chaque référence.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Régulation & éthique"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cedh"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e810848afb95",
+  "source": "actuia",
+  "titre": "OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos",
+  "lien": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/",
+  "date": "2026-11-23T15:10:00+00:00",
+  "resume": "OpenRouter retire plusieurs fournisseurs d'inférence de son option sans rétention après des incidents révélés par Dragos ; renouvellement des clés d'API conseillé.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e0d53a6ae8b8",
+  "source": "actuia",
+  "titre": "AMD mise jusqu'à 2,9 milliards de dollars sur les puces à modèle unique",
+  "lien": "https://www.actuia.com/actualite/amd-mise-jusqua-29-milliards-de-dollars-sur-les-puces-a-modele-unique/",
+  "date": "2026-11-23T07:35:50+00:00",
+  "resume": "AMD rachète Taalas, qui grave les poids d'un modèle d'IA directement dans le silicium, pour jusqu'à 2,9 Md$.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "milliard"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d9fba9acb3ea",
+  "source": "huggingface",
+  "titre": "How to build and maintain an agentic evaluation",
+  "lien": "https://huggingface.co/blog/agentic-evals",
+  "date": "2026-11-23T00:00:00+00:00",
+  "resume": "Méthode pour concevoir et maintenir une évaluation d'agents IA fiable.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 26.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "43faf558c917",
+  "source": "thn",
+  "titre": "Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+  "lien": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+  "date": "2026-11-23T15:10:48+00:00",
+  "resume": "Récapitulatif hebdomadaire des incidents et failles marquants.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 15,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": [
+    "0-day"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "darkreading",
+   "itconnect",
+   "sans",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f1d63006030b",
+  "source": "thn",
+  "titre": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+  "lien": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+  "date": "2026-11-23T08:24:15+00:00",
+  "resume": "Le CERT-In alerte sur des attaques assistées par IA ayant provoqué des transactions frauduleuses dans des banques indiennes.",
+  "horizon": "H1",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2faa98dfd7df",
+  "source": "zataz",
+  "titre": "Cleverbridge confirme un vol de données bancaires",
+  "lien": "https://www.zataz.com/cleverbridge-confirme-un-vol-de-donnees-bancaires/",
+  "date": "2026-11-23T10:51:12+00:00",
+  "resume": "La plateforme de paiement Cleverbridge reconnaît le vol de numéros de cartes, dates d'expiration et CVV.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 33,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "vol de données"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4f10e53b0b4c",
+  "source": "zataz",
+  "titre": "BlackHat Sector : une IA offensive à louer pour 500 €",
+  "lien": "https://www.zataz.com/blackhat-sector-une-ia-offensive-a-louer-pour-500-e/",
+  "date": "2026-11-23T10:29:10+00:00",
+  "resume": "Le groupe BlackHat Sector loue une IA conçue pour l'attaque après des intrusions revendiquées contre des entreprises françaises : nouveau modèle de cybercrime as-a-service.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "français"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "ia offensive"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "eb2af57bdf01",
+  "source": "actuia",
+  "titre": "L'IA de conduite de Yokogawa devient une fonction standard de CENTUM",
+  "lien": "https://www.actuia.com/actualite/lia-de-conduite-de-yokogawa-devient-une-fonction-standard-de-centum/",
+  "date": "2026-11-23T13:56:32+00:00",
+  "resume": "Contrôle par apprentissage par renforcement et capteur logiciel IA intégrés au système industriel CENTUM.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 31,
+  "criteres": {
+   "source": 31.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e778e18d90f3",
+  "source": "darkreading",
+  "titre": "Industrial Serial Gateways Broadcast That They're Insecure",
+  "lien": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+  "date": "2026-11-23T22:02:46+00:00",
+  "resume": "Des passerelles série industrielles annoncent publiquement l'absence d'authentification.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 31,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2575bbc783c0",
+  "source": "zataz",
+  "titre": "Courtiers en or piratés, dix personnes mises en examen",
+  "lien": "https://www.zataz.com/courtiers-en-or-pirates-dix-personnes-mises-en-examen/",
+  "date": "2026-11-23T12:05:22+00:00",
+  "resume": "Trois courtiers en métaux précieux piratés, clients visés par de faux policiers : dix mises en examen.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "5230452e5512",
+  "source": "zataz",
+  "titre": "L'aquaponey, un drôle de cadeau de Noël qui fait réfléchir !",
+  "lien": "https://www.zataz.com/laquaponey-un-drole-de-cadeau-de-noel-qui-fait-reflechir/",
+  "date": "2026-11-23T11:53:31+00:00",
+  "resume": "Sensibilisation sur la façon dont algorithmes et IA donnent du crédit à de fausses informations.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "81779a2c5f4a",
+  "source": "zataz",
+  "titre": "Cyberattaque contre AAAEP : 585 000 personnes exposées ?",
+  "lien": "https://www.zataz.com/cyberattaque-contre-aaaep-585-000-personnes-exposees/",
+  "date": "2026-11-23T10:19:58+00:00",
+  "resume": "L'AAAEP aurait été visée par BlackHatSect0r ; jusqu'à 585 000 personnes et des enregistrements d'appels potentiellement exposés.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 27,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f42662dcd780",
+  "source": "zataz",
+  "titre": "BlackHatSect0r : phishing bancaire, extorsion et industrie",
+  "lien": "https://www.zataz.com/blackhatsect0r-phishing-bancaire-extorsion-et-industrie/",
+  "date": "2026-11-23T09:51:37+00:00",
+  "resume": "Le groupe combine hameçonnage bancaire, chantage et destruction de sauvegardes, et cible des interfaces industrielles exposées.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 27.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

@@ -1,0 +1,160 @@
+[
+ {
+  "id": "0a8edd590aba",
+  "source": "thn",
+  "titre": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+  "lien": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+  "date": "2026-11-26T07:02:34+00:00",
+  "resume": "Nouvelle faille critique Drupal exploitée dans la nature, liée à Fail2Install (CVE-2026-132165).",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 79,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 25,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "under active",
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "bleeping",
+   "itconnect",
+   "securityweek",
+   "silicon",
+   "therecord"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "0411f920644e",
+  "source": "thn",
+  "titre": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+  "lien": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+  "date": "2026-11-26T06:44:46+00:00",
+  "resume": "La CISA ajoute dix failles à son catalogue KEV, dont cinq Mitel MiCollab, ainsi que Juniper, Vates et Danfoss.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 70,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 22,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "kev"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "a47770a53d46",
+  "source": "thn",
+  "titre": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+  "lien": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+  "date": "2026-11-26T04:20:22+00:00",
+  "resume": "Incident sur les systèmes backend de 1Password : données clients et code source touchés, coffres non consultés selon l'éditeur.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "stolen"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "lebigdata",
+   "lemagit",
+   "securityweek",
+   "silicon"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "16b86adf49a4",
+  "source": "thn",
+  "titre": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+  "lien": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+  "date": "2026-11-26T03:48:52+00:00",
+  "resume": "Treize paquets NuGet malveillants ciblent les développeurs .NET via de faux tests d'embauche (supply chain).",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 34.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ }
+]

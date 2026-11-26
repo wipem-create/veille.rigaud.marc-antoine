@@ -1,0 +1,191 @@
+{
+ "itconnect": {
+  "ok": true,
+  "items": 15,
+  "nouveaux": 15,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "bleeping": {
+  "ok": true,
+  "items": 15,
+  "nouveaux": 15,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "zataz": {
+  "ok": true,
+  "items": 10,
+  "nouveaux": 10,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "actuia": {
+  "ok": true,
+  "items": 15,
+  "nouveaux": 15,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "thn": {
+  "ok": true,
+  "items": 43,
+  "nouveaux": 43,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "lmi": {
+  "ok": true,
+  "items": 9,
+  "nouveaux": 9,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "silicon": {
+  "ok": true,
+  "items": 10,
+  "nouveaux": 10,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "welivesecurity": {
+  "ok": true,
+  "items": 5,
+  "nouveaux": 5,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "sans": {
+  "ok": true,
+  "items": 5,
+  "nouveaux": 5,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "krebs": {
+  "ok": true,
+  "items": 4,
+  "nouveaux": 4,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "securityweek": {
+  "ok": true,
+  "items": 9,
+  "nouveaux": 9,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "mittr": {
+  "ok": true,
+  "items": 5,
+  "nouveaux": 5,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "msft": {
+  "ok": true,
+  "items": 4,
+  "nouveaux": 4,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "elastic": {
+  "ok": true,
+  "items": 4,
+  "nouveaux": 4,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "darkreading": {
+  "ok": true,
+  "items": 12,
+  "nouveaux": 12,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "lebigdata": {
+  "ok": true,
+  "items": 7,
+  "nouveaux": 7,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "therecord": {
+  "ok": true,
+  "items": 5,
+  "nouveaux": 5,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "huggingface": {
+  "ok": true,
+  "items": 5,
+  "nouveaux": 5,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "lemagit": {
+  "ok": true,
+  "items": 7,
+  "nouveaux": 7,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "ncsc": {
+  "ok": true,
+  "items": 2,
+  "nouveaux": 2,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "redcanary": {
+  "ok": true,
+  "items": 1,
+  "nouveaux": 1,
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "certfr": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "numerama": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "heise": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "theregister": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "algorithmwatch": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "theverge": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ },
+ "sekoia": {
+  "ok": false,
+  "erreur": "flux indisponible lors de la collecte",
+  "quand": "2026-11-26T10:30:00+00:00",
+  "mode": "import"
+ }
+}
