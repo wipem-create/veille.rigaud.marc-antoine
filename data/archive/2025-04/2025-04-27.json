@@ -1,0 +1,38 @@
+[
+ {
+  "id": "cbc712264631",
+  "source": "elastic",
+  "titre": "How to achieve full-spectrum financial risk detection with AI and unified data",
+  "lien": "https://www.elastic.co/security-labs/blog/financial-risk-detection-ai",
+  "date": "2025-04-27T00:00:00+00:00",
+  "resume": "Financial services can’t rely on manual review alone. Discover how unified data and explainable AI are helping firms detect risk, reduce cost, and stay ahead of evolving regulations.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

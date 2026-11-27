@@ -1,0 +1,33 @@
+[
+ {
+  "id": "1a595336ed64",
+  "source": "huggingface",
+  "titre": "Director of Machine Learning Insights [Part 3: Finance Edition]",
+  "lien": "https://huggingface.co/blog/ml-director-insights-3",
+  "date": "2022-06-14T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

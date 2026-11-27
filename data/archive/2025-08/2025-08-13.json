@@ -1,0 +1,33 @@
+[
+ {
+  "id": "8fa41c85b41e",
+  "source": "huggingface",
+  "titre": "Arm & ExecuTorch 0.7: Bringing Generative AI to the masses",
+  "lien": "https://huggingface.co/blog/Arm/executorch-0-dot-7",
+  "date": "2025-08-13T14:55:10+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

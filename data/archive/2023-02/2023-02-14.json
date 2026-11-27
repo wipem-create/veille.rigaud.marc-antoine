@@ -1,0 +1,80 @@
+[
+ {
+  "id": "a2305f6e613a",
+  "source": "elastic",
+  "titre": "QBOT Malware Analysis",
+  "lien": "https://www.elastic.co/security-labs/threat-command/qbot-malware-analysis",
+  "date": "2023-02-14T00:00:00+00:00",
+  "resume": "Elastic Security Labs releases a QBOT malware analysis report covering the execution chain. From this research, the team has produced a YARA rule, configuration-extractor, and indicators of compromises (IOCs).",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H3:Durcissement & DevSecOps",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 62,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 32,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "yara",
+    "iocs",
+    "configuration",
+    "release"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3c95098b2bec",
+  "source": "elastic",
+  "titre": "CUBA Ransomware Malware Analysis",
+  "lien": "https://www.elastic.co/security-labs/threat-command/cuba-ransomware-malware-analysis",
+  "date": "2023-02-14T00:00:00+00:00",
+  "resume": "Elastic Security has performed a deep technical analysis of the CUBA ransomware family. This includes malware capabilities as well as defensive countermeasures.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

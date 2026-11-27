@@ -1,0 +1,40 @@
+[
+ {
+  "id": "880ba0614220",
+  "source": "huggingface",
+  "titre": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+  "lien": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+  "date": "2026-04-28T15:58:57+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "introducing",
+    "nvidia"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

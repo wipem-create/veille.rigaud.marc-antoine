@@ -1,0 +1,502 @@
+[
+ {
+  "id": "400958c5cfb9",
+  "source": "darkreading",
+  "titre": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+  "date": "2026-11-13T13:00:00+00:00",
+  "resume": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "krebs",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "9e26267bbc54",
+  "source": "lmi",
+  "titre": "Cybersécurité : OpenAI enrichit Daybreak de deux outils d’IA pour traquer les failles",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-openai-enrichit-daybreak-de-deux-out",
+  "date": "2026-11-13T06:37:37+00:00",
+  "resume": "OpenAI étoffe sa plateforme de cybersécurité Daybreak avec deux solutions reposant sur des agents d’intelligence artificielle. Présentés le 12 novembre 2026, Daybreak Red Team et Daybreak Defense Factory visent respectivement à automatiser les tests d’intrusion et à accélérer la préparation des correctifs. Avec cette…",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA",
+   "H2:Marché & industrie",
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 12,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "openai"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "msft"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "ea1b95397f9e",
+  "source": "silicon",
+  "titre": "Nvidia : Jensen Huang, anatomie d’une chute",
+  "lien": "https://www.silicon.fr/business-1367/nvidia-jensen-huang-anatomie-dune-chute-230320",
+  "date": "2026-11-13T15:26:57+00:00",
+  "resume": "Le cofondateur de Nvidia a démissionné jeudi 12 novembre, après la révélation de deux liaisons extraconjugales. Il laisse l'une des sociétés les plus valorisées au monde sans successeur désigné. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 4,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "mittr"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "de495a7f87ff",
+  "source": "elastic",
+  "titre": "56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion",
+  "lien": "https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion",
+  "date": "2026-11-13T15:27:20+00:00",
+  "resume": "A CyberStrikeAI server spent 16 days in four AWS accounts using eight identities, and the CloudTrail record shows why six detection rules each caught only part of it.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "74c2f0ce3f00",
+  "source": "msft",
+  "titre": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+  "date": "2026-11-13T21:31:44+00:00",
+  "resume": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. ",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 27.7,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting",
+    "xdr"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.836765+00:00"
+ },
+ {
+  "id": "f3fd7552fca3",
+  "source": "elastic",
+  "titre": "Inside the loop: Five AI attack frameworks that never ask permission",
+  "lien": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
+  "date": "2026-11-13T16:00:00+00:00",
+  "resume": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "c3ac893ae97f",
+  "source": "lmi",
+  "titre": "Rennes va accueillir un centre international dédié à l’IA de défense",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/rennes-va-accueillir-un-centre-international-dedie",
+  "date": "2026-11-13T15:51:10+00:00",
+  "resume": "Prévu pour l’été 2027, l’International Center for Artificial Intelligence in Defence (ICAID) réunira plusieurs pays alliés pour travailler sur le développement, l’évaluation et l’interopérabilité des systèmes d’IA militaires.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sans"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "1fe70ec35856",
+  "source": "darkreading",
+  "titre": "As Test Takers Turn to AI, Exam Security Plays Catch-Up",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
+  "date": "2026-11-13T22:27:00+00:00",
+  "resume": "It's hard to detect whether someone is using artificial intelligence to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "krebs"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "9e25eececac8",
+  "source": "darkreading",
+  "titre": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+  "lien": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+  "date": "2026-11-13T20:20:27+00:00",
+  "resume": "The Android malware has expanded from focusing on cryptocurrency theft to full device control, and the attackers have added advanced analysis of stolen information.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Usages & outils"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "stolen"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "18184c921197",
+  "source": "silicon",
+  "titre": "Sauvegarde Windows : l’option réseau local abandonnée au profit de OneDrive",
+  "lien": "https://www.silicon.fr/workspace-1376/sauvegarde-windows-onedrive-230341",
+  "date": "2026-11-13T17:21:23+00:00",
+  "resume": "Microsoft a supprimé l'option de transfert sur réseau local qu'il avait ajoutée l'an dernier dans l'outil Sauvegarde Windows. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "ab863e098911",
+  "source": "silicon",
+  "titre": "De quoi se compose le Socle interministériel d’IA générative ?",
+  "lien": "https://www.silicon.fr/data-ia-1372/socle-interministeriel-ia-generative-230321",
+  "date": "2026-11-13T16:12:24+00:00",
+  "resume": "À l'instar du logiciel libre, l'IA générative a son « socle interministériel ». En voici les principales briques. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "400bf65875d0",
+  "source": "silicon",
+  "titre": "Deux mois après Jev, le paysage fragmenté des modèles de décision",
+  "lien": "https://www.silicon.fr/data-ia-1372/jev-modeles-decision-230261",
+  "date": "2026-11-13T11:24:06+00:00",
+  "resume": "Jev a ouvert la voie à une flopée de modèles de décision qui varient dans leur architecture, leurs modalités et leur tarification. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "975faaa28a86",
+  "source": "silicon",
+  "titre": "Crédit Mutuel Arkéa : le président décrit une cyberattaque inédite",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275",
+  "date": "2026-11-13T11:06:39+00:00",
+  "resume": "Faux IBAN, virements instantanés, cryptos...Julien Carmona, président d’Arkéa, détaille la cyberattaque qui a coûté environ 100 millions € à la banque. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "5815665c759b",
+  "source": "welivesecurity",
+  "titre": "GTA VI isn’t out yet – and the scams are already in full swing",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/",
+  "date": "2026-11-13T10:00:00+00:00",
+  "resume": "Cybercriminals attempt to cash in on the hype around the game, luring fans with malware-laced downloads and ‘early access’ that doesn’t exist",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Phishing & fraude"
+  ],
+  "score": 0,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

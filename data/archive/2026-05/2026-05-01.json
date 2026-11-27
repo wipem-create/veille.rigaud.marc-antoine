@@ -1,0 +1,38 @@
+[
+ {
+  "id": "a8c6a862e319",
+  "source": "elastic",
+  "titre": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/dfir-osquery-elastic-security",
+  "date": "2026-05-01T00:00:00+00:00",
+  "resume": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "dfir",
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

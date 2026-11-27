@@ -1,0 +1,40 @@
+[
+ {
+  "id": "3cf0a6e382db",
+  "source": "elastic",
+  "titre": "500ms to midnight: XZ A.K.A. liblzma backdoor",
+  "lien": "https://www.elastic.co/security-labs/threat-command/500ms-to-midnight",
+  "date": "2024-04-05T00:00:00+00:00",
+  "resume": "Elastic Security Labs is releasing an initial analysis of the XZ Utility backdoor, including YARA rules, osquery, and KQL searches to identify potential compromises.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "yara"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

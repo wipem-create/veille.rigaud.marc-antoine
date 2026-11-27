@@ -1,0 +1,100 @@
+[
+ {
+  "id": "dfbf36e17024",
+  "source": "huggingface",
+  "titre": "Introducing Prodigy-HF: a direct integration with Hugging Face",
+  "lien": "https://huggingface.co/blog/prodigy-hf",
+  "date": "2023-11-07T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "1a5fd12d0c39",
+  "source": "huggingface",
+  "titre": "Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora",
+  "lien": "https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral",
+  "date": "2023-11-07T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "mistral"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d5384c2652df",
+  "source": "huggingface",
+  "titre": "Make your llama generation time fly with AWS Inferentia2",
+  "lien": "https://huggingface.co/blog/inferentia-llama2",
+  "date": "2023-11-07T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

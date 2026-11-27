@@ -1,0 +1,73 @@
+[
+ {
+  "id": "370e7a988f66",
+  "source": "huggingface",
+  "titre": "DeepSeek-V4: a million-token context that agents can actually use",
+  "lien": "https://huggingface.co/blog/deepseekv4",
+  "date": "2026-04-24T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "21db7c6dfb7d",
+  "source": "welivesecurity",
+  "titre": "The calm before the ransom: What you see is not all there is",
+  "lien": "https://www.welivesecurity.com/en/ransomware/calm-ransom-what-you-see-is-not-all-there-is/",
+  "date": "2026-04-24T09:00:00+00:00",
+  "resume": "A breach claims the systems as well as the confidence that was, in retrospect, a major vulnerability",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

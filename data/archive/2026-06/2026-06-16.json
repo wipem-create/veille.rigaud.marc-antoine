@@ -1,0 +1,69 @@
+[
+ {
+  "id": "4366037f0e7e",
+  "source": "sekoia",
+  "titre": "ErrTraffic: A Growing ClickFix Malware Distribution Framework",
+  "lien": "https://www.sekoia.com/blog/unveiling-errtraffic-inside-a-growing-clickfix-malware-distribution-framework",
+  "date": "2026-06-16T00:00:00+00:00",
+  "resume": "This report details the ErrTraffic threat and its associated ecosystem, highlighting three specific campaigns and their operators' arsenal.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:SOC & SIEM"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "dd0cca742301",
+  "source": "welivesecurity",
+  "titre": "FishMonger’s arsenal upgraded: SprySOCKS for Windows",
+  "lien": "https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/",
+  "date": "2026-06-16T08:54:04+00:00",
+  "resume": "ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

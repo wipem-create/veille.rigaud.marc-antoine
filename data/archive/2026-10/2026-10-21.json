@@ -1,0 +1,216 @@
+[
+ {
+  "id": "3799943cb88f",
+  "source": "ncsc",
+  "titre": "Critical security issue affecting PHP",
+  "lien": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+  "date": "2026-10-21T12:00:00+00:00",
+  "resume": "Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 13,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "elastic",
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "3e7c61bf12c3",
+  "source": "elastic",
+  "titre": "php2shell: Assessing Elastic detection coverage relevant to CVE-2026-109618 and CVE-2026-109619",
+  "lien": "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
+  "date": "2026-10-20T22:00:00+00:00",
+  "resume": "CVE-2026-109618 and CVE-2026-109619 are critical PHP core RCE flaws that leaked ahead of disclosure. We cover what is verified, why exploitation converges on a web server spawning a shell, and the Elastic detections developed to catch this behavior.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 13,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "ncsc",
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "c10bebe63e06",
+  "source": "sekoia",
+  "titre": "Sekoia + Zimperium: Investigate Mobile Threats In Your SOC",
+  "lien": "https://www.sekoia.com/blog/from-mobile-threat-detection-to-autonomous-investigation-connecting-zimperium-with-sekoia",
+  "date": "2026-10-21T10:03:00+00:00",
+  "resume": "Connect Zimperium Mobile Threat Defense with Sekoia so Sekoia Elevate AI agents investigate mobile alerts in the context of your whole SOC.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "ac8ec5829f7f",
+  "source": "krebs",
+  "titre": "Widespread PHP Flaw May Cause Many Site Outages Today",
+  "lien": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+  "date": "2026-10-21T15:26:07+00:00",
+  "resume": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.166968+00:00"
+ },
+ {
+  "id": "0a1ac2b82556",
+  "source": "huggingface",
+  "titre": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+  "lien": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+  "date": "2026-10-21T17:35:36+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "bffc50ba1c84",
+  "source": "huggingface",
+  "titre": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+  "lien": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+  "date": "2026-10-21T16:04:43+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "a94c5b211b2a",
+  "source": "sekoia",
+  "titre": "Getting started with Detection-as-Code and Sekoia Platform",
+  "lien": "https://www.sekoia.com/blog/getting-started-with-detection-as-code-and-sekoia-platform",
+  "date": "2024-10-04T00:00:00+00:00",
+  "resume": "Enhance your security with Detection-as-Code (DaC). Discover the benefits of code-driven threat detection for MSSPs and SOC teams.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "89b1c4466af0",
+  "source": "huggingface",
+  "titre": "Introducing the Open FinLLM Leaderboard",
+  "lien": "https://huggingface.co/blog/leaderboard-finbench",
+  "date": "2024-10-04T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

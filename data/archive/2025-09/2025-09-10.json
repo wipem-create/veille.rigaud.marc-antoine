@@ -1,0 +1,71 @@
+[
+ {
+  "id": "dde34a6e382d",
+  "source": "huggingface",
+  "titre": "Jupyter Agents: training LLMs to reason with notebooks",
+  "lien": "https://huggingface.co/blog/jupyter-agent-2",
+  "date": "2025-09-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "38c0a272ef60",
+  "source": "huggingface",
+  "titre": "Fine-tune Any LLM from the Hugging Face Hub with Together AI",
+  "lien": "https://huggingface.co/blog/togethercomputer/together-ft",
+  "date": "2025-09-10T17:04:36+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

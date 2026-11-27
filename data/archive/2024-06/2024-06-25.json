@@ -1,0 +1,37 @@
+[
+ {
+  "id": "3d28c3535559",
+  "source": "huggingface",
+  "titre": "XLSCOUT Unveils ParaEmbed 2.0: a Powerful Embedding Model Tailored for Patents and IP with Expert Support from Hugging Face",
+  "lien": "https://huggingface.co/blog/xlscout-case-study",
+  "date": "2024-06-25T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "unveil"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

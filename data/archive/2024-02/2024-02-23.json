@@ -1,0 +1,175 @@
+[
+ {
+  "id": "7cedfb846a8a",
+  "source": "elastic",
+  "titre": "Monitoring Okta threats with Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/monitoring-okta-threats-with-elastic-security",
+  "date": "2024-02-23T00:00:00+00:00",
+  "resume": "This article guides readers through establishing an Okta threat detection lab, emphasizing the importance of securing SaaS platforms like Okta. It details creating a lab environment with the Elastic Stack, integrating SIEM solutions, and Okta.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f17b73b516b3",
+  "source": "elastic",
+  "titre": "Ransomware in the honeypot: how we capture keys with sticky canary files",
+  "lien": "https://www.elastic.co/security-labs/threat-command/ransomware-in-the-honeypot-how-we-capture-keys",
+  "date": "2024-02-23T00:00:00+00:00",
+  "resume": "This article describes the process of capturing encryption keys from ransomware using Elastic Defend ransomware protection.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Rançongiciels & extorsion",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "honeypot"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3aad15cd2850",
+  "source": "huggingface",
+  "titre": "Introducing the Red-Teaming Resistance Leaderboard",
+  "lien": "https://huggingface.co/blog/leaderboard-haizelab",
+  "date": "2024-02-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "8602806270ed",
+  "source": "huggingface",
+  "titre": "Fine-Tuning Gemma Models in Hugging Face",
+  "lien": "https://huggingface.co/blog/gemma-peft",
+  "date": "2024-02-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "8984e1d058c3",
+  "source": "huggingface",
+  "titre": "🪆 Introduction to Matryoshka Embedding Models",
+  "lien": "https://huggingface.co/blog/matryoshka",
+  "date": "2024-02-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

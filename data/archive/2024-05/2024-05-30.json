@@ -1,0 +1,38 @@
+[
+ {
+  "id": "498d17582911",
+  "source": "elastic",
+  "titre": "Protecting your devices from information theft",
+  "lien": "https://www.elastic.co/security-labs/blog/protecting-your-devices-from-information-theft-keylogger-protection",
+  "date": "2024-05-30T00:00:00+00:00",
+  "resume": "In this article, we will introduce the keylogger and keylogging detection features added this year to Elastic Defend (starting from version 8.12), which is responsible for endpoint protection in Elastic Security.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

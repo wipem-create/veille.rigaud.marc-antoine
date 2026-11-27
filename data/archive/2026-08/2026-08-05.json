@@ -1,0 +1,43 @@
+[
+ {
+  "id": "c72a288ae030",
+  "source": "elastic",
+  "titre": "Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows",
+  "lien": "https://www.elastic.co/security-labs/blog/llm-benchmarking-agentic-soc",
+  "date": "2026-08-05T00:00:00+00:00",
+  "resume": "Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

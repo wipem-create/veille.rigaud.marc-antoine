@@ -1,0 +1,62 @@
+[
+ {
+  "id": "943d1115d534",
+  "source": "huggingface",
+  "titre": "Hugging Face Machine Learning Demos on arXiv",
+  "lien": "https://huggingface.co/blog/arxiv",
+  "date": "2022-11-17T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "75ab3123fe2c",
+  "source": "huggingface",
+  "titre": "Sentiment Analysis on Encrypted Data with Homomorphic Encryption",
+  "lien": "https://huggingface.co/blog/sentiment-analysis-fhe",
+  "date": "2022-11-17T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

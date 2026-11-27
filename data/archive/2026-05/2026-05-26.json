@@ -1,0 +1,77 @@
+[
+ {
+  "id": "aaf4e9901558",
+  "source": "elastic",
+  "titre": "Detecting Tycoon 2FA AiTM attacks across Entra ID and Google Workspace",
+  "lien": "https://www.elastic.co/security-labs/threat-command/tycoon-2fa-aitm-detection-engineering",
+  "date": "2026-05-26T00:00:00+00:00",
+  "resume": "Tycoon 2FA bypasses MFA on Entra ID and Google Workspace. We map telemetry fingerprints across both platforms, ship detection rules for both tiers, and contain incidents in under 10 seconds with Elastic Workflows.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps",
+   "H3:Détection & threat hunting",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 61,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 24,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "mfa",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "redcanary"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "2972125a28d1",
+  "source": "welivesecurity",
+  "titre": "BTMOB: A stealthy RAT burrowing deep into Android devices",
+  "lien": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
+  "date": "2026-05-26T08:50:00+00:00",
+  "resume": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

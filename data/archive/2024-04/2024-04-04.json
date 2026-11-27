@@ -1,0 +1,69 @@
+[
+ {
+  "id": "815fd6575816",
+  "source": "huggingface",
+  "titre": "Hugging Face partners with Wiz Research to Improve AI Security",
+  "lien": "https://huggingface.co/blog/hugging-face-wiz-security-blog",
+  "date": "2024-04-04T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "research"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0506614c71cb",
+  "source": "huggingface",
+  "titre": "Text2SQL using Hugging Face Dataset Viewer API and Motherduck DuckDB-NSQL-7B",
+  "lien": "https://huggingface.co/blog/duckdb-nsql-7b",
+  "date": "2024-04-04T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,35 @@
+[
+ {
+  "id": "7750e1d6c1a5",
+  "source": "huggingface",
+  "titre": "Custom Kernels for All from Codex and Claude",
+  "lien": "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+  "date": "2026-02-13T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 35,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "elastic"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

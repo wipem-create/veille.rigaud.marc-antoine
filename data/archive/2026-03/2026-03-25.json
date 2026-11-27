@@ -1,0 +1,31 @@
+[
+ {
+  "id": "7caeb2e7622f",
+  "source": "welivesecurity",
+  "titre": "Virtual machines, virtually everywhere – and with real security gaps",
+  "lien": "https://www.welivesecurity.com/en/business-security/virtual-machines-virtually-everywhere-real-security-gaps/",
+  "date": "2026-03-25T10:00:00+00:00",
+  "resume": "Cloud VMs offer unmatched speed, scale and flexibility – all of which could eventually count for little if they’re left to fend for themselves",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

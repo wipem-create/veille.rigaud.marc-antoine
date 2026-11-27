@@ -1,0 +1,40 @@
+[
+ {
+  "id": "ccf584f00329",
+  "source": "elastic",
+  "titre": "Elastic Security Integrations Roundup: Q1 2026",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-security-integrations-roundup-q1-2026",
+  "date": "2026-04-04T00:00:00+00:00",
+  "resume": "Elastic Security Labs announces nine new integrations for Elastic Security spanning cloud security, endpoint visibility, email threat detection, identity and SIEM.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem",
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

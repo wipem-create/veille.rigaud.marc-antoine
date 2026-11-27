@@ -1,0 +1,42 @@
+[
+ {
+  "id": "9b12b3a3a6c9",
+  "source": "elastic",
+  "titre": "Why 2026 is the Year to Upgrade to an Agentic AI SOC",
+  "lien": "https://www.elastic.co/security-labs/blog/why-2026-is-the-year-to-upgrade-to-an-agentic-ai-soc",
+  "date": "2026-09-08T21:00:00+00:00",
+  "resume": "Agentic AI SOCs differ from copilot-only models by autonomously prioritizing attacks over alerts, executing closed-loop containment, and providing traceable reasoning for every decision, allowing analysts to focus on high-value investigations.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "attack",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

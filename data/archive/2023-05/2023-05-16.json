@@ -1,0 +1,95 @@
+[
+ {
+  "id": "e1d6d50acc85",
+  "source": "elastic",
+  "titre": "Elastic Security Labs discovers the LOBSHOT malware",
+  "lien": "https://www.elastic.co/security-labs/threat-command/elastic-security-labs-discovers-lobshot-malware",
+  "date": "2023-05-16T00:00:00+00:00",
+  "resume": "Elastic Security Labs is naming a new malware family, LOBSHOT. LOBSHOT propagates and infiltrates targeted networks through Google Ads and hVNC sessions to deploy backdoors masquerading as legitimate application installers.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "29c35831ee6f",
+  "source": "huggingface",
+  "titre": "Large-scale Near-deduplication Behind BigCode",
+  "lien": "https://huggingface.co/blog/dedup",
+  "date": "2023-05-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "c8578449efcb",
+  "source": "huggingface",
+  "titre": "Smaller is better: Q8-Chat, an efficient generative AI experience on Xeon",
+  "lien": "https://huggingface.co/blog/generative-ai-models-on-intel-cpu",
+  "date": "2023-05-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

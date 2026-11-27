@@ -1,0 +1,78 @@
+[
+ {
+  "id": "be59429edb8d",
+  "source": "elastic",
+  "titre": "MCP Tools: Attack Vectors and Defense Recommendations for Autonomous Agents",
+  "lien": "https://www.elastic.co/security-labs/threat-command/mcp-tools-attack-defense-recommendations",
+  "date": "2025-09-19T00:00:00+00:00",
+  "resume": "This research examines how Model Context Protocol (MCP) tools expand the attack surface for autonomous agents, detailing exploit vectors such as tool poisoning, orchestration injection, and rug-pull redefinitions alongside practical defense strategies.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H2:Régulation & éthique",
+   "H2:Usages & outils"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 26,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "attack",
+    "agent",
+    "research"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "mcp"
+  ],
+  "signal_confirme": true,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1705d00433e2",
+  "source": "huggingface",
+  "titre": "Scaleway on Hugging Face Inference Providers 🔥",
+  "lien": "https://huggingface.co/blog/inference-providers-scaleway",
+  "date": "2025-09-19T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "0ab0b3cf0d30",
+  "source": "huggingface",
+  "titre": "Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World Use Cases",
+  "lien": "https://huggingface.co/blog/leaderboard-patronus",
+  "date": "2024-01-31T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "93e167df6e46",
+  "source": "elastic",
+  "titre": "Unmasking a Financial Services Intrusion: REF0657",
+  "lien": "https://www.elastic.co/security-labs/threat-command/unmasking-financial-services-intrusion-ref0657",
+  "date": "2024-01-31T00:00:00+00:00",
+  "resume": "Elastic Security Labs details an intrusion leveraging open-source tooling and different post-exploitation techniques targeting the financial services industry in South Asia.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

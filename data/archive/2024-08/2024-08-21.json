@@ -1,0 +1,69 @@
+[
+ {
+  "id": "29f5f0231787",
+  "source": "elastic",
+  "titre": "Linux Detection Engineering - A primer on persistence mechanisms",
+  "lien": "https://www.elastic.co/security-labs/threat-command/primer-on-persistence-mechanisms",
+  "date": "2024-08-21T00:00:00+00:00",
+  "resume": "In this second part of the Linux Detection Engineering series, we map multiple Linux persistence mechanisms to the MITRE ATT&CK framework, explain how they work, and how to detect them.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "mitre",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "8f4946d996f4",
+  "source": "huggingface",
+  "titre": "Improving Hugging Face Training Efficiency Through Packing with Flash Attention 2",
+  "lien": "https://huggingface.co/blog/packing-with-FA2",
+  "date": "2024-08-21T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "id": "f2497c10ba1b",
+  "source": "elastic",
+  "titre": "Linux Detection Engineering - A Continuation on Persistence Mechanisms",
+  "lien": "https://www.elastic.co/security-labs/threat-command/continuation-on-persistence-mechanisms",
+  "date": "2025-01-27T00:00:00+00:00",
+  "resume": "This document continues the exploration of Linux detection engineering, emphasizing advancements in monitoring persistence mechanisms. By building on past practices and insights, it provides a roadmap for improving detection strategies in complex environments.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "170b8bece004",
+  "source": "huggingface",
+  "titre": "State of open video generation models in Diffusers",
+  "lien": "https://huggingface.co/blog/video_gen",
+  "date": "2025-01-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

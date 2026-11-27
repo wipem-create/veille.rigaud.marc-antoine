@@ -1,0 +1,35 @@
+[
+ {
+  "id": "0d1fc5cb2d96",
+  "source": "elastic",
+  "titre": "SiestaGraph: New implant uncovered in ASEAN member foreign ministry",
+  "lien": "https://www.elastic.co/security-labs/threat-command/siestagraph-new-implant-uncovered-in-asean-member-foreign-ministry",
+  "date": "2022-12-16T00:00:00+00:00",
+  "resume": "Elastic Security Labs is tracking likely multiple on-net threat actors leveraging Exchange exploits, web shells, and the newly discovered SiestaGraph implant to achieve and maintain access, escalate privilege, and exfiltrate targeted data.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

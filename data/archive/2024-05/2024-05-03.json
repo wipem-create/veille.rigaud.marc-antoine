@@ -1,0 +1,71 @@
+[
+ {
+  "id": "92a1e9018ab6",
+  "source": "elastic",
+  "titre": "Dissecting REMCOS RAT: An in-depth analysis of a widespread 2024 malware, Part Three",
+  "lien": "https://www.elastic.co/security-labs/threat-command/dissecting-remcos-rat-part-three",
+  "date": "2024-05-03T00:00:00+00:00",
+  "resume": "In previous articles in this multipart series, malware researchers on the Elastic Security Labs team dove into the REMCOS execution flow. In this article, you’ll learn more about REMCOS configuration structure and its C2 commands.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e307f7c2cbb8",
+  "source": "huggingface",
+  "titre": "Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face",
+  "lien": "https://huggingface.co/blog/leaderboard-artificial-analysis",
+  "date": "2024-05-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

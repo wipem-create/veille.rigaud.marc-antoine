@@ -1,0 +1,101 @@
+[
+ {
+  "id": "e3f73eca3f92",
+  "source": "huggingface",
+  "titre": "NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets",
+  "lien": "https://huggingface.co/blog/nvidia-physical-ai",
+  "date": "2025-03-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d2ab92dd84f6",
+  "source": "sekoia",
+  "titre": "ClearFake's Variant: Web3 Exploitation for Malware Delivery",
+  "lien": "https://www.sekoia.com/blog/clearfakes-new-widespread-variant-increased-web3-exploitation-for-malware-delivery",
+  "date": "2025-03-18T00:00:00+00:00",
+  "resume": "ClearFake spreads malware via compromised websites, using fake CAPTCHAs, JavaScript injections, and drive-by downloads.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "7ed5d3cdec1d",
+  "source": "huggingface",
+  "titre": "Xet is on the Hub",
+  "lien": "https://huggingface.co/blog/xet-on-the-hub",
+  "date": "2025-03-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

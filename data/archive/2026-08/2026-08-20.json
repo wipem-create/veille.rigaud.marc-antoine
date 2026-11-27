@@ -1,5 +1,48 @@
 [
  {
+  "id": "a81b6eacdcab",
+  "source": "sekoia",
+  "titre": "6 AI SOC Integrations Actually Worth Connecting",
+  "lien": "https://www.sekoia.com/blog/ai-soc-integrations-6-capabilities-worth-connecting",
+  "date": "2026-08-20T15:26:00+00:00",
+  "resume": "See how Sekoia’s autonomous SOC platform brings six integrations together, connecting identity, cloud, vulnerability, phishing, incident and network context.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Vulnérabilités & correctifs",
+   "H2:Usages & outils",
+   "H3:Réponse à incident & forensic",
+   "H3:SOC & SIEM"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
   "id": "a2a4b167e29e",
   "source": "redcanary",
   "titre": "Intelligence Insights: August 2026",
@@ -33,5 +76,38 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "5252c6a0c3d3",
+  "source": "huggingface",
+  "titre": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+  "lien": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+  "date": "2026-08-20T16:52:57+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
  }
 ]

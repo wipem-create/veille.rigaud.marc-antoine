@@ -1,0 +1,40 @@
+[
+ {
+  "id": "50318d86abf1",
+  "source": "elastic",
+  "titre": "Elastic releases the Detection Engineering Behavior Maturity Model",
+  "lien": "https://www.elastic.co/security-labs/threat-command/elastic-releases-debmm",
+  "date": "2024-09-06T00:00:00+00:00",
+  "resume": "Using this maturity model, security teams can make structured, measurable, and iteritive improvements to their detection engineering teams..",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "release"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

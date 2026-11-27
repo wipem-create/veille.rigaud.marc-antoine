@@ -1,0 +1,62 @@
+[
+ {
+  "id": "ba3cb37086ec",
+  "source": "sekoia",
+  "titre": "APT28 Operation Phantom Net Voxel: BeardShell & Covenant",
+  "lien": "https://www.sekoia.com/blog/apt28-operation-phantom-net-voxel",
+  "date": "2025-09-16T00:00:00+00:00",
+  "resume": "APT28 Operation Phantom Net Voxel: weaponized Office lures, COM-hijack DLL, PNG stego to Covenant Grunt via Koofr, BeardShell on icedrive.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "c97d273af859",
+  "source": "huggingface",
+  "titre": "`LeRobotDataset:v3.0`: Bringing large-scale datasets to `lerobot`",
+  "lien": "https://huggingface.co/blog/lerobot-datasets-v3",
+  "date": "2025-09-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

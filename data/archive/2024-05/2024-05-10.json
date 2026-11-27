@@ -1,0 +1,39 @@
+[
+ {
+  "id": "02db545d705a",
+  "source": "elastic",
+  "titre": "Dissecting REMCOS RAT: An in-depth analysis of a widespread 2024 malware, Part Four",
+  "lien": "https://www.elastic.co/security-labs/threat-command/dissecting-remcos-rat-part-four",
+  "date": "2024-05-10T00:00:00+00:00",
+  "resume": "In previous articles in this multipart series, malware researchers on the Elastic Security Labs team decomposed the REMCOS configuration structure and gave details about its C2 commands. In this final part, you’ll learn more about detecting and hunting REMCOS using Elastic technologies.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting",
+    "configuration"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

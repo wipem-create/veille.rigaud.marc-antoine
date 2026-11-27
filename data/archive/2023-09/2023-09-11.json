@@ -1,0 +1,66 @@
+[
+ {
+  "id": "fb8752ee9aee",
+  "source": "elastic",
+  "titre": "Using LLMs to summarize user sessions",
+  "lien": "https://www.elastic.co/security-labs/blog/using-llms-to-summarize-user-sessions",
+  "date": "2023-09-11T00:00:00+00:00",
+  "resume": "In this publication, we will talk about lessons learned and key takeaways from our experiments using GPT-4 to summarize user sessions.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f0b4de7cf8c6",
+  "source": "huggingface",
+  "titre": "SafeCoder vs. Closed-source Code Assistants",
+  "lien": "https://huggingface.co/blog/safecoder-vs-closed-source-code-assistants",
+  "date": "2023-09-11T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

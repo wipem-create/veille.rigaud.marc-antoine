@@ -1,0 +1,64 @@
+[
+ {
+  "id": "8069d12058fd",
+  "source": "elastic",
+  "titre": "REVSTEALER ramps up: analysis of up-and-coming infostealer",
+  "lien": "https://www.elastic.co/security-labs/threat-command/revstealer-credential-harvesting-infostealer",
+  "date": "2026-09-02T00:00:00+00:00",
+  "resume": "Elastic Security Labs deep dives into REVSTEALER, an emerging infostealer targeting browsers, wallets, and gaming accounts.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "a6dce86dc7c8",
+  "source": "welivesecurity",
+  "titre": "I’ve been deepfaked: What do I do?",
+  "lien": "https://www.welivesecurity.com/en/how-to/ive-been-deepfaked-what-do/",
+  "date": "2026-09-02T11:48:09+00:00",
+  "resume": "Don’t panic if you spot an illegally created image or video of you online – there are ways to request its removal",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

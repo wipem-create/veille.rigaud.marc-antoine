@@ -1,0 +1,197 @@
+[
+ {
+  "id": "34ba7620c0cb",
+  "source": "ncsc",
+  "titre": "NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems",
+  "lien": "https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks",
+  "date": "2026-06-17T12:00:00+00:00",
+  "resume": "Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 44,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "critical infrastructure"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "c3af5241d5eb",
+  "source": "huggingface",
+  "titre": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+  "lien": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+  "date": "2026-06-17T10:18:05+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "64da1b3d1b22",
+  "source": "huggingface",
+  "titre": "Agentic Resource Discovery: Let agents search",
+  "lien": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+  "date": "2026-06-17T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "065167a23651",
+  "source": "redcanary",
+  "titre": "The dual-use dilemma: Rethinking detection for remote access tool abuse",
+  "lien": "https://redcanary.com/blog/security-operations/rmm-detection/",
+  "date": "2026-06-17T16:15:51+00:00",
+  "resume": "A comprehensive guide to the most commonly abused RMM tools, including technical guidance for detection and prevention",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ },
+ {
+  "id": "df8e89e0711b",
+  "source": "huggingface",
+  "titre": "GLM-5.2: Built for Long-Horizon Tasks",
+  "lien": "https://huggingface.co/blog/zai-org/glm-52-blog",
+  "date": "2026-06-17T09:01:25+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "946a1db7e1b6",
+  "source": "welivesecurity",
+  "titre": "Protecting legacy OT systems against modern cyberthreats",
+  "lien": "https://www.welivesecurity.com/en/critical-infrastructure/protecting-legacy-ot-systems-modern-threats/",
+  "date": "2026-06-17T08:45:00+00:00",
+  "resume": "Many manufacturing plants depend on OT systems that stay in service for many years. That long run can hide significant cybersecurity risks.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

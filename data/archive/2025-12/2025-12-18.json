@@ -1,0 +1,60 @@
+[
+ {
+  "id": "0f380cc47bb0",
+  "source": "sekoia",
+  "titre": "Sekoia at NATO CCDCOE's Crossed Swords 2025 Exercise",
+  "lien": "https://www.sekoia.com/blog/sekoia-io-strengthens-collective-cyber-defense-at-nato-ccdcoes-crossed-swords-2025-exercise",
+  "date": "2025-12-18T00:00:00+00:00",
+  "resume": "Sekoia brought its technology and expertise to NATO CCDCOE's Crossed Swords 2025 (XS25) exercise, validating its defensive capabilities.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "51d8cbf591bf",
+  "source": "huggingface",
+  "titre": "Tokenization in Transformers v5: Simpler, Clearer, and More Modular",
+  "lien": "https://huggingface.co/blog/tokenizers",
+  "date": "2025-12-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,139 @@
+[
+ {
+  "id": "f084c4e28c78",
+  "source": "sekoia",
+  "titre": "APT28: An Evolution of Tradecraft from X-Agent to LLM Malware",
+  "lien": "https://www.sekoia.com/blog/apt28-an-evolution-of-tradecraft",
+  "date": "2026-06-11T00:00:00+00:00",
+  "resume": "Sekoia TDR traces two decades of APT28 tradecraft: from X-Agent implants and hack-and-leak ops to disposable modules, edge devices and LLM-driven malware.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "ab68010a9e5d",
+  "source": "redcanary",
+  "titre": "How threat hunting evolves at scale",
+  "lien": "https://redcanary.com/blog/threat-detection/threat-hunting-scaled/",
+  "date": "2026-06-11T13:09:00+00:00",
+  "resume": "We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ },
+ {
+  "id": "b0e4a5096001",
+  "source": "welivesecurity",
+  "titre": "OceanLotus: From external espionage to domestic targeting",
+  "lien": "https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/",
+  "date": "2026-06-11T08:45:00+00:00",
+  "resume": "A shift in operational pattern of the infamous Vietnam-aligned APT group",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "espionage"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "0c6c8eee9c71",
+  "source": "huggingface",
+  "titre": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+  "lien": "https://huggingface.co/blog/torch-mlp-fusion",
+  "date": "2026-06-11T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

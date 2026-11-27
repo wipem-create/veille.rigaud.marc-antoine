@@ -1,0 +1,66 @@
+[
+ {
+  "id": "89e2ea52bc0e",
+  "source": "huggingface",
+  "titre": "Introducing Daggr: Chain apps programmatically, inspect visually",
+  "lien": "https://huggingface.co/blog/daggr",
+  "date": "2026-01-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "aad0f744eccc",
+  "source": "sekoia",
+  "titre": "Meet IClickFix: a widespread framework using the ClickFix tactic",
+  "lien": "https://www.sekoia.com/blog/meet-iclickfix-a-widespread-wordpress-targeting-framework-using-the-clickfix-tactic",
+  "date": "2026-01-29T00:00:00+00:00",
+  "resume": "Uncover IClickFix: a malicious framework exploiting the ClickFix tactic in widespread malware campaigns to deliver NetSupport RAT.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

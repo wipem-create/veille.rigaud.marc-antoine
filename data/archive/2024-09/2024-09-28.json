@@ -1,0 +1,39 @@
+[
+ {
+  "id": "920485b20610",
+  "source": "elastic",
+  "titre": "Cups Overflow: When your printer spills more than Ink",
+  "lien": "https://www.elastic.co/security-labs/threat-command/cups-overflow",
+  "date": "2024-09-28T00:00:00+00:00",
+  "resume": "Elastic Security Labs discusses detection and mitigation strategies for vulnerabilities in the CUPS printing system, which allow unauthenticated attackers to exploit the system via IPP and mDNS, resulting in remote code execution (RCE) on UNIX-based systems such as Linux, macOS, BSDs, ChromeOS, and Solaris.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

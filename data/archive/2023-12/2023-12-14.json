@@ -1,0 +1,31 @@
+[
+ {
+  "id": "b0ccf67a260e",
+  "source": "elastic",
+  "titre": "Google Cloud for Cyber Data Analytics",
+  "lien": "https://www.elastic.co/security-labs/blog/google-cloud-for-cyber-data-analytics",
+  "date": "2023-12-14T00:00:00+00:00",
+  "resume": "This article explains how we conduct comprehensive cyber threat data analysis using Google Cloud, from data extraction and preprocessing to trend analysis and presentation. It emphasizes the value of BigQuery, Python, and Google Sheets - showcasing how to refine and visualize data for insightful cybersecurity analysis.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

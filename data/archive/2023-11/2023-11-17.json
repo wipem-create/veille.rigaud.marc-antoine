@@ -1,0 +1,38 @@
+[
+ {
+  "id": "f0bf07d1881b",
+  "source": "elastic",
+  "titre": "Streamlining ES|QL Query and Rule Validation: Integrating with GitHub CI",
+  "lien": "https://www.elastic.co/security-labs/blog/streamlining-esql-query-and-rule-validation",
+  "date": "2023-11-17T00:00:00+00:00",
+  "resume": "ES|QL is Elastic's new piped query language. Taking full advantage of this new feature, Elastic Security Labs walks through how to run validation of ES|QL rules for the Detection Engine.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

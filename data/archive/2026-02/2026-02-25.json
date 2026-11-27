@@ -1,0 +1,39 @@
+[
+ {
+  "id": "ee889c6c7ac5",
+  "source": "elastic",
+  "titre": "Make The Most of Network Firewall Logs with Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/make-the-most-of-network-firewall-logs-with-elastic",
+  "date": "2026-02-25T00:00:00+00:00",
+  "resume": "Make the most of your firewall logs. In Part 1 of our series, learn how to ingest and parse logs from any firewall with Elastic Agent and use the Network Page to visually explore your network traffic for instant insights.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

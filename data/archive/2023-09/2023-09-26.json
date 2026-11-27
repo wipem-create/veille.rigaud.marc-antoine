@@ -1,0 +1,33 @@
+[
+ {
+  "id": "e09348ebd105",
+  "source": "huggingface",
+  "titre": "Llama 2 on Amazon SageMaker a Benchmark",
+  "lien": "https://huggingface.co/blog/llama-sagemaker-benchmark",
+  "date": "2023-09-26T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "benchmark"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

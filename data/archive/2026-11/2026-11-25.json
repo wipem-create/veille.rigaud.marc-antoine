@@ -13,9 +13,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 94,
+  "score": 95,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 40,
    "corroboration": 20,
    "bruit": 0,
@@ -33,53 +33,14 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 5,
+  "corroboration": 7,
   "corrobore_par": [
    "bleeping",
+   "certfr",
    "itconnect",
    "lmi",
-   "securityweek"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "5cda52f72a24",
-  "source": "itconnect",
-  "titre": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
-  "lien": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
-  "date": "2026-11-25T06:05:00+00:00",
-  "resume": "Broadcom corrige 23 vulnérabilités VMware dont une critique dans vCenter (CVE-2026-123903) et deux dans ESX, quelques jours après un zero-day distinct.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 79,
-  "criteres": {
-   "source": 30.6,
-   "criticite": 28,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": [
-    "zero-day",
-    "critique",
-    "cve-"
-   ]
-  },
-  "retenu": true,
-  "une": true,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 4,
-  "corrobore_par": [
-   "darkreading",
    "securityweek",
-   "thn"
+   "theregister"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -101,9 +62,9 @@
    "H2:Marché & industrie",
    "H2:Régulation & éthique"
   ],
-  "score": 73,
+  "score": 76,
   "criteres": {
-   "source": 31.4,
+   "source": 34.3,
    "criticite": 22,
    "corroboration": 20,
    "bruit": 0,
@@ -118,13 +79,92 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 7,
+  "corroboration": 5,
   "corrobore_par": [
-   "actuia",
    "bleeping",
-   "lemagit",
-   "mittr",
-   "silicon",
+   "certfr",
+   "itconnect",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "5cda52f72a24",
+  "source": "itconnect",
+  "titre": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
+  "lien": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
+  "date": "2026-11-25T06:05:00+00:00",
+  "resume": "Broadcom corrige 23 vulnérabilités VMware dont une critique dans vCenter (CVE-2026-123903) et deux dans ESX, quelques jours après un zero-day distinct.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 75,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 28,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "critique",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "heise",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "c63221e0086b",
+  "source": "bleeping",
+  "titre": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+  "lien": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+  "date": "2026-11-25T10:10:20+00:00",
+  "resume": "L'équipe sécurité de Drupal confirme l'exploitation active d'une faille critique permettant de prendre le contrôle des sites non corrigés. Correctifs à appliquer sans tarder.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 75,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 20,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "now exploit",
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "certfr",
+   "itconnect",
+   "securityweek",
    "thn"
   ],
   "iteration": 1,
@@ -144,9 +184,9 @@
   "sous_themes": [
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 71,
+  "score": 73,
   "criteres": {
-   "source": 32.0,
+   "source": 34.0,
    "criticite": 19,
    "corroboration": 20,
    "bruit": 0,
@@ -162,10 +202,11 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 4,
+  "corroboration": 5,
   "corrobore_par": [
-   "darkreading",
+   "certfr",
    "lmi",
+   "securityweek",
    "thn"
   ],
   "iteration": 1,
@@ -186,9 +227,9 @@
    "H1:Fuites & intrusions",
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 70,
+  "score": 71,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 22,
    "corroboration": 14,
    "bruit": 0,
@@ -212,12 +253,12 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "c63221e0086b",
-  "source": "bleeping",
-  "titre": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-  "lien": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-  "date": "2026-11-25T10:10:20+00:00",
-  "resume": "L'équipe sécurité de Drupal confirme l'exploitation active d'une faille critique permettant de prendre le contrôle des sites non corrigés. Correctifs à appliquer sans tarder.",
+  "id": "336e649e6641",
+  "source": "certfr",
+  "titre": "Vulnérabilité dans Palo Alto Networks PAN-OS (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges. Palo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement exploitée.",
   "horizon": "H1",
   "themes": [
    "H1"
@@ -225,15 +266,15 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 66,
+  "score": 71,
   "criteres": {
-   "source": 32.2,
-   "criticite": 20,
-   "corroboration": 14,
+   "source": 34.5,
+   "criticite": 17,
+   "corroboration": 20,
    "bruit": 0,
    "motifs": [
-    "now exploit",
-    "critical"
+    "exploité",
+    "cve-"
    ]
   },
   "retenu": true,
@@ -242,9 +283,268 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 3,
+  "corroboration": 7,
   "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "heise",
+   "lmi",
    "securityweek",
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "e30540d8d653",
+  "source": "msft",
+  "titre": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+  "date": "2026-11-25T18:09:06+00:00",
+  "resume": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation. ",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H2:Régulation & éthique"
+  ],
+  "score": 68,
+  "criteres": {
+   "source": 27.7,
+   "criticite": 20,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "attack",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "lmi",
+   "therecord",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.836765+00:00"
+ },
+ {
+  "id": "c67a0685f57d",
+  "source": "bleeping",
+  "titre": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+  "lien": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+  "date": "2026-11-25T22:05:09+00:00",
+  "resume": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 67,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 12,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "exploited"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 7,
+  "corrobore_par": [
+   "certfr",
+   "darkreading",
+   "heise",
+   "lmi",
+   "securityweek",
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "f71e40581636",
+  "source": "theverge",
+  "titre": "Amazon is reportedly in talks to end Muse AI shopping block",
+  "lien": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+  "date": "2026-11-25T14:12:33+00:00",
+  "resume": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue.…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 66,
+  "criteres": {
+   "source": 28.0,
+   "criticite": 18,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "report",
+    "meta"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "lebigdata",
+   "lmi",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.690857+00:00"
+ },
+ {
+  "id": "a743c1eae359",
+  "source": "itconnect",
+  "titre": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d'EU Academy ont fuité",
+  "lien": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
+  "date": "2026-11-25T06:31:00+00:00",
+  "resume": "La Commission européenne confirme une cyberattaque assistée par l'IA contre EU Academy. Noms et e-mails des utilisateurs ont été dérobés.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 64,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 11,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "dérobé",
+    "commission européenne"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "silicon",
+   "theregister"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "27f87d70d1e7",
+  "source": "bleeping",
+  "titre": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+  "lien": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+  "date": "2026-11-25T16:13:40+00:00",
+  "resume": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 63,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "darkreading",
+   "itconnect",
+   "lmi",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "ca07af25704e",
+  "source": "lemagit",
+  "titre": "Shirudo : le « bouclier » IA pour Linux d'OpenAI et Cisco, encore loin de parer tous les assauts",
+  "lien": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
+  "date": "2026-11-25T13:15:00+00:00",
+  "resume": "Projet open source d'Isovalent utilisant eBPF pour des correctifs temporaires générés par IA, encore au stade de prototype.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Marché & industrie",
+   "H2:Régulation & éthique",
+   "H2:Usages & outils",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 62,
+  "criteres": {
+   "source": 34.4,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "openai",
+    "open source"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "theregister",
    "thn"
   ],
   "iteration": 1,
@@ -267,9 +567,9 @@
    "H2:Sécurité de l'IA",
    "H2:Usages & outils"
   ],
-  "score": 60,
+  "score": 61,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 6,
    "corroboration": 20,
    "bruit": 0,
@@ -283,57 +583,13 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 4,
+  "corroboration": 6,
   "corrobore_par": [
    "bleeping",
    "lebigdata",
-   "therecord"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "ca07af25704e",
-  "source": "lemagit",
-  "titre": "Shirudo : le « bouclier » IA pour Linux d'OpenAI et Cisco, encore loin de parer tous les assauts",
-  "lien": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
-  "date": "2026-11-25T13:15:00+00:00",
-  "resume": "Projet open source d'Isovalent utilisant eBPF pour des correctifs temporaires générés par IA, encore au stade de prototype.",
-  "horizon": "H2",
-  "themes": [
-   "H1",
-   "H2",
-   "H3"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs",
-   "H2:Marché & industrie",
-   "H2:Régulation & éthique",
-   "H2:Usages & outils",
-   "H3:Durcissement & DevSecOps"
-  ],
-  "score": 59,
-  "criteres": {
-   "source": 30.9,
-   "criticite": 8,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": [
-    "openai",
-    "open source"
-   ]
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 4,
-  "corrobore_par": [
-   "actuia",
-   "bleeping",
-   "thn"
+   "securityweek",
+   "therecord",
+   "theregister"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -352,9 +608,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 58,
+  "score": 59,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 17,
    "corroboration": 7,
    "bruit": 0,
@@ -372,337 +628,6 @@
   "corroboration": 2,
   "corrobore_par": [
    "securityweek"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "a743c1eae359",
-  "source": "itconnect",
-  "titre": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d'EU Academy ont fuité",
-  "lien": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
-  "date": "2026-11-25T06:31:00+00:00",
-  "resume": "La Commission européenne confirme une cyberattaque assistée par l'IA contre EU Academy. Noms et e-mails des utilisateurs ont été dérobés.",
-  "horizon": "H1",
-  "themes": [
-   "H1",
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Sécurité de l'IA"
-  ],
-  "score": 56,
-  "criteres": {
-   "source": 30.6,
-   "criticite": 11,
-   "corroboration": 14,
-   "bruit": 0,
-   "motifs": [
-    "dérobé",
-    "commission européenne"
-   ]
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "bleeping",
-   "silicon"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "7f32156e3615",
-  "source": "securityweek",
-  "titre": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-  "lien": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-  "date": "2026-11-25T09:05:13+00:00",
-  "resume": "CVE-2026-131914 dans une bibliothèque abandonnée permet une RCE via une seule requête.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 55,
-  "criteres": {
-   "source": 31.4,
-   "criticite": 17,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": [
-    "hackers exploit",
-    "cve-"
-   ]
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "e4132a54ccab",
-  "source": "thn",
-  "titre": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-  "lien": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-  "date": "2026-11-25T12:30:08+00:00",
-  "resume": "Le FinCEN met hors ligne une partie de ses systèmes après une intrusion.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Fuites & intrusions"
-  ],
-  "score": 54,
-  "criteres": {
-   "source": 34.2,
-   "criticite": 0,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 5,
-  "corrobore_par": [
-   "bleeping",
-   "lebigdata",
-   "lmi",
-   "securityweek"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "c417043d070b",
-  "source": "securityweek",
-  "titre": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-  "lien": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-  "date": "2026-11-25T14:15:25+00:00",
-  "resume": "ShinyHunters annonce son retour ; le groupe Inception nie tout lien malgré l'analyse d'Okta.",
-  "horizon": "H1",
-  "themes": [],
-  "sous_themes": [
-   "H1:Rançongiciels & extorsion"
-  ],
-  "score": 51,
-  "criteres": {
-   "source": 31.4,
-   "criticite": 0,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 4,
-  "corrobore_par": [
-   "bleeping",
-   "silicon",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "8f18f9818833",
-  "source": "thn",
-  "titre": "Credential Remediation Is Slow When You Don't Know What Will Break",
-  "lien": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-  "date": "2026-11-25T11:51:48+00:00",
-  "resume": "Selon GitGuardian, la plupart des secrets valides détectés en 2022 fonctionnaient encore début 2026 ; prioriser la révocation selon l'impact.",
-  "horizon": "H3",
-  "themes": [
-   "H3"
-  ],
-  "sous_themes": [
-   "H3:Durcissement & DevSecOps",
-   "H3:Réponse à incident & forensic"
-  ],
-  "score": 48,
-  "criteres": {
-   "source": 34.2,
-   "criticite": 14,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "remediation",
-    "secrets"
-   ]
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "8185d47c9074",
-  "source": "therecord",
-  "titre": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
-  "lien": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
-  "date": "2026-11-25T17:07:00+00:00",
-  "resume": "Nouvelle loi australienne imposant aux plateformes d'anticiper les préjudices prévisibles.",
-  "horizon": "H1",
-  "themes": [],
-  "sous_themes": [
-   "H1:Réglementation & conformité"
-  ],
-  "score": 46,
-  "criteres": {
-   "source": 32.0,
-   "criticite": 0,
-   "corroboration": 14,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "silicon",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "da1ca74ef9e2",
-  "source": "securityweek",
-  "titre": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-  "lien": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-  "date": "2026-11-25T08:12:24+00:00",
-  "resume": "Faille Fragnesia corrigée : combinée à PHP2Shell dans des attaques assistées par IA contre 25 serveurs.",
-  "horizon": "H1",
-  "themes": [
-   "H1",
-   "H2"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 45,
-  "criteres": {
-   "source": 31.4,
-   "criticite": 0,
-   "corroboration": 14,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": true,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "darkreading",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "531d1fe57e7e",
-  "source": "silicon",
-  "titre": "Microsoft lance un « Code Red » après la panne majeure de Microsoft 365",
-  "lien": "https://www.silicon.fr/cybersecurite-1371/microsoft-lance-un-code-red-apres-la-panne-majeure-de-microsoft-365-230670",
-  "date": "2026-11-25T14:22:29+00:00",
-  "resume": "Après une panne d'environ 24 h d'Outlook, Teams et Exchange Online, Microsoft mobilise ses équipes au niveau d'alerte maximal.",
-  "horizon": "H1",
-  "themes": [
-   "H3"
-  ],
-  "sous_themes": [],
-  "score": 44,
-  "criteres": {
-   "source": 30.2,
-   "criticite": 0,
-   "corroboration": 14,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "sans",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "d7fbe04121e6",
-  "source": "lebigdata",
-  "titre": "Après le FBI, la CIA se fait pirater : même les espions ne sont plus à l'abri",
-  "lien": "https://www.lebigdata.fr/apres-le-fbi-la-cia-se-fait-pirater-meme-les-espions-ne-sont-plus-a-labri",
-  "date": "2026-11-25T05:10:07+00:00",
-  "resume": "Intrusion sur un réseau CIA/ODNI d'analyse en sources ouvertes ; systèmes classifiés non compromis selon les autorités.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Fuites & intrusions",
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 44,
-  "criteres": {
-   "source": 24.3,
-   "criticite": 0,
-   "corroboration": 20,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 4,
-  "corrobore_par": [
-   "bleeping",
-   "lmi",
-   "thn"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -724,17 +649,97 @@
    "H1:Menaces & APT",
    "H2:Usages & outils"
   ],
-  "score": 44,
+  "score": 59,
   "criteres": {
-   "source": 32.0,
+   "source": 34.0,
    "criticite": 5,
-   "corroboration": 7,
+   "corroboration": 20,
    "bruit": 0,
    "motifs": [
     "typhoon"
    ]
   },
-  "retenu": false,
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "darkreading",
+   "lmi",
+   "msft",
+   "theregister"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e7e05369cd6b",
+  "source": "certfr",
+  "titre": "Recommandations de sécurisation des liaisons inter-sites (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2026-DUR-001/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "Objet : Recommandations de sécurisation des liaisons inter-sites, à destination des clients de ces offres. Annexe : Liens et références Depuis plusieurs années, l’Agence nationale de la sécurité des systèmes d'information (ANSSI) a constaté de multiples compromissions de réseaux de...",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 59,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 5,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "anssi"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "itconnect",
+   "lmi",
+   "therecord"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "7f32156e3615",
+  "source": "securityweek",
+  "titre": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+  "lien": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+  "date": "2026-11-25T09:05:13+00:00",
+  "resume": "CVE-2026-131914 dans une bibliothèque abandonnée permet une RCE via une seule requête.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 17,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "hackers exploit",
+    "cve-"
+   ]
+  },
+  "retenu": true,
   "une": false,
   "flash": false,
   "signal": false,
@@ -742,10 +747,775 @@
   "signal_confirme": null,
   "corroboration": 2,
   "corrobore_par": [
-   "darkreading"
+   "thn"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8f18f9818833",
+  "source": "thn",
+  "titre": "Credential Remediation Is Slow When You Don't Know What Will Break",
+  "lien": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+  "date": "2026-11-25T11:51:48+00:00",
+  "resume": "Selon GitGuardian, la plupart des secrets valides détectés en 2022 fonctionnaient encore début 2026 ; prioriser la révocation selon l'impact.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 14,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "remediation",
+    "secrets"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lmi"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "90c954854d30",
+  "source": "silicon",
+  "titre": "Comment Jensen Huang a repris les clés de Nvidia",
+  "lien": "https://www.silicon.fr/business-1367/comment-jensen-huang-a-repris-les-cles-de-nvidia-230664",
+  "date": "2026-11-25T13:04:56+00:00",
+  "resume": "Retour de Jensen Huang à la tête de Nvidia onze jours après sa démission.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 4,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "darkreading",
+   "theverge"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e1a1bbe82550",
+  "source": "bleeping",
+  "titre": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+  "lien": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+  "date": "2026-11-25T19:39:31+00:00",
+  "resume": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 14,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "critical infrastructure"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "0408c3e588c7",
+  "source": "bleeping",
+  "titre": "Microsoft confirms authentication issues after November updates",
+  "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+  "date": "2026-11-25T09:02:57+00:00",
+  "resume": "Les mises à jour de sécurité de novembre peuvent provoquer des problèmes d'authentification ; Microsoft travaille avec les clients touchés.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 55,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "darkreading",
+   "sans",
+   "therecord",
+   "theregister"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e4132a54ccab",
+  "source": "thn",
+  "titre": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+  "lien": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+  "date": "2026-11-25T12:30:08+00:00",
+  "resume": "Le FinCEN met hors ligne une partie de ses systèmes après une intrusion.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "bleeping",
+   "lebigdata",
+   "lmi",
+   "securityweek",
+   "theregister"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f664df125bab",
+  "source": "thn",
+  "titre": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+  "lien": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+  "date": "2026-11-25T10:43:07+00:00",
+  "resume": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for…",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "sans",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.317291+00:00"
+ },
+ {
+  "id": "c417043d070b",
+  "source": "securityweek",
+  "titre": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+  "lien": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+  "date": "2026-11-25T14:15:25+00:00",
+  "resume": "ShinyHunters annonce son retour ; le groupe Inception nie tout lien malgré l'analyse d'Okta.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "silicon",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8088163fedc8",
+  "source": "securityweek",
+  "titre": "Plagiarism Checker Turnitin Investigating Cyberattack",
+  "lien": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+  "date": "2026-11-25T10:40:07+00:00",
+  "resume": "Turnitin enquête sur une cyberattaque, services déclarés opérationnels.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 54,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "therecord",
+   "theregister"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "da1ca74ef9e2",
+  "source": "securityweek",
+  "titre": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+  "lien": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+  "date": "2026-11-25T08:12:24+00:00",
+  "resume": "Faille Fragnesia corrigée : combinée à PHP2Shell dans des attaques assistées par IA contre 25 serveurs.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 8,
+  "corrobore_par": [
+   "bleeping",
+   "certfr",
+   "darkreading",
+   "heise",
+   "lmi",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "aacf9922c99c",
+  "source": "therecord",
+  "titre": "FIFA says hackers accessed 'limited set of personal and business information'",
+  "lien": "https://therecord.media/fifa-data-breach-limited",
+  "date": "2026-11-25T20:40:00+00:00",
+  "resume": "La FIFA confirme un accès à un volume restreint de données personnelles et commerciales.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 54,
+  "criteres": {
+   "source": 34.0,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "heise",
+   "itconnect",
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "309df205ea58",
+  "source": "certfr",
+  "titre": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "algorithmwatch",
+   "itconnect",
+   "silicon",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "8130197bd950",
+  "source": "theverge",
+  "titre": "Nothing offers a full look at its AI earbuds and charging case",
+  "lien": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+  "date": "2026-11-25T16:00:59+00:00",
+  "resume": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\"…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 54,
+  "criteres": {
+   "source": 28.0,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "release"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "sans",
+   "therecord",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.690857+00:00"
+ },
+ {
+  "id": "90999d2b55da",
+  "source": "silicon",
+  "titre": "CrowdStrike casse sa tirelire pour Zscaler",
+  "lien": "https://www.silicon.fr/business-1367/pourquoi-crowdstrike-casse-sa-tirelire-pour-zscaler-230674",
+  "date": "2026-11-25T18:18:04+00:00",
+  "resume": "CrowdStrike rachète Zscaler pour près de 44 Md$ en actions afin d'entrer sur la sécurité réseau.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "lemagit",
+   "theregister"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "0d5efb3eaf04",
+  "source": "darkreading",
+  "titre": "Attackers Target .NET Developers With Poisoned Job Assessments",
+  "lien": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+  "date": "2026-11-25T15:48:04+00:00",
+  "resume": "13 paquets NuGet malveillants diffusés via une fausse campagne de recrutement.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "lmi",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "16f6f0d6fc1c",
+  "source": "darkreading",
+  "titre": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+  "date": "2026-11-25T14:00:00+00:00",
+  "resume": "Les cyberattaques visent de plus en plus les systèmes industriels d'Amérique latine.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "mittr",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "3c186483480c",
+  "source": "heise",
+  "titre": "Broadcom stopft viele Sicherheitslücken in mehreren VMware-Produkten",
+  "lien": "https://www.heise.de/news/Broadcom-stopft-viele-Sicherheitsluecken-in-mehreren-VMware-Produkten-11537743.html",
+  "date": "2026-11-25T14:10:00+00:00",
+  "resume": "In mehreren VMware-Produkten klaffen Sicherheitslücken. Broadcom schließt 23 davon mit aktualisierter Software.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "itconnect",
+   "therecord",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "fd74dea2bcdf",
+  "source": "theregister",
+  "titre": "US Treasury financial crimes unit becomes latest fed breach victim",
+  "lien": "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+  "date": "2026-11-25T16:40:16+00:00",
+  "resume": "FinCEN takes systems offline and extends filing deadlines while investigating 'unauthorized access'",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "fd2477216c7a",
+  "source": "lmi",
+  "titre": "Collectivités territoriales : la cybersécurité passe par la mutualisation des moyens",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/collectivites-territoriales-la-cybersecurite-passe-par-la-mutualisation-des-moyens",
+  "date": "2026-11-25T07:00:00+00:00",
+  "resume": "Devant le Sénat, l'ANSSI et le GIP ACYMA recommandent la mutualisation des moyens pour les petites communes.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "anssi"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "certfr",
+   "therecord"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "1b14f153c9ad",
+  "source": "securityweek",
+  "titre": "US Treasury's FinCEN Disconnects Systems Following Cyber Incident",
+  "lien": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+  "date": "2026-11-25T13:39:21+00:00",
+  "resume": "FinCEN déconnecte ses systèmes et prolonge les échéances des déclarants pendant l'enquête.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 48,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "theregister",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8185d47c9074",
+  "source": "therecord",
+  "titre": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+  "lien": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+  "date": "2026-11-25T17:07:00+00:00",
+  "resume": "Nouvelle loi australienne imposant aux plateformes d'anticiper les préjudices prévisibles.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 34.0,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "silicon",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8d03c4bf429a",
+  "source": "theregister",
+  "titre": "This could mess with Thanksgiving, says VMware as it drops third critical patch bundle in a week",
+  "lien": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+  "date": "2026-11-25T05:15:08+00:00",
+  "resume": "Four more critical vulns, including another unauthorized access flaw in vCenter",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 47,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
  },
  {
   "id": "90c63cf0b5ff",
@@ -762,9 +1532,9 @@
    "H1:Fuites & intrusions",
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 43,
+  "score": 46,
   "criteres": {
-   "source": 28.8,
+   "source": 32.4,
    "criticite": 14,
    "corroboration": 0,
    "bruit": 0,
@@ -773,7 +1543,7 @@
     "vol de données"
    ]
   },
-  "retenu": false,
+  "retenu": true,
   "une": false,
   "flash": false,
   "signal": false,
@@ -785,6 +1555,113 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "d7fbe04121e6",
+  "source": "lebigdata",
+  "titre": "Après le FBI, la CIA se fait pirater : même les espions ne sont plus à l'abri",
+  "lien": "https://www.lebigdata.fr/apres-le-fbi-la-cia-se-fait-pirater-meme-les-espions-ne-sont-plus-a-labri",
+  "date": "2026-11-25T05:10:07+00:00",
+  "resume": "Intrusion sur un réseau CIA/ODNI d'analyse en sources ouvertes ; systèmes classifiés non compromis selon les autorités.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 25.8,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "lmi",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "448612e0e704",
+  "source": "lebigdata",
+  "titre": "TikTok en panne : des milliers d’utilisateurs face à un écran vide, que s’est-il passé ?",
+  "lien": "https://www.lebigdata.fr/tiktok-en-panne-des-milliers-dutilisateurs-face-a-un-ecran-vide-que-sest-il-passe",
+  "date": "2026-11-25T04:03:37+00:00",
+  "resume": "Non, votre connexion Internet ne vous a pas joué des tours. TikTok a connu une ... [...] Cet article TikTok en panne : des milliers d’utilisateurs face à un écran vide, que s’est-il passé ? a été publié sur LEBIGDATA.FR .",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 46,
+  "criteres": {
+   "source": 25.8,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "sans",
+   "zataz"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:36.911689+00:00"
+ },
+ {
+  "id": "bf8a90aae327",
+  "source": "theverge",
+  "titre": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+  "lien": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+  "date": "2026-11-25T17:44:57+00:00",
+  "resume": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 46,
+  "criteres": {
+   "source": 28.0,
+   "criticite": 4,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "google"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.690857+00:00"
+ },
+ {
   "id": "e8e23ac8a26f",
   "source": "silicon",
   "titre": "Dépendances cyber : la souveraineté s'invite dans les stratégies, pas encore dans les outils",
@@ -794,9 +1671,9 @@
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 42,
+  "score": 44,
   "criteres": {
-   "source": 30.2,
+   "source": 31.9,
    "criticite": 5,
    "corroboration": 7,
    "bruit": 0,
@@ -831,9 +1708,9 @@
   "sous_themes": [
    "H1:Réglementation & conformité"
   ],
-  "score": 42,
+  "score": 44,
   "criteres": {
-   "source": 30.2,
+   "source": 31.9,
    "criticite": 5,
    "corroboration": 7,
    "bruit": 0,
@@ -855,6 +1732,39 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "40c7f06aacf1",
+  "source": "theregister",
+  "titre": "The security of US water systems is even leakier than we thought",
+  "lien": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
+  "date": "2026-11-25T19:40:17+00:00",
+  "resume": "And intruders don't always need to exploit bugs to break in",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 44,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "exploit"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
   "id": "a31aeedbbcb7",
   "source": "thn",
   "titre": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
@@ -869,9 +1779,9 @@
    "H1:Fuites & intrusions",
    "H1:Menaces & APT"
   ],
-  "score": 41,
+  "score": 42,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -891,117 +1801,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "fd2477216c7a",
-  "source": "lmi",
-  "titre": "Collectivités territoriales : la cybersécurité passe par la mutualisation des moyens",
-  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/collectivites-territoriales-la-cybersecurite-passe-par-la-mutualisation-des-moyens",
-  "date": "2026-11-25T07:00:00+00:00",
-  "resume": "Devant le Sénat, l'ANSSI et le GIP ACYMA recommandent la mutualisation des moyens pour les petites communes.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Réglementation & conformité"
-  ],
-  "score": 41,
-  "criteres": {
-   "source": 28.8,
-   "criticite": 5,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": [
-    "anssi"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "therecord"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "90c954854d30",
-  "source": "silicon",
-  "titre": "Comment Jensen Huang a repris les clés de Nvidia",
-  "lien": "https://www.silicon.fr/business-1367/comment-jensen-huang-a-repris-les-cles-de-nvidia-230664",
-  "date": "2026-11-25T13:04:56+00:00",
-  "resume": "Retour de Jensen Huang à la tête de Nvidia onze jours après sa démission.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Marché & industrie"
-  ],
-  "score": 41,
-  "criteres": {
-   "source": 30.2,
-   "criticite": 4,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": [
-    "nvidia"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "actuia"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "ee7f6fcb499a",
-  "source": "thn",
-  "titre": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-  "lien": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-  "date": "2026-11-25T06:37:06+00:00",
-  "resume": "Unit 42 suit des vagues de vishing d'acteurs liés au Com aboutissant à vol de données et extorsion.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Fuites & intrusions",
-   "H1:Phishing & fraude",
-   "H1:Rançongiciels & extorsion"
-  ],
-  "score": 40,
-  "criteres": {
-   "source": 34.2,
-   "criticite": 6,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "data theft"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "4216af160cae",
   "source": "therecord",
   "titre": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
@@ -1015,9 +1814,9 @@
   "sous_themes": [
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 40,
+  "score": 42,
   "criteres": {
-   "source": 32.0,
+   "source": 34.0,
    "criticite": 8,
    "corroboration": 0,
    "bruit": 0,
@@ -1051,14 +1850,51 @@
    "H1:Fuites & intrusions",
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 38,
+  "score": 41,
   "criteres": {
-   "source": 32.2,
+   "source": 35.2,
    "criticite": 6,
    "corroboration": 0,
    "bruit": 0,
    "motifs": [
     "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ee7f6fcb499a",
+  "source": "thn",
+  "titre": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+  "lien": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+  "date": "2026-11-25T06:37:06+00:00",
+  "resume": "Unit 42 suit des vagues de vishing d'acteurs liés au Com aboutissant à vol de données et extorsion.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "data theft"
    ]
   },
   "retenu": false,
@@ -1086,9 +1922,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 38,
+  "score": 41,
   "criteres": {
-   "source": 31.4,
+   "source": 34.3,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1103,70 +1939,6 @@
   "corroboration": 2,
   "corrobore_par": [
    "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "1b14f153c9ad",
-  "source": "securityweek",
-  "titre": "US Treasury's FinCEN Disconnects Systems Following Cyber Incident",
-  "lien": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-  "date": "2026-11-25T13:39:21+00:00",
-  "resume": "FinCEN déconnecte ses systèmes et prolonge les échéances des déclarants pendant l'enquête.",
-  "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
-  "score": 38,
-  "criteres": {
-   "source": 31.4,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "8088163fedc8",
-  "source": "securityweek",
-  "titre": "Plagiarism Checker Turnitin Investigating Cyberattack",
-  "lien": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-  "date": "2026-11-25T10:40:07+00:00",
-  "resume": "Turnitin enquête sur une cyberattaque, services déclarés opérationnels.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [],
-  "score": 38,
-  "criteres": {
-   "source": 31.4,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "bleeping"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -1181,9 +1953,9 @@
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 38,
+  "score": 41,
   "criteres": {
-   "source": 30.9,
+   "source": 34.4,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1203,18 +1975,22 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "90999d2b55da",
-  "source": "silicon",
-  "titre": "CrowdStrike casse sa tirelire pour Zscaler",
-  "lien": "https://www.silicon.fr/business-1367/pourquoi-crowdstrike-casse-sa-tirelire-pour-zscaler-230674",
-  "date": "2026-11-25T18:18:04+00:00",
-  "resume": "CrowdStrike rachète Zscaler pour près de 44 Md$ en actions afin d'entrer sur la sécurité réseau.",
+  "id": "56e07b1c3fba",
+  "source": "certfr",
+  "titre": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
   "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
-  "score": 37,
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 41,
   "criteres": {
-   "source": 30.2,
+   "source": 34.5,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1228,26 +2004,65 @@
   "signal_confirme": null,
   "corroboration": 2,
   "corrobore_par": [
-   "darkreading"
+   "silicon"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
  },
  {
-  "id": "a6dc5eeb9fae",
-  "source": "mittr",
-  "titre": "AI is straining America's open records systems",
-  "lien": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-  "date": "2026-11-25T10:00:00+00:00",
-  "resume": "Les demandes d'accès aux documents publics générées par IA saturent les administrations américaines.",
-  "horizon": "H2",
+  "id": "8a09b4e813d0",
+  "source": "bleeping",
+  "titre": "1Password customer data stolen after employee GitHub account breach",
+  "lien": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+  "date": "2026-11-25T21:33:33+00:00",
+  "resume": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+  "horizon": "H1",
   "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "stolen"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "20efd459c261",
+  "source": "lmi",
+  "titre": "Cyberattaques dopées à l'IA : IBM appelle les entreprises à anticiper les défaillances",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
+  "date": "2026-11-25T07:30:00+00:00",
+  "resume": "IBM Consulting estime que les attaquants exploitent les failles plus vite que les défenseurs et conseille de se préparer aux pannes.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
    "H2"
   ],
-  "sous_themes": [],
-  "score": 37,
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique"
+  ],
+  "score": 39,
   "criteres": {
-   "source": 29.6,
+   "source": 32.4,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1261,24 +2076,92 @@
   "signal_confirme": null,
   "corroboration": 2,
   "corrobore_par": [
-   "darkreading"
+   "lemagit"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "0d5efb3eaf04",
-  "source": "darkreading",
-  "titre": "Attackers Target .NET Developers With Poisoned Job Assessments",
-  "lien": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
-  "date": "2026-11-25T15:48:04+00:00",
-  "resume": "13 paquets NuGet malveillants diffusés via une fausse campagne de recrutement.",
+  "id": "531d1fe57e7e",
+  "source": "silicon",
+  "titre": "Microsoft lance un « Code Red » après la panne majeure de Microsoft 365",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/microsoft-lance-un-code-red-apres-la-panne-majeure-de-microsoft-365-230670",
+  "date": "2026-11-25T14:22:29+00:00",
+  "resume": "Après une panne d'environ 24 h d'Outlook, Teams et Exchange Online, Microsoft mobilise ses équipes au niveau d'alerte maximal.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "bleeping"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "d804e3cab985",
+  "source": "theregister",
+  "titre": "Microsoft's NTLM security changes trip up third-party logins",
+  "lien": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
+  "date": "2026-11-25T17:01:00+00:00",
+  "resume": "It's not our fault if you've implemented it wrong",
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 37,
+  "score": 39,
   "criteres": {
-   "source": 29.8,
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "4d0dd1735029",
+  "source": "darkreading",
+  "titre": "It's a Bot World. We're Just Living in It",
+  "lien": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+  "date": "2026-11-25T15:20:27+00:00",
+  "resume": "Bot detection has become a losing game. Security teams need to limit privileged access for humans and their machine counterparts equally.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 31.9,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1294,24 +2177,24 @@
   "corrobore_par": [
    "thn"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
  },
  {
-  "id": "16f6f0d6fc1c",
-  "source": "darkreading",
-  "titre": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
-  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
-  "date": "2026-11-25T14:00:00+00:00",
-  "resume": "Les cyberattaques visent de plus en plus les systèmes industriels d'Amérique latine.",
-  "horizon": "H1",
+  "id": "a6dc5eeb9fae",
+  "source": "mittr",
+  "titre": "AI is straining America's open records systems",
+  "lien": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+  "date": "2026-11-25T10:00:00+00:00",
+  "resume": "Les demandes d'accès aux documents publics générées par IA saturent les administrations américaines.",
+  "horizon": "H2",
   "themes": [
-   "H1"
+   "H2"
   ],
   "sous_themes": [],
-  "score": 37,
+  "score": 38,
   "criteres": {
-   "source": 29.8,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 7,
    "bruit": 0,
@@ -1325,10 +2208,45 @@
   "signal_confirme": null,
   "corroboration": 2,
   "corrobore_par": [
-   "mittr"
+   "darkreading"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "6d1032f906d4",
+  "source": "theregister",
+  "titre": "Gatwick drop-off customers' personal data exposed in supplier breach",
+  "lien": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
+  "date": "2026-11-25T11:16:18+00:00",
+  "resume": "AutoPay login and vehicle records affected, alongside limited payment information and customer service emails",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
  },
  {
   "id": "e75e0ef6805f",
@@ -1344,9 +2262,9 @@
   "sous_themes": [
    "H2:Agents IA"
   ],
-  "score": 35,
+  "score": 36,
   "criteres": {
-   "source": 26.6,
+   "source": 27.8,
    "criticite": 8,
    "corroboration": 0,
    "bruit": 0,
@@ -1379,9 +2297,9 @@
   "sous_themes": [
    "H2:Agents IA"
   ],
-  "score": 35,
+  "score": 36,
   "criteres": {
-   "source": 26.6,
+   "source": 27.8,
    "criticite": 8,
    "corroboration": 0,
    "bruit": 0,
@@ -1401,18 +2319,25 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "0408c3e588c7",
-  "source": "bleeping",
-  "titre": "Microsoft confirms authentication issues after November updates",
-  "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-  "date": "2026-11-25T09:02:57+00:00",
-  "resume": "Les mises à jour de sécurité de novembre peuvent provoquer des problèmes d'authentification ; Microsoft travaille avec les clients touchés.",
+  "id": "67e23752ce41",
+  "source": "lemagit",
+  "titre": "Dette technique : l'IA offensive risque de la faire payer au prix fort",
+  "lien": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
+  "date": "2026-11-25T10:32:00+00:00",
+  "resume": "Les attaquants exploitent plus vite la dette technique grâce à l'IA ; intégrer la correction des failles aux indicateurs de performance.",
   "horizon": "H1",
-  "themes": [],
-  "sous_themes": [],
-  "score": 32,
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 34,
   "criteres": {
-   "source": 32.2,
+   "source": 34.4,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1428,6 +2353,360 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "bc0e8fe5999e",
+  "source": "certfr",
+  "titre": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "170674bf792a",
+  "source": "certfr",
+  "titre": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "6819928c712d",
+  "source": "certfr",
+  "titre": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "4fe5eaa67ad1",
+  "source": "certfr",
+  "titre": "Multiples vulnérabilités dans Tenable Enclave Security (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "72d924224f64",
+  "source": "certfr",
+  "titre": "Vulnérabilité dans Laravel (25 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1617/",
+  "date": "2026-11-25T00:00:00+00:00",
+  "resume": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "bf9c683b9b2f",
+  "source": "lemagit",
+  "titre": "Résultats financiers : le sursaut de HPE",
+  "lien": "https://www.lemagit.fr/actualites/366655501/Resultats-financiers-le-sursaut-de-HPE",
+  "date": "2026-11-25T11:21:00+00:00",
+  "resume": "Le fournisseur d’équipements pour datacenters affiche un résultat trimestriel en progression de 50 %. La disponibilité de GPU pour les fabricants lui a notamment permis de facturer 8,8 milliards de dollars en serveurs lors des trois derniers mois.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:33.035912+00:00"
+ },
+ {
+  "id": "826aa9283f9a",
+  "source": "lemagit",
+  "titre": "Facture électronique : un rodage freiné par l’interopérabilité des systèmes IT",
+  "lien": "https://www.lemagit.fr/actualites/366655414/Facture-electronique-un-rodage-freine-par-linteroperabilite-des-systemes-IT",
+  "date": "2026-11-25T11:05:00+00:00",
+  "resume": "Les débuts de la facture électronique restent modestes. Environ 50 millions de factures pour un objectif de plus de 3 milliards, selon Deborah Pilet, CPO de N2F. Raccordement des logiciels, sécurité des données, synchronisation des adresses entre PA ou encore portabilité sont autant d’obstacles et de bogs à gérer.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 34.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:33.035912+00:00"
+ },
+ {
+  "id": "6703cf24d2ce",
+  "source": "itconnect",
+  "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
+  "lien": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
+  "date": "2026-11-25T10:38:32+00:00",
+  "resume": "Le rapport final de la panne reconnaît que certains messages n'ont jamais été livrés. Microsoft détaille les évolutions prévues pour limiter ce type d'incident.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 33,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "717edeab7708",
+  "source": "itconnect",
+  "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
+  "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
+  "date": "2026-11-25T08:15:00+00:00",
+  "resume": "Tutoriel d'installation de Rudder sous Linux, avec une démarche audit puis application pour corriger la dérive de configuration, et comparaison avec Ansible.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 33,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "b196de00df77",
+  "source": "zataz",
+  "titre": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
+  "lien": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
+  "date": "2026-11-25T10:46:52+00:00",
+  "resume": "Une fausse loterie sur TikTok pousse à saisir ses coordonnées bancaires : arnaque de phishing saisonnière.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 33,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lebigdata"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ea188d2e3a67",
+  "source": "itconnect",
+  "titre": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
+  "lien": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
+  "date": "2026-11-25T19:24:23+00:00",
+  "resume": "Proxmox VE 9.3 est disponible : multipath et LVM partagé sur SAN se configurent depuis l'interface web, et les snapshots LVM passent en production. Le post Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web a été publié sur IT-Connect .",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 33,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
  },
  {
   "id": "b9a49d835e76",
@@ -1465,20 +2744,20 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "aacf9922c99c",
-  "source": "therecord",
-  "titre": "FIFA says hackers accessed 'limited set of personal and business information'",
-  "lien": "https://therecord.media/fifa-data-breach-limited",
-  "date": "2026-11-25T20:40:00+00:00",
-  "resume": "La FIFA confirme un accès à un volume restreint de données personnelles et commerciales.",
-  "horizon": "H1",
+  "id": "166c141649fc",
+  "source": "silicon",
+  "titre": "L’IA augmente l’individu, mais pas l’organisation",
+  "lien": "https://www.silicon.fr/data-ia-1372/lia-augmente-lindividu-mais-pas-lorganisation-230656",
+  "date": "2026-11-25T12:01:20+00:00",
+  "resume": "{ Tribune Expert } - Une entreprise sur cinq tire un gain de l’IA. Les quatre autres ont un problème d’organisation, et elles le savent. Leur compteur d’heures gagnées les rassure sans les faire avancer. ",
+  "horizon": "H2",
   "themes": [
-   "H1"
+   "H2"
   ],
   "sous_themes": [],
   "score": 32,
   "criteres": {
-   "source": 32.0,
+   "source": 31.9,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1492,22 +2771,22 @@
   "signal_confirme": null,
   "corroboration": 1,
   "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
  },
  {
-  "id": "6703cf24d2ce",
-  "source": "itconnect",
-  "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
-  "lien": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
-  "date": "2026-11-25T10:38:32+00:00",
-  "resume": "Le rapport final de la panne reconnaît que certains messages n'ont jamais été livrés. Microsoft détaille les évolutions prévues pour limiter ce type d'incident.",
+  "id": "1329b259f6e7",
+  "source": "heise",
+  "titre": "EU-Kommission will Quantenindustrie pushen und Krypto-Umstieg erzwingen",
+  "lien": "https://www.heise.de/news/EU-Kommission-will-Quantenindustrie-pushen-und-Krypto-Umstieg-erzwingen-11537554.html",
+  "date": "2026-11-25T11:15:00+00:00",
+  "resume": "Mit einer Verordnung, einem Tech-Fonds und strengeren Vorgaben bei IT-Vergaben will Brüssel Europa beim Quantencomputing unabhängiger machen und Daten schützen.",
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 31,
+  "score": 32,
   "criteres": {
-   "source": 30.6,
+   "source": 32.2,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1521,27 +2800,22 @@
   "signal_confirme": null,
   "corroboration": 1,
   "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
  },
  {
-  "id": "717edeab7708",
-  "source": "itconnect",
-  "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
-  "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
-  "date": "2026-11-25T08:15:00+00:00",
-  "resume": "Tutoriel d'installation de Rudder sous Linux, avec une démarche audit puis application pour corriger la dérive de configuration, et comparaison avec Ansible.",
+  "id": "27ffd1995066",
+  "source": "heise",
+  "titre": "Deichmann-Online-Shop geknackt, unbefugter Datenzugriff",
+  "lien": "https://www.heise.de/news/Deichmann-Online-Shop-geknackt-unbefugter-Datenzugriff-11537484.html",
+  "date": "2026-11-25T10:56:00+00:00",
+  "resume": "Deichmann meldet einen Cyberangriff auf den Online-Shop des Schuhhändlers. Es gab unbefugten Datenzugriff.",
   "horizon": "H1",
-  "themes": [
-   "H3"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs",
-   "H3:Durcissement & DevSecOps"
-  ],
-  "score": 31,
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
   "criteres": {
-   "source": 30.6,
+   "source": 32.2,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1555,33 +2829,32 @@
   "signal_confirme": null,
   "corroboration": 1,
   "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
  },
  {
-  "id": "67e23752ce41",
-  "source": "lemagit",
-  "titre": "Dette technique : l'IA offensive risque de la faire payer au prix fort",
-  "lien": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
-  "date": "2026-11-25T10:32:00+00:00",
-  "resume": "Les attaquants exploitent plus vite la dette technique grâce à l'IA ; intégrer la correction des failles aux indicateurs de performance.",
-  "horizon": "H1",
+  "id": "d7abb2d2dcb6",
+  "source": "theverge",
+  "titre": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+  "lien": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+  "date": "2026-11-25T21:51:26+00:00",
+  "resume": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version…",
+  "horizon": "H2",
   "themes": [
-   "H1",
    "H2"
   ],
   "sous_themes": [
-   "H1:Vulnérabilités & correctifs",
-   "H2:Régulation & éthique",
-   "H2:Sécurité de l'IA"
+   "H2:Usages & outils"
   ],
-  "score": 31,
+  "score": 32,
   "criteres": {
-   "source": 30.9,
-   "criticite": 0,
+   "source": 28.0,
+   "criticite": 4,
    "corroboration": 0,
    "bruit": 0,
-   "motifs": []
+   "motifs": [
+    "google"
+   ]
   },
   "retenu": false,
   "une": false,
@@ -1591,8 +2864,8 @@
   "signal_confirme": null,
   "corroboration": 1,
   "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.690857+00:00"
  },
  {
   "id": "d568e3d6081c",
@@ -1610,42 +2883,7 @@
   ],
   "score": 30,
   "criteres": {
-   "source": 30.2,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "20efd459c261",
-  "source": "lmi",
-  "titre": "Cyberattaques dopées à l'IA : IBM appelle les entreprises à anticiper les défaillances",
-  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
-  "date": "2026-11-25T07:30:00+00:00",
-  "resume": "IBM Consulting estime que les attaquants exploitent les failles plus vite que les défenseurs et conseille de se préparer aux pannes.",
-  "horizon": "H1",
-  "themes": [
-   "H1",
-   "H2"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs",
-   "H2:Régulation & éthique"
-  ],
-  "score": 29,
-  "criteres": {
-   "source": 28.8,
+   "source": 30.0,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1676,9 +2914,9 @@
   "sous_themes": [
    "H2:Modèles & recherche"
   ],
-  "score": 27,
+  "score": 28,
   "criteres": {
-   "source": 26.6,
+   "source": 27.8,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -1692,6 +2930,106 @@
   "signal_confirme": null,
   "corroboration": 1,
   "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "aee7067657ed",
+  "source": "msft",
+  "titre": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+  "date": "2026-11-25T17:15:00+00:00",
+  "resume": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security, for the second consecutive year. ",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.7,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.836765+00:00"
+ },
+ {
+  "id": "c9329332fadc",
+  "source": "theverge",
+  "titre": "Android’s DIY widgets are a bit of vibe-coding fun",
+  "lien": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+  "date": "2026-11-25T21:43:14+00:00",
+  "resume": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 28.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.690857+00:00"
+ },
+ {
+  "id": "a799ae479090",
+  "source": "itconnect",
+  "titre": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
+  "lien": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
+  "date": "2026-11-25T06:49:00+00:00",
+  "resume": "Mistral offre un mois de Vibe Pro aux Européens via un code promo, puis l'abonnement passe à 17,99 € par mois.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 27,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 9,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": [
+    "mistral",
+    "européen"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "lebigdata",
+   "silicon"
+  ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
  },
@@ -1729,78 +3067,6 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "b196de00df77",
-  "source": "zataz",
-  "titre": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
-  "lien": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
-  "date": "2026-11-25T10:46:52+00:00",
-  "resume": "Une fausse loterie sur TikTok pousse à saisir ses coordonnées bancaires : arnaque de phishing saisonnière.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Phishing & fraude"
-  ],
-  "score": 26,
-  "criteres": {
-   "source": 26.4,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "a799ae479090",
-  "source": "itconnect",
-  "titre": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
-  "lien": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
-  "date": "2026-11-25T06:49:00+00:00",
-  "resume": "Mistral offre un mois de Vibe Pro aux Européens via un code promo, puis l'abonnement passe à 17,99 € par mois.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Marché & industrie"
-  ],
-  "score": 19,
-  "criteres": {
-   "source": 30.6,
-   "criticite": 9,
-   "corroboration": 14,
-   "bruit": -35,
-   "motifs": [
-    "mistral",
-    "européen"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "actuia",
-   "lebigdata"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
   "id": "41f8db2ab15d",
   "source": "silicon",
   "titre": "NetMedia Group lance The Makers, une nouvelle offre fondée sur ses communautés propriétaires",
@@ -1810,9 +3076,9 @@
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 15,
+  "score": 17,
   "criteres": {
-   "source": 30.2,
+   "source": 31.9,
    "criticite": 0,
    "corroboration": 20,
    "bruit": -35,
@@ -1824,74 +3090,12 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 4,
+  "corroboration": 5,
   "corrobore_par": [
    "securityweek",
    "therecord",
+   "theregister",
    "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "f43fb382f576",
-  "source": "lebigdata",
-  "titre": "Portage de GTA 6 sur PC : Take-Two vient de doucher les espoirs des joueurs",
-  "lien": "https://www.lebigdata.fr/portage-de-gta-6-sur-pc-take-two-vient-de-doucher-les-espoirs-des-joueurs",
-  "date": "2026-11-25T06:13:34+00:00",
-  "resume": "Take-Two fait retirer de GitHub le projet de portage Leonida.",
-  "horizon": "H2",
-  "themes": [],
-  "sous_themes": [],
-  "score": 3,
-  "criteres": {
-   "source": 24.3,
-   "criticite": 0,
-   "corroboration": 14,
-   "bruit": -35,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 3,
-  "corrobore_par": [
-   "lemagit",
-   "thn"
-  ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "bcc4f940bd81",
-  "source": "sans",
-  "titre": "Stormcast du mercredi 25 novembre 2026",
-  "lien": "https://isc.sans.edu/diary/rss/33554",
-  "date": "2026-11-25T02:00:03+00:00",
-  "resume": "Podcast quotidien de l'ISC.",
-  "horizon": "H3",
-  "themes": [],
-  "sous_themes": [],
-  "score": 2,
-  "criteres": {
-   "source": 29.6,
-   "criticite": 0,
-   "corroboration": 7,
-   "bruit": -35,
-   "motifs": []
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 2,
-  "corrobore_par": [
-   "darkreading"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -1908,11 +3112,11 @@
    "H2"
   ],
   "sous_themes": [],
-  "score": 2,
+  "score": 17,
   "criteres": {
-   "source": 29.8,
+   "source": 31.9,
    "criticite": 0,
-   "corroboration": 7,
+   "corroboration": 20,
    "bruit": -35,
    "motifs": []
   },
@@ -1922,12 +3126,79 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 2,
+  "corroboration": 4,
   "corrobore_par": [
-   "sans"
+   "heise",
+   "sans",
+   "theregister"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "bcc4f940bd81",
+  "source": "sans",
+  "titre": "Stormcast du mercredi 25 novembre 2026",
+  "lien": "https://isc.sans.edu/diary/rss/33554",
+  "date": "2026-11-25T02:00:03+00:00",
+  "resume": "Podcast quotidien de l'ISC.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 9,
+  "criteres": {
+   "source": 30.0,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "heise"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "da338ddc94b0",
+  "source": "lmi",
+  "titre": "Black Friday : les cybermenaces dopées à l'IA mettent les distributeurs sous pression",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/black-friday-les-cybermenaces-dopees-a-l-ia-mettent-les-distributeurs-sous-pression",
+  "date": "2026-11-25T15:40:12+00:00",
+  "resume": "À l'approche du Black Friday, les enseignes doivent se préparer à une hausse des attaques visant leurs sites, leurs comptes clients et leurs infrastructures de paiement. L'IA accélère les capacités des attaquants, tandis qu'une part importante des petits et moyens distributeurs reste dépourvue d'assurance cyber.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 9,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": [
+    "attaque"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
  },
  {
   "id": "244d7ce3739d",
@@ -1941,7 +3212,36 @@
   "sous_themes": [],
   "score": 0,
   "criteres": {
-   "source": 30.6,
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f43fb382f576",
+  "source": "lebigdata",
+  "titre": "Portage de GTA 6 sur PC : Take-Two vient de doucher les espoirs des joueurs",
+  "lien": "https://www.lebigdata.fr/portage-de-gta-6-sur-pc-take-two-vient-de-doucher-les-espoirs-des-joueurs",
+  "date": "2026-11-25T06:13:34+00:00",
+  "resume": "Take-Two fait retirer de GitHub le projet de portage Leonida.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 25.8,
    "criticite": 0,
    "corroboration": 0,
    "bruit": -35,

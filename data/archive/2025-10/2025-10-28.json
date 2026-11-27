@@ -1,0 +1,95 @@
+[
+ {
+  "id": "925b33d18b80",
+  "source": "huggingface",
+  "titre": "How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare",
+  "lien": "https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare",
+  "date": "2025-10-28T20:42:35+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "42912fef86c5",
+  "source": "huggingface",
+  "titre": "Granite 4.0 Nano: Just how small can you go?",
+  "lien": "https://huggingface.co/blog/ibm-granite/granite-4-nano",
+  "date": "2025-10-28T14:59:38+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e13ec2cec2bd",
+  "source": "huggingface",
+  "titre": "Voice Cloning with Consent",
+  "lien": "https://huggingface.co/blog/voice-consent-gate",
+  "date": "2025-10-28T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

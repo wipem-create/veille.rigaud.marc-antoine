@@ -1,0 +1,38 @@
+[
+ {
+  "id": "164e511fe381",
+  "source": "elastic",
+  "titre": "Starter guide to understanding Okta",
+  "lien": "https://www.elastic.co/security-labs/blog/starter-guide-to-understanding-okta",
+  "date": "2024-01-23T00:00:00+00:00",
+  "resume": "This article delves into Okta's architecture and services, laying a solid foundation for threat research and detection engineering. Essential reading for those aiming to master threat hunting and detection in Okta environments.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

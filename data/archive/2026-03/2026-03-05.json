@@ -1,0 +1,136 @@
+[
+ {
+  "id": "6cb9cd2b4f0e",
+  "source": "elastic",
+  "titre": "Hooked on Linux: Rootkit Taxonomy, Hooking Techniques and Tradecraft",
+  "lien": "https://www.elastic.co/security-labs/threat-command/linux-rootkits-1-hooked-on-linux",
+  "date": "2026-03-05T00:00:00+00:00",
+  "resume": "In this first part of a two-part series, we explore Linux rootkit taxonomy, trace their evolution from userland shared object hijacking and kernel-space loadable kernel module hooking to modern eBPF- and io_uring-powered techniques.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ebpf"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "ebpf"
+  ],
+  "signal_confirme": true,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "6dcf26b83983",
+  "source": "huggingface",
+  "titre": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+  "lien": "https://huggingface.co/blog/modular-diffusers",
+  "date": "2026-03-05T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "38fcc2267618",
+  "source": "huggingface",
+  "titre": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
+  "lien": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+  "date": "2026-03-05T14:16:49+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "56b884cdd2c3",
+  "source": "welivesecurity",
+  "titre": "How SMBs use threat research and MDR to build a defensive edge",
+  "lien": "https://www.welivesecurity.com/en/business-security/how-smbs-use-threat-research-mdr-build-defensive-edge/",
+  "date": "2026-03-05T10:00:00+00:00",
+  "resume": "We speak to Director of ESET Threat Research Jean-Ian Boutin about where solutions that blend advanced technology with human expertise provide the most practical value for businesses",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

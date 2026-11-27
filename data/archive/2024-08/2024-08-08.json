@@ -1,0 +1,69 @@
+[
+ {
+  "id": "aceecc077046",
+  "source": "elastic",
+  "titre": "Now in beta: New Detection as Code capabilities",
+  "lien": "https://www.elastic.co/security-labs/blog/dac-beta-release",
+  "date": "2024-08-08T00:00:00+00:00",
+  "resume": "Exciting news! Our Detections as Code (DaC) improvements to the detection-rules repo are now in beta. In May this year, we shared the Alpha stages of our research into Rolling your own Detections as Code with Elastic Security . Elastic is working on supporting DaC in Elastic Security. While in the future DaC will be…",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "bcfb10e1fa81",
+  "source": "huggingface",
+  "titre": "XetHub is joining Hugging Face!",
+  "lien": "https://huggingface.co/blog/xethub-joins-hf",
+  "date": "2024-08-08T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -34,6 +34,135 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "399722d16a8c",
+  "source": "krebs",
+  "titre": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+  "lien": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+  "date": "2026-11-03T02:24:31+00:00",
+  "resume": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Phishing & fraude"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.166968+00:00"
+ },
+ {
+  "id": "c3cda67991a2",
+  "source": "huggingface",
+  "titre": "Palette: teaching a small model to build decks in your design language",
+  "lien": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+  "date": "2026-11-03T16:35:36+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e84a4f4e5923",
+  "source": "huggingface",
+  "titre": "CWE-bench v2: More coverage, quality, and transparency",
+  "lien": "https://huggingface.co/blog/cwe-bench",
+  "date": "2026-11-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "dd4cc698b532",
+  "source": "huggingface",
+  "titre": "Transformers Model Integration Contracts",
+  "lien": "https://huggingface.co/blog/transformers-mic",
+  "date": "2026-11-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
   "id": "dd2965c3b5ac",
   "source": "welivesecurity",
   "titre": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
@@ -47,9 +176,9 @@
   "sous_themes": [
    "H1:Menaces & APT"
   ],
-  "score": 29,
+  "score": 26,
   "criteres": {
-   "source": 29.2,
+   "source": 26.0,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,

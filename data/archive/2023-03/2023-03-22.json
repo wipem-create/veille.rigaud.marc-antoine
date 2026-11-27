@@ -1,0 +1,35 @@
+[
+ {
+  "id": "a047bf605e42",
+  "source": "elastic",
+  "titre": "Not sleeping anymore: SOMNIRECORD's wake-up call",
+  "lien": "https://www.elastic.co/security-labs/threat-command/not-sleeping-anymore-somnirecords-wakeup-call",
+  "date": "2023-03-22T00:00:00+00:00",
+  "resume": "Elastic Security Labs researchers identified a new malware family written in C++ that we refer to as SOMNIRECORD. This malware functions as a backdoor and communicates with command and control (C2) while masquerading as DNS.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

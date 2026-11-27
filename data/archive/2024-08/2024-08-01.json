@@ -1,0 +1,35 @@
+[
+ {
+  "id": "f4f1e16c6690",
+  "source": "elastic",
+  "titre": "BITS and Bytes: Analyzing BITSLOTH, a newly identified backdoor",
+  "lien": "https://www.elastic.co/security-labs/threat-command/bits-and-bytes-analyzing-bitsloth",
+  "date": "2024-08-01T00:00:00+00:00",
+  "resume": "Elastic Security Labs identified a novel Windows backdoor leveraging the Background Intelligent Transfer Service (BITS) for C2. This malware was found during a recent activity group tracked as REF8747.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

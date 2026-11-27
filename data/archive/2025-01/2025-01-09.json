@@ -1,0 +1,70 @@
+[
+ {
+  "id": "029f6cb955d0",
+  "source": "elastic",
+  "titre": "Detonating Beacons to Illuminate Detection Gaps",
+  "lien": "https://www.elastic.co/security-labs/threat-command/detonating-beacons-to-illuminate-detection-gaps",
+  "date": "2025-01-09T00:00:00+00:00",
+  "resume": "Learn how Elastic Security leveraged open-source BOFs to achieve detection engineering goals during our most recent ON week.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b5fbcb8a5ac3",
+  "source": "huggingface",
+  "titre": "CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard",
+  "lien": "https://huggingface.co/blog/leaderboard-emissions-analysis",
+  "date": "2025-01-09T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

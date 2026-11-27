@@ -1,0 +1,169 @@
+[
+ {
+  "id": "68eefb7807d0",
+  "source": "redcanary",
+  "titre": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Agent’s user account",
+  "lien": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-teams/",
+  "date": "2026-06-01T13:04:01+00:00",
+  "resume": "Entra ID agent users can send malicious content to human users via Microsoft Teams. Here’s what to look out for.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 12,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "microsoft"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "elastic"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ },
+ {
+  "id": "f6be91e79a30",
+  "source": "huggingface",
+  "titre": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+  "lien": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+  "date": "2026-06-01T13:51:18+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0c958b946a5e",
+  "source": "huggingface",
+  "titre": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+  "lien": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+  "date": "2026-06-01T15:45:17+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "30b642888f9e",
+  "source": "sekoia",
+  "titre": "FSB’s matryoshka #1/3: Inside Gamaredon Cyber Operations",
+  "lien": "https://www.sekoia.com/blog/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm",
+  "date": "2026-06-01T00:00:00+00:00",
+  "resume": "Part 1 of our FSB Matryoshka series. Discover the context behind Gamaredon's cyberespionage campaigns, introducing GammaPhish and GammaWorm operations.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "f422e6f290cf",
+  "source": "redcanary",
+  "titre": "Red Canary CFP tracker: June 2026",
+  "lien": "https://redcanary.com/blog/news-events/red-canary-cfp-tracker-june-2026/",
+  "date": "2026-06-01T18:59:52+00:00",
+  "resume": "Red Canary's monthly roundup of upcoming security conferences and call for papers (CFP) submission deadlines June 2026",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ }
+]

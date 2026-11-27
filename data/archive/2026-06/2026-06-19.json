@@ -1,0 +1,73 @@
+[
+ {
+  "id": "509e566ab631",
+  "source": "elastic",
+  "titre": "Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap",
+  "lien": "https://www.elastic.co/security-labs/blog/aad-graph-activity-logs-threat-detection",
+  "date": "2026-06-19T00:00:00+00:00",
+  "resume": "Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "log"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4213328e4b09",
+  "source": "elastic",
+  "titre": "Lost in relocation: analysis of a new loader distributing CASTLESTEALER",
+  "lien": "https://www.elastic.co/security-labs/threat-command/oxloader-malware-loader-infostealer",
+  "date": "2026-06-19T00:00:00+00:00",
+  "resume": "Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

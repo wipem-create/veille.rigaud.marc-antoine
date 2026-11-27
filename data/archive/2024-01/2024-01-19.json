@@ -1,0 +1,64 @@
+[
+ {
+  "id": "4ae3cdb62687",
+  "source": "huggingface",
+  "titre": "Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers",
+  "lien": "https://huggingface.co/blog/fine-tune-w2v2-bert",
+  "date": "2024-01-19T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "3e769503e769",
+  "source": "huggingface",
+  "titre": "PatchTSMixer in HuggingFace",
+  "lien": "https://huggingface.co/blog/patchtsmixer",
+  "date": "2024-01-19T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

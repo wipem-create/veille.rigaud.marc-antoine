@@ -1,0 +1,201 @@
+[
+ {
+  "id": "54f65db39f6c",
+  "source": "huggingface",
+  "titre": "MosaicLeaks: Can your research agent keep a secret?",
+  "lien": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+  "date": "2026-06-18T18:13:13+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "research"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "a7a1e3cc0292",
+  "source": "huggingface",
+  "titre": "Is it agentic enough? Benchmarking open models on your own tooling",
+  "lien": "https://huggingface.co/blog/is-it-agentic-enough",
+  "date": "2026-06-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "benchmark"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "042fcb259b65",
+  "source": "welivesecurity",
+  "titre": "Killing me gently: Inside Gentlemen’s EDR killer framework",
+  "lien": "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/",
+  "date": "2026-06-18T09:46:32+00:00",
+  "resume": "ESET Research shares the results of a months-long investigation into the suite of EDR killers maintained by the RaaS gang Gentlemen",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "edr"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "810fd4a0ec3d",
+  "source": "ncsc",
+  "titre": "Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways",
+  "lien": "https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways",
+  "date": "2026-06-18T12:00:00+00:00",
+  "resume": "Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "2a4119638842",
+  "source": "huggingface",
+  "titre": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+  "lien": "https://huggingface.co/blog/peft-beyond-lora",
+  "date": "2026-06-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "4b513a495722",
+  "source": "redcanary",
+  "titre": "Intelligence Insights: June 2026",
+  "lien": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/",
+  "date": "2026-06-18T17:49:20+00:00",
+  "resume": "ClearFake is the clear-cut number one again and Kali365 debuts in this month’s edition of Intelligence Insights",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 25,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ }
+]

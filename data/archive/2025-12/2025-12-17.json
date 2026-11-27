@@ -1,0 +1,38 @@
+[
+ {
+  "id": "1f9c5da0bbb0",
+  "source": "huggingface",
+  "titre": "The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator",
+  "lien": "https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe",
+  "date": "2025-12-17T13:22:18+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "benchmark",
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

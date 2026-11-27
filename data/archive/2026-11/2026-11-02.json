@@ -1,0 +1,31 @@
+[
+ {
+  "id": "2197587daf05",
+  "source": "welivesecurity",
+  "titre": "When confusion reigns, trusted vendors must guide their SMB customers",
+  "lien": "https://www.welivesecurity.com/en/business-security/when-confusion-reigns-trusted-vendors-guide-smb-customers/",
+  "date": "2026-11-02T09:55:00+00:00",
+  "resume": "SMBs need guided onboarding and supervised protection to optimize their investments",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

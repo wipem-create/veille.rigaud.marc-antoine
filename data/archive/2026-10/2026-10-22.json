@@ -1,0 +1,75 @@
+[
+ {
+  "id": "e850fc82e9a8",
+  "source": "sekoia",
+  "titre": "ISOC, AI Agents, And The New Shape Of Security Operations",
+  "lien": "https://www.sekoia.com/blog/isoc-ai-agents-and-the-changing-role-of-the-analyst",
+  "date": "2026-10-22T13:14:00+00:00",
+  "resume": "See how ISOC and AI agents are reshaping the SOC, helping teams investigate faster, reduce alert fatigue, and give human analysts more room for judgment.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "03813cc64ace",
+  "source": "welivesecurity",
+  "titre": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration",
+  "lien": "https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/",
+  "date": "2026-10-22T08:45:00+00:00",
+  "resume": "ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

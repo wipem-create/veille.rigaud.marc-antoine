@@ -1,0 +1,71 @@
+[
+ {
+  "id": "4751a958e145",
+  "source": "elastic",
+  "titre": "Automating GOAD and Live Malware Labs",
+  "lien": "https://www.elastic.co/security-labs/blog/automating-goad-and-live-malware-labs",
+  "date": "2026-02-05T00:00:00+00:00",
+  "resume": "Stop building labs by hand. Automate the deployment of a fully instrumented Purple Team range using Ludus and Elastic Security. Spin up infrastructure, execute attacks, and validate detection rules in a single, repeatable workflow.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1f09b530980c",
+  "source": "huggingface",
+  "titre": "Introducing SyGra Studio",
+  "lien": "https://huggingface.co/blog/ServiceNow-AI/sygra-studio",
+  "date": "2026-02-05T16:52:28+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

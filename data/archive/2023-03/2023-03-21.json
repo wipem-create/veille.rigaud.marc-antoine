@@ -1,0 +1,35 @@
+[
+ {
+  "id": "08a5c730fa48",
+  "source": "elastic",
+  "titre": "Thawing the permafrost of ICEDID Summary",
+  "lien": "https://www.elastic.co/security-labs/threat-command/thawing-the-permafrost-of-icedid-summary",
+  "date": "2023-03-21T00:00:00+00:00",
+  "resume": "Elastic Security Labs analyzed a recent ICEDID variant consisting of a loader and bot payload. By providing this research to the community end-to-end, we hope to raise awareness of the ICEDID execution chain, capabilities, and design.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

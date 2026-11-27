@@ -1,0 +1,40 @@
+[
+ {
+  "id": "395ee8d944dd",
+  "source": "elastic",
+  "titre": "AWS SNS Abuse: Data Exfiltration and Phishing",
+  "lien": "https://www.elastic.co/security-labs/threat-command/aws-sns-abuse",
+  "date": "2025-03-13T00:00:00+00:00",
+  "resume": "During a recent internal collaboration, we dug into publicly known SNS abuse attempts and our knowledge of the data source to develop detection capabilities.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

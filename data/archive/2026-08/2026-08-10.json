@@ -1,0 +1,137 @@
+[
+ {
+  "id": "c0b601ff84a0",
+  "source": "huggingface",
+  "titre": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+  "lien": "https://huggingface.co/blog/muse-glimmer",
+  "date": "2026-08-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "meta",
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "c65c12fe1ca2",
+  "source": "huggingface",
+  "titre": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+  "lien": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+  "date": "2026-08-10T16:25:36+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "77ae9004764a",
+  "source": "huggingface",
+  "titre": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+  "lien": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+  "date": "2026-08-10T10:05:36+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "fe39331e1d72",
+  "source": "welivesecurity",
+  "titre": "Are AI tutors safe for your kids?",
+  "lien": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
+  "date": "2026-08-10T09:00:00+00:00",
+  "resume": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

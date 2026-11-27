@@ -1,0 +1,102 @@
+[
+ {
+  "id": "a3d3c995e6fb",
+  "source": "sekoia",
+  "titre": "Shadow IT: The Initial Access You Didn’t Log",
+  "lien": "https://www.sekoia.com/blog/shadow-it-the-initial-access-you-didnt-log",
+  "date": "2026-03-06T00:00:00+00:00",
+  "resume": "Forgotten assets, exposed cloud storage and stale domains turn shadow IT into initial access. Why visibility is now a core SOC capability.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "28a1e8c1d4f4",
+  "source": "elastic",
+  "titre": "Patch diff to SYSTEM",
+  "lien": "https://www.elastic.co/security-labs/blog/patch-diff-to-system",
+  "date": "2026-03-06T00:00:00+00:00",
+  "resume": "Leveraging LLMs and patch diffing, this research details a Use-After-Free vulnerability in Windows DWM, demonstrating a reliable exploit that achieves escalation from low-privileged user permissions to SYSTEM.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "exploit"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "041fbc324444",
+  "source": "welivesecurity",
+  "titre": "What cybersecurity actually does for your business",
+  "lien": "https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/",
+  "date": "2026-03-06T10:00:00+00:00",
+  "resume": "The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

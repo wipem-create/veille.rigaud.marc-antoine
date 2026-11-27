@@ -1,0 +1,70 @@
+[
+ {
+  "id": "d74a62110895",
+  "source": "elastic",
+  "titre": "Automating detection tuning requests with Kibana cases",
+  "lien": "https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases",
+  "date": "2025-12-05T00:00:00+00:00",
+  "resume": "Learn how to automate detection rule tuning requests in Elastic Security. This guide shows how to add custom fields to Cases, create a rule to detect tuning needs, and use a webhook to create a frictionless feedback loop between analysts and detection engineers.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3c94f9556c87",
+  "source": "huggingface",
+  "titre": "Introducing swift-huggingface: The Complete Swift Client for Hugging Face",
+  "lien": "https://huggingface.co/blog/swift-huggingface",
+  "date": "2025-12-05T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

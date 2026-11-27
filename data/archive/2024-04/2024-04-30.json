@@ -1,0 +1,68 @@
+[
+ {
+  "id": "879c4e0b563a",
+  "source": "elastic",
+  "titre": "Dissecting REMCOS RAT: An in-depth analysis of a widespread 2024 malware, Part Two",
+  "lien": "https://www.elastic.co/security-labs/threat-command/dissecting-remcos-rat-part-two",
+  "date": "2024-04-30T00:00:00+00:00",
+  "resume": "In the previous article in this series on the REMCOS implant, we shared information about execution, persistence, and defense evasion mechanisms. Continuing this series we’ll cover the second half of its execution flow and you’ll learn more about REMCOS recording capabilities and communication with its C2.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "d710bbbf7ecb",
+  "source": "huggingface",
+  "titre": "Improving Prompt Consistency with Structured Generations",
+  "lien": "https://huggingface.co/blog/evaluation-structured-outputs",
+  "date": "2024-04-30T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

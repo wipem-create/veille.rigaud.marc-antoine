@@ -1,0 +1,41 @@
+[
+ {
+  "id": "cc567d27c84c",
+  "source": "sekoia",
+  "titre": "The Sharp Taste of Mimo'lette: Mimo Targets Craft CMS",
+  "lien": "https://www.sekoia.com/blog/the-sharp-taste-of-mimolette-analyzing-mimos-latest-campaign-targeting-craft-cms",
+  "date": "2025-05-27T00:00:00+00:00",
+  "resume": "Analysis of the CVE-2025-32432 compromise chain by Mimo: exploitation, loader, crypto miner, proxyware, and detection opportunities.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

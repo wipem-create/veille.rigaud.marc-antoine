@@ -1,0 +1,167 @@
+[
+ {
+  "id": "31c8b99c5650",
+  "source": "huggingface",
+  "titre": "Holo1: New family of GUI automation VLMs powering GUI agent Surfer-H",
+  "lien": "https://huggingface.co/blog/Hcompany/holo1",
+  "date": "2025-06-03T13:27:59+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "ff0c2d055754",
+  "source": "sekoia",
+  "titre": "DORA: How Sekoia can support your compliance journey",
+  "lien": "https://www.sekoia.com/blog/navigating-dora-compliance-with-sekoia",
+  "date": "2025-06-03T00:00:00+00:00",
+  "resume": "Explore the key aspects of DORA and how Sekoia assists organisations in achieving compliance through cyber threat intelligence.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "61b60f16d627",
+  "source": "huggingface",
+  "titre": "Real-Time AI Sound Generation on Arm: A Personal Tool for Creative Freedom",
+  "lien": "https://huggingface.co/blog/Arm/ai-sound-gen-on-arm",
+  "date": "2025-06-03T15:04:36+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d93f88203bcb",
+  "source": "huggingface",
+  "titre": "SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data",
+  "lien": "https://huggingface.co/blog/smolvla",
+  "date": "2025-06-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "b40c906ad11a",
+  "source": "huggingface",
+  "titre": "No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL",
+  "lien": "https://huggingface.co/blog/vllm-colocate",
+  "date": "2025-06-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

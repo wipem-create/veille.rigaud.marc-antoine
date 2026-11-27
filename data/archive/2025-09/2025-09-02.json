@@ -1,0 +1,95 @@
+[
+ {
+  "id": "c7725c23e678",
+  "source": "sekoia",
+  "titre": "Predators for Hire: Commercial Surveillance Vendors Overview",
+  "lien": "https://www.sekoia.com/blog/predators-for-hire-a-global-overview-of-commercial-surveillance-vendors",
+  "date": "2025-09-02T00:00:00+00:00",
+  "resume": "Overview of the commercial surveillance vendor ecosystem from 2010 to 2025: spyware offerings, business models, clients, targets and infection chains.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "84823d833797",
+  "source": "huggingface",
+  "titre": "SAIR: Accelerating Pharma R&D with AI-Powered Structural Intelligence",
+  "lien": "https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai",
+  "date": "2025-09-02T16:54:29+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "c350f99a5119",
+  "source": "huggingface",
+  "titre": "Make your ZeroGPU Spaces go brrr with ahead-of-time compilation",
+  "lien": "https://huggingface.co/blog/zerogpu-aoti",
+  "date": "2025-09-02T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

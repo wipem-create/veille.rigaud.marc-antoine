@@ -1,0 +1,210 @@
+[
+ {
+  "id": "b8d946e5e74c",
+  "source": "huggingface",
+  "titre": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "lien": "https://huggingface.co/blog/anydecisionmodel",
+  "date": "2026-10-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "b52950697bde",
+  "source": "sekoia",
+  "titre": "The Future Of The SOC Is Deployment Freedom",
+  "lien": "https://www.sekoia.com/blog/the-future-of-soc-deployment-freedom",
+  "date": "2026-10-29T10:37:00+00:00",
+  "resume": "A cloud-only SOC won’t fit every enterprise. Learn why deployment freedom and consistent capabilities will shape the next generation of security operations.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "44a641f01abe",
+  "source": "huggingface",
+  "titre": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+  "lien": "https://huggingface.co/blog/mistral-large4",
+  "date": "2026-10-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome",
+    "mistral"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "13a4facb28c8",
+  "source": "huggingface",
+  "titre": "Granite Switch 4.1.1 — Update models like you update software",
+  "lien": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+  "date": "2026-10-29T13:37:07+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "c1c5250f19ee",
+  "source": "huggingface",
+  "titre": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+  "lien": "https://huggingface.co/blog/announcing-project-protostar",
+  "date": "2026-10-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "f2d52ed52bc5",
+  "source": "welivesecurity",
+  "titre": "Amatera: How the prolific infostealer works and spreads",
+  "lien": "https://www.welivesecurity.com/en/malware/amatera-how-prolific-infostealer-works-spreads/",
+  "date": "2026-10-29T08:00:00+00:00",
+  "resume": "The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

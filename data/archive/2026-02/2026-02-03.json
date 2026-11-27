@@ -1,0 +1,174 @@
+[
+ {
+  "id": "00a4b73aff1c",
+  "source": "elastic",
+  "titre": "From Qradar to Elastic: Automate your Detection Rule Migration",
+  "lien": "https://www.elastic.co/security-labs/blog/from-qradar-to-elastic",
+  "date": "2026-02-03T00:00:00+00:00",
+  "resume": "Today, we are excited to announce a major expansion to our Automatic Migration feature that changes that narrative. In Elastic Security 9.3, we are introducing Automatic Migration support for QRadar detection rules (now in Tech Preview), joining our existing Splunk translation capabilities to further expedite your…",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "cece299af892",
+  "source": "elastic",
+  "titre": "From Alert Fatigue to Agentic Response: How Workflows and Agent Builder Close the Loop",
+  "lien": "https://www.elastic.co/security-labs/blog/from-alert-fatigue-to-agentic-response",
+  "date": "2026-02-03T00:00:00+00:00",
+  "resume": "Attempting to chase individual alerts is a losing strategy. To succeed, we have to move beyond simple automation scripts and into the era of Agentic AI.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "de8c8513e542",
+  "source": "huggingface",
+  "titre": "The Future of the Global Open-Source AI Ecosystem: From DeepSeek to AI+",
+  "lien": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3",
+  "date": "2026-02-03T15:03:19+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "open-source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "f4537128fdc6",
+  "source": "huggingface",
+  "titre": "H Company's new Holo2 model takes the lead in UI Localization",
+  "lien": "https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
+  "date": "2026-02-03T17:40:14+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "2885330bd17d",
+  "source": "huggingface",
+  "titre": "Training Design for Text-to-Image Models: Lessons from Ablations",
+  "lien": "https://huggingface.co/blog/Photoroom/prx-part2",
+  "date": "2026-02-03T11:25:53+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

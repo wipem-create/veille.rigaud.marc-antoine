@@ -1,0 +1,66 @@
+[
+ {
+  "id": "a01bb52cc596",
+  "source": "sekoia",
+  "titre": "EvilTokens: AI PhaaS for automating BEC fraud - Part 2",
+  "lien": "https://www.sekoia.com/blog/eviltokens-an-ai-augmented-phishing-as-a-service-for-automating-bec-fraud-part-2",
+  "date": "2026-04-07T00:00:00+00:00",
+  "resume": "Explore how EvilTokens uses AI-driven features to automate and scale BEC workflows. Uncover the PhaaS operations on Telegram.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "35084f3da883",
+  "source": "welivesecurity",
+  "titre": "As breakout time accelerates, prevention-first cybersecurity takes center stage",
+  "lien": "https://www.welivesecurity.com/en/business-security/breakout-time-accelerates-prevention-first-cybersecurity-center-stage/",
+  "date": "2026-04-07T09:00:00+00:00",
+  "resume": "Threat actors are using AI to supercharge tried-and-tested TTPs. When attacks move this fast, cyber-defenders need to rethink their own strategy.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

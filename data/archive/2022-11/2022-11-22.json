@@ -1,0 +1,112 @@
+[
+ {
+  "id": "effe73efb753",
+  "source": "elastic",
+  "titre": "Detection rules for SIGRed vulnerability",
+  "lien": "https://www.elastic.co/security-labs/blog/detection-rules-for-sigred-vulnerability",
+  "date": "2022-11-22T00:00:00+00:00",
+  "resume": "The SIGRed vulnerability impacts all systems leveraging the Windows DNS server service (Windows 2003+). To defend your environment, we recommend implementing the detection logic included in this blog post using technology like Elastic Security.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "982ec406fedf",
+  "source": "elastic",
+  "titre": "Detecting Exploitation of CVE-2021-44228 (Log4j2) with Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/detecting-log4j2-with-elastic-security",
+  "date": "2022-11-22T00:00:00+00:00",
+  "resume": "This blog post provides a summary of CVE-2021-44228 and provides Elastic Security users with detections to find active exploitation of the vulnerability in their environment. Further updates will be provided to this post as we learn more.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "24b54a5c98a3",
+  "source": "elastic",
+  "titre": "Elastic's response to the Spring4Shell vulnerability (CVE-2022-22965)",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-response-to-the-the-spring4shell-vulnerability-cve-2022-22965",
+  "date": "2022-11-22T00:00:00+00:00",
+  "resume": "Provide executive-level details about CVE-2022-22965, a recently-disclosed remote code execution (RCE) vulnerability also known as “Spring4Shell”.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

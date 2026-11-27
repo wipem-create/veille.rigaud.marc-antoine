@@ -1,0 +1,31 @@
+[
+ {
+  "id": "4374bfe4b337",
+  "source": "huggingface",
+  "titre": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+  "lien": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+  "date": "2026-05-18T15:12:46+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -36,6 +36,220 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "5b4c45aad32a",
+  "source": "lmi",
+  "titre": "Cisco et IBM vont intégrer Mythos à leurs outils de cybersécurité",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cisco-et-ibm-vont-integrer-mythos-a-leurs-outils-d",
+  "date": "2026-11-10T10:58:58+00:00",
+  "resume": "Cisco et IBM préparent l’intégration de Claude Mythos dans leurs produits de sécurité. Le premier utilisera le modèle d’Anthropic pour renforcer les tests offensifs des systèmes d’IA. Le second vise la détection et la correction de vulnérabilités logicielles. Ces projets élargissent l’accès aux capacités de Mythos…",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche",
+   "H2:Usages & outils",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "sécurité",
+    "anthropic"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "e8ddcc19c9a4",
+  "source": "sekoia",
+  "titre": "Cold Chain Attack: Unpatched Danfoss Controllers Exploited",
+  "lien": "https://www.sekoia.com/blog/the-cold-chain-on-fire-unpatched-danfoss-controllers-exploited",
+  "date": "2026-11-10T07:06:00+00:00",
+  "resume": "Sekoia TDR analyzes attacks on exposed Danfoss controllers in European supermarkets, with honeypot findings and attribution to an Iran-linked unit.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 11,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "honeypot",
+    "europe"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "a4e690e19dc5",
+  "source": "lmi",
+  "titre": "Qubole : des accès cloud oubliés exposent les entreprises au vol de données",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/qubole-des-acces-cloud-oublies-exposent-les-entrep",
+  "date": "2026-11-10T07:47:39+00:00",
+  "resume": "Des attaquants ont détourné les accès AWS de Qubole pour voler des secrets et des données chez plusieurs entreprises clientes. Certaines avaient abandonné la plateforme sans révoquer ses autorisations. Rendue publique le 9 novembre 2026, la campagne a été observée du 14 au 26 octobre",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "vol de données"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "19ec31e784da",
+  "source": "lmi",
+  "titre": "Scality devient autorité de numérotation CVE sous l’égide de l’ENISA",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/scality-devient-autorite-de-numerotation-cve-sous-",
+  "date": "2026-11-10T14:56:07+00:00",
+  "resume": "Scality a annoncé le 10 novembre 2026 son entrée dans le programme CVE en tant qu’autorité de numérotation, ou CNA (CVE Numbering Authority). L’éditeur peut désormais attribuer directement des identifiants aux vulnérabilités de ses logiciels et publier les enregistrements associés. Cette évolution intervient alors que…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "79f557da2243",
+  "source": "lmi",
+  "titre": "NIS 2 : la loi Résilience arrive enfin à l’Assemblée",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/nis-2-la-loi-resilience-arrive-enfin-a-l-assemblee",
+  "date": "2026-11-10T06:30:04+00:00",
+  "resume": "Le projet de loi Résilience est examiné en séance publique après plusieurs reports. Son adoption doit permettre de préciser le cadre réglementaire applicable aux milliers d’organisations concernées.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "6fd06cc5bf95",
+  "source": "huggingface",
+  "titre": "Pay for Hugging Face Hub with your Google Cloud Account",
+  "lien": "https://huggingface.co/blog/hub-gcp-marketplace",
+  "date": "2026-11-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "google"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
   "id": "6a728ead8c2f",
   "source": "welivesecurity",
   "titre": "Exchange for breakfast: Turla's Cereal tricks are not for kids",
@@ -49,9 +263,9 @@
   "sous_themes": [
    "H1:Menaces & APT"
   ],
-  "score": 34,
+  "score": 31,
   "criteres": {
-   "source": 29.2,
+   "source": 26.0,
    "criticite": 5,
    "corroboration": 0,
    "bruit": 0,
@@ -69,5 +283,38 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "e8f22730f8d6",
+  "source": "huggingface",
+  "titre": "Decision Models in Hugging Face",
+  "lien": "https://huggingface.co/blog/decision",
+  "date": "2026-11-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
  }
 ]

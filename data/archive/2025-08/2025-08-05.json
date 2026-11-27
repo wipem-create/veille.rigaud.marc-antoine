@@ -1,0 +1,40 @@
+[
+ {
+  "id": "4b0912c13d7e",
+  "source": "huggingface",
+  "titre": "Welcome GPT OSS, the new open-source model family from OpenAI!",
+  "lien": "https://huggingface.co/blog/welcome-openai-gpt-oss",
+  "date": "2025-08-05T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome",
+    "openai",
+    "open-source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

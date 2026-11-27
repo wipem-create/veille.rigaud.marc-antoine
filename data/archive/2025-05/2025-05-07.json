@@ -1,0 +1,35 @@
+[
+ {
+  "id": "e3311987d56c",
+  "source": "elastic",
+  "titre": "Elastic and Keep join forces to help users manage alerts and automate workflows",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-and-keep-join-forces",
+  "date": "2025-05-07T00:00:00+00:00",
+  "resume": "Elastic announces the acquisition of Keep Alerting",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

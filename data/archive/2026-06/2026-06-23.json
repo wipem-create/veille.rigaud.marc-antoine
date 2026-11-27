@@ -1,0 +1,138 @@
+[
+ {
+  "id": "63de894d65b9",
+  "source": "elastic",
+  "titre": "From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI",
+  "lien": "https://www.elastic.co/security-labs/blog/security-advisory-automation-rag-elastic-agent-builder",
+  "date": "2026-06-23T00:00:00+00:00",
+  "resume": "How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA",
+   "H2:Sécurité de l'IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 26,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "vulnerab",
+    "agent",
+    "report"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1adb4836863d",
+  "source": "sekoia",
+  "titre": "Sekoia’s New Identity: Designed for Clarity",
+  "lien": "https://www.sekoia.com/blog/sekoias-new-identity-designed-for-clarity",
+  "date": "2026-06-23T07:00:00+00:00",
+  "resume": "Sekoia has partnered with branding agency Bruno to develop a new brand identity and digital experience. Here's everything you need to know about it.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "5b92e19c574b",
+  "source": "huggingface",
+  "titre": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+  "lien": "https://huggingface.co/blog/huggingface-hub-release-ci",
+  "date": "2026-06-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "76261a3ddd58",
+  "source": "huggingface",
+  "titre": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+  "lien": "https://huggingface.co/blog/cross-origin-storage",
+  "date": "2026-06-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

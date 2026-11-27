@@ -1,0 +1,35 @@
+[
+ {
+  "id": "53741ddc1025",
+  "source": "elastic",
+  "titre": "Initial research exposing JOKERSPY",
+  "lien": "https://www.elastic.co/security-labs/threat-command/inital-research-of-jokerspy",
+  "date": "2023-06-21T00:00:00+00:00",
+  "resume": "Explore JOKERSPY, a recently discovered campaign that targets financial institutions with Python backdoors. This article covers reconnaissance, attack patterns, and methods of identifying JOKERSPY in your network.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "6ee4dfe98b2d",
+  "source": "elastic",
+  "titre": "Get-InjectedThreadEx – Detecting Thread Creation Trampolines",
+  "lien": "https://www.elastic.co/security-labs/threat-command/get-injectedthreadex-detection-thread-creation-trampolines",
+  "date": "2022-12-07T00:00:00+00:00",
+  "resume": "In this blog, we will demonstrate how to detect each of four classes of process trampolining and release an updated PowerShell detection script – Get-InjectedThreadEx",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "release"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

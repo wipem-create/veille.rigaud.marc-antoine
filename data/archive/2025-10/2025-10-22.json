@@ -1,0 +1,133 @@
+[
+ {
+  "id": "295014bc63c2",
+  "source": "huggingface",
+  "titre": "Hugging Face and VirusTotal collaborate to strengthen AI security",
+  "lien": "https://huggingface.co/blog/virustotal",
+  "date": "2025-10-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "4d1c029ad025",
+  "source": "elastic",
+  "titre": "Time-to-Patch Metrics: A Survival Analysis Approach Using Qualys and Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/time-to-patch-metrics",
+  "date": "2025-10-22T00:00:00+00:00",
+  "resume": "In this article, we describe how we applied survival analysis to vulnerability management (VM) data from Qualys VMDR, using the Elastic Stack.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:SOC & SIEM"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e77f4133890b",
+  "source": "elastic",
+  "titre": "TOLLBOOTH: What's yours, IIS mine",
+  "lien": "https://www.elastic.co/security-labs/threat-command/tollbooth",
+  "date": "2025-10-22T00:00:00+00:00",
+  "resume": "REF3927 abuses publicly disclosed ASP.NET machine keys to compromise IIS servers and deploy TOLLBOOTH SEO cloaking modules globally.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "7929e9e2f91b",
+  "source": "huggingface",
+  "titre": "Sentence Transformers is joining Hugging Face!",
+  "lien": "https://huggingface.co/blog/sentence-transformers-joins-hf",
+  "date": "2025-10-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

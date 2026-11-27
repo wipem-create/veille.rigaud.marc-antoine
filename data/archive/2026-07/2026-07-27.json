@@ -1,0 +1,118 @@
+[
+ {
+  "id": "e3d2baa9e1a7",
+  "source": "huggingface",
+  "titre": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+  "lien": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+  "date": "2026-07-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H2:Agents IA"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "redcanary",
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "b5a846d4b793",
+  "source": "elastic",
+  "titre": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-agent-optimization-production-scale",
+  "date": "2026-07-27T00:00:00+00:00",
+  "resume": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA",
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "5a2fb7fc5506",
+  "source": "huggingface",
+  "titre": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+  "lien": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+  "date": "2026-07-27T09:32:20+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

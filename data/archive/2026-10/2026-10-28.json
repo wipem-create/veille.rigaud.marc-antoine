@@ -1,0 +1,105 @@
+[
+ {
+  "id": "087a29399784",
+  "source": "sekoia",
+  "titre": "PHP2Shell Was Exploited Before the Patch",
+  "lien": "https://www.sekoia.com/blog/php2shell-was-exploited-before-the-patch-expect-more-of-it",
+  "date": "2026-10-28T10:22:00+00:00",
+  "resume": "PHP2Shell was exploited four days before its patch. Learn why exploitation is moving ahead of disclosure and how security teams can respond.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 12,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "exploited"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "db65c469c3b6",
+  "source": "welivesecurity",
+  "titre": "Lessons from cybersecurity Black Week",
+  "lien": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
+  "date": "2026-10-28T10:33:51+00:00",
+  "resume": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "501f8afa7bbe",
+  "source": "welivesecurity",
+  "titre": "ESET APT Activity Report Q2 2026–Q3 2026",
+  "lien": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/",
+  "date": "2026-10-28T09:45:00+00:00",
+  "resume": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

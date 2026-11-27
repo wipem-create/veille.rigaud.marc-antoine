@@ -1,0 +1,132 @@
+[
+ {
+  "id": "b8a23a9c0350",
+  "source": "welivesecurity",
+  "titre": "Lessons for life: Why children’s data is a long-term identity risk",
+  "lien": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+  "date": "2026-06-03T08:50:00+00:00",
+  "resume": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "ed029d444d39",
+  "source": "sekoia",
+  "titre": "FSB’s matryoshka #2/3: Gamaredon's Gammaload Malware",
+  "lien": "https://www.sekoia.com/blog/fsbs-matryoshka-2-3-gamaredons-gifts-that-keeps-unpacking-gammaload",
+  "date": "2026-06-03T00:00:00+00:00",
+  "resume": "In part 2 of our FSB Matryoshka series, we analyze Gamaredon's Gammaload malware variant, dissecting its technical updates and deployment mechanisms.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "006369f19736",
+  "source": "huggingface",
+  "titre": "Direct Preference Optimization Beyond Chatbots",
+  "lien": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+  "date": "2026-06-03T12:55:11+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "c62e31d36673",
+  "source": "huggingface",
+  "titre": "Adding MCP Tools to Reachy Mini",
+  "lien": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+  "date": "2026-06-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

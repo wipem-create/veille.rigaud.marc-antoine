@@ -1,0 +1,207 @@
+[
+ {
+  "id": "1bd87258891b",
+  "source": "elastic",
+  "titre": "Journey to AlertZero: AI-driven alert triage and attack investigation for the agentic SOC",
+  "lien": "https://www.elastic.co/security-labs/blog/agentic-soc-alert-triage-alertzero",
+  "date": "2026-07-31T00:00:00+00:00",
+  "resume": "Elastic Security 9.5 gives SOC teams AI that handles first-pass alert triage and investigation, so analysts can get back to threat hunting and detection engineering instead of working through queue noise.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Sécurité de l'IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 30,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting",
+    "soc",
+    "alert",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "ai-driven"
+  ],
+  "signal_confirme": true,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "58ecd7aa5849",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – July 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
+  "date": "2026-07-31T14:14:15+00:00",
+  "resume": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion",
+   "H2:Agents IA",
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 24,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "agent",
+    "openai"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "19203fda732b",
+  "source": "elastic",
+  "titre": "What's new in Elastic Defend: 800+ vulnerable driver rules, automated troubleshooting, and ARM support",
+  "lien": "https://www.elastic.co/security-labs/blog/vulnerable-driver-detection-elastic-defend-byovd",
+  "date": "2026-07-31T00:00:00+00:00",
+  "resume": "Elastic Defend automatically generates and instantly deploys vulnerable driver YARA rules from VirusTotal, LOLDrivers and Microsoft's blocklist, closing the gap BYOVD attacks depend on. Plus a new troubleshooting skill and ARM endpoint protection.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "yara",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "0572e1e9d3b9",
+  "source": "elastic",
+  "titre": "Exploring the Hugging Face Breach: mapping AI agent tactics to Elastic Defend",
+  "lien": "https://www.elastic.co/security-labs/threat-command/ai-agent-attack-detection-hugging-face-breach",
+  "date": "2026-07-31T00:00:00+00:00",
+  "resume": "Every stage of the Hugging Face breach maps to Elastic Defend and SIEM rules already shipping, from worker RCE and credential harvest to self-migrating C2 and GenAI detection.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4773a78cb02d",
+  "source": "elastic",
+  "titre": "Elastic goes all-in on Hacker Summer Camp at Black Hat and DEF CON in Las Vegas",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-security-black-hat-defcon-2026",
+  "date": "2026-07-31T21:59:59+00:00",
+  "resume": "Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

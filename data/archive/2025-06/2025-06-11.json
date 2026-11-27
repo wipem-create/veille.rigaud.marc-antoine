@@ -1,0 +1,104 @@
+[
+ {
+  "id": "5f9bbf02cd49",
+  "source": "huggingface",
+  "titre": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
+  "lien": "https://huggingface.co/blog/nvidia-training-cluster",
+  "date": "2025-06-11T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing",
+    "nvidia"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "a10f7465f20a",
+  "source": "sekoia",
+  "titre": "Global analysis of Adversary-in-the-Middle phishing threats",
+  "lien": "https://www.sekoia.com/blog/global-analysis-of-adversary-in-the-middle-phishing-threats",
+  "date": "2025-06-11T00:00:00+00:00",
+  "resume": "Explore the 2025 landscape of Adversary-in-the-Middle phishing threats with data, trends, and top detection insights.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "9822ee5dfa1a",
+  "source": "huggingface",
+  "titre": "Post-Training Isaac GR00T N1.5 for LeRobot SO-101 Arm",
+  "lien": "https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning",
+  "date": "2025-06-11T18:27:22+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,130 @@
+[
+ {
+  "id": "137e8d18a6a8",
+  "source": "sekoia",
+  "titre": "Cyber Resilience Act (CRA): A Compliance Blueprint",
+  "lien": "https://www.sekoia.com/blog/mandating-security-by-design-sekoias-blueprint-for-the-eu-cyber-resilience-act",
+  "date": "2025-12-11T00:00:00+00:00",
+  "resume": "Discover Sekoia's blueprint for the EU Cyber Resilience Act and how we can support your compliance to the CRA.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "0074dca0296f",
+  "source": "elastic",
+  "titre": "NANOREMOTE, cousin of FINALDRAFT",
+  "lien": "https://www.elastic.co/security-labs/threat-command/nanoremote",
+  "date": "2025-12-11T00:00:00+00:00",
+  "resume": "The fully-featured backdoor we call NANOREMOTE shares characteristics with malware described in REF7707 and is similar to the FINALDRAFT implant.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b980acabea60",
+  "source": "huggingface",
+  "titre": "New in llama.cpp: Model Management",
+  "lien": "https://huggingface.co/blog/ggml-org/model-management-in-llamacpp",
+  "date": "2025-12-11T15:47:44+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "41aa7f724c95",
+  "source": "huggingface",
+  "titre": "Codex is Open Sourcing AI models",
+  "lien": "https://huggingface.co/blog/hf-skills-training-codex",
+  "date": "2025-12-11T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,95 @@
+[
+ {
+  "id": "0037965301d2",
+  "source": "elastic",
+  "titre": "The Shelby Strategy",
+  "lien": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
+  "date": "2025-03-26T00:00:00+00:00",
+  "resume": "An analysis of REF8685's abuse of GitHub for C2 to evade defenses.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "evade"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e4048b15d598",
+  "source": "huggingface",
+  "titre": "Open R1: Update #4",
+  "lien": "https://huggingface.co/blog/open-r1/update-4",
+  "date": "2025-03-26T18:47:29+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "23db5e3a6838",
+  "source": "huggingface",
+  "titre": "Training and Finetuning Reranker Models with Sentence Transformers",
+  "lien": "https://huggingface.co/blog/train-reranker",
+  "date": "2025-03-26T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

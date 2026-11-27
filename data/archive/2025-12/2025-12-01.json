@@ -1,0 +1,71 @@
+[
+ {
+  "id": "f3b80af95320",
+  "source": "sekoia",
+  "titre": "Advent of Configuration Extraction, Part 1: Kaiji Configuration",
+  "lien": "https://www.sekoia.com/blog/advent-of-configuration-extraction-part-1-pipeline-overview-first-steps-with-kaiji-configuration-unboxing",
+  "date": "2025-12-01T00:00:00+00:00",
+  "resume": "Learn how TDR automates Kaiji configuration extraction using Assemblyline, introducing the malware analysis pipeline and MACO-based workflows",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "a5dea15e4925",
+  "source": "huggingface",
+  "titre": "Transformers v5: Simple model definitions powering the AI ecosystem",
+  "lien": "https://huggingface.co/blog/transformers-v5",
+  "date": "2025-12-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

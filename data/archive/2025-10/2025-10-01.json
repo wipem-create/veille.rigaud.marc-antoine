@@ -1,0 +1,68 @@
+[
+ {
+  "id": "b559e10eb406",
+  "source": "elastic",
+  "titre": "WARMCOOKIE One Year Later: New Features and Fresh Insights",
+  "lien": "https://www.elastic.co/security-labs/threat-command/revisiting-warmcookie",
+  "date": "2025-10-01T00:00:00+00:00",
+  "resume": "A year later: Elastic Security Labs re-examines the WARMCOOKIE backdoor.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f72b1eb88c6b",
+  "source": "huggingface",
+  "titre": "Introducing RTEB: A New Standard for Retrieval Evaluation",
+  "lien": "https://huggingface.co/blog/rteb",
+  "date": "2025-10-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

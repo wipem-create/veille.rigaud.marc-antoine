@@ -1,0 +1,97 @@
+[
+ {
+  "id": "7f4433a5fc7b",
+  "source": "huggingface",
+  "titre": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+  "lien": "https://huggingface.co/blog/mishig/spaces-agents-md",
+  "date": "2026-06-09T10:46:19+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "a327637594b3",
+  "source": "huggingface",
+  "titre": "Migrating Your GitHub CI to Hugging Face Jobs",
+  "lien": "https://huggingface.co/blog/github-ci-hf-jobs",
+  "date": "2026-06-09T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "5d5868a1bf0d",
+  "source": "welivesecurity",
+  "titre": "Cybercriminals: the 'auditors' you never hired",
+  "lien": "https://www.welivesecurity.com/en/business-security/cybercriminals-auditors-never-hired/",
+  "date": "2026-06-09T08:50:00+00:00",
+  "resume": "Every organisation gets audited. The question is who does the auditing.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

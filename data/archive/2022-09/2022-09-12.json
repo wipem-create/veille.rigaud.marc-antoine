@@ -1,0 +1,67 @@
+[
+ {
+  "id": "fec38508afff",
+  "source": "elastic",
+  "titre": "Handy Elastic Tools for the Enthusiastic Detection Engineer",
+  "lien": "https://www.elastic.co/security-labs/blog/handy-elastic-tools-for-the-enthusiastic-detection-engineer",
+  "date": "2022-09-12T00:00:00+00:00",
+  "resume": "Tools like the EQLPlaygound, RTAs, and detection-rules CLI are great resources for getting started with EQL, threat hunting, and detection engineering respectively.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "9b135948113b",
+  "source": "huggingface",
+  "titre": "What's new in Diffusers? 🎨",
+  "lien": "https://huggingface.co/blog/diffusers-2nd-month",
+  "date": "2022-09-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

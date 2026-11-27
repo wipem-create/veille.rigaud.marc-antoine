@@ -1,0 +1,130 @@
+[
+ {
+  "id": "e8492264a7e2",
+  "source": "huggingface",
+  "titre": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
+  "lien": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+  "date": "2026-01-27T01:53:15+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "8af83bf83c29",
+  "source": "huggingface",
+  "titre": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+  "lien": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2",
+  "date": "2026-01-27T15:01:45+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "open-source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "8ac3f32231b6",
+  "source": "elastic",
+  "titre": "How Elastic Infosec Optimizes Defend for Cost and Performance",
+  "lien": "https://www.elastic.co/security-labs/blog/how-elastic-infosec-optimizes-defend",
+  "date": "2026-01-27T00:00:00+00:00",
+  "resume": "This article details the internal Elastic Infosec team's process to optimize our endpoint data collection using Event Filtering and Advanced Policy Settings in Elastic Defend.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "349f91b9cf18",
+  "source": "huggingface",
+  "titre": "Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs",
+  "lien": "https://huggingface.co/blog/tiiuae/emirati-benchmarks",
+  "date": "2026-01-27T10:26:42+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

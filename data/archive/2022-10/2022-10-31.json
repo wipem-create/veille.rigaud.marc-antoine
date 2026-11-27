@@ -1,0 +1,36 @@
+[
+ {
+  "id": "405286135491",
+  "source": "elastic",
+  "titre": "ICEDIDs network infrastructure is alive and well",
+  "lien": "https://www.elastic.co/security-labs/threat-command/icedids-network-infrastructure-is-alive-and-well",
+  "date": "2022-10-31T00:00:00+00:00",
+  "resume": "Elastic Security Labs details the use of open source data collection and the Elastic Stack to analyze the ICEDID botnet C2 infrastructure.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

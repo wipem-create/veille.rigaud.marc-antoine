@@ -1,0 +1,41 @@
+[
+ {
+  "id": "ed838e0da808",
+  "source": "elastic",
+  "titre": "Attack chain leads to XWORM and AGENTTESLA",
+  "lien": "https://www.elastic.co/security-labs/threat-command/attack-chain-leads-to-xworm-and-agenttesla",
+  "date": "2023-04-10T00:00:00+00:00",
+  "resume": "Our team has recently observed a new malware campaign that employs a well-developed process with multiple stages. The campaign is designed to trick unsuspecting users into clicking on the documents, which appear to be legitimate.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

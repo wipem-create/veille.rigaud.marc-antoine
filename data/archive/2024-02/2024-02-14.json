@@ -1,0 +1,64 @@
+[
+ {
+  "id": "28ef6301f327",
+  "source": "elastic",
+  "titre": "Introduction to Hex-Rays decompilation internals",
+  "lien": "https://www.elastic.co/security-labs/threat-command/introduction-to-hexrays-decompilation-internals",
+  "date": "2024-02-14T00:00:00+00:00",
+  "resume": "In this publication, we delve into Hex-Rays microcode and explore techniques for manipulating the generated CTree to deobfuscate and annotate decompiled code.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1eb2ddd6559e",
+  "source": "huggingface",
+  "titre": "AMD Pervasive AI Developer Contest!",
+  "lien": "https://huggingface.co/blog/amd_pervasive_developer_ai_contest",
+  "date": "2024-02-14T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

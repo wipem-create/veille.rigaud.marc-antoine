@@ -1,0 +1,40 @@
+[
+ {
+  "id": "42a73daa0509",
+  "source": "elastic",
+  "titre": "Tricks and Treats: GHOSTPULSE’s new pixel-level deception",
+  "lien": "https://www.elastic.co/security-labs/threat-command/tricks-and-treats",
+  "date": "2024-10-19T00:00:00+00:00",
+  "resume": "The updated GHOSTPULSE malware has evolved to embed malicious data directly within pixel structures, making it harder to detect and requiring new analysis and detection techniques.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

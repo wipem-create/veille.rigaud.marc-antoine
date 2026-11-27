@@ -1,0 +1,41 @@
+[
+ {
+  "id": "e718808d2a88",
+  "source": "elastic",
+  "titre": "NAPLISTENER: more bad dreams from developers of SIESTAGRAPH",
+  "lien": "https://www.elastic.co/security-labs/threat-command/naplistener-more-bad-dreams-from-the-developers-of-siestagraph",
+  "date": "2023-06-27T00:00:00+00:00",
+  "resume": "Elastic Security Labs observes that the threat behind SIESTAGRAPH has shifted priorities from data theft to persistent access, deploying new malware like NAPLISTENER to evade detection.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "evade",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

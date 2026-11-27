@@ -1,0 +1,67 @@
+[
+ {
+  "id": "610d08fa2c9e",
+  "source": "elastic",
+  "titre": "Elastic Security opens public detection rules repo",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-security-opens-public-detection-rules-repo",
+  "date": "2022-05-20T00:00:00+00:00",
+  "resume": "Elastic Security has opened its detection rules repository to the world. We will develop rules in the open alongside the community, and we’re welcoming your community-driven detections. This is an opportunity to share collective security knowledge.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1c4648bd7beb",
+  "source": "huggingface",
+  "titre": "An Introduction to Q-Learning Part 2/2",
+  "lien": "https://huggingface.co/blog/deep-rl-q-part2",
+  "date": "2022-05-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

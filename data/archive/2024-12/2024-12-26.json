@@ -1,0 +1,31 @@
+[
+ {
+  "id": "37d6cb103825",
+  "source": "sekoia",
+  "titre": "PlugX worm disinfection campaign feedbacks",
+  "lien": "https://www.sekoia.com/blog/plugx-worm-disinfection-campaign-feedbacks",
+  "date": "2024-12-26T00:00:00+00:00",
+  "resume": "Discover how we successfully disinfected thousands of computers infected with the PlugX worm using two remote disinfection methods.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "id": "171cf6db2c3a",
+  "source": "huggingface",
+  "titre": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+  "lien": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+  "date": "2026-10-13T17:05:48+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "afcdaaf6ac31",
+  "source": "algorithmwatch",
+  "titre": "Entscheidungsbaum: Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots",
+  "lien": "https://algorithmwatch.org/de/entscheidungsbaum-generative-ki/",
+  "date": "2026-10-13T07:55:27+00:00",
+  "resume": "Dein Weg zu einem verantwortungsvollen Umgang mit Chatbots und generativer KI – folge unserem Entscheidungsbaum und finde ihn.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ }
+]

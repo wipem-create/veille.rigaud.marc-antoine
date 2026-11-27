@@ -1,0 +1,69 @@
+[
+ {
+  "id": "ff0f5050312e",
+  "source": "huggingface",
+  "titre": "Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face",
+  "lien": "https://huggingface.co/blog/trackio",
+  "date": "2025-07-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d79a59cfa464",
+  "source": "elastic",
+  "titre": "MaaS Appeal: An Infostealer Rises From The Ashes",
+  "lien": "https://www.elastic.co/security-labs/threat-command/maas-appeal-an-infostealer-rises-from-the-ashes",
+  "date": "2025-07-29T00:00:00+00:00",
+  "resume": "NOVABLIGHT is a NodeJS infostealer developed and sold as a MaaS offering; it is used primarily to steal credentials and compromise cryptowallets.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

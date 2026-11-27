@@ -1,0 +1,33 @@
+[
+ {
+  "id": "fec6d2f1625e",
+  "source": "elastic",
+  "titre": "Elastic’s 2022 Global Threat Report: A roadmap for navigating today’s growing threatscape",
+  "lien": "https://www.elastic.co/security-labs/blog/elastics-2022-global-threat-report-a-roadmap-for-navigating-todays-growing-threatscape",
+  "date": "2022-12-08T00:00:00+00:00",
+  "resume": "Threat intelligence resources like the 2022 Elastic Global Threat Report are critical to helping teams evaluate their organizational visibility, capabilities, and expertise in identifying and preventing cybersecurity threats.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

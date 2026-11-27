@@ -1,0 +1,35 @@
+[
+ {
+  "id": "fdf56dce7051",
+  "source": "elastic",
+  "titre": "Revisiting BLISTER: New development of the BLISTER loader",
+  "lien": "https://www.elastic.co/security-labs/threat-command/revisiting-blister-new-developments-of-the-blister-loader",
+  "date": "2023-08-24T00:00:00+00:00",
+  "resume": "Elastic Security Labs dives deep into the recent evolution of the BLISTER loader malware family.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

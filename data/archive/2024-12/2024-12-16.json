@@ -1,0 +1,71 @@
+[
+ {
+  "id": "2c40ecaf0396",
+  "source": "sekoia",
+  "titre": "Detection Engineering at Scale: One Step Closer (part one)",
+  "lien": "https://www.sekoia.com/blog/detection-engineering-at-scale-one-step-closer-part-one",
+  "date": "2024-12-16T00:00:00+00:00",
+  "resume": "Discover how Sekoia addresses SOC and Detection Engineering challenges with innovative continuous monitoring and review approaches.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "56facfcdf854",
+  "source": "huggingface",
+  "titre": "Introducing the Synthetic Data Generator - Build Datasets with Natural Language",
+  "lien": "https://huggingface.co/blog/synthetic-data-generator",
+  "date": "2024-12-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

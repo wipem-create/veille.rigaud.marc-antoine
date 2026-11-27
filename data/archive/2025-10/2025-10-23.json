@@ -1,0 +1,73 @@
+[
+ {
+  "id": "2166ba17d5df",
+  "source": "huggingface",
+  "titre": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
+  "lien": "https://huggingface.co/blog/openenv",
+  "date": "2025-10-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "2ee6712cf0e0",
+  "source": "sekoia",
+  "titre": "TransparentTribe Targets Indian Military with DeskRAT Malware",
+  "lien": "https://www.sekoia.com/blog/transparenttribe-targets-indian-military-organisations-with-deskrat",
+  "date": "2025-10-23T00:00:00+00:00",
+  "resume": "TransparentTribe targets Indian military entities using DeskRAT, a Golang-based remote access Trojan. Learn how this new campaign works.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

@@ -1,0 +1,60 @@
+[
+ {
+  "id": "6fa01fa24c8a",
+  "source": "huggingface",
+  "titre": "DiScoFormer: One transformer for density and score, across distributions",
+  "lien": "https://huggingface.co/blog/allenai/discoformer",
+  "date": "2026-06-29T18:02:48+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e48be7b1d51d",
+  "source": "welivesecurity",
+  "titre": "Inside the inbox: Why cybercriminals want to break into your email account",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/inside-inbox-cybercriminals-want-break-email-account/",
+  "date": "2026-06-29T08:50:00+00:00",
+  "resume": "Your inbox is an identity system all of its own: whoever owns it may own a lot more",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

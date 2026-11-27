@@ -1,0 +1,95 @@
+[
+ {
+  "id": "bb6259f62843",
+  "source": "elastic",
+  "titre": "EMOTET Dynamic Configuration Extraction",
+  "lien": "https://www.elastic.co/security-labs/blog/emotet-dynamic-configuration-extraction",
+  "date": "2022-12-01T00:00:00+00:00",
+  "resume": "Elastic Security Labs discusses the EMOTET trojan and is releasing a tool to dynamically extract configuration files using code emulators.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "602697e98d11",
+  "source": "huggingface",
+  "titre": "Probabilistic Time Series Forecasting with 🤗 Transformers",
+  "lien": "https://huggingface.co/blog/time-series-transformers",
+  "date": "2022-12-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 35,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "elastic"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "63492f933bc3",
+  "source": "huggingface",
+  "titre": "Using Stable Diffusion with Core ML on Apple Silicon",
+  "lien": "https://huggingface.co/blog/diffusers-coreml",
+  "date": "2022-12-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

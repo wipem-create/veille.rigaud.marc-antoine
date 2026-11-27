@@ -1,0 +1,73 @@
+[
+ {
+  "id": "cc0c190bfa38",
+  "source": "sekoia",
+  "titre": "Advent of Configuration Extraction, Part 3: SNOWLIGHT Config",
+  "lien": "https://www.sekoia.com/blog/advent-of-configuration-extraction-part-3-mapping-got-plt-and-disassembling-the-snowlight-loader",
+  "date": "2025-12-15T00:00:00+00:00",
+  "resume": "Learn how to extract SNOWLIGHT’s C2 configuration by mapping GOT/PLT and disassembling the ELF loader using LIEF and Capstone.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "cd0dbda2c8de",
+  "source": "huggingface",
+  "titre": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
+  "lien": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
+  "date": "2025-12-15T16:01:04+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

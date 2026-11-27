@@ -1,0 +1,2247 @@
+[
+ {
+  "id": "aaa13ee93036",
+  "source": "thn",
+  "titre": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+  "lien": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+  "date": "2026-11-27T05:48:20+00:00",
+  "resume": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 82,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 27,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "exploited"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "securityweek",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.317291+00:00"
+ },
+ {
+  "id": "443ba07ae5b1",
+  "source": "bleeping",
+  "titre": "Drupal warns of new site takeover flaw exploited in attacks",
+  "lien": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+  "date": "2026-11-27T10:10:15+00:00",
+  "resume": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 81,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 26,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "exploited",
+    "critical",
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": true,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "certfr",
+   "itconnect",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "a8c13a4021a0",
+  "source": "itconnect",
+  "titre": "Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716)",
+  "lien": "https://www.it-connect.fr/drupal-fail2install-cve-2026-136716-faille-exploitee/",
+  "date": "2026-11-27T07:52:44+00:00",
+  "resume": "Une semaine après Fail2Install, Drupal a corrigé la CVE-2026-136716, une faille critique de son installeur déjà exploitée. Voici ce qu'il faut savoir. Le post Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716) a été publié sur IT-Connect .",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 78,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 25,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "exploité",
+    "critique",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "bleeping",
+   "certfr",
+   "numerama",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
+ },
+ {
+  "id": "53d5ff86b4fa",
+  "source": "lmi",
+  "titre": "Cybersécurité : les agents IA prennent le contrôle du cloud plus vite que les entreprises ne sécurisent leurs accès",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-les-agents-ia-prennent-le-controle-du-cloud-plus-vite-que-les-entreprises-ne-securisent-leurs-acces",
+  "date": "2026-11-27T09:56:54+00:00",
+  "resume": "99 % des entreprises utilisent des agents IA dans leurs chaînes de développement. Mais leur capacité à modifier du codeet à intervenir en production progresse plus vite que les dispositifs de sécurité, selon une étude de Palo Alto Networks.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 78,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 26,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "sécurité",
+    "agent",
+    "étude"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 8,
+  "corrobore_par": [
+   "bleeping",
+   "certfr",
+   "darkreading",
+   "heise",
+   "lemagit",
+   "numerama",
+   "securityweek"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "3706516efc55",
+  "source": "itconnect",
+  "titre": "Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées",
+  "lien": "https://www.it-connect.fr/danfoss-mitel-juniper-xen-orchestra-10-failles-exploitees-cisa/",
+  "date": "2026-11-27T09:36:00+00:00",
+  "resume": "La CISA a ajouté 10 failles exploitées à son catalogue KEV : contrôleurs Danfoss, Mitel MiCollab, Juniper et Xen Orchestra. Voici les failles en question. Le post Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées a été publié sur IT-Connect .",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 75,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 22,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "exploité",
+    "kev"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 8,
+  "corrobore_par": [
+   "bleeping",
+   "heise",
+   "lmi",
+   "numerama",
+   "securityweek",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
+ },
+ {
+  "id": "bbeedbd527bb",
+  "source": "thn",
+  "titre": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+  "lien": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+  "date": "2026-11-27T06:04:20+00:00",
+  "resume": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major…",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H2:Agents IA",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 75,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 20,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "critical infrastructure",
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "securityweek",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.317291+00:00"
+ },
+ {
+  "id": "59c1e952246a",
+  "source": "bleeping",
+  "titre": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+  "lien": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+  "date": "2026-11-27T08:06:58+00:00",
+  "resume": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 68,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 13,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "elastic",
+   "heise",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "7057f7c7b2f0",
+  "source": "securityweek",
+  "titre": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+  "lien": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+  "date": "2026-11-27T11:00:00+00:00",
+  "resume": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 68,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 14,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "ransomware",
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "krebs",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.441940+00:00"
+ },
+ {
+  "id": "338411ffc463",
+  "source": "theregister",
+  "titre": "Free e-government platform that serves two billion people in ten countries has critical SQL injection bug",
+  "lien": "https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449",
+  "date": "2026-11-27T01:19:31+00:00",
+  "resume": "India’s Digital Infrastructure for Governance Impact and Transformation tool can leak data",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 60,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "bleeping",
+   "itconnect",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "a1d9f2a58683",
+  "source": "therecord",
+  "titre": "Cyberattack disrupts global news distribution platform at France’s AFP",
+  "lien": "https://therecord.media/france-afp-hit-by-cyberattack",
+  "date": "2026-11-27T00:00:00+00:00",
+  "resume": "French international news agency Agence France-Presse was hit by a cyberattack Thursday, forcing it to take offline one of its main platforms for distributing news content to media organizations worldwide.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 59,
+  "criteres": {
+   "source": 34.0,
+   "criticite": 5,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "certfr",
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.324469+00:00"
+ },
+ {
+  "id": "f299ad541117",
+  "source": "bleeping",
+  "titre": "Microsoft removes WSUS server role in Windows Server 2028",
+  "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+  "date": "2026-11-27T11:18:36+00:00",
+  "resume": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 55,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "certfr",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "c46ecfd99d7a",
+  "source": "bleeping",
+  "titre": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+  "lien": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+  "date": "2026-11-27T09:08:16+00:00",
+  "resume": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "certfr",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "79e05f673e4a",
+  "source": "thn",
+  "titre": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+  "lien": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+  "date": "2026-11-27T11:49:34+00:00",
+  "resume": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\")…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 7,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "elastic",
+   "heise",
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.317291+00:00"
+ },
+ {
+  "id": "35c349686452",
+  "source": "securityweek",
+  "titre": "Hex Package Manager Warns of Potential Data Breach",
+  "lien": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+  "date": "2026-11-27T07:44:49+00:00",
+  "resume": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lemagit",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.441940+00:00"
+ },
+ {
+  "id": "c77f68f5a0d0",
+  "source": "securityweek",
+  "titre": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+  "lien": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+  "date": "2026-11-27T07:36:14+00:00",
+  "resume": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "stolen"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "therecord",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.441940+00:00"
+ },
+ {
+  "id": "d7f6f9df054d",
+  "source": "therecord",
+  "titre": "Software giant SAP confirms cyber incident amid reports of source code breach",
+  "lien": "https://therecord.media/sap-germany-cyberattack-github",
+  "date": "2026-11-27T13:15:00+00:00",
+  "resume": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 34.0,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "heise",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.324469+00:00"
+ },
+ {
+  "id": "b556bfc01ecf",
+  "source": "lmi",
+  "titre": "MiniMax visé par des soupçons d'exposition de données, Apple retire Talkie de l'App Store",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/minimax-vise-par-des-soupcons-d-exposition-de-donnees-apple-retire-talkie-de-l-app-store",
+  "date": "2026-11-27T08:00:00+00:00",
+  "resume": "Le groupe chinois MiniMax fait face à deux affaires distinctes. Selon une enquête de Dragos révélée par Reuters le 26 novembre 2026, des liens confidentiels transmis à ses modèles d'intelligence artificielle auraient été consultés par des parties non identifiées, malgré des demandes de non-conservation des données.…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "actuia",
+   "heise",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "e12705d613ee",
+  "source": "heise",
+  "titre": "Kritische Lücke in Linux’ NFS-Server",
+  "lien": "https://www.heise.de/news/Kritische-Luecke-in-Linux-NFS-Server-11540361.html",
+  "date": "2026-11-27T10:39:00+00:00",
+  "resume": "Angreifer können über den NFS-Server im Kernel das System kompromittieren. Anwender sollten Patches einspielen oder den NFS-Server temporär einhegen.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "elastic",
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "c6d1ac87cfd9",
+  "source": "lmi",
+  "titre": "Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne",
+  "date": "2026-11-27T08:27:48+00:00",
+  "resume": "L'Agence France-Presse (AFP) a été victime d'une cyberattaque dans la nuit du 25 au 26 novembre 2026. L'intrusion a conduit l'agence à suspendre temporairement l'accès à AFP Forum, une plateforme utilisée par ses clients pour consulter et télécharger ses contenus. Des solutions de secours ont été proposées aux…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "certfr",
+   "therecord"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "f158cf3c21d0",
+  "source": "thn",
+  "titre": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+  "lien": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+  "date": "2026-11-27T10:32:18+00:00",
+  "resume": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together…",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "securityweek"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.317291+00:00"
+ },
+ {
+  "id": "9efcdad91959",
+  "source": "thn",
+  "titre": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+  "lien": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+  "date": "2026-11-27T09:29:30+00:00",
+  "resume": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.317291+00:00"
+ },
+ {
+  "id": "20716ef9721d",
+  "source": "therecord",
+  "titre": "Japan’s education ministry discloses breach of government procurement system",
+  "lien": "https://therecord.media/japan-education-ministry-cyberattack",
+  "date": "2026-11-27T14:15:00+00:00",
+  "resume": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 47,
+  "criteres": {
+   "source": 34.0,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "bleeping"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.324469+00:00"
+ },
+ {
+  "id": "272d712a08c8",
+  "source": "heise",
+  "titre": "AI-Supply-Chain: Günstige Inferenzangebote greifen Secrets ab",
+  "lien": "https://www.heise.de/news/AI-Supply-Chain-Guenstige-Inferenzangebote-greifen-Secrets-ab-11540914.html",
+  "date": "2026-11-27T14:19:00+00:00",
+  "resume": "Über KI-Router-Dienste, die an kostengünstige Inferenz-Engines weiterleiten, wurden Promptinhalte abgefischt. Modellanbieter MiniMax ignorierte ZDR-Flags.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lmi",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "6fe99ffbc744",
+  "source": "heise",
+  "titre": "Diverse Schwachstellen in Apache Tomcat",
+  "lien": "https://www.heise.de/news/Diverse-Schwachstellen-in-Apache-Tomcat-11540730.html",
+  "date": "2026-11-27T12:47:00+00:00",
+  "resume": "Aktuelle Versionen von Tomcat beheben neun Schwachstellen, eine weitere muss per Konfigurationsänderung umgangen werden und für eine elfte fehlen noch Updates.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 46,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "securityweek",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "48e8ce62c9f8",
+  "source": "lmi",
+  "titre": "Cyberattaque chez SAP : des soupçons d'accès au code source sur GitHub",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-chez-sap-des-soupcons-d-acces-au-code-source-sur-github",
+  "date": "2026-11-27T09:08:03+00:00",
+  "resume": "SAP a confirmé, le 27 novembre 2026, avoir détecté des activités suspectes dans son environnement informatique. Selon plusieurs médias allemands, des attaquants auraient utilisé des jetons d'authentification dérobés à des employés pour accéder à du code source sur GitHub. L'incident, désigné en interne sous le nom de…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "dérobé"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "10e78b8e8a1e",
+  "source": "silicon",
+  "titre": "Entrepôts de données de santé : la Cour des comptes pointe un déploiement sans stratégie claire",
+  "lien": "https://www.silicon.fr/uncategorized/entrepots-de-donnees-de-sante-la-cour-des-comptes-pointe-un-deploiement-sans-strategie-claire-230710",
+  "date": "2026-11-27T09:54:08+00:00",
+  "resume": "Malgré 75 millions € d'argent public investis via France 2030, le déploiement des entrepôts de données de santé hospitaliers (EDSH) s'est fait sans stratégie nationale suffisante, estime la Cour des comptes. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 43,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 11,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hospital",
+    "france"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "cd0a546daf56",
+  "source": "lemagit",
+  "titre": "Agents d'IA : 5 étapes clefs pour automatiser un processus de bout en bout",
+  "lien": "https://www.lemagit.fr/conseil/Agents-dIA-5-etapes-clefs-pour-automatiser-un-processus-de-bout-en-bout",
+  "date": "2026-11-27T08:29:00+00:00",
+  "resume": "Le nombre d'agents déployés est devenu l'indicateur préféré des comités de direction. C'est sans doute le plus trompeur. Une entreprise qui compte deux cents agents et aucun processus transformé de bout en bout n'a pas avancé. Elle a dispersé ses efforts.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 34.4,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:33.035912+00:00"
+ },
+ {
+  "id": "9c3e29e291b8",
+  "source": "numerama",
+  "titre": "Au-dessus de l’Antarctique, le trou de la couche d’ozone bat des records cette année",
+  "lien": "https://www.numerama.com/sciences/2386087-le-trou-de-la-couche-dozone-bat-des-records-mais-ce-nest-pas-si-grave.html",
+  "date": "2026-11-27T13:00:00+00:00",
+  "resume": "En 2026, le trou de la couche d’ozone au-dessus de l’Antarctique a atteint sa plus grande taille depuis 2015, et compte parmi les plus étendus en 48 ans de mesures. Mais derrière ce constat qui peut sembler alarmant, il y a des phénomènes naturels à l’œuvre qui ne remettent pas en question les actions menées contre…",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 41,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lemagit",
+   "lmi"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "c91c6c1dee0e",
+  "source": "therecord",
+  "titre": "British government takes services offline following ‘cyber incident’",
+  "lien": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+  "date": "2026-11-27T00:00:00+00:00",
+  "resume": "The Department for Work and Pensions said Friday that it had experienced a cyber incident, with several services taken down as a precaution.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 41,
+  "criteres": {
+   "source": 34.0,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.324469+00:00"
+ },
+ {
+  "id": "4f43316422cc",
+  "source": "itconnect",
+  "titre": "Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux",
+  "lien": "https://www.it-connect.fr/clonezilla-live-3-3-5-3-zfs-mdraid/",
+  "date": "2026-11-27T08:55:00+00:00",
+  "resume": "Clonezilla Live 3.3.5-3 ajoute la prise en charge de ZFS, clone le RAID logiciel MDRAID de disque à disque et corrige des bugs risqués pour vos données. Le post Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux a été publié sur IT-Connect .",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
+ },
+ {
+  "id": "9e9becac11f9",
+  "source": "itconnect",
+  "titre": "GLPI 12 : voici les nouveautés de cette nouvelle version majeure",
+  "lien": "https://www.it-connect.fr/glpi-12-nouveautes/",
+  "date": "2026-11-27T08:00:00+00:00",
+  "resume": "GLPI 12 refond la base de connaissances, contrôle les sessions et crée des OLA par groupe. Voici nos tests et les points à vérifier avant de migrer. Le post GLPI 12 : voici les nouveautés de cette nouvelle version majeure a été publié sur IT-Connect .",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "numerama"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
+ },
+ {
+  "id": "07cb26b9db92",
+  "source": "heise",
+  "titre": "Betrug an Ransomware-Opfern: FBI stellt Doppelfalle",
+  "lien": "https://www.heise.de/news/Betrug-an-Ransomware-Opfern-FBI-stellt-Doppelfalle-11539919.html",
+  "date": "2026-11-27T04:01:00+00:00",
+  "resume": "Ransomware-Opfer zahlten einer US-Firma Geld für Entschlüsselung von Daten. Stattdessen zahlte die Firma Lösegeld und behielt die Differenz, sagt die Anklage.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "0d424d9d203a",
+  "source": "securityweek",
+  "titre": "100,000 Potentially Impacted by Colorado Data Breach",
+  "lien": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+  "date": "2026-11-27T09:30:54+00:00",
+  "resume": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 34.3,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:42.441940+00:00"
+ },
+ {
+  "id": "290265b239da",
+  "source": "lemagit",
+  "titre": "Jules opte pour une passerelle de sécurité souveraine pour ses magasins",
+  "lien": "https://www.lemagit.fr/etude/Jules-opte-pour-une-passerelle-de-securite-souveraine-pour-ses-magasins",
+  "date": "2026-11-27T07:58:00+00:00",
+  "resume": "Victime d’une cyberattaque en 2022, l’enseigne de prêt-à-porter masculin a renforcé ses mesures de sécurité, mais s’est heurtée au manque de réactivité de son fournisseur de Gateway américain. Son RSO s’est tourné vers une solution française.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 34.4,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "français"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:33.035912+00:00"
+ },
+ {
+  "id": "a36b99e24f87",
+  "source": "lmi",
+  "titre": "Binance rétablit les retraits après le piratage de 6,3 Md$ de crypto-actifs",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/binance-retablit-les-retraits-apres-le-piratage-de-6-3-md-de-crypto-actifs",
+  "date": "2026-11-27T14:39:12+00:00",
+  "resume": "Près d’un mois après le vol de crypto-actifs survenu le 29 octobre, Binance annonce avoir achevé la remise en service des retraits sur sa plateforme. L’exchange avait suspendu cette fonctionnalité pour contenir l’incident et sécuriser ses infrastructures, après la compromission de plusieurs portefeuilles.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "heise"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "8742cefb9fd1",
+  "source": "heise",
+  "titre": "Einen Monat nach Milliardendiebstahl: Binance hebt letzte Restriktionen auf",
+  "lien": "https://www.heise.de/news/Einen-Monat-nach-Milliardendiebstahl-Binance-hebt-letzte-Restriktionen-auf-11539955.html",
+  "date": "2026-11-27T05:50:00+00:00",
+  "resume": "Nachdem Binance 6,3 Milliarden US-Dollar gestohlen wurden, hat das Unternehmen Ein- und Auszahlungen gestoppt. Nun wurden die letzten Beschränkungen aufgehoben.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lmi"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "952d7b22e96a",
+  "source": "theregister",
+  "titre": "British social security system techies yank services offline following 'cyber incident'",
+  "lien": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
+  "date": "2026-11-27T10:01:00+00:00",
+  "resume": "Pensioners assured their funds will arrive as normal",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "therecord"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "f19c2c08c6a4",
+  "source": "numerama",
+  "titre": "Einstein, mécanique quantique et trous noirs : ce physicien propose une nouvelle théorie et GPT-6 Astra y est pour quelque chose",
+  "lien": "https://www.numerama.com/sciences/2385919-einstein-mecanique-quantique-et-trous-noirs-ce-physicien-propose-une-nouvelle-theorie-et-gpt-6-astra-y-est-pour-quelque-chose.html",
+  "date": "2026-11-27T10:16:30+00:00",
+  "resume": "Réconcilier la gravité d'Einstein et la mécanique quantique reste l'un des grands problèmes de la physique. Le 25 novembre, un physicien de Stanford a publié une nouvelle piste. Dans ses remerciements, il explique avoir développé une partie de ses démonstrations en discutant pendant des mois avec l'IA d'OpenAI.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 4,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "openai"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "bleeping"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "430ffdd20c02",
+  "source": "silicon",
+  "titre": "Cybersécurité : les petites communes sont plus lucides mais peu outillées",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/cybersecurite-les-petites-communes-sont-plus-lucides-mais-peu-outillees-230719",
+  "date": "2026-11-27T13:48:20+00:00",
+  "resume": "Dans son 4ème baromètre sur la maturité cyber des collectivités françaises, Cybermalveillance.gouv.fr constate que la prise de conscience progresse mais que l’impréparation reste la règle. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "français"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "e8b6a9105de0",
+  "source": "numerama",
+  "titre": "« Les mathématiques sont infinies » : face à la puissance de l’IA, le médaillé Fields Terence Tao a un plan, les maths 2.0",
+  "lien": "https://www.numerama.com/tech/2385877-les-mathematiques-sont-infinies-face-a-la-puissance-de-lia-le-medaille-fields-terence-tao-a-un-plan-les-maths-2-0.html",
+  "date": "2026-11-27T09:45:00+00:00",
+  "resume": "À Harvard, mi-novembre 2026, le médaillé Fields Terence Tao a demandé aux mathématiciens de passer aux maths 2.0 et de juger leurs pairs sur leur capacité à expliquer leurs travaux. Il parlait quelques jours avant qu'un chercheur d'Anthropic annonce une preuve de l'hypothèse de Riemann obtenue avec Claude.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "annonce",
+    "anthropic"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "01cce1cd92ff",
+  "source": "bleeping",
+  "titre": "SAP confirms security incident after suspicious GitHub activity",
+  "lien": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+  "date": "2026-11-27T09:56:36+00:00",
+  "resume": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 35,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "9f99beb5d29c",
+  "source": "lemagit",
+  "titre": "Cyberhebdo du 27 novembre 2026 : une semaine d'une intensité sans précédent",
+  "lien": "https://www.lemagit.fr/actualites/366655521/Cyberhebdo-du-27-novembre-2026-une-semaine-dune-intensite-sans-precedent",
+  "date": "2026-11-27T08:45:00+00:00",
+  "resume": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 34.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:33.035912+00:00"
+ },
+ {
+  "id": "495dc061adae",
+  "source": "numerama",
+  "titre": "Face aux barrières de l’UE, Geely va installer sa nouvelle plateforme électrique dans l’usine Ford de Valence",
+  "lien": "https://www.numerama.com/vroom/2386227-face-aux-barrieres-de-lue-geely-va-installer-sa-nouvelle-plateforme-electrique-dans-lusine-ford-de-valence.html",
+  "date": "2026-11-27T14:09:00+00:00",
+  "resume": "Geely va installer une toute nouvelle plateforme pour voitures électrifiées dans l'usine Ford de Valence, en Espagne, à partir de 2028. Michael Yang, directeur général de Geely Auto UK, l'a confirmé. Jusqu'ici, le groupe chinois avait seulement annoncé qu'il y assemblerait deux SUV électriques.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "3cc8433825af",
+  "source": "numerama",
+  "titre": "Série noire aux États-Unis : des pirates se sont infiltrés dans Cloud One, la plateforme cloud géante de l’US Air Force",
+  "lien": "https://www.numerama.com/cyberguerre/2386483-serie-noire-aux-etats-unis-des-pirates-se-sont-infiltres-dans-cloud-one-la-plateforme-cloud-geante-de-lus-air-force.html",
+  "date": "2026-11-27T13:50:31+00:00",
+  "resume": "Les hackers seraient parvenus jusqu'à la couche d'administration de la plateforme, qui héberge des données tactiques, logistiques et de personnel de l'armée de l'air américaine.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "f88202b3ddb9",
+  "source": "numerama",
+  "titre": "« Tant qu’on en tire encore quelque chose » : un économiste propose de vendre Volkswagen à la Chine",
+  "lien": "https://www.numerama.com/vroom/2386261-tant-quon-en-tire-encore-quelque-chose-un-economiste-propose-de-vendre-volkswagen-a-la-chine.html",
+  "date": "2026-11-27T13:23:57+00:00",
+  "resume": "Un économiste allemand propose de vendre Volkswagen à des acheteurs chinois « tant qu'on peut encore en tirer quelque chose ». Personne n'a fait d'offre et aucune discussion de rachat n'a été rapportée, mais le propos interpelle dans le contexte actuel.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "cb27e71e36a8",
+  "source": "numerama",
+  "titre": "Voici les conseils de Christopher Nolan pour regarder L’Odyssée à la maison",
+  "lien": "https://www.numerama.com/pop-culture/2385933-voici-les-conseils-de-christopher-nolan-pour-regarder-lodyssee-a-la-maison.html",
+  "date": "2026-11-27T10:27:39+00:00",
+  "resume": "Un vidéoprojecteur et du pop-corn : voilà les recommandations de Christopher Nolan pour regarder L'Odyssée chez soi, maintenant que le film est sorti en DVD, Blu-ray et 4K.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "2990d1555b8d",
+  "source": "itconnect",
+  "titre": "GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien",
+  "lien": "https://www.it-connect.fr/tuto-glpi-ai/",
+  "date": "2026-11-27T08:31:20+00:00",
+  "resume": "Tutoriel GLPI AI : installez le plugin, choisissez votre fournisseur d'IA, résumez vos tickets et branchez un client IA sur GLPI via le protocole MCP. Le post GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien a été publié sur IT-Connect .",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 33,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
+ },
+ {
+  "id": "570dd344c070",
+  "source": "silicon",
+  "titre": "L’IA générative récompense ceux qui osent se réorganiser",
+  "lien": "https://www.silicon.fr/data-ia-1372/lia-generative-recompense-ceux-qui-osent-se-reorganiser-230714",
+  "date": "2026-11-27T12:00:39+00:00",
+  "resume": "{ Tribune Expert } -Les transformations qui ont atteint l'échelle de toute l'organisation ont inscrit l'adoption de l'IA dans les objectifs annuels et dans l'intéressement. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "eecdff5932eb",
+  "source": "silicon",
+  "titre": "Numérique de l’État : la DITSP absorbe une partie de la DINUM",
+  "lien": "https://www.silicon.fr/business-1367/numerique-de-letat-la-ditsp-absorbe-une-partie-de-la-dinum-230712",
+  "date": "2026-11-27T11:34:29+00:00",
+  "resume": "La direction interministérielle de la transformation publique (DITP) devient au 1er janvier 2027 la direction interministérielle de la transformation et des services publics (DITSP), en intégrant 58 agents de la DINUM. ",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "21e231449096",
+  "source": "numerama",
+  "titre": "Netflix France : 16 films et séries à voir en décembre 2026",
+  "lien": "https://www.numerama.com/pop-culture/2386137-netflix-france-16-films-et-series-a-voir-en-decembre-2026.html",
+  "date": "2026-11-27T12:05:00+00:00",
+  "resume": "Netflix a dévoilé son ultime sélection de films et séries pour l'année 2026. Le mois de décembre s'annonce riche pour occuper les abonnés entre deux repas festifs.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "0fb5ae625e41",
+  "source": "numerama",
+  "titre": "La France se dote de ses premiers drones intercepteurs Gobi Zephyr qui filent à 350 km/h pour percuter d’autres drones",
+  "lien": "https://www.numerama.com/tech/2386319-la-france-se-dote-de-ses-premiers-drones-intercepteurs-qui-filent-a-350-km-h-pour-percuter-dautres-drones.html",
+  "date": "2026-11-27T11:11:00+00:00",
+  "resume": "La Direction générale de l'armement a livré ce jeudi 26 novembre 2026 aux armées françaises leurs premiers drones intercepteurs de drones, des Gobi Zephyr conçus par la start-up Harmattan AI. Ils ont été commandés il y a deux mois seulement.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "b96812608870",
+  "source": "heise",
+  "titre": "GrapheneOS: Proof of Concept für RCS-Messenger ohne Google Messages",
+  "lien": "https://www.heise.de/news/Proof-of-Concept-GrapheneOS-zeigt-RCS-Messenger-ohne-Google-Messages-11540974.html",
+  "date": "2026-11-27T13:39:00+00:00",
+  "resume": "GrapheneOS arbeitet an einer RCS-Messenger-App ohne Google-Dienste. Nun hat das Team einen Proof of Concept gezeigt.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "e77f973d0bc1",
+  "source": "heise",
+  "titre": "RealVNC: Kritisches Leck ermöglicht Codeschmuggel",
+  "lien": "https://www.heise.de/news/RealVNC-Sicherheitsleck-ermoeglicht-Schadcode-Schmuggel-ohne-Anmeldung-11540429.html",
+  "date": "2026-11-27T10:43:00+00:00",
+  "resume": "In der Fernwartungssoftware RealVNC klafft eine kritische Sicherheitslücke. Angreifer aus dem Netz können Schadcode einschleusen.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "53587a5dabb8",
+  "source": "heise",
+  "titre": "Cyberangriffe: Datenschutzbehörden melden deutlich mehr Datenpannen",
+  "lien": "https://www.heise.de/news/Datenschutzbehoerden-warnen-vor-Cyberangriffen-und-planen-Orientierungshilfe-11539641.html",
+  "date": "2026-11-27T07:03:00+00:00",
+  "resume": "Mehr Cyberangriffe, mehr gemeldete Datenpannen: Die Datenschutzkonferenz warnt nach ihrer 112. Tagung vor teils schwerwiegenden Vorfällen.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "b9b5cfa91765",
+  "source": "heise",
+  "titre": "SAP: IT-Vorfall in Entwicklungssystemen",
+  "lien": "https://www.heise.de/news/IT-Vorfall-bei-SAP-Entwicklungssysteme-betroffen-11539973.html",
+  "date": "2026-11-27T07:02:00+00:00",
+  "resume": "SAP hat einen IT-Vorfall eingeräumt. Betroffen sind Berichten zufolge Entwicklungssysteme auf der GitHub-Plattform.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "c1d113f52f2a",
+  "source": "huggingface",
+  "titre": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "lien": "https://huggingface.co/blog/video-trainium3",
+  "date": "2026-11-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "019030b3e1ec",
+  "source": "numerama",
+  "titre": "Dune 3 : le nouveau seau à popcorn vibrant qui ressemble à un sextoy fait rire tout le monde",
+  "lien": "https://www.numerama.com/pop-culture/2386203-dune-3-le-nouveau-seau-a-popcorn-vibrant-qui-ressemble-a-un-sextoy-fait-rire-tout-le-monde.html",
+  "date": "2026-11-27T13:21:28+00:00",
+  "resume": "On pensait avoir tout vu en 2024 avec le premier seau en forme de ver des sables d’Arrakis, mais les cinémas ont décidé de repousser encore un peu plus loin les limites du malaise. À moins de trois semaines de la sortie de Dune 3, les nouveaux seaux à popcorn officiels du film déclenchent une vague de fou rire…",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 27,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "9e946a39eb15",
+  "source": "numerama",
+  "titre": "Les Anneaux de pouvoir inventent une prophétie sur Gandalf pour préparer sa future résurrection",
+  "lien": "https://www.numerama.com/pop-culture/2386053-les-anneaux-de-pouvoir-inventent-une-prophetie-sur-gandalf-pour-preparer-sa-future-resurrection.html",
+  "date": "2026-11-27T12:25:00+00:00",
+  "resume": "Dans le dernier épisode de la saison 3 des Anneaux de pouvoir, mis en ligne ce mercredi 25 novembre 2026 sur Prime Video, un mage passé au service de Sauron prévient que tuer Gandalf ferait revenir son esprit « sous une forme plus puissante ». La réplique annonce, avec un âge d'avance, la résurrection de Gandalf le…",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 27,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "e21b11c89e44",
+  "source": "numerama",
+  "titre": "Un homme bloque des robotaxis Waymo avec des cônes, puis les bombarde d’œufs",
+  "lien": "https://www.numerama.com/vroom/2385971-un-mysterieux-conducteur-de-lyft-harcele-les-robotaxis-waymo-avec-leur-jettant-des-oeufs.html",
+  "date": "2026-11-27T10:06:26+00:00",
+  "resume": "Waymo a recensé au moins 30 attaques aux œufs contre ses robotaxis à Denver depuis le lancement du service en septembre 2026, toutes attribuées au même individu. Sa voiture appartient à une flotte louée à des chauffeurs Lyft.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 27,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "362d736d78a6",
+  "source": "heise",
+  "titre": "Auslegungssache 173: Datenschutz-Schnelldurchlauf",
+  "lien": "https://www.heise.de/hintergrund/Auslegungssache-173-Datenschutz-Schnelldurchlauf-11538839.html",
+  "date": "2026-11-27T05:10:00+00:00",
+  "resume": "Ohne Gast, dafür mit voller Themenliste: Der Podcast befasst sich mit Verarbeitungsverzeichnissen, Smart Glasses, IP-Speicherung und dem Ende des Pflicht-DSBs.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 17,
+  "criteres": {
+   "source": 32.2,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "sans",
+   "securityweek"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:39.067135+00:00"
+ },
+ {
+  "id": "dc35521e5949",
+  "source": "itconnect",
+  "titre": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
+  "lien": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
+  "date": "2026-11-27T08:30:31+00:00",
+  "resume": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels. Le post Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€ a été publié sur IT-Connect .",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 12,
+  "criteres": {
+   "source": 32.9,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "certfr",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.032328+00:00"
+ },
+ {
+  "id": "e325bd5cba4d",
+  "source": "bleeping",
+  "titre": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+  "lien": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+  "date": "2026-11-27T14:22:06+00:00",
+  "resume": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 7,
+  "criteres": {
+   "source": 35.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sans"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.877946+00:00"
+ },
+ {
+  "id": "da9cd4f47587",
+  "source": "numerama",
+  "titre": "Black Friday : on a trouvé les meilleurs jeux vidéo récents en promotion à acheter",
+  "lien": "https://www.numerama.com/pop-culture/2386235-black-friday-on-a-trouve-les-meilleurs-jeux-video-recents-en-promotion-a-acheter.html",
+  "date": "2026-11-27T14:33:42+00:00",
+  "resume": "Le Black Friday est aussi l'occasion de faire le plein de jeux vidéo à prix réduit. Que vous jouiez sur PS5, Xbox, Nintendo Switch ou PC, de nombreux titres profitent de belles promotions. Voici notre sélection des meilleures offres à ne pas manquer, dont certains titres récents qui ont marqué les derniers mois.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "6db0f2c64d52",
+  "source": "numerama",
+  "titre": "Black Friday : déjà plus de 100 offres repérées chez Amazon, Fnac, Boulanger et Cdiscount et on continue d’en ajouter (EN DIRECT)",
+  "lien": "https://www.numerama.com/tech/2385563-black-friday-on-a-trie-les-100-meilleures-offres-de-levenement-et-on-continue-den-ajouter-en-direct.html",
+  "date": "2026-11-27T14:21:21+00:00",
+  "resume": "Plus de 100 offres triées depuis ce matin, et ce n'est pas fini. En ce jour de Black Friday, Amazon, la Fnac, Boulanger et Cdiscount affiche encore des nouvelles promos et des codes : nous les ajoutons au fil de la journée.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ },
+ {
+  "id": "9b2056b86b16",
+  "source": "numerama",
+  "titre": "Black Friday Fnac et Darty : voici les meilleures offres tech à ne pas manquer",
+  "lien": "https://www.numerama.com/tech/2385815-black-friday-fnac-et-darty-voici-les-meilleures-offres-tech-a-ne-pas-manquer.html",
+  "date": "2026-11-27T10:02:40+00:00",
+  "resume": "La Fnac et Darty profitent du Black Friday pour multiplier les promotions sur les produits high-tech et les équipements du quotidien. Smartphones, PC portables, téléviseurs, casques audio… Voici les meilleures offres que nous avons repérées chez les deux enseignes.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 26.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "itconnect"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.496883+00:00"
+ }
+]

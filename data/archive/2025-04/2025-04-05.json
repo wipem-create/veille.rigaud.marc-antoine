@@ -1,0 +1,35 @@
+[
+ {
+  "id": "dd146a981720",
+  "source": "huggingface",
+  "titre": "Welcome Llama 4 Maverick & Scout on Hugging Face",
+  "lien": "https://huggingface.co/blog/llama4-release",
+  "date": "2025-04-05T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

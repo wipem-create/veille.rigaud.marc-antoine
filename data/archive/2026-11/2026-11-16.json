@@ -1,5 +1,448 @@
 [
  {
+  "id": "03540ddb744c",
+  "source": "mittr",
+  "titre": "The open-source movement wants Jensen Huang back",
+  "lien": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+  "date": "2026-11-16T18:38:47+00:00",
+  "resume": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 59,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "nvidia",
+    "open-source"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "actuia",
+   "darkreading",
+   "sans",
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.457886+00:00"
+ },
+ {
+  "id": "f35bd4600386",
+  "source": "darkreading",
+  "titre": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+  "date": "2026-11-16T16:36:55+00:00",
+  "resume": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "elastic",
+   "krebs",
+   "mittr",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "b8ec91b1a11f",
+  "source": "darkreading",
+  "titre": "Ransomware Attacks Increase Behind AI, but Payments Decline",
+  "lien": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+  "date": "2026-11-16T19:56:05+00:00",
+  "resume": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion",
+   "H2:Modèles & recherche"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 8,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "0c74d19eff6c",
+  "source": "silicon",
+  "titre": "L’IA pousse Project Zero à remodeler sa politique de divulgation de vulnérabilités",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/project-zero-politique-divulgation-2026-230384",
+  "date": "2026-11-16T14:32:51+00:00",
+  "resume": "Project Zero entend réduire nettement - quoique progressivement - les délais qu'il accorde aux éditeurs pour publier des correctifs. ",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Modèles & recherche"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "darkreading",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "b20effb6710a",
+  "source": "darkreading",
+  "titre": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
+  "lien": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
+  "date": "2026-11-16T22:08:20+00:00",
+  "resume": "One of the oldest running bug disclosure programs announced it would shorten public disclosure timelines to vendors from 120 days to 30 over the next 14 months.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "silicon",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "6502b68655a9",
+  "source": "silicon",
+  "titre": "Guillaume André prend du galon chez Nutanix",
+  "lien": "https://www.silicon.fr/emploi-formation-1373/guillaume-andre-prend-du-galon-chez-nutanix-230374",
+  "date": "2026-11-16T10:35:28+00:00",
+  "resume": "Guillaume André, jusqu’ici à la tête de Nutanix France et Afrique du Nord-Ouest, étend son périmètre à la région EMEA South. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 51,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "lemagit"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "3468973447cc",
+  "source": "mittr",
+  "titre": "Building AI that can work across the enterprise",
+  "lien": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+  "date": "2026-11-16T13:00:00+00:00",
+  "resume": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.457886+00:00"
+ },
+ {
+  "id": "a005d4097e10",
+  "source": "silicon",
+  "titre": "Anthropic ouvre (un peu) ses services à l’autohébergement",
+  "lien": "https://www.silicon.fr/data-ia-1372/anthropic-claude-managed-agents-autoheberge-230402",
+  "date": "2026-11-16T17:02:36+00:00",
+  "resume": "Après avoir permis d'autohéberger les sandbox de Claude Managed Agents, Anthropic élargit cette possibilité au serveur d'orchestration. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "anthropic"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "ac2621c1ce46",
+  "source": "huggingface",
+  "titre": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+  "lien": "https://huggingface.co/blog/openrouter",
+  "date": "2026-11-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "actuia",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "2ab589c1268f",
+  "source": "lmi",
+  "titre": "Cursor : une clé volée chez Fireworks AI à l’origine d’une cyberattaque",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cursor-une-cle-volee-chez-fireworks-ai-a-l-origine",
+  "date": "2026-11-16T07:39:57+00:00",
+  "resume": "Cursor a détaillé les circonstances de la cyberattaque ayant permis la diffusion d’une version malveillante de l’extension Claude Code sur sa marketplace. Dans un rapport publié le 13 novembre 2026, l’éditeur affirme qu’une clé d’accès compromise chez son fournisseur Fireworks AI a permis aux attaquants d’accéder à…",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "27b100bbec30",
+  "source": "darkreading",
+  "titre": "NIST Finalizes Post-Quantum Cryptography Guidance, GAO Offers a Reality Check",
+  "lien": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
+  "date": "2026-11-16T14:22:15+00:00",
+  "resume": "The emerging technology will soon break the \"lock and key\" encryption currently protecting sensitive data. A new GAO report shows agencies are behind on building their defenses.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "5c5d5d45664c",
+  "source": "silicon",
+  "titre": "Maileva : 22 millions de personnes concernées par une fuite de données",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/maileva-22-millions-de-personnes-concernees-par-une-fuite-de-donnees-230363",
+  "date": "2026-11-16T10:01:41+00:00",
+  "resume": "La cyberattaque visant Maileva, filiale de La Poste, a exposé les coordonnées de 22 millions de personnes. Une enquête de la Brigade de lutte contre la cybercriminalité est lancée. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "fuite"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
   "id": "92ce5ee0e1ef",
   "source": "lmi",
   "titre": "PostgreSQL corrige 52 failles, dont une vieille de 22 ans",
@@ -13,9 +456,9 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 34,
+  "score": 37,
   "criteres": {
-   "source": 28.8,
+   "source": 32.4,
    "criticite": 5,
    "corroboration": 0,
    "bruit": 0,
@@ -35,6 +478,230 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "503ea9da106b",
+  "source": "silicon",
+  "titre": "En France aussi, l’aviation civile peine à moderniser ses systèmes",
+  "lien": "https://www.silicon.fr/business-1367/aviation-civile-francaise-obsolescence-systemes-230351",
+  "date": "2026-11-16T10:41:20+00:00",
+  "resume": "À l’heure où les États-Unis admettent l’obsolescence de leur système de contrôle du trafic aérien, la situation apparaît aussi délicate en France. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "3fdae09f1ecc",
+  "source": "algorithmwatch",
+  "titre": "KI & Wahlen",
+  "lien": "https://algorithmwatch.org/de/dossier-ki-wahlen/",
+  "date": "2026-11-16T07:25:21+00:00",
+  "resume": "Immer mehr Menschen informieren sich mit Chatbots und KI-gestützten Suchmaschinen über Politik. Seit 2023 untersucht AlgorithmWatch, wie verlässlich diese Systeme vor Landtagswahlen antworten und was das für die demokratische Meinungsbildung bedeutet. In drei Studien haben wir Microsoft Bing Chat bzw. Copilot, Google…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 4,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "microsoft"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ },
+ {
+  "id": "e80f5d7df4d5",
+  "source": "algorithmwatch",
+  "titre": "Online child protection: Don’t exclude young people; fix the platforms",
+  "lien": "https://algorithmwatch.org/en/online-child-protection-dont-exclude-young-people-fix-the-platforms/",
+  "date": "2026-11-16T10:41:54+00:00",
+  "resume": "EU regulations, national guidelines, recent recommendations, and age-old debates: Protecting minors in the digital space is a complex issue. In this article, we break down which proposals for protecting children and adolescents on the internet are convincing and where they are contradictory. What’s clear already: The…",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "regulation"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ },
+ {
+  "id": "5321b12cd8bb",
+  "source": "silicon",
+  "titre": "Emploi IT 2027 : la cybersécurité en tête des priorités",
+  "lien": "https://www.silicon.fr/emploi-formation-1373/emploi-it-2027-la-cybersecurite-en-tete-des-priorites-230371",
+  "date": "2026-11-16T12:43:54+00:00",
+  "resume": "La cybersécurité domine le recrutement Tech en 2027 : les entreprises doivent attirer ces profils très recherchés, mais aussi les retenir. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "6b55eedd405d",
+  "source": "darkreading",
+  "titre": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+  "lien": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+  "date": "2026-11-16T19:10:03+00:00",
+  "resume": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "e3313768d65e",
+  "source": "welivesecurity",
+  "titre": "Is it safe to upload my passport or ID online?",
+  "lien": "https://www.welivesecurity.com/en/privacy/is-it-safe-upload-passport-id-online/",
+  "date": "2026-11-16T09:55:00+00:00",
+  "resume": "Sometimes we have no choice but to share some of our most sensitive identification documents and biometrics with third-party services. Here’s how to minimize the risk.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "7aac51771f7a",
+  "source": "algorithmwatch",
+  "titre": "KI in der Migrationsverwaltung: AlgorithmWatch und 36 weitere Organisationen fordern mehr Schutz von Betroffenen",
+  "lien": "https://algorithmwatch.org/de/kimvg-appell/",
+  "date": "2026-11-16T08:15:37+00:00",
+  "resume": "Die Bundesregierung plant mit dem KI-Migrationsverwaltungsgesetz (KIMVG) mehr KI bei der Entscheidung über Asyl, Aufenthalt oder Visum. AlgorithmWatch und 36 weitere Organisationen fordern in einem Appell nun mehr Schutz von Betroffenen.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ },
+ {
   "id": "59856adca313",
   "source": "mittr",
   "titre": "Building trustworthy AI by fencing it in, not predicting it",
@@ -46,9 +713,9 @@
    "H2"
   ],
   "sous_themes": [],
-  "score": 2,
+  "score": 3,
   "criteres": {
-   "source": 29.6,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 7,
    "bruit": -35,

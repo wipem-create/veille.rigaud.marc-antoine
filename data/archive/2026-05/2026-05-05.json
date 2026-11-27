@@ -1,0 +1,173 @@
+[
+ {
+  "id": "4e9e8dabeee2",
+  "source": "elastic",
+  "titre": "Your UEBA is lying to you: Why entity record quality decides everything",
+  "lien": "https://www.elastic.co/security-labs/blog/ueba-entity-record-quality-analytics",
+  "date": "2026-05-05T00:00:00+00:00",
+  "resume": "Most entity analytics systems are confidently wrong. They track users who do not exist, generate risk scores built on noise, and call it behavioral analytics. Learn why the entities records you don't create matter as much as the ones you do and how a confidence-tiered model changes the game.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "ddd987ce8604",
+  "source": "elastic",
+  "titre": "AI-generated hunting leads: The hunt starts before you ask the question",
+  "lien": "https://www.elastic.co/security-labs/blog/proactive-threat-hunting-ai-generated-leads",
+  "date": "2026-05-05T00:00:00+00:00",
+  "resume": "Introducing AI-generated hunting leads, proactive, environment-aware threat hypotheses powered by Elastic Entity analytics and integrated AI reasoning.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1e9810f0906a",
+  "source": "elastic",
+  "titre": "Know who to watch before the incident finds you",
+  "lien": "https://www.elastic.co/security-labs/blog/entity-analytics-watchlists",
+  "date": "2026-05-05T00:00:00+00:00",
+  "resume": "Elastic Security v9.4 introduces Entity Analytics Watchlists, a way to codify what your team already knows about high-risk entities and feed that context directly into risk scoring, without custom pipelines or detection engineering overhead",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "82581b89bede",
+  "source": "elastic",
+  "titre": "Elastic Workflows GA: automation where your security data already lives",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-workflows-ga-9-4",
+  "date": "2026-05-05T00:00:00+00:00",
+  "resume": "Elastic Workflows is generally available in 9.4, bringing production-ready security automation with deeper case management integration, human-in-the-loop support, natural language authoring, and more.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "generally available"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "5c0ccdca9a3b",
+  "source": "welivesecurity",
+  "titre": "A rigged game: ScarCruft compromises gaming platform in a supply-chain attack",
+  "lien": "https://www.welivesecurity.com/en/eset-research/rigged-game-scarcruft-compromises-gaming-platform-supply-chain-attack/",
+  "date": "2026-05-05T08:55:27+00:00",
+  "resume": "ESET researchers have investigated an ongoing attack by the ScarCruft APT group that targets the Yanbian region via backdoor-laced Windows and Android games",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

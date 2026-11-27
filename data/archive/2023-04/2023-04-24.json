@@ -1,0 +1,101 @@
+[
+ {
+  "id": "ad0967ccc364",
+  "source": "elastic",
+  "titre": "Exploring the Future of Security with ChatGPT",
+  "lien": "https://www.elastic.co/security-labs/blog/exploring-applications-of-chatgpt-to-improve-detection-response-and-understanding",
+  "date": "2023-04-24T00:00:00+00:00",
+  "resume": "Recently, OpenAI announced APIs for engineers to integrate ChatGPT and Whisper models into their apps and products. For some time, engineers could use the REST API calls for older models and otherwise use the ChatGPT interface through their website.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "openai"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "28320ed9d937",
+  "source": "huggingface",
+  "titre": "Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community",
+  "lien": "https://huggingface.co/blog/chinese-language-blog",
+  "date": "2023-04-24T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0cc881ce8db0",
+  "source": "elastic",
+  "titre": "Elastic Global Threat Report Multipart Series Overview",
+  "lien": "https://www.elastic.co/security-labs/blog/gtr-multipart-series-overview",
+  "date": "2023-04-24T00:00:00+00:00",
+  "resume": "Each month, the Elastic Security Labs team dissects a different trend or correlation from the Elastic Global Threat Report. This post provides an overview of those individual publications.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

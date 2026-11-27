@@ -1,0 +1,104 @@
+[
+ {
+  "id": "106b8cefc544",
+  "source": "elastic",
+  "titre": "Globally distributed stealers",
+  "lien": "https://www.elastic.co/security-labs/threat-command/globally-distributed-stealers",
+  "date": "2024-05-24T00:00:00+00:00",
+  "resume": "This article describes our analysis of the top malware stealer families, unveiling their operation methodologies, recent updates, and configurations. By understanding the modus operandi of each family, we better comprehend the magnitude of their impact and can fortify our defences accordingly.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "0c350f524ad0",
+  "source": "huggingface",
+  "titre": "Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages",
+  "lien": "https://huggingface.co/blog/falcon2-11b",
+  "date": "2024-05-24T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d9aa93dc40e8",
+  "source": "huggingface",
+  "titre": "CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models",
+  "lien": "https://huggingface.co/blog/leaderboard-llamaguard",
+  "date": "2024-05-24T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

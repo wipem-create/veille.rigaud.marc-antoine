@@ -1,0 +1,66 @@
+[
+ {
+  "id": "3403f8fdc1b4",
+  "source": "huggingface",
+  "titre": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+  "lien": "https://huggingface.co/blog/open-tts-leaderboard",
+  "date": "2026-09-30T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e9dd8196d38d",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – September 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-september-2026/",
+  "date": "2026-09-30T08:00:00+00:00",
+  "resume": "Autonomous AI agents go on a hacking spree, and Microsoft ships what used to be a year's worth of security patches in one go – here's how to keep pace",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Agents IA"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

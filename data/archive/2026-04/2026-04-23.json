@@ -1,0 +1,221 @@
+[
+ {
+  "id": "330ed86fc588",
+  "source": "sekoia",
+  "titre": "Strategic Autonomy in Cybersecurity: Where you Get to Choose",
+  "lien": "https://www.sekoia.com/blog/strategic-autonomy-where-you-get-to-choose",
+  "date": "2026-04-23T00:00:00+00:00",
+  "resume": "Discover how Sekoia’s vendor-agnostic platform ensures data sovereignty, GDPR compliance, and technological independence.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "5a244b7f121b",
+  "source": "welivesecurity",
+  "titre": "GopherWhisper: A burrow full of malware",
+  "lien": "https://www.welivesecurity.com/en/eset-research/gopherwhisper-burrow-full-malware/",
+  "date": "2026-04-23T08:59:18+00:00",
+  "resume": "ESET Research has discovered a new China-aligned APT group that we’ve named GopherWhisper, which targets Mongolian governmental institutions",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "f92b888f9038",
+  "source": "ncsc",
+  "titre": "Executive Summary: Defending against China-nexus covert networks of compromised devices",
+  "lien": "https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices",
+  "date": "2026-04-23T12:00:00+00:00",
+  "resume": "Organisations should map and baseline their edge device traffic, especially VPN and remote access connections, and adopt dynamic threat feed filtering that includes known covert network indicators.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "ecdcb2e04c0c",
+  "source": "ncsc",
+  "titre": "Defending against China-nexus covert networks of compromised devices",
+  "lien": "https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices",
+  "date": "2026-04-23T12:00:00+00:00",
+  "resume": "Explaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "ae3505cd7e5a",
+  "source": "ncsc",
+  "titre": "NCSC: Leave passwords in the past - passkeys are the future",
+  "lien": "https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future",
+  "date": "2026-04-23T12:00:00+00:00",
+  "resume": "Passkeys are the more secure and user-friendly login method and should be the default authentication option for consumers.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "539a85fe420b",
+  "source": "ncsc",
+  "titre": "International cyber agencies share fresh advice to defend against China-linked covert networks",
+  "lien": "https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks",
+  "date": "2026-04-23T12:00:00+00:00",
+  "resume": "New advisory highlights how to defend against attacker tactics believed to be used by China-linked actors to hide malicious cyber activity.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "5ee8ef2cb152",
+  "source": "huggingface",
+  "titre": "How to Use Transformers.js in a Chrome Extension",
+  "lien": "https://huggingface.co/blog/transformersjs-chrome-extension",
+  "date": "2026-04-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

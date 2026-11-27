@@ -1,0 +1,66 @@
+[
+ {
+  "id": "df6282cedce7",
+  "source": "elastic",
+  "titre": "Kernel ETW is the best ETW",
+  "lien": "https://www.elastic.co/security-labs/blog/kernel-etw-best-etw",
+  "date": "2024-09-13T00:00:00+00:00",
+  "resume": "This research focuses on the importance of native audit logs in secure-by-design software, emphasizing the need for kernel-level ETW logging over user-mode hooks to enhance anti-tamper protections.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Journalisation & supervision"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1f36e65fa1a0",
+  "source": "huggingface",
+  "titre": "Accelerate 1.0.0",
+  "lien": "https://huggingface.co/blog/accelerate-v1",
+  "date": "2024-09-13T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

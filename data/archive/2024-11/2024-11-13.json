@@ -1,0 +1,33 @@
+[
+ {
+  "id": "4b6d2c1e48b3",
+  "source": "sekoia",
+  "titre": "China's State-Sponsored Cyber Operations & Ecosystem",
+  "lien": "https://www.sekoia.com/blog/a-three-beats-waltz-the-ecosystem-behind-chinese-state-sponsored-cyber-threats",
+  "date": "2024-11-13T00:00:00+00:00",
+  "resume": "How the PLA, MSS and MPS structure China's state-sponsored cyber operations, and the role of private companies and patriotic hackers in the ecosystem.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 0,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

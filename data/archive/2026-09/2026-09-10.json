@@ -1,0 +1,135 @@
+[
+ {
+  "id": "60179abc63af",
+  "source": "sekoia",
+  "titre": "Why One SOC Agent Isn’t Enough for Every Customer",
+  "lien": "https://www.sekoia.com/blog/why-multi-tenant-socs-need-multi-level-agents",
+  "date": "2026-09-10T13:11:00+00:00",
+  "resume": "One agent can’t understand every customer. See how multi-level agents give SOC teams a shared playbook and the context to investigate each environment.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "2d3b0df5940f",
+  "source": "huggingface",
+  "titre": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+  "lien": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+  "date": "2026-09-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "39041ce058b6",
+  "source": "huggingface",
+  "titre": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+  "lien": "https://huggingface.co/blog/gradio-workflow-1111",
+  "date": "2026-09-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0b95fdae84ec",
+  "source": "welivesecurity",
+  "titre": "GuardBreaker: Derailing AI-assisted malware analysis with a code comment",
+  "lien": "https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/",
+  "date": "2026-09-10T09:00:00+00:00",
+  "resume": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

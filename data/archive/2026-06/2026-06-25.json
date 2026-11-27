@@ -1,0 +1,66 @@
+[
+ {
+  "id": "7a0f29e25278",
+  "source": "welivesecurity",
+  "titre": "Gamaredon in 2025: Leveraging tunnels, workers, dead drops, and new alliances",
+  "lien": "https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/",
+  "date": "2026-06-25T08:45:00+00:00",
+  "resume": "ESET Research analyzes Gamaredon’s new toolset and the group’s growing reliance on legitimate online services to hide its C&C infrastructure and exfiltrate stolen data",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "stolen"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "46be733a2c55",
+  "source": "sekoia",
+  "titre": "ADINT: From Ad-Based Geolocation Tracking to Intrusion Vector",
+  "lien": "https://www.sekoia.com/blog/sold-to-the-highest-bidder-the-escalation-of-adint-from-geolocation-tracking-to-intrusion-vector",
+  "date": "2026-06-25T07:30:00+00:00",
+  "resume": "Discover how private companies repurpose the advertising ecosystem into a global surveillance apparatus.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

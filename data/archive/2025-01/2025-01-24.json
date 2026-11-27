@@ -1,0 +1,68 @@
+[
+ {
+  "id": "53d72df4082a",
+  "source": "elastic",
+  "titre": "WinVisor – A hypervisor-based emulator for Windows x64 user-mode executables",
+  "lien": "https://www.elastic.co/security-labs/blog/winvisor-hypervisor-based-emulator",
+  "date": "2025-01-24T00:00:00+00:00",
+  "resume": "WinVisor is a hypervisor-based emulator for Windows x64 user-mode executables that leverages the Windows Hypervisor Platform API to provide a virtualized environment for logging syscalls and enabling memory introspection.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Journalisation & supervision"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1ff43a81a59d",
+  "source": "huggingface",
+  "titre": "We now support VLMs in smolagents!",
+  "lien": "https://huggingface.co/blog/smolagents-can-see",
+  "date": "2025-01-24T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

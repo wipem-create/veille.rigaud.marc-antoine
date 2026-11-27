@@ -1,0 +1,37 @@
+[
+ {
+  "id": "f6553c09d93f",
+  "source": "elastic",
+  "titre": "Doubling Down: Detecting In-Memory Threats with Kernel ETW Call Stacks",
+  "lien": "https://www.elastic.co/security-labs/threat-command/doubling-down-etw-callstacks",
+  "date": "2024-01-09T00:00:00+00:00",
+  "resume": "With Elastic Security 8.11, we added further kernel telemetry call stack-based detections to increase efficacy against in-memory threats.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "a861697335d0",
+  "source": "elastic",
+  "titre": "Vulnerability summary: Follina, CVE-2022-30190",
+  "lien": "https://www.elastic.co/security-labs/blog/vulnerability-summary-follina",
+  "date": "2023-01-19T00:00:00+00:00",
+  "resume": "Elastic is deploying a new malware signature to identify the use of the Follina vulnerability. Learn more in this post.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "553efd62af2d",
+  "source": "huggingface",
+  "titre": "Universal Image Segmentation with Mask2Former and OneFormer",
+  "lien": "https://huggingface.co/blog/mask2former",
+  "date": "2023-01-19T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "id": "8ecd4298f98a",
+  "source": "sekoia",
+  "titre": "Ransomware-driven data exfiltration: techniques & implications",
+  "lien": "https://www.sekoia.com/blog/ransomware-driven-data-exfiltration-techniques-and-implications",
+  "date": "2024-11-27T00:00:00+00:00",
+  "resume": "Learn about the comprehensive analysis of data exfiltration techniques and tools used by ransomware and extortion groups in campaigns.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

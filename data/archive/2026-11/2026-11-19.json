@@ -1,5 +1,167 @@
 [
  {
+  "id": "c467ac889b75",
+  "source": "silicon",
+  "titre": "Palo Alto mise 4,5 milliards $ sur Applied Compute",
+  "lien": "https://www.silicon.fr/business-1367/palo-alto-mise-45-milliards-sur-applied-compute-230541",
+  "date": "2026-11-19T13:42:58+00:00",
+  "resume": "Palo Alto mise 4,5 milliards $ sur Applied Compute, spécialiste des modèles d’IA ouverts, pour accélérer dans la sécurité de l’IA en entreprise. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche"
+  ],
+  "score": 70,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 18,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "sécurité",
+    "milliard"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "bleeping",
+   "certfr",
+   "heise",
+   "lmi",
+   "securityweek"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "97d56250349a",
+  "source": "darkreading",
+  "titre": "Second Norwegian Energy Company Breached in 2 Days",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
+  "date": "2026-11-19T20:14:15+00:00",
+  "resume": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 64,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 12,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "energy",
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "actuia",
+   "securityweek",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "f8490673cee3",
+  "source": "darkreading",
+  "titre": "Critical PHP Flaws Allow Code Execution, but Don't Panic 'PHP2Shell'-Style",
+  "lien": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+  "date": "2026-11-19T19:57:31+00:00",
+  "resume": "November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "bleeping",
+   "sans",
+   "securityweek",
+   "therecord",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "a260728933f4",
+  "source": "lmi",
+  "titre": "Présidentielle 2027 : Numeum propose cinq mesures pour renforcer la souveraineté numérique française",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/presidentielle-2027-numeum-propose-cinq-mesures-pour-renforcer-la-souverainete-numerique-francaise",
+  "date": "2026-11-19T09:27:33+00:00",
+  "resume": "Cinq propositions de Numeum pour la souveraineté numérique, dont une R&D à 4 % du PIB d'ici 2035.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 57,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 5,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "français"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "silicon",
+   "thn",
+   "zataz"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
   "id": "3edcebfdb9c9",
   "source": "sans",
   "titre": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI",
@@ -14,11 +176,11 @@
   "sous_themes": [
    "H3:Détection & threat hunting"
   ],
-  "score": 50,
+  "score": 56,
   "criteres": {
-   "source": 29.6,
+   "source": 30.0,
    "criticite": 6,
-   "corroboration": 14,
+   "corroboration": 20,
    "bruit": 0,
    "motifs": [
     "honeypot"
@@ -30,13 +192,94 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 3,
+  "corroboration": 4,
   "corrobore_par": [
-   "silicon",
-   "thn"
+   "mittr",
+   "theregister",
+   "theverge"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "8070973c470f",
+  "source": "theregister",
+  "titre": "Cyberattack on service provider exposes payee data at 40 Irish credit unions",
+  "lien": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979",
+  "date": "2026-11-19T11:45:00+00:00",
+  "resume": "Minister calls notification delay 'not acceptable' after October attack on Irish banking player Wellington IT came to light in November",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 7,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "sans",
+   "securityweek",
+   "therecord",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "a308b186b28d",
+  "source": "darkreading",
+  "titre": "Navigating Vulnerability Hysteria in the AI Era",
+  "lien": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+  "date": "2026-11-19T19:46:44+00:00",
+  "resume": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fatigue.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Modèles & recherche",
+   "H2:Régulation & éthique",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "bleeping",
+   "securityweek",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
  },
  {
   "id": "d0560a3e29be",
@@ -54,7 +297,7 @@
   ],
   "score": 48,
   "criteres": {
-   "source": 30.2,
+   "source": 30.0,
    "criticite": 18,
    "corroboration": 0,
    "bruit": 0,
@@ -76,26 +319,22 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "a260728933f4",
-  "source": "lmi",
-  "titre": "Présidentielle 2027 : Numeum propose cinq mesures pour renforcer la souveraineté numérique française",
-  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/presidentielle-2027-numeum-propose-cinq-mesures-pour-renforcer-la-souverainete-numerique-francaise",
-  "date": "2026-11-19T09:27:33+00:00",
-  "resume": "Cinq propositions de Numeum pour la souveraineté numérique, dont une R&D à 4 % du PIB d'ici 2035.",
+  "id": "8afb071e5ed2",
+  "source": "silicon",
+  "titre": "Comment Microsoft calcule la « valeur métier » de Copilot Cowork",
+  "lien": "https://www.silicon.fr/data-ia-1372/copilot-cowork-valeur-metier-230518",
+  "date": "2026-11-19T05:41:50+00:00",
+  "resume": "Dans le centre d'administration Microsoft 365 apparaît depuis peu une visualisation de la « valeur métier » produite par Copilot Cowork. Voici la méthodologie sous-jacente. ",
   "horizon": "H1",
   "themes": [],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 48,
+  "sous_themes": [],
+  "score": 46,
   "criteres": {
-   "source": 28.8,
-   "criticite": 5,
+   "source": 31.9,
+   "criticite": 0,
    "corroboration": 14,
    "bruit": 0,
-   "motifs": [
-    "français"
-   ]
+   "motifs": []
   },
   "retenu": true,
   "une": false,
@@ -105,11 +344,401 @@
   "signal_confirme": null,
   "corroboration": 3,
   "corrobore_par": [
-   "thn",
-   "zataz"
+   "algorithmwatch",
+   "itconnect"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "1d57a898da86",
+  "source": "darkreading",
+  "titre": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
+  "lien": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
+  "date": "2026-11-19T08:00:00+00:00",
+  "resume": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 46,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "bleeping",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "3a769521ade4",
+  "source": "theregister",
+  "titre": "TfL takes Oyster photocard website offline after attackers compromise customer accounts",
+  "lien": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+  "date": "2026-11-19T11:01:00+00:00",
+  "resume": "Around 265,000 customers potentially affected as London transport operator grapples with another security breach",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "4a52e94d3e93",
+  "source": "silicon",
+  "titre": "Présidentielle 2027 : Numeum met cinq propositions sur la table",
+  "lien": "https://www.silicon.fr/business-1367/presidentielle-2027-numeum-met-cinq-propositions-sur-la-table-230545",
+  "date": "2026-11-19T17:50:34+00:00",
+  "resume": "L’essentiel À quelques mois de la présidentielle de 2027, Numeum formule cinq propositions pour renforcer la filière numérique française et européenne. L’organisation professionnelle met l’accent sur l’investissement dans la R&D, les compétences, la commande publique et les conditions d’émergence de grands acteurs…",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "français"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lmi"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "503ab6ab8e54",
+  "source": "elastic",
+  "titre": "From posture to root cause: Investigate OpenShift compliance with Elastic Agent Builder",
+  "lien": "https://www.elastic.co/security-labs/blog/openshift-compliance-elastic-agent-builder",
+  "date": "2026-11-19T15:30:00+00:00",
+  "resume": "When an OpenShift compliance control fails, Elastic Agent Builder traces the root cause, from Compliance Operator scans centralized in Elasticsearch and CEL checks for the rules the scanner marks manual.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "6f14c4019903",
+  "source": "silicon",
+  "titre": "Anthropic en Bourse : ce qu’il faut savoir d’une IPO hors norme",
+  "lien": "https://www.silicon.fr/business-1367/anthropic-en-bourse-ce-quil-faut-savoir-dune-ipo-hors-norme-230539",
+  "date": "2026-11-19T09:42:51+00:00",
+  "resume": "Plus de 81 milliards $ levés, 1 500 milliards de valorisation : l'entrée au Nasdaq d'Anthropic bat tous les records, mais dans un climat tendu pour l'IA. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ipo",
+    "anthropic"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "a2a845f875a4",
+  "source": "theregister",
+  "titre": "Nvidia adds possible hack to list of very bad things under investigation",
+  "lien": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+  "date": "2026-11-19T18:52:53+00:00",
+  "resume": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion",
+   "H2:Marché & industrie"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "ca42b6b0ba46",
+  "source": "darkreading",
+  "titre": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+  "lien": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
+  "date": "2026-11-19T22:40:03+00:00",
+  "resume": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "7e1259753af3",
+  "source": "theregister",
+  "titre": "Russian national accused of stalking San Francisco techie in plot against US defense-tech giant",
+  "lien": "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
+  "date": "2026-11-19T16:20:00+00:00",
+  "resume": "DoJ claims suspect part of 4-month operation to steal secrets, surveil employees",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "d6cfe6cf2e8d",
+  "source": "sekoia",
+  "titre": "On-Premises vs. Cloud: Choosing the Right SOC Deployment",
+  "lien": "https://www.sekoia.com/blog/on-premises-vs-cloud-how-to-choose-a-deployment-model-for-your-soc",
+  "date": "2026-11-19T15:01:00+00:00",
+  "resume": "Cloud or on-premises? Hybrid or self-hosted? See how each model handles cost and control, then pick the SOC deployment that fits your data and your team.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "1eb02d38018d",
+  "source": "theregister",
+  "titre": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+  "lien": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+  "date": "2026-11-19T21:12:33+00:00",
+  "resume": "First service outages, then data breaches…what's next?!",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "9ef3e093aaf2",
+  "source": "theregister",
+  "titre": "Sticky note on monitor provided keys to the company’s kingdom",
+  "lien": "https://www.theregister.com/security/2026/11/19/sticky-note-on-monitor-provided-keys-to-the-companys-kingdom/5310908",
+  "date": "2026-11-19T10:15:00+00:00",
+  "resume": "Don't leave your credentials out in public, where any visitor can see them.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
  },
  {
   "id": "5c5e4cda65ed",
@@ -121,9 +750,9 @@
   "horizon": "H1",
   "themes": [],
   "sous_themes": [],
-  "score": 29,
+  "score": 26,
   "criteres": {
-   "source": 29.2,
+   "source": 26.0,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -139,5 +768,73 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "fdc08e38145d",
+  "source": "sans",
+  "titre": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
+  "lien": "https://isc.sans.edu/diary/rss/33536",
+  "date": "2026-11-19T02:00:03+00:00",
+  "resume": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 15,
+  "criteres": {
+   "source": 30.0,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 8,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "lebigdata",
+   "lmi",
+   "mittr",
+   "therecord",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.595837+00:00"
+ },
+ {
+  "id": "d46f38f088f9",
+  "source": "darkreading",
+  "titre": "Why Holiday Security Can't Wait for Black Friday",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+  "date": "2026-11-19T14:00:00+00:00",
+  "resume": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 0,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
  }
 ]

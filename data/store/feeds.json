@@ -2,190 +2,197 @@
  "itconnect": {
   "ok": true,
   "items": 15,
-  "nouveaux": 15,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "nouveaux": 14,
+  "quand": "2026-11-27T14:45:32.033001+00:00",
+  "duree_s": 1.5
  },
  "bleeping": {
   "ok": true,
   "items": 15,
   "nouveaux": 15,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "quand": "2026-11-27T14:45:41.878752+00:00",
+  "duree_s": 0.2
  },
  "zataz": {
   "ok": true,
   "items": 10,
-  "nouveaux": 10,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "nouveaux": 0,
+  "quand": "2026-11-27T14:45:32.810294+00:00",
+  "duree_s": 0.6
  },
  "actuia": {
   "ok": true,
   "items": 15,
-  "nouveaux": 15,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "nouveaux": 2,
+  "quand": "2026-11-27T14:45:36.175519+00:00",
+  "duree_s": 0.8
  },
  "thn": {
   "ok": true,
-  "items": 43,
-  "nouveaux": 43,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 50,
+  "nouveaux": 10,
+  "quand": "2026-11-27T14:45:42.317818+00:00",
+  "duree_s": 0.4
  },
  "lmi": {
   "ok": true,
-  "items": 9,
-  "nouveaux": 9,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 30,
+  "nouveaux": 21,
+  "quand": "2026-11-27T14:45:34.109431+00:00",
+  "duree_s": 1.1
  },
  "silicon": {
   "ok": true,
-  "items": 10,
-  "nouveaux": 10,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 50,
+  "nouveaux": 40,
+  "quand": "2026-11-27T14:45:35.410790+00:00",
+  "duree_s": 1.3
  },
  "welivesecurity": {
   "ok": true,
-  "items": 5,
-  "nouveaux": 5,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 100,
+  "nouveaux": 95,
+  "quand": "2026-11-27T14:45:37.603820+00:00",
+  "duree_s": 0.1
  },
  "sans": {
   "ok": true,
-  "items": 5,
+  "items": 10,
   "nouveaux": 5,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "quand": "2026-11-27T14:45:43.596006+00:00",
+  "duree_s": 0.3
  },
  "krebs": {
   "ok": true,
-  "items": 4,
-  "nouveaux": 4,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 10,
+  "nouveaux": 6,
+  "quand": "2026-11-27T14:45:43.167224+00:00",
+  "duree_s": 0.1
  },
  "securityweek": {
   "ok": true,
-  "items": 9,
+  "items": 10,
   "nouveaux": 9,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "quand": "2026-11-27T14:45:42.442270+00:00",
+  "duree_s": 0.1
  },
  "mittr": {
   "ok": true,
-  "items": 5,
+  "items": 10,
   "nouveaux": 5,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "quand": "2026-11-27T14:45:44.458128+00:00",
+  "duree_s": 0.1
  },
  "msft": {
   "ok": true,
-  "items": 4,
-  "nouveaux": 4,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 10,
+  "nouveaux": 6,
+  "quand": "2026-11-27T14:45:43.837057+00:00",
+  "duree_s": 0.2
  },
  "elastic": {
   "ok": true,
-  "items": 4,
-  "nouveaux": 4,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 320,
+  "nouveaux": 316,
+  "quand": "2026-11-27T14:45:44.084814+00:00",
+  "duree_s": 0.2
  },
  "darkreading": {
   "ok": true,
-  "items": 12,
-  "nouveaux": 12,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 50,
+  "nouveaux": 38,
+  "quand": "2026-11-27T14:45:43.040106+00:00",
+  "duree_s": 0.6
  },
  "lebigdata": {
   "ok": true,
-  "items": 7,
-  "nouveaux": 7,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 10,
+  "nouveaux": 3,
+  "quand": "2026-11-27T14:45:36.911894+00:00",
+  "duree_s": 0.7
  },
  "therecord": {
   "ok": true,
   "items": 5,
   "nouveaux": 5,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "quand": "2026-11-27T14:45:43.324692+00:00",
+  "duree_s": 0.2
  },
  "huggingface": {
   "ok": true,
-  "items": 5,
-  "nouveaux": 5,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 919,
+  "nouveaux": 914,
+  "quand": "2026-11-27T14:45:44.602594+00:00",
+  "duree_s": 0.1
  },
  "lemagit": {
   "ok": true,
-  "items": 7,
-  "nouveaux": 7,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 20,
+  "nouveaux": 13,
+  "quand": "2026-11-27T14:45:33.036366+00:00",
+  "duree_s": 0.2
  },
  "ncsc": {
   "ok": true,
-  "items": 2,
-  "nouveaux": 2,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 20,
+  "nouveaux": 18,
+  "quand": "2026-11-27T14:45:37.711293+00:00",
+  "duree_s": 0.1
  },
  "redcanary": {
   "ok": true,
-  "items": 1,
-  "nouveaux": 1,
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "items": 10,
+  "nouveaux": 9,
+  "quand": "2026-11-27T14:45:44.351441+00:00",
+  "duree_s": 0.3
  },
  "certfr": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 40,
+  "nouveaux": 40,
+  "quand": "2026-11-27T14:45:32.191200+00:00",
+  "duree_s": 0.2
  },
  "numerama": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 15,
+  "nouveaux": 15,
+  "quand": "2026-11-27T14:45:37.497409+00:00",
+  "duree_s": 0.3
  },
  "heise": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 20,
+  "nouveaux": 20,
+  "quand": "2026-11-27T14:45:39.067720+00:00",
+  "duree_s": 1.4
  },
  "theregister": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 50,
+  "nouveaux": 50,
+  "quand": "2026-11-27T14:45:40.549923+00:00",
+  "duree_s": 1.5
  },
  "algorithmwatch": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 10,
+  "nouveaux": 10,
+  "quand": "2026-11-27T14:45:41.693179+00:00",
+  "duree_s": 1.1
  },
  "theverge": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 10,
+  "nouveaux": 10,
+  "quand": "2026-11-27T14:45:44.691260+00:00",
+  "duree_s": 0.1
  },
  "sekoia": {
-  "ok": false,
-  "erreur": "flux indisponible lors de la collecte",
-  "quand": "2026-11-26T10:30:00+00:00",
-  "mode": "import"
+  "ok": true,
+  "items": 100,
+  "nouveaux": 100,
+  "quand": "2026-11-27T14:45:37.199204+00:00",
+  "duree_s": 0.3
  }
 }

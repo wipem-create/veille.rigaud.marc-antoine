@@ -1,0 +1,42 @@
+[
+ {
+  "id": "643bcaa52d84",
+  "source": "elastic",
+  "titre": "Beyond Behaviors: AI-Augmented Detection Engineering with ES|QL COMPLETION",
+  "lien": "https://www.elastic.co/security-labs/threat-command/beyond-behaviors-ai-augmented-detection-engineering-with-esql-completion",
+  "date": "2026-02-24T00:00:00+00:00",
+  "resume": "Learn how Elastic's ES|QL COMPLETION command brings LLM reasoning directly into detection rules, enabling detection engineers to build intelligent alert triage without external orchestration.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 24,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "alert",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

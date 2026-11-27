@@ -1,0 +1,62 @@
+[
+ {
+  "id": "7e3d71e588fb",
+  "source": "huggingface",
+  "titre": "Run a vLLM Server on HF Jobs in One Command",
+  "lien": "https://huggingface.co/blog/vllm-jobs",
+  "date": "2026-06-26T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "f9f84c99a4df",
+  "source": "welivesecurity",
+  "titre": "SMB cyber readiness: the road to resilience starts here",
+  "lien": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
+  "date": "2026-06-26T08:50:00+00:00",
+  "resume": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

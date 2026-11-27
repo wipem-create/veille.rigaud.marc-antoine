@@ -1,5 +1,144 @@
 [
  {
+  "id": "775da009320d",
+  "source": "elastic",
+  "titre": "Modernising threat hunting: Using Semantic Search to Find Risky AI Agent Behavior",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-agent-session-monitoring-embedding-models",
+  "date": "2026-11-04T12:45:02+00:00",
+  "resume": "I tested vector search on 7,454 turns of my own agent sessions. One in seven sessions needed review, the agent’s reasoning carried more signal than the prompt, and the stored vectors answer questions nobody thought to ask at ingest.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Sécurité de l'IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "cec91d17683d",
+  "source": "sekoia",
+  "titre": "Poisoned Source: APT29 Watering Holes Targets Mobile Devices",
+  "lien": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+  "date": "2026-11-04T17:33:00+00:00",
+  "resume": "Uncover how APT29 launched a massive watering hole campaign using iOS and Android exploit chains to steal sensitive mobile data. Read the full analysis.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "launch"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "5a54f6c51afc",
+  "source": "elastic",
+  "titre": "When trust becomes the payload: Inside the threats, etc quarterly report",
+  "lien": "https://www.elastic.co/security-labs/reports/threats-etc-report-november-2026-trouble-with-trust",
+  "date": "2026-11-04T00:00:00+00:00",
+  "resume": "The newest threats, etc report details how adversaries are weaponizing trust across the entire enterprise stack, abusing everything from AI assistants and npm supply chains to identity flows and legitimate management tools.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "a92b66d6c4e3",
+  "source": "huggingface",
+  "titre": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+  "lien": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+  "date": "2026-11-04T17:50:10+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
   "id": "5e4d08b265df",
   "source": "welivesecurity",
   "titre": "SlippyNunchucks hijacks Sogou Input Method's brand promotion mechanism to distribute malware",
@@ -15,7 +154,7 @@
   ],
   "score": 0,
   "criteres": {
-   "source": 29.2,
+   "source": 26.0,
    "criticite": 0,
    "corroboration": 0,
    "bruit": -35,

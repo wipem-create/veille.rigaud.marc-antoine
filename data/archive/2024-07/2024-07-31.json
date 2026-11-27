@@ -1,0 +1,34 @@
+[
+ {
+  "id": "c1b962fc27f4",
+  "source": "huggingface",
+  "titre": "Google releases Gemma 2 2B, ShieldGemma and Gemma Scope",
+  "lien": "https://huggingface.co/blog/gemma-july-update",
+  "date": "2024-07-31T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "release",
+    "google"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

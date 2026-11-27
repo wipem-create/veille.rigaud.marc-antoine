@@ -1,0 +1,102 @@
+[
+ {
+  "id": "a31aabd83a4a",
+  "source": "huggingface",
+  "titre": "Granite 4.1 LLMs: How They’re Built",
+  "lien": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+  "date": "2026-04-29T15:01:48+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "elastic"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e7df6ed5d85a",
+  "source": "elastic",
+  "titre": "CI/CD pipeline abuse: the problem no one is watching",
+  "lien": "https://www.elastic.co/security-labs/threat-command/detecting-cicd-pipeline-abuse-with-llm-augmented-analysis",
+  "date": "2026-04-29T00:00:00+00:00",
+  "resume": "How we built an open-source, drop-in CI template that uses signal extraction and LLM reasoning to catch CI/CD abuse in GitHub Actions, GitLab CI, and Azure DevOps pipelines.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "9e05e1a19b2f",
+  "source": "huggingface",
+  "titre": "DeepInfra on Hugging Face Inference Providers 🔥",
+  "lien": "https://huggingface.co/blog/inference-providers-deepinfra",
+  "date": "2026-04-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

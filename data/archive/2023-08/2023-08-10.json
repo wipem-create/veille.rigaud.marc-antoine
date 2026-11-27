@@ -1,0 +1,33 @@
+[
+ {
+  "id": "4cf10349e74e",
+  "source": "huggingface",
+  "titre": "Hugging Face Hub on the AWS Marketplace: Pay with your AWS Account",
+  "lien": "https://huggingface.co/blog/aws-marketplace",
+  "date": "2023-08-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

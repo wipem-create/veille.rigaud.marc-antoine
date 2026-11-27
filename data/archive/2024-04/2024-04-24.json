@@ -1,0 +1,35 @@
+[
+ {
+  "id": "d07dcff734b5",
+  "source": "elastic",
+  "titre": "Dissecting REMCOS RAT: An in-depth analysis of a widespread 2024 malware, Part One",
+  "lien": "https://www.elastic.co/security-labs/threat-command/dissecting-remcos-rat-part-one",
+  "date": "2024-04-24T00:00:00+00:00",
+  "resume": "This malware research article describes the REMCOS implant at a high level, and provides background for future articles in this multipart series.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

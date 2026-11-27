@@ -1,0 +1,37 @@
+[
+ {
+  "id": "095b627df07e",
+  "source": "huggingface",
+  "titre": "Measuring Open-Source Llama Nemotron Models on DeepResearch Bench",
+  "lien": "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
+  "date": "2025-08-04T19:51:50+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "open-source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

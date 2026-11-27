@@ -14,5 +14,21 @@
   "kpi1": 7.97,
   "kpi2": 100,
   "kpi3": 5
+ },
+ {
+  "n": 2,
+  "date": "2026-11-27T14:45:30.553878+00:00",
+  "mode": "collect",
+  "collectes": 1981,
+  "nouveaux": 1789,
+  "retenus": 217,
+  "une": 23,
+  "flash": 3,
+  "signaux": 7,
+  "sources_ok": 28,
+  "sources_ko": 0,
+  "kpi1": 8.27,
+  "kpi2": 100,
+  "kpi3": 3
  }
 ]

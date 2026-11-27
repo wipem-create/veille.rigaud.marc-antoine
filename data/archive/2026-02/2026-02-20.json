@@ -1,0 +1,137 @@
+[
+ {
+  "id": "30d2e7ce0633",
+  "source": "elastic",
+  "titre": "MIMICRAT: ClickFix Campaign Delivers Custom RAT via Compromised Legitimate Websites",
+  "lien": "https://www.elastic.co/security-labs/threat-command/mimicrat-custom-rat-mimics-c2-frameworks",
+  "date": "2026-02-20T00:00:00+00:00",
+  "resume": "Elastic Security Labs uncovered a ClickFix campaign using compromised legitimate sites to deliver a five-stage chain ending in MIMICRAT, a custom native C RAT with malleable C2, token theft, and SOCKS5 tunneling.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:SOC & SIEM"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "6bab8d2c6a75",
+  "source": "elastic",
+  "titre": "The Immutable Illusion: Pwning Your Kernel with Cloud Files",
+  "lien": "https://www.elastic.co/security-labs/threat-command/immutable-illusion",
+  "date": "2026-02-20T00:00:00+00:00",
+  "resume": "Threat actors can abuse a class of vulnerabilities to bypass security restrictions and break trust chains.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "d0b556cd9186",
+  "source": "huggingface",
+  "titre": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
+  "lien": "https://huggingface.co/blog/ggml-joins-hf",
+  "date": "2026-02-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "2eb21f10acc0",
+  "source": "huggingface",
+  "titre": "Train AI models with Unsloth and Hugging Face Jobs for FREE",
+  "lien": "https://huggingface.co/blog/unsloth-jobs",
+  "date": "2026-02-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

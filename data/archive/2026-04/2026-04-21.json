@@ -1,0 +1,138 @@
+[
+ {
+  "id": "1b6da2d814f0",
+  "source": "elastic",
+  "titre": "The Cost of Understanding: LLM-Driven Reverse Engineering vs Iterative LLM Obfuscation",
+  "lien": "https://www.elastic.co/security-labs/threat-command/llm-reversing-vs-llm-obfuscation",
+  "date": "2026-04-21T00:00:00+00:00",
+  "resume": "Elastic Security Labs explores the ongoing arms race between LLM-driven reverse engineering and obfuscation.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "64cc067a3f75",
+  "source": "huggingface",
+  "titre": "AI and the Future of Cybersecurity: Why Openness Matters",
+  "lien": "https://huggingface.co/blog/cybersecurity-openness",
+  "date": "2026-04-21T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 35,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "119e583664e7",
+  "source": "huggingface",
+  "titre": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+  "lien": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+  "date": "2026-04-21T10:09:58+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "29373a272bec",
+  "source": "welivesecurity",
+  "titre": "New NGate variant hides in a trojanized NFC payment app",
+  "lien": "https://www.welivesecurity.com/en/eset-research/new-ngate-variant-hides-in-a-trojanized-nfc-payment-app/",
+  "date": "2026-04-21T08:55:00+00:00",
+  "resume": "ESET researchers discover another iteration of NGate malware, this time possibly developed with the assistance of AI",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Modèles & recherche"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

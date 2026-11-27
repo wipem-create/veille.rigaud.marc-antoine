@@ -1,0 +1,93 @@
+[
+ {
+  "id": "0b52674083b7",
+  "source": "elastic",
+  "titre": "TOR Exit Node Monitoring Overview",
+  "lien": "https://www.elastic.co/security-labs/blog/tor-exit-node-monitoring",
+  "date": "2025-10-27T00:00:00+00:00",
+  "resume": "Learn how to monitor your enterprise for TOR exit node activity.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [
+   "H3:Journalisation & supervision"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "5b90ee04dcdc",
+  "source": "huggingface",
+  "titre": "Streaming datasets: 100x More Efficient",
+  "lien": "https://huggingface.co/blog/streaming-datasets",
+  "date": "2025-10-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0d3aa3748fa8",
+  "source": "huggingface",
+  "titre": "huggingface_hub v1.0: Five Years of Building the Foundation of Open Machine Learning",
+  "lien": "https://huggingface.co/blog/huggingface-hub-v1",
+  "date": "2025-10-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

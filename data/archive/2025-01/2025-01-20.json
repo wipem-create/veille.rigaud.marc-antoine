@@ -1,0 +1,60 @@
+[
+ {
+  "id": "d5658a08168d",
+  "source": "sekoia",
+  "titre": "Transition from IBM QRadar to Sekoia",
+  "lien": "https://www.sekoia.com/blog/transition-from-ibm-qradar-to-sekoia-for-a-modern-rewarding-experience",
+  "date": "2025-01-20T00:00:00+00:00",
+  "resume": "Discover the benefits of migrating from legacy systems like IBM QRadar to Sekoia Defend, a modern and cloud-native security platform.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "5df0761a277e",
+  "source": "huggingface",
+  "titre": "Yay! Organizations can now publish blog Articles",
+  "lien": "https://huggingface.co/blog/huggingface/blog-articles-for-orgs",
+  "date": "2025-01-20T18:58:24+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

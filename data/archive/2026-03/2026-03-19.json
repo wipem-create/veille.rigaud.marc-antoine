@@ -1,0 +1,106 @@
+[
+ {
+  "id": "ed69fa332950",
+  "source": "elastic",
+  "titre": "Linux & Cloud Detection Engineering - Getting Started with Defend for Containers (D4C)",
+  "lien": "https://www.elastic.co/security-labs/blog/getting-started-with-defend-for-containers",
+  "date": "2026-03-19T00:00:00+00:00",
+  "resume": "This technical resource provides a comprehensive walkthrough of Elastic’s Defend for Containers (D4C) integration, covering Kubernetes-based deployment, the analysis of BPF-enriched runtime telemetry, and the practical application of policy-driven security controls to monitor and alert on activities within…",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "7814ff2a7a75",
+  "source": "elastic",
+  "titre": "From Invitation to Infection: How SILENTCONNECT Delivers ScreenConnect",
+  "lien": "https://www.elastic.co/security-labs/threat-command/silentconnect-delivers-screenconnect",
+  "date": "2026-03-19T00:00:00+00:00",
+  "resume": "SILENTCONNECT is a multi-stage loader that leverages VBScript, in-memory PowerShell execution, and PEB masquerading to silently deploy the ScreenConnect RMM tool.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "6d867d52b098",
+  "source": "welivesecurity",
+  "titre": "EDR killers explained: Beyond the drivers",
+  "lien": "https://www.welivesecurity.com/en/eset-research/edr-killers-explained-beyond-the-drivers/",
+  "date": "2026-03-19T09:55:08+00:00",
+  "resume": "ESET researchers dive deeper into the EDR killer ecosystem, disclosing how attackers abuse vulnerable drivers",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:SOC & SIEM"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

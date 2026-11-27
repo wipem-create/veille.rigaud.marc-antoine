@@ -1,0 +1,33 @@
+[
+ {
+  "id": "3e9bc9cee13a",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – October 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+  "date": "2026-10-30T15:03:14+00:00",
+  "resume": "The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 33,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

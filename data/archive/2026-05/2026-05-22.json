@@ -1,0 +1,64 @@
+[
+ {
+  "id": "0caea7622246",
+  "source": "elastic",
+  "titre": "PHANTOMPULSE: anatomy of a hijackable blockchain-C2 RAT",
+  "lien": "https://www.elastic.co/security-labs/threat-command/blockchain-c2-phantompulse-rat-sinkhole",
+  "date": "2026-05-22T00:00:00+00:00",
+  "resume": "Elastic Security Labs presents a detailed reverse-engineering analysis of PHANTOMPULSE, the long-lived RAT delivered to crypto-sector victims through the REF6598 intrusion set.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "fbc3b672c0b6",
+  "source": "welivesecurity",
+  "titre": "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/foul-play-fake-fifa-world-cup-websites-tickets/",
+  "date": "2026-05-22T08:50:00+00:00",
+  "resume": "Watch out for bogus World Cup websites that mimic official ticket and merchandise flows to steal money and personal data",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

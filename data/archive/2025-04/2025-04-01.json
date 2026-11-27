@@ -1,0 +1,36 @@
+[
+ {
+  "id": "583681c8ab90",
+  "source": "elastic",
+  "titre": "Outlaw Linux Malware: Persistent, Unsophisticated, and Surprisingly Effective",
+  "lien": "https://www.elastic.co/security-labs/threat-command/outlaw-linux-malware",
+  "date": "2025-04-01T00:00:00+00:00",
+  "resume": "Outlaw is a persistent Linux malware leveraging simple brute-force and mining tactics to maintain a long-lasting botnet.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

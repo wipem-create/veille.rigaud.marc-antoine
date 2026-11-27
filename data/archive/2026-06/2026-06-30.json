@@ -1,0 +1,175 @@
+[
+ {
+  "id": "9ccad1b11722",
+  "source": "huggingface",
+  "titre": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+  "lien": "https://huggingface.co/blog/ibm-research/scarfbench",
+  "date": "2026-06-30T18:32:50+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "benchmark"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "4fd22f642fe6",
+  "source": "redcanary",
+  "titre": "Train, triage, repeat: The AI agent changing how we fight phishing",
+  "lien": "https://redcanary.com/blog/threat-detection/phishing-ai-agent/",
+  "date": "2026-06-30T12:33:22+00:00",
+  "resume": "Learn how Red Canary engineered a super agent—blending ML, a rules engine, similarity, agentic AI, and LLMs—to classify phishing emails.",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 33,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ },
+ {
+  "id": "d0cef8615254",
+  "source": "huggingface",
+  "titre": "Why Specialization Is Inevitable",
+  "lien": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+  "date": "2026-06-30T14:39:11+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "465075e01fe6",
+  "source": "huggingface",
+  "titre": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+  "lien": "https://huggingface.co/blog/eee-community-evals",
+  "date": "2026-06-30T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "001f3b2b9ec5",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – June 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-june-2026/",
+  "date": "2026-06-30T14:39:37+00:00",
+  "resume": "Three-day patching deadlines, exposed fuel-tank systems, scams costing billions of dollars, and social media bans for children all gave Tony plenty to unpack in June 2026",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

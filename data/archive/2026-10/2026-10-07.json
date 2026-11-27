@@ -1,0 +1,96 @@
+[
+ {
+  "id": "f8aa2948cd5f",
+  "source": "huggingface",
+  "titre": "Introducing Falcon ASR",
+  "lien": "https://huggingface.co/blog/tiiuae/falcon-asr",
+  "date": "2026-10-07T13:21:03+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "dcc93fe09075",
+  "source": "sekoia",
+  "titre": "Sekoia Obtains ENS Alta Certification for the Spanish Market",
+  "lien": "https://www.sekoia.com/blog/sekoia-is-now-ens-alta-certified-what-it-means-for-security-in-spain",
+  "date": "2026-10-07T06:30:00+00:00",
+  "resume": "Sekoia is now certified under the Esquema Nacional de Seguridad (ENS) at the Alta category, the highest level of Spain's National Security Framework.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "54732a402909",
+  "source": "welivesecurity",
+  "titre": "Inside a brand deal scam targeting YouTube creators",
+  "lien": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
+  "date": "2026-10-07T09:00:00+00:00",
+  "resume": "A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

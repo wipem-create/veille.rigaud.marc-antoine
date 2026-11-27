@@ -1,0 +1,106 @@
+[
+ {
+  "id": "ce6e5a6f2322",
+  "source": "elastic",
+  "titre": "Upping the Ante: Detecting In-Memory Threats with Kernel Call Stacks",
+  "lien": "https://www.elastic.co/security-labs/threat-command/upping-the-ante-detecting-in-memory-threats-with-kernel-call-stacks",
+  "date": "2023-05-31T00:00:00+00:00",
+  "resume": "We aim to out-innovate adversaries and maintain protections against the cutting edge of attacker tradecraft. With Elastic Security 8.8, we added new kernel call stack based detections which provide us with improved efficacy against in-memory threats.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "513695f201c9",
+  "source": "huggingface",
+  "titre": "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker",
+  "lien": "https://huggingface.co/blog/sagemaker-huggingface-llm",
+  "date": "2023-05-31T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "32f99921e014",
+  "source": "huggingface",
+  "titre": "Introducing BERTopic Integration with the Hugging Face Hub",
+  "lien": "https://huggingface.co/blog/bertopic",
+  "date": "2023-05-31T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

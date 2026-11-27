@@ -1,0 +1,105 @@
+[
+ {
+  "id": "1b261e3caa9e",
+  "source": "huggingface",
+  "titre": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "lien": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "date": "2026-10-22T22:24:34+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "643071088b3e",
+  "source": "elastic",
+  "titre": "How CVE-2026-73570 turns a Zimbra log file into remote code execution",
+  "lien": "https://www.elastic.co/security-labs/threat-command/command-injection-zimbra-cve-2026-73570",
+  "date": "2026-10-23T00:00:00+00:00",
+  "resume": "We reproduced the Zimbra command injection vulnerability and found that several public PoCs write a payload Swatchdog never matches, so a failed test looks like a patched server.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "442270c4bd29",
+  "source": "huggingface",
+  "titre": "Does Your Model Run on AWS Trainium? Look It Up",
+  "lien": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "date": "2026-10-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

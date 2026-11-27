@@ -1,0 +1,40 @@
+[
+ {
+  "id": "ee864b1e919f",
+  "source": "sekoia",
+  "titre": "Gotta Breach 'Em All! The Journey Of ShinyHunters",
+  "lien": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
+  "date": "2026-10-01T18:00:00+00:00",
+  "resume": "ShinyHunters has outlasted forum takedowns, arrests, and its founders' convictions. Learn the group's tactics, from stolen S3 buckets to zero-day exploits.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Rançongiciels & extorsion",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 21,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "zero-day",
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

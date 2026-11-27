@@ -1,0 +1,31 @@
+[
+ {
+  "id": "67a0df67e1dc",
+  "source": "elastic",
+  "titre": "Data access: the hidden cost of security vendor lock-in",
+  "lien": "https://www.elastic.co/security-labs/blog/siem-data-export-comparison",
+  "date": "2026-09-04T00:00:00+00:00",
+  "resume": "Getting data into a security platform is always easy; getting it back out is where vendors add cost, extra tooling, and latency, and it is the part of the evaluation most teams overlook.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

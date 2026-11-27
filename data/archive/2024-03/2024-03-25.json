@@ -1,0 +1,35 @@
+[
+ {
+  "id": "263f2e9ceb10",
+  "source": "huggingface",
+  "titre": "Pollen-Vision: Unified interface for Zero-Shot vision models in robotics",
+  "lien": "https://huggingface.co/blog/pollen-vision",
+  "date": "2024-03-25T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

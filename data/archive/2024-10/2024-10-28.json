@@ -1,0 +1,71 @@
+[
+ {
+  "id": "1156b1c86af7",
+  "source": "huggingface",
+  "titre": "Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge",
+  "lien": "https://huggingface.co/blog/digital-green-llm-judge",
+  "date": "2024-10-28T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "study"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "32377583d72a",
+  "source": "elastic",
+  "titre": "Katz and Mouse Game: MaaS Infostealers Adapt to Patched Chrome Defenses",
+  "lien": "https://www.elastic.co/security-labs/threat-command/katz-and-mouse-game",
+  "date": "2024-10-28T00:00:00+00:00",
+  "resume": "Elastic Security Labs breaks down bypass implementations from the infostealer ecosystem’s reaction to Chrome 127's Application-Bound Encryption scheme.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,70 @@
+[
+ {
+  "id": "3ad9905caf9f",
+  "source": "sekoia",
+  "titre": "ClickFix tactic: Revenge of detection – Detect Fake CAPTCHA",
+  "lien": "https://www.sekoia.com/blog/clickfix-tactic-revenge-of-detection",
+  "date": "2024-11-05T00:00:00+00:00",
+  "resume": "Detect the ClickFix tactic: a social engineering technique using fake video calls and CAPTCHA pages to deploy malicious code.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "c0ee919a0096",
+  "source": "huggingface",
+  "titre": "Hugging Face + PyCharm",
+  "lien": "https://huggingface.co/blog/pycharm-integration",
+  "date": "2024-11-05T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

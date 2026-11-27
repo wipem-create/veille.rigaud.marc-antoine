@@ -1,0 +1,44 @@
+[
+ {
+  "id": "cb0a0cb811a0",
+  "source": "elastic",
+  "titre": "Detect domain generation algorithm (DGA) activity with new Kibana integration",
+  "lien": "https://www.elastic.co/security-labs/blog/detect-domain-generation-algorithm-activity-with-new-kibana-integration",
+  "date": "2023-05-17T00:00:00+00:00",
+  "resume": "We have added a DGA detection package to the Integrations app in Kibana. In a single click, you can install and start using the DGA model and associated assets, including ingest pipeline configurations, anomaly detection jobs, and detection rules.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Durcissement & DevSecOps",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 28,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "configuration",
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

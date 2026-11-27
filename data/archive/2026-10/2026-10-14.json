@@ -1,0 +1,105 @@
+[
+ {
+  "id": "4625ae37e935",
+  "source": "krebs",
+  "titre": "U.K. Sanctions Cryptomus for RU Money Laundering",
+  "lien": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+  "date": "2026-10-14T14:22:49+00:00",
+  "resume": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion",
+   "H1:Réglementation & conformité"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.166968+00:00"
+ },
+ {
+  "id": "716ad7e0a0b3",
+  "source": "krebs",
+  "titre": "Microsoft Patches More Than 1,400 Security Flaws",
+  "lien": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+  "date": "2026-10-13T23:24:53+00:00",
+  "resume": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.166968+00:00"
+ },
+ {
+  "id": "70a7d51e87f5",
+  "source": "welivesecurity",
+  "titre": "Medicare scam calls, texts and ads: What to watch for this Open Enrollment",
+  "lien": "https://www.welivesecurity.com/en/scams/medicare-open-enrollment-season-scams/",
+  "date": "2026-10-14T09:00:00+00:00",
+  "resume": "Open Enrollment is peak season for Medicare fraud – here’s how to tell real outreach from fakes and keep your details safe",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

@@ -1,0 +1,35 @@
+[
+ {
+  "id": "8b93f9996844",
+  "source": "ncsc",
+  "titre": "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting",
+  "lien": "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting",
+  "date": "2026-07-13T12:00:00+00:00",
+  "resume": "New advisory highlights Russian state cyber actors’ global exploitation of poorly configured routers",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ }
+]

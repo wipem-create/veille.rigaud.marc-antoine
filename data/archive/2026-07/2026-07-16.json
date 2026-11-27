@@ -1,0 +1,101 @@
+[
+ {
+  "id": "ca8f4d9b2007",
+  "source": "huggingface",
+  "titre": "Security incident disclosure — July 2026",
+  "lien": "https://huggingface.co/blog/security-incident-july-2026",
+  "date": "2026-07-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 47,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 12,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "security"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "redcanary"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "9662e2ba659a",
+  "source": "elastic",
+  "titre": "TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains",
+  "lien": "https://www.elastic.co/security-labs/threat-command/telepuz-maas-malware-clickfix",
+  "date": "2026-07-16T00:00:00+00:00",
+  "resume": "TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4094583b44c6",
+  "source": "huggingface",
+  "titre": "Newer Models, Same Advantage",
+  "lien": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+  "date": "2026-07-16T11:49:48+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "0d97ec514cfd",
+  "source": "sekoia",
+  "titre": "AI SOC Security: All About Sekoia’s AI Trust Architecture",
+  "lien": "https://www.sekoia.com/blog/ai-transparency-in-cybersecurity-how-sekoia-handles-customer-data",
+  "date": "2026-08-27T14:28:00+00:00",
+  "resume": "Explore Sekoia’s AI trust architecture for agentic cybersecurity operations, including customer data handling, model training, and human oversight.",
+  "horizon": "H2",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "7f5154574f81",
+  "source": "ncsc",
+  "titre": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
+  "lien": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
+  "date": "2026-08-27T12:00:00+00:00",
+  "resume": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "590f4267b373",
+  "source": "welivesecurity",
+  "titre": "AI-driven OSINT in the wrong hands – and why everyone could be a target for fraud",
+  "lien": "https://www.welivesecurity.com/en/privacy/ai-powered-osint-why-everyone-viable-target-fraud/",
+  "date": "2026-08-27T09:00:00+00:00",
+  "resume": "It’s getting cheaper and easier for cybercriminals to research potential victims. Here’s what’s still in your control.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "ai-driven"
+  ],
+  "signal_confirme": true,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

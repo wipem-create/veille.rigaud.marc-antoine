@@ -1,0 +1,504 @@
+[
+ {
+  "id": "2426f8a4a111",
+  "source": "mittr",
+  "titre": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+  "lien": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+  "date": "2026-11-12T20:16:24+00:00",
+  "resume": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 67,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 16,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "nvidia"
+   ]
+  },
+  "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "sans",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.457886+00:00"
+ },
+ {
+  "id": "ff984aa727fa",
+  "source": "darkreading",
+  "titre": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+  "lien": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+  "date": "2026-11-12T01:00:00+00:00",
+  "resume": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Régulation & éthique",
+   "H2:Usages & outils"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 12,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "exploit"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "mittr",
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "ceeb3fded512",
+  "source": "lmi",
+  "titre": "Zoom Workplace : une faille critique et une faille élevée corrigées sous Windows",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/zoom-workplace-une-faille-critique-et-une-faille-e",
+  "date": "2026-11-12T10:46:15+00:00",
+  "resume": "Zoom a publié des correctifs pour deux vulnérabilités affectant Workplace sous Windows, dont une faille critique d’élévation de privilèges notée 9,6 sur l’échelle CVSS. Référencées CVE-2026-108186 et CVE-2026-108187, elles pourraient permettre à un attaquant non authentifié d’obtenir des privilèges supplémentaires à…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 13,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critique",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "97c3ceabc071",
+  "source": "darkreading",
+  "titre": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+  "date": "2026-11-12T21:18:52+00:00",
+  "resume": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "elastic",
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "cb704600597e",
+  "source": "darkreading",
+  "titre": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+  "lien": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+  "date": "2026-11-12T20:09:41+00:00",
+  "resume": "The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "krebs",
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "a729761d59cd",
+  "source": "lmi",
+  "titre": "Grok Build : plus de 35 000 applications IA accessibles sans authentification",
+  "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/grok-build-plus-de-35-000-applications-ia-accessib",
+  "date": "2026-11-12T07:45:45+00:00",
+  "resume": "Une étude de la société de cybersécurité Claroc révèle d’importants défauts de confidentialité dans des applications créées avec Grok Build, l’outil de création d’applications assistée par IA de SpaceXSI, l’éditeur de Grok anciennement appelé xAI. Sur les 37 571 applications actives examinées, 35 578 étaient…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 32.4,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "étude"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:34.108628+00:00"
+ },
+ {
+  "id": "ae36ceb57c3d",
+  "source": "darkreading",
+  "titre": "Inside an AI Attack Against a US Retailer",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+  "date": "2026-11-12T11:00:00+00:00",
+  "resume": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "msft"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "2a1fc91b2d61",
+  "source": "msft",
+  "titre": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+  "date": "2026-11-12T17:00:00+00:00",
+  "resume": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. ",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 27.7,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lmi"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.836765+00:00"
+ },
+ {
+  "id": "a32149f2f415",
+  "source": "darkreading",
+  "titre": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+  "date": "2026-11-12T00:00:00+00:00",
+  "resume": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "07571cae1770",
+  "source": "darkreading",
+  "titre": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+  "date": "2026-11-12T22:46:05+00:00",
+  "resume": "Most organizations haven't sorted out their cryptographic estate enough to even know where they'd start with post-quantum cryptography (PQC).",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "39477bf94a1f",
+  "source": "sekoia",
+  "titre": "Intelligence Asymmetry: The Strategic Case For Autonomous Defensive Intelligence",
+  "lien": "https://www.sekoia.com/blog/the-intelligence-asymmetry-the-strategic-case-for-autonomous-defensive-intelligence",
+  "date": "2026-11-12T12:12:00+00:00",
+  "resume": "Hear from Sekoia's CEO and founder, Freddy Milesi, on why the next generation of cyber defense will depend on systems that learn, adapt and remain governed by people.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "301071b334ee",
+  "source": "elastic",
+  "titre": "0% GPU utilization: How SANSAR hides Linux cryptomining",
+  "lien": "https://www.elastic.co/security-labs/threat-command/sansar-linux-cryptomining-malware",
+  "date": "2026-11-12T10:48:47+00:00",
+  "resume": "Elastic Security Labs analyzes SANSAR, a Linux cryptomining orchestrator that manages miners over Tor, alongside a kernel rootkit, GPU monitoring hooks and a backdoor that retrieves its C2 address from Ethereum.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f40ced1f11ea",
+  "source": "huggingface",
+  "titre": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+  "lien": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+  "date": "2026-11-12T19:07:35+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "851bd8cda7a9",
+  "source": "huggingface",
+  "titre": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+  "lien": "https://huggingface.co/blog/3d-lora-finetuning",
+  "date": "2026-11-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

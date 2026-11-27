@@ -1,0 +1,74 @@
+[
+ {
+  "id": "f267d494526f",
+  "source": "elastic",
+  "titre": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-security-mcp-app",
+  "date": "2026-05-12T00:00:00+00:00",
+  "resume": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "triage"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "mcp"
+  ],
+  "signal_confirme": true,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b7b117706120",
+  "source": "huggingface",
+  "titre": "Building Blocks for Foundation Model Training and Inference on AWS",
+  "lien": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+  "date": "2026-05-11T23:18:26+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

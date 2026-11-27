@@ -1,0 +1,138 @@
+[
+ {
+  "id": "e968ef82c788",
+  "source": "elastic",
+  "titre": "Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy",
+  "lien": "https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents",
+  "date": "2026-08-25T00:00:00+00:00",
+  "resume": "Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "d767a6dae381",
+  "source": "huggingface",
+  "titre": "Granite 4.2 LLMs: How They're Built",
+  "lien": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+  "date": "2026-08-25T15:14:14+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "9efc844c68b8",
+  "source": "huggingface",
+  "titre": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+  "lien": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+  "date": "2026-08-25T11:39:24+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "ec655ba6d0d5",
+  "source": "huggingface",
+  "titre": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+  "lien": "https://huggingface.co/blog/gradio-workflow-guide",
+  "date": "2026-08-25T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

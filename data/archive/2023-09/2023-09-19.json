@@ -1,0 +1,68 @@
+[
+ {
+  "id": "4d7e32a0fdf2",
+  "source": "elastic",
+  "titre": "Using LLMs and ESRE to find similar user sessions",
+  "lien": "https://www.elastic.co/security-labs/blog/using-llms-and-esre-to-find-similar-user-sessions",
+  "date": "2023-09-19T00:00:00+00:00",
+  "resume": "In our previous article, we explored using the GPT-4 Large Language Model (LLM) to condense Linux user sessions. In the context of the same experiment, we dedicated some time to examine sessions that shared similarities. These similar sessions can subsequently aid the analysts in identifying related suspicious…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "a66b01be6e5d",
+  "source": "huggingface",
+  "titre": "Rocket Money x Hugging Face: Scaling Volatile ML Models in Production​",
+  "lien": "https://huggingface.co/blog/rocketmoney-case-study",
+  "date": "2023-09-19T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

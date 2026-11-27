@@ -1,0 +1,105 @@
+[
+ {
+  "id": "cdf381676dab",
+  "source": "elastic",
+  "titre": "Linux Detection Engineering - Fileless Execution",
+  "lien": "https://www.elastic.co/security-labs/threat-command/memfd-create-linux-fileless-execution",
+  "date": "2026-09-01T14:26:37+00:00",
+  "resume": "We reproduced five Linux fileless execution patterns with FENIX, including memfd_create staging, interpreter one-liners, deleted binaries, and in-memory kernel module loads, then mapped each to the Elastic Defend rules that catch it.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f21d0426963c",
+  "source": "huggingface",
+  "titre": "BenchMIRT: What are LLM benchmarks actually measuring?",
+  "lien": "https://huggingface.co/blog/allenai/benchmirt",
+  "date": "2026-09-01T21:39:07+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "benchmark"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "06407d115071",
+  "source": "huggingface",
+  "titre": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+  "lien": "https://huggingface.co/blog/webgpu-kernels",
+  "date": "2026-09-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

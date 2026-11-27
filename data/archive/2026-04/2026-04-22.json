@@ -1,0 +1,35 @@
+[
+ {
+  "id": "56db41105591",
+  "source": "ncsc",
+  "titre": "World-first NCSC-engineered device secures vulnerable display links",
+  "lien": "https://www.ncsc.gov.uk/news/world-first-ncsc-engineered-device-secures-vulnerable-display-links",
+  "date": "2026-04-22T12:00:00+00:00",
+  "resume": "SilentGlass, a plug-and-play device, actively blocks any unexpected or malicious HDMI and Display Port connections.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ }
+]

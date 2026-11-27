@@ -1,0 +1,71 @@
+[
+ {
+  "id": "97ea0b9acf20",
+  "source": "huggingface",
+  "titre": "MCP for Research: How to Connect AI to Research Tools",
+  "lien": "https://huggingface.co/blog/mcp-for-research",
+  "date": "2025-08-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "research"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "mcp"
+  ],
+  "signal_confirme": true,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "9924b7fa7c42",
+  "source": "huggingface",
+  "titre": "From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels",
+  "lien": "https://huggingface.co/blog/kernel-builder",
+  "date": "2025-08-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

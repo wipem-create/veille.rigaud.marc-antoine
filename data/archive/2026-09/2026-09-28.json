@@ -1,0 +1,182 @@
+[
+ {
+  "id": "03207fdb26f7",
+  "source": "elastic",
+  "titre": "Quarantined isn't contained: Agentic phishing response with Elastic and Sublime",
+  "lien": "https://www.elastic.co/security-labs/blog/phishing-incident-response-sublime-security",
+  "date": "2026-09-28T00:00:00+00:00",
+  "resume": "The native Sublime Security integration sends email detections into Elastic Security, where phishing incident response can tie a quarantined email to what happens next on the endpoint and pull the threat from every mailbox it reached.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:Réponse à incident & forensic"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "incident response",
+    "agent",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "7c547f3be55b",
+  "source": "ncsc",
+  "titre": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
+  "lien": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
+  "date": "2026-09-28T12:00:00+00:00",
+  "resume": "The NCSC is urging UK organisations to promptly mitigate vulnerabilities affecting Citrix NetScaler ADC and Gateway, two of which are being actively exploited.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "actively exploit"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "4116861d7140",
+  "source": "huggingface",
+  "titre": "Holo4: powering generalist computer-use agents",
+  "lien": "https://huggingface.co/blog/Hcompany/holo4",
+  "date": "2026-09-28T09:44:05+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "bdabe77966ce",
+  "source": "huggingface",
+  "titre": "Welcome RL Environments to the hub",
+  "lien": "https://huggingface.co/blog/rl-environments",
+  "date": "2026-09-28T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "ecfa645964a1",
+  "source": "welivesecurity",
+  "titre": "The devil is still in the email – but wears a new mask",
+  "lien": "https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/",
+  "date": "2026-09-28T09:00:00+00:00",
+  "resume": "When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

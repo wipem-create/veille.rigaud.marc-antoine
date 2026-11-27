@@ -1,0 +1,35 @@
+[
+ {
+  "id": "34a36090ca7e",
+  "source": "elastic",
+  "titre": "Phantom in the vault: Obsidian abused to deliver PhantomPulse RAT",
+  "lien": "https://www.elastic.co/security-labs/threat-command/phantom-in-the-vault",
+  "date": "2026-04-14T00:00:00+00:00",
+  "resume": "Elastic Security Labs uncovers a novel social engineering campaign that abuses the popular note-taking application, Obsidian's legitimate community plugin ecosystem. The campaign, which we track as REF6598, targets individuals in the financial and cryptocurrency sectors through elaborate social engineering on LinkedIn…",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,99 @@
+[
+ {
+  "id": "a7f08f24713c",
+  "source": "huggingface",
+  "titre": "2024 Security Feature Highlights",
+  "lien": "https://huggingface.co/blog/2024-security-features",
+  "date": "2024-08-06T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "dbf42852aa04",
+  "source": "elastic",
+  "titre": "Dismantling Smart App Control",
+  "lien": "https://www.elastic.co/security-labs/threat-command/dismantling-smart-app-control",
+  "date": "2024-08-06T00:00:00+00:00",
+  "resume": "This article will explore Windows Smart App Control and SmartScreen as a case study for researching bypasses to reputation-based systems, then demonstrate detections to cover those weaknesses.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "8ddb2f88c898",
+  "source": "huggingface",
+  "titre": "Introducing TextImage Augmentation for Document Images",
+  "lien": "https://huggingface.co/blog/doc_aug_hf_alb",
+  "date": "2024-08-06T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

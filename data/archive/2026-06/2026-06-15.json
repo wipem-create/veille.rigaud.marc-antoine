@@ -1,0 +1,35 @@
+[
+ {
+  "id": "44a96879dc58",
+  "source": "welivesecurity",
+  "titre": "EvilTokens: A phishing attack that doesn’t steal your password",
+  "lien": "https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/",
+  "date": "2026-06-15T08:55:00+00:00",
+  "resume": "A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

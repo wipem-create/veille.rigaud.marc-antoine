@@ -1,0 +1,65 @@
+[
+ {
+  "id": "41cd2ccdfca6",
+  "source": "elastic",
+  "titre": "A peek behind the BPFDoor",
+  "lien": "https://www.elastic.co/security-labs/threat-command/a-peek-behind-the-bpfdoor",
+  "date": "2022-07-13T00:00:00+00:00",
+  "resume": "In this research piece, we explore BPFDoor — a backdoor payload specifically crafted for Linux in order to gain re-entry into a previously or actively compromised target environment.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "d9fc501df134",
+  "source": "huggingface",
+  "titre": "Building a Playlist Generator with Sentence Transformers",
+  "lien": "https://huggingface.co/blog/playlist-generator",
+  "date": "2022-07-13T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

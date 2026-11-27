@@ -1,0 +1,166 @@
+[
+ {
+  "id": "259e18af460c",
+  "source": "elastic",
+  "titre": "Elastic releases detections for the Axios supply chain compromise",
+  "lien": "https://www.elastic.co/security-labs/blog/axios-supply-chain-compromise-detections",
+  "date": "2026-04-01T00:00:00+00:00",
+  "resume": "Hunting and detection rules for the Elastic-discovered Axios supply chain compromise.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 62,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 32,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "hunting",
+    "detection",
+    "release"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "777597aab62a",
+  "source": "elastic",
+  "titre": "Inside the Axios supply chain compromise - one RAT to rule them all",
+  "lien": "https://www.elastic.co/security-labs/threat-command/axios-one-rat-to-rule-them-all",
+  "date": "2026-04-01T00:00:00+00:00",
+  "resume": "Elastic Security Labs analyzes a supply chain compromise of the axios npm package delivering a unified cross-platform RAT",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "56f04c10cefe",
+  "source": "huggingface",
+  "titre": "Falcon Perception",
+  "lien": "https://huggingface.co/blog/tiiuae/falcon-perception",
+  "date": "2026-04-01T07:13:20+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "cf7d743f6f80",
+  "source": "huggingface",
+  "titre": "Any Custom Frontend with Gradio's Backend",
+  "lien": "https://huggingface.co/blog/introducing-gradio-server",
+  "date": "2026-04-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "ce3464ee10fe",
+  "source": "welivesecurity",
+  "titre": "Digital assets after death: Managing risks to your loved one’s digital estate",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/digital-assets-death-managing-risks-your-loved-ones-digital-estate/",
+  "date": "2026-04-01T09:00:00+00:00",
+  "resume": "Fraudsters often target the accounts of the deceased or their grieving relatives. Here’s how to keep the scammers at bay.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

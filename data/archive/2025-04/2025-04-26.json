@@ -1,0 +1,31 @@
+[
+ {
+  "id": "8385b02b09ae",
+  "source": "huggingface",
+  "titre": "PipelineRL",
+  "lien": "https://huggingface.co/blog/ServiceNow/pipelinerl",
+  "date": "2025-04-25T22:37:16+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

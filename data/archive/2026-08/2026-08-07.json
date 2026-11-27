@@ -1,0 +1,78 @@
+[
+ {
+  "id": "93870b708ecc",
+  "source": "elastic",
+  "titre": "The security signal log tailing can't see: tracking npm cooldown removals with Elastic Agent",
+  "lien": "https://www.elastic.co/security-labs/blog/npm-cooldown-removal-detection-elastic-agent",
+  "date": "2026-08-07T00:00:00+00:00",
+  "resume": "A 40-line CEL integration snapshots .npmrc files every 6 hours to catch cooldown removals. This post walks through the three ways we broke filestream before landing on snapshot semantics.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "204e3328f115",
+  "source": "elastic",
+  "titre": "Living off the coding agent: Two tales of tunnels and LaunchAgents",
+  "lien": "https://www.elastic.co/security-labs/threat-command/coding-agent-launchagent-tunnel-detection",
+  "date": "2026-08-07T00:00:00+00:00",
+  "resume": "Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "launch"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

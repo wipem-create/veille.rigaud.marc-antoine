@@ -1,0 +1,72 @@
+[
+ {
+  "id": "38d0dd98efa6",
+  "source": "huggingface",
+  "titre": "How Much Memory Does Your Agent Actually Need?",
+  "lien": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+  "date": "2026-08-18T18:09:38+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 43,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "7bdb01d962b1",
+  "source": "huggingface",
+  "titre": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+  "lien": "https://huggingface.co/blog/multi-vector-encoder",
+  "date": "2026-08-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

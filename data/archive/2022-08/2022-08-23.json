@@ -1,0 +1,35 @@
+[
+ {
+  "id": "afda8fbb88bc",
+  "source": "elastic",
+  "titre": "Getting the Most Out of Transformers in Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/getting-the-most-out-of-transforms-in-elastic",
+  "date": "2022-08-23T00:00:00+00:00",
+  "resume": "In this blog, we will briefly talk about how we fine-tuned a transformer model meant for a masked language modeling (MLM) task, to make it suitable for a classification task.",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

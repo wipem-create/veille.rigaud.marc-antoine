@@ -1,5 +1,331 @@
 [
  {
+  "id": "a1c9fd88698c",
+  "source": "silicon",
+  "titre": "La Californie attaque OpenAI après l’incident Hugging Face",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/la-californie-attaque-openai-apres-lincident-hugging-face-230444",
+  "date": "2026-11-17T10:57:48+00:00",
+  "resume": "La Californie a déposé une plainte contre OpenAI après une série d’incidents incluant une attaque de plusieurs centaines d’agents autonomes contre Hugging Face. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 24,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "attaque",
+    "agent",
+    "openai"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "7d210db908a8",
+  "source": "darkreading",
+  "titre": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
+  "lien": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+  "date": "2026-11-17T18:38:37+00:00",
+  "resume": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 6,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lmi",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "f6464ef2105b",
+  "source": "sekoia",
+  "titre": "A Glimpse Into The India-China Cyber Espionage Landscape",
+  "lien": "https://www.sekoia.com/blog/neighbors-being-neighborly-a-glimpse-into-the-india-china-cyber-espionage-landscape",
+  "date": "2026-11-17T09:00:00+00:00",
+  "resume": "China and India are strategic competitors but remain economically interdependent, with close supply-chain links and $155.6 billion in bilateral trade in 2025.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "darkreading",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "c1b1efb298f1",
+  "source": "darkreading",
+  "titre": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+  "lien": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+  "date": "2026-11-17T13:12:56+00:00",
+  "resume": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner permission.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lmi",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "2ba7848bbde0",
+  "source": "silicon",
+  "titre": "ESN 2026 : liste du Top 50 en France",
+  "lien": "https://www.silicon.fr/business-1367/esn-2026-liste-du-top-50-en-france-229822",
+  "date": "2026-11-17T16:08:28+00:00",
+  "resume": "Retrouvez le classement des meilleures ESN et ICT de l’année 2026. Réalisé par KPMG en France et Numeum, il est établi selon le chiffre d’affaires lié à l’activité réalisée en France en 2025. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 44,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "lmi"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "42210c332af1",
+  "source": "algorithmwatch",
+  "titre": "AI and Elections",
+  "lien": "https://algorithmwatch.org/en/ai-and-elections/",
+  "date": "2026-11-17T14:42:29+00:00",
+  "resume": "More and more people are using chatbots and AI-powered search engines to inform themselves about politics. Since 2023, AlgorithmWatch has been investigating how reliably these systems respond ahead of regional elections and what that means for democratic opinion-forming. In three studies, we examined Microsoft Copilot…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 44,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 4,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "microsoft"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "mittr",
+   "silicon"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ },
+ {
+  "id": "75ea8b1b3041",
+  "source": "mittr",
+  "titre": "Research Reports",
+  "lien": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+  "date": "2026-11-17T14:39:46+00:00",
+  "resume": "To access a report, click on the corresponding image below.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 6,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "research"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "msft"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.457886+00:00"
+ },
+ {
+  "id": "91b53545264f",
+  "source": "silicon",
+  "titre": "OVHcloud lance Olala mini 7A1B, son premier LLM",
+  "lien": "https://www.silicon.fr/data-ia-1372/ovhcloud-lance-olala-mini-7a1b-son-premier-llm-230481",
+  "date": "2026-11-17T17:06:08+00:00",
+  "resume": "Avec Olala mini 7A1B, OVHcloud fait son entrée sur le marché des LLM, en misant sur un modèle compact, une architecture hybride et une disponibilité open source. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "lance",
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "0a52d832352d",
+  "source": "darkreading",
+  "titre": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+  "lien": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+  "date": "2026-11-17T22:34:22+00:00",
+  "resume": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 39,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "krebs"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
   "id": "29480262e1ea",
   "source": "msft",
   "titre": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
@@ -16,9 +342,9 @@
    "H3:Détection & threat hunting",
    "H3:Réponse à incident & forensic"
   ],
-  "score": 36,
+  "score": 38,
   "criteres": {
-   "source": 25.8,
+   "source": 27.7,
    "criticite": 10,
    "corroboration": 0,
    "bruit": 0,
@@ -38,6 +364,43 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "a0984cace73f",
+  "source": "algorithmwatch",
+  "titre": "Developing Political Views with AI: What Election-Related Information Do Google’s AI Overviews Provide?",
+  "lien": "https://algorithmwatch.org/en/google-ai-overviews-state-elections/",
+  "date": "2026-11-17T09:42:03+00:00",
+  "resume": "In July 2026, AlgorithmWatch investigated how Google's AI Overviews handle questions about election-related content. The result: It's unclear when AI Overviews are displayed, the diversity of sources used is limited, and the Overviews are not phrased neutrally. Google does not disclose by which criteria the AI…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 4,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "google"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "mittr"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ },
+ {
   "id": "ba3cb83c335f",
   "source": "msft",
   "titre": "The risks of device code authentication for AI coding agents",
@@ -54,9 +417,9 @@
    "H3:Automatisation & IA au SOC",
    "H3:Détection & threat hunting"
   ],
-  "score": 34,
+  "score": 36,
   "criteres": {
-   "source": 25.8,
+   "source": 27.7,
    "criticite": 8,
    "corroboration": 0,
    "bruit": 0,
@@ -90,9 +453,9 @@
    "H2:Agents IA",
    "H3:Automatisation & IA au SOC"
   ],
-  "score": 32,
+  "score": 34,
   "criteres": {
-   "source": 25.8,
+   "source": 27.7,
    "criticite": 6,
    "corroboration": 0,
    "bruit": 0,
@@ -110,5 +473,253 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "4255bad50c0a",
+  "source": "certfr",
+  "titre": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
+  "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+  "date": "2026-11-17T00:00:00+00:00",
+  "resume": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 34.5,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:32.190203+00:00"
+ },
+ {
+  "id": "2cfcd1a3123c",
+  "source": "silicon",
+  "titre": "NIS 2 : une transposition à périmètre élargi",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/nis-2-transposition-entites-concerness-230470",
+  "date": "2026-11-17T17:35:49+00:00",
+  "resume": "Des pouvoirs publics locaux aux plates-formes de facturation électronique, le texte que va examiner la commission mixte paritaire concerne davantage d'entités que la directive qu'il transpose. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "d80fd9ca43ab",
+  "source": "silicon",
+  "titre": "Orange Ventures lève 250 millions € pour l’IA et la cybersécurité",
+  "lien": "https://www.silicon.fr/business-1367/orange-ventures-leve-250-millions-e-pour-lia-et-la-cybersecurite-230452",
+  "date": "2026-11-17T12:46:23+00:00",
+  "resume": "Orange Ventures reçoit 250 millions € supplémentaires pour accélérer ses investissements dans les startups de l’IA et de la cybersécurité d’ici 2032. ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "0ed6afa64dd2",
+  "source": "silicon",
+  "titre": "Du PC au supercalculateur, le stockage hybride reprend des couleurs",
+  "lien": "https://www.silicon.fr/data-ia-1372/stockage-hybride-pc-supercalculateur-230425",
+  "date": "2026-11-17T11:04:32+00:00",
+  "resume": "Face à la hausse du prix des SSD, des initiatives axées sur le stockage hybride émergent du client au serveur. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "10711f4d70ab",
+  "source": "silicon",
+  "titre": "Qluster lève 4,7 millions € pour un ordinateur quantique photonique",
+  "lien": "https://www.silicon.fr/business-1367/qluster-leve-47-millions-e-pour-un-ordinateur-quantique-photonique-230429",
+  "date": "2026-11-17T10:01:49+00:00",
+  "resume": "Qluster mise sur la photonique à variables continues et vise un calculateur intermédiaire en 2032, puis un ordinateur universel tolérant aux fautes en 2036. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "86307914315c",
+  "source": "silicon",
+  "titre": "LVMH médias met ChatGPT dans les rédactions des Echos et du Parisien",
+  "lien": "https://www.silicon.fr/business-1367/lvmh-medias-met-chatgpt-dans-les-redactions-des-echos-et-du-parisien-230424",
+  "date": "2026-11-17T09:19:29+00:00",
+  "resume": "LVMH médias déploie ChatGPT Enterprise dans ses rédactions et ouvre ses articles à ChatGPT. Les conditions de l’accord restent inconnues. ",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "9f3ee93f88a7",
+  "source": "darkreading",
+  "titre": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+  "lien": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+  "date": "2026-11-17T20:58:13+00:00",
+  "resume": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H2:Modèles & recherche"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "4440dc9d0bc2",
+  "source": "algorithmwatch",
+  "titre": "Gemeinsame Stellungnahme zum Digitale-Medien-Staatsvertrag (DMStV)",
+  "lien": "https://algorithmwatch.org/de/stellungnahme-dmstv/",
+  "date": "2026-11-17T14:36:39+00:00",
+  "resume": "Die Rundfunkkommission der Bundesländer will erstmals Plattformen und KI-Dienste medienrechtlich regulieren. AlgorithmWatch hat gemeinsam mit Agora Digitale Transformation, ISD Germany und Wikimedia Deutschland eine Stellungnahme eingereicht, in welcher wir den Diskussionsentwurf des Digitale-Medienstaatsvertrags…",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
  }
 ]

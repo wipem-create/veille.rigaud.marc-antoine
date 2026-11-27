@@ -1,0 +1,64 @@
+[
+ {
+  "id": "08c464a5dfb7",
+  "source": "elastic",
+  "titre": "GHOSTPULSE haunts victims using defense evasion bag o' tricks",
+  "lien": "https://www.elastic.co/security-labs/threat-command/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks",
+  "date": "2023-10-27T00:00:00+00:00",
+  "resume": "Elastic Security Labs reveals details of a new campaign leveraging defense evasion capabilities to infect victims with malicious MSIX executables.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "9b7452104867",
+  "source": "huggingface",
+  "titre": "Personal Copilot: Train Your Own Coding Assistant",
+  "lien": "https://huggingface.co/blog/personal-copilot",
+  "date": "2023-10-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

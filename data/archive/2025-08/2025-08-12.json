@@ -1,0 +1,129 @@
+[
+ {
+  "id": "b4d303ecd53a",
+  "source": "elastic",
+  "titre": "Agentic Frameworks Summary",
+  "lien": "https://www.elastic.co/security-labs/blog/agentic-ai-summary",
+  "date": "2025-08-12T00:00:00+00:00",
+  "resume": "Agentic systems require security teams to balance autonomy with alignment, ensuring that AI agents can act independently while remaining goal-consistent and controllable .",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "9aa9b766af4a",
+  "source": "huggingface",
+  "titre": "Neural Super Sampling is here!",
+  "lien": "https://huggingface.co/blog/Arm/neural-super-sampling",
+  "date": "2025-08-12T14:52:08+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "76adc43faafe",
+  "source": "huggingface",
+  "titre": "TextQuests: How Good are LLMs at Text-Based Video Games?",
+  "lien": "https://huggingface.co/blog/textquests",
+  "date": "2025-08-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d8cf1bcb301a",
+  "source": "huggingface",
+  "titre": "🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?",
+  "lien": "https://huggingface.co/blog/filbench",
+  "date": "2025-08-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,64 @@
+[
+ {
+  "id": "8dc235af72fc",
+  "source": "elastic",
+  "titre": "Spring Cleaning with LATRODECTUS: A Potential Replacement for ICEDID",
+  "lien": "https://www.elastic.co/security-labs/threat-command/spring-cleaning-with-latrodectus",
+  "date": "2024-05-16T00:00:00+00:00",
+  "resume": "Elastic Security Labs has observed an uptick in a recent emerging loader known as LATRODECTUS. This lightweight loader packs a big punch with ties to ICEDID and may turn into a possible replacement to fill the gap in the loader market.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "286bed7da027",
+  "source": "huggingface",
+  "titre": "Unlocking Longer Generation with Key-Value Cache Quantization",
+  "lien": "https://huggingface.co/blog/kv-cache-quantization",
+  "date": "2024-05-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,103 @@
+[
+ {
+  "id": "7288bc149568",
+  "source": "huggingface",
+  "titre": "Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system",
+  "lien": "https://huggingface.co/blog/aivsai",
+  "date": "2023-02-07T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "c6dd6450d993",
+  "source": "elastic",
+  "titre": "Update to the REF2924 intrusion set and related campaigns",
+  "lien": "https://www.elastic.co/security-labs/threat-command/update-to-the-REF2924-intrusion-set-and-related-campaigns",
+  "date": "2023-02-07T00:00:00+00:00",
+  "resume": "Elastic Security Labs is providing an update to the REF2924 research published in December of 2022. This update includes malware analysis of the implants, additional findings, and associations with other intrusions.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "2eaadfbaf671",
+  "source": "huggingface",
+  "titre": "Generating Stories: AI for Game Development #5",
+  "lien": "https://huggingface.co/blog/ml-for-games-5",
+  "date": "2023-02-07T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

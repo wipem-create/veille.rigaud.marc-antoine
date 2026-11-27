@@ -1,0 +1,35 @@
+[
+ {
+  "id": "b2c41e6a95fd",
+  "source": "elastic",
+  "titre": "Under the SADBRIDGE with GOSAR: QUASAR Gets a Golang Rewrite",
+  "lien": "https://www.elastic.co/security-labs/threat-command/under-the-sadbridge-with-gosar",
+  "date": "2024-12-13T00:00:00+00:00",
+  "resume": "Elastic Security Labs share details about the SADBRIDGE loader and GOSAR backdoor, malware used in campaigns targeting Chinese-speaking victims.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

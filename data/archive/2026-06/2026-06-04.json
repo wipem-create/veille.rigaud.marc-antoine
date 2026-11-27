@@ -1,0 +1,101 @@
+[
+ {
+  "id": "d086c3041cd7",
+  "source": "huggingface",
+  "titre": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+  "lien": "https://huggingface.co/blog/hf-cli-for-agents",
+  "date": "2026-06-04T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "500160a8097d",
+  "source": "sekoia",
+  "titre": "FSB’s matryoshka #3/3: Gamaredon's Gammasteel Infostealer",
+  "lien": "https://www.sekoia.com/blog/fsbs-matryoshka-3-3-gamaredons-gifts-that-keeps-unpacking-gammasteel",
+  "date": "2026-06-04T00:00:00+00:00",
+  "resume": "Discover part 3 of our FSB Matryoshka investigation. We deep dive into Gamaredon's Gammasteel info-stealer, its data exfiltration TTPs, and indicators.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "a484dfe68673",
+  "source": "huggingface",
+  "titre": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+  "lien": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+  "date": "2026-06-04T18:57:45+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

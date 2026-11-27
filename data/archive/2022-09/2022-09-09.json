@@ -1,0 +1,137 @@
+[
+ {
+  "id": "8cfd3e8c3a59",
+  "source": "elastic",
+  "titre": "Detecting and responding to Dirty Pipe with Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/detecting-and-responding-to-dirty-pipe-with-elastic",
+  "date": "2022-09-09T00:00:00+00:00",
+  "resume": "Elastic Security is releasing detection logic for the Dirty Pipe exploit.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "29b03bbc8c58",
+  "source": "elastic",
+  "titre": "Extracting Cobalt Strike Beacon Configurations",
+  "lien": "https://www.elastic.co/security-labs/blog/extracting-cobalt-strike-beacon-configurations",
+  "date": "2022-09-09T00:00:00+00:00",
+  "resume": "Part 2 - Extracting configurations from Cobalt Strike implant beacons.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f9bb3be731c3",
+  "source": "elastic",
+  "titre": "BUGHATCH Malware Analysis",
+  "lien": "https://www.elastic.co/security-labs/threat-command/bughatch-malware-analysis",
+  "date": "2022-09-09T00:00:00+00:00",
+  "resume": "Elastic Security has performed a deep technical analysis of the BUGHATCH malware. This includes capabilities as well as defensive countermeasures.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "620945bd9f4e",
+  "source": "elastic",
+  "titre": "Elastic protects against data wiper malware targeting Ukraine: HERMETICWIPER",
+  "lien": "https://www.elastic.co/security-labs/threat-command/elastic-protects-against-data-wiper-malware-targeting-ukraine-hermeticwiper",
+  "date": "2022-09-09T00:00:00+00:00",
+  "resume": "Analysis of the HERMETICWIPER malware targeting Ukranian organizations.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

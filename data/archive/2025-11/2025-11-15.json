@@ -1,0 +1,41 @@
+[
+ {
+  "id": "7c54cbbbd5fd",
+  "source": "elastic",
+  "titre": "RONINGLOADER: DragonBreath’s New Path to PPL Abuse",
+  "lien": "https://www.elastic.co/security-labs/threat-command/roningloader",
+  "date": "2025-11-15T00:00:00+00:00",
+  "resume": "Elastic Security Labs uncovers RONINGLOADER, a multi-stage loader deploying DragonBreath’s updated gh0st RAT variant. The campaign weaponizes signed drivers, thread-pool injection, and PPL abuse to disable Defender and evade Chinese EDR tools.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:SOC & SIEM"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "edr",
+    "evade",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

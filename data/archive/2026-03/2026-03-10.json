@@ -1,0 +1,101 @@
+[
+ {
+  "id": "9fc47fff5080",
+  "source": "huggingface",
+  "titre": "Introducing Storage Buckets on the Hugging Face Hub",
+  "lien": "https://huggingface.co/blog/storage-buckets",
+  "date": "2026-03-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "a23c5b3bf1ad",
+  "source": "huggingface",
+  "titre": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
+  "lien": "https://huggingface.co/blog/async-rl-training-landscape",
+  "date": "2026-03-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "open-source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "18ae019ca10d",
+  "source": "welivesecurity",
+  "titre": "Sednit reloaded: Back in the trenches",
+  "lien": "https://www.welivesecurity.com/en/eset-research/sednit-reloaded-back-trenches/",
+  "date": "2026-03-10T09:58:00+00:00",
+  "resume": "The resurgence of one of Russia’s most notorious APT groups",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

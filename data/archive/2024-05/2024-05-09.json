@@ -1,0 +1,60 @@
+[
+ {
+  "id": "683539e8eab5",
+  "source": "huggingface",
+  "titre": "Subscribe to Enterprise Hub with your AWS Account",
+  "lien": "https://huggingface.co/blog/enterprise-hub-aws-marketplace",
+  "date": "2024-05-09T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "80143e222854",
+  "source": "huggingface",
+  "titre": "Building Cost-Efficient Enterprise RAG applications with Intel Gaudi 2 and Intel Xeon",
+  "lien": "https://huggingface.co/blog/cost-efficient-rag-applications-with-intel",
+  "date": "2024-05-09T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

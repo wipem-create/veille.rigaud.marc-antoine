@@ -1,0 +1,36 @@
+[
+ {
+  "id": "81635a897bff",
+  "source": "huggingface",
+  "titre": "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
+  "lien": "https://huggingface.co/blog/anylanguagemodel",
+  "date": "2025-11-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

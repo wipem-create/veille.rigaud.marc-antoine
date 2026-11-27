@@ -1,0 +1,285 @@
+[
+ {
+  "id": "21d17e493a13",
+  "source": "elastic",
+  "titre": "Security operations: Cloud monitoring and detection with Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/cloud-monitoring-and-detection-with-elastic-security",
+  "date": "2022-11-30T08:00:00+00:00",
+  "resume": "As companies migrate to cloud, so too do opportunist adversaries. That's why our Elastic Security team members have created free detection rules for protecting users' cloud platforms like AWS and Okta. Learn more in this blog post.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:Journalisation & supervision"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "616e4ca0a306",
+  "source": "elastic",
+  "titre": "Deep dive into the TTD ecosystem",
+  "lien": "https://www.elastic.co/security-labs/threat-command/deep-dive-into-the-ttd-ecosystem",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "This is the first in a series focused on the Time Travel Debugging (TTD) technology developed by Microsoft that was explored in detail during a recent independent research period.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 37,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "89f17eb00ffb",
+  "source": "elastic",
+  "titre": "Analysis of Log4Shell vulnerability & CVE-2021-45046",
+  "lien": "https://www.elastic.co/security-labs/blog/analysis-of-log4shell-cve-2021-45046",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "In this post, we cover next steps the Elastic Security team is taking for users to continue to protect themselves against CVE-2021-44228, or Log4Shell.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4658f2f63935",
+  "source": "elastic",
+  "titre": "Forecast and Recommendations: 2022 Elastic Global Threat Report",
+  "lien": "https://www.elastic.co/security-labs/blog/forecast-and-recommendations-2022-elastic-global-threat-report",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "With the release of our first Global Threat Report at Elastic, customers, partners, and the security community at large are able to identify many of the focus areas our team has had over the past 12 months.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "release"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "a73576256c3e",
+  "source": "elastic",
+  "titre": "KNOTWEED Assessment Summary",
+  "lien": "https://www.elastic.co/security-labs/threat-command/knotweed-assessment-summary",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "KNOTWEED deploys the Subzero spyware through the use of 0-day exploits for Adobe Reader and the Windows operating system. Once initial access is gained, it uses different sections of Subzero to maintain persistence and perform actions on the host.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3db0487b268a",
+  "source": "elastic",
+  "titre": "Behind the scenes: The making of a Global Threat Report",
+  "lien": "https://www.elastic.co/security-labs/reports/behind-the-scenes-global-threat-report",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "What was our approach and process for creating a global threat report?",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "ef6ced7c9ace",
+  "source": "elastic",
+  "titre": "2022 Elastic Global Threat Report: Helping security leaders navigate today’s threat landscape",
+  "lien": "https://www.elastic.co/security-labs/reports/2022-elastic-global-threat-report-helping-security-leaders-navigate-todays-threat-landscape",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "A significant percentage of all cyber threats achieve a degree of success against technical, procedural, and human mitigations. So what is a company to do in the face of such unfavorable odds? Find out in this article.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3c6e87481844",
+  "source": "elastic",
+  "titre": "2022 Elastic Global Threat Report Announcement",
+  "lien": "https://www.elastic.co/security-labs/reports/2022-elastic-global-threat-report-announcement",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "Discover our latest findings & strategic recommendations to better stay informed of potential directions threat actors may focus on.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b2a371fb4337",
+  "source": "huggingface",
+  "titre": "VQ-Diffusion",
+  "lien": "https://huggingface.co/blog/vq-diffusion",
+  "date": "2022-11-30T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,36 @@
+[
+ {
+  "id": "0f3ab804e768",
+  "source": "elastic",
+  "titre": "BADIIS to the Bone: New Insights to a Global SEO Poisoning Campaign",
+  "lien": "https://www.elastic.co/security-labs/threat-command/badiis-to-the-bone-new-insights-to-global-seo-poisoning-campaign",
+  "date": "2026-02-11T00:00:00+00:00",
+  "resume": "In November 2025, Elastic Security Labs observed an intrusion affecting a multinational organization based in Southeast Asia. During the analysis of this activity, our team observed various post-compromise techniques and tooling used to deploy BADIIS malware onto a Windows web server consistent with other industry…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

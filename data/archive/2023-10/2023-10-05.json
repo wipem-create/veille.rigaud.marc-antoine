@@ -1,0 +1,33 @@
+[
+ {
+  "id": "ccb463a08dd9",
+  "source": "elastic",
+  "titre": "Dancing the night away with named pipes - PIPEDANCE client release",
+  "lien": "https://www.elastic.co/security-labs/threat-command/dancing-the-night-away-with-named-pipes",
+  "date": "2023-10-05T00:00:00+00:00",
+  "resume": "In this publication, we will walk through this client application’s functionality and how to get started with the tool.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "release"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,35 @@
+[
+ {
+  "id": "5ff923b737f2",
+  "source": "welivesecurity",
+  "titre": "Why geopolitical turmoil is a gift for scammers, and how to stay safe",
+  "lien": "https://www.welivesecurity.com/en/scams/geopolitical-turmoil-gift-scammers-how-stay-safe/",
+  "date": "2026-05-15T08:50:00+00:00",
+  "resume": "Conflict is a boon for opportunistic fraudsters. Look out for their ploys.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

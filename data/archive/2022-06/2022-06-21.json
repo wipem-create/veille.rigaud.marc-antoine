@@ -1,0 +1,140 @@
+[
+ {
+  "id": "e02c9d90768d",
+  "source": "elastic",
+  "titre": "Adversary tradecraft 101: Hunting for persistence using Elastic Security (Part 2)",
+  "lien": "https://www.elastic.co/security-labs/blog/hunting-for-persistence-using-elastic-security-part-2",
+  "date": "2022-06-21T00:00:00+00:00",
+  "resume": "Learn how Elastic Endpoint Security and Elastic SIEM can be used to hunt for and detect malicious persistence techniques at scale.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting",
+    "siem"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "bfcd4d3b6567",
+  "source": "elastic",
+  "titre": "Hunting For In-Memory .NET Attacks",
+  "lien": "https://www.elastic.co/security-labs/blog/hunting-memory-net-attacks",
+  "date": "2022-06-21T00:00:00+00:00",
+  "resume": "As a follow up to my DerbyCon presentation, this post will investigate an emerging trend of adversaries using .NET-based in-memory techniques to evade detection",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting",
+    "evade"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "7cba9869dd3d",
+  "source": "elastic",
+  "titre": "Hunting In Memory",
+  "lien": "https://www.elastic.co/security-labs/blog/hunting-memory",
+  "date": "2022-06-21T00:00:00+00:00",
+  "resume": "Threat Hunters are charged with the difficult task of sifting through vast sources of diverse data to pinpoint adversarial activity at any stage in the attack.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "52e812b7b2f8",
+  "source": "elastic",
+  "titre": "Playing defense against Gamaredon Group",
+  "lien": "https://www.elastic.co/security-labs/threat-command/playing-defense-against-gamaredon-group",
+  "date": "2022-06-21T00:00:00+00:00",
+  "resume": "Learn about the recent campaign of a Russia-based threat group known as Gamaredon Group. This post will review these details and provide detection strategies.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

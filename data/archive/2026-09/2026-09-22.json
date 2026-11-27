@@ -1,0 +1,126 @@
+[
+ {
+  "id": "8944cefce0c3",
+  "source": "huggingface",
+  "titre": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+  "lien": "https://huggingface.co/blog/evaleval-aisi",
+  "date": "2026-09-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "benchmark"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "3804f259ccb8",
+  "source": "huggingface",
+  "titre": "Transformers now runs llama.cpp quants",
+  "lien": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+  "date": "2026-09-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "11fb7697065b",
+  "source": "huggingface",
+  "titre": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+  "lien": "https://huggingface.co/blog/omlx",
+  "date": "2026-09-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d62a69a99375",
+  "source": "welivesecurity",
+  "titre": "Looking for free Robux? Here’s what’s real, and what’s a scam",
+  "lien": "https://www.welivesecurity.com/en/kids-online/looking-for-free-robux-heres-whats-real-whats-scam/",
+  "date": "2026-09-22T09:00:00+00:00",
+  "resume": "Fake giveaways, free Robux generators and lookalike login pages all target the same thing – your Roblox account",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

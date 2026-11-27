@@ -1,0 +1,40 @@
+[
+ {
+  "id": "e66fb44b4129",
+  "source": "elastic",
+  "titre": "Stop rewriting detection rules by hand: automatic Sentinel-to-Elastic migration is here",
+  "lien": "https://www.elastic.co/security-labs/blog/sentinel-detection-rules-migration",
+  "date": "2026-07-29T00:00:00+00:00",
+  "resume": "Elastic's first automatic migration from a modern SIEM. Translate your Sentinel detection rules into Elastic Security without rebuilding them.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 26,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "sentinel",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

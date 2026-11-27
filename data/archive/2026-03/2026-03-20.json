@@ -1,0 +1,105 @@
+[
+ {
+  "id": "dcbfe731a3de",
+  "source": "elastic",
+  "titre": "Linux & Cloud Detection Engineering - TeamPCP Container Attack Scenario",
+  "lien": "https://www.elastic.co/security-labs/blog/teampcp-container-attack-scenario",
+  "date": "2026-03-20T00:00:00+00:00",
+  "resume": "This publication provides a real-world walkthrough of TeamPCP's multi-stage container compromise, demonstrating how Elastic's D4C surfaces runtime signals across each stage of the attack chain.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "d1aedab9a15f",
+  "source": "huggingface",
+  "titre": "Build a Domain-Specific Embedding Model in Under a Day",
+  "lien": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+  "date": "2026-03-20T19:38:16+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "729da13534b0",
+  "source": "welivesecurity",
+  "titre": "Move fast and save things: A quick guide to recovering a hacked account",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/move-fast-save-things-quick-guide-recovering-hacked-account/",
+  "date": "2026-03-20T10:00:00+00:00",
+  "resume": "What you do – and how fast – after an account is compromised often matters more than it may seem",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

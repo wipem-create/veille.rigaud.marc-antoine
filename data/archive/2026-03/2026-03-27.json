@@ -1,0 +1,128 @@
+[
+ {
+  "id": "7eade2e4934f",
+  "source": "welivesecurity",
+  "titre": "A cunning predator: How Silver Fox preys on Japanese firms this tax season",
+  "lien": "https://www.welivesecurity.com/en/business-security/cunning-predator-how-silver-fox-preys-japanese-firms-tax-season/",
+  "date": "2026-03-27T07:00:00+00:00",
+  "resume": "Silver Fox is back in Japan, spoofing tax and HR emails timed to the one season when no one thinks twice about opening them",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 33,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "48878b33fb53",
+  "source": "elastic",
+  "titre": "Elastic Security Labs uncovers BRUSHWORM and BRUSHLOGGER",
+  "lien": "https://www.elastic.co/security-labs/threat-command/brushworm-targets-financial-services",
+  "date": "2026-03-27T00:00:00+00:00",
+  "resume": "Elastic Security Labs observed two custom malware components targeting a South Asian financial institution: a modular backdoor with USB-based spreading and a DLL-side-loaded keylogger.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "70ba6f8a60d2",
+  "source": "huggingface",
+  "titre": "Liberate your OpenClaw",
+  "lien": "https://huggingface.co/blog/liberate-your-openclaw",
+  "date": "2026-03-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "26e44530b500",
+  "source": "welivesecurity",
+  "titre": "RSAC 2026 wrap-up – Week in security with Tony Anscombe",
+  "lien": "https://www.welivesecurity.com/en/videos/rsac-2026-wrap-up-week-security-tony-anscombe/",
+  "date": "2026-03-27T10:38:21+00:00",
+  "resume": "This year, AI agents took the center stage – as a defensive capability, but more pressingly as a risk many organizations haven't caught up with",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

@@ -1,0 +1,336 @@
+[
+ {
+  "id": "c24f0535efe8",
+  "source": "elastic",
+  "titre": "Detecting Living-off-the-land attacks with new Elastic Integration",
+  "lien": "https://www.elastic.co/security-labs/blog/detecting-living-off-the-land-attacks-with-new-elastic-integration",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "We added a Living off the land (LotL) detection package to the Integrations app in Kibana. In a single click, you can install and start using the ProblemChild model and associated assets including anomaly detection configurations and detection rules.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Durcissement & DevSecOps",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 58,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 28,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "configuration",
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "31bfb09e899d",
+  "source": "elastic",
+  "titre": "Hunting for Suspicious Windows Libraries for Execution and Defense Evasion",
+  "lien": "https://www.elastic.co/security-labs/blog/Hunting-for-Suspicious-Windows-Libraries-for-Execution-and-Evasion",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "Learn more about discovering threats by hunting through DLL load events, one way to reveal the presence of known and unknown malware in noisy process event data.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "dc9e4ba85bf9",
+  "source": "elastic",
+  "titre": "Hunting for Lateral Movement using Event Query Language",
+  "lien": "https://www.elastic.co/security-labs/blog/hunting-for-lateral-movement-using-event-query-language",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "Elastic Event Query Language (EQL) correlation capabilities enable practitioners to capture complex behavior for adversary Lateral Movement techniques. Learn how to detect a variety of such techniques in this blog post.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "d407e1bb69d7",
+  "source": "elastic",
+  "titre": "Automating the Security Protections rapid response to malware",
+  "lien": "https://www.elastic.co/security-labs/blog/automating-security-protections-rapid-response-to-malware",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "See how we’ve been improving the processes that allow us to make updates quickly in response to new information and propagate those protections to our users, with the help of machine learning models.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4cd3b76980ed",
+  "source": "elastic",
+  "titre": "The Elastic Container Project for Security Research",
+  "lien": "https://www.elastic.co/security-labs/blog/the-elastic-container-project",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "The Elastic Container Project provides a single shell script that will allow you to stand up and manage an entire Elastic Stack using Docker. This open source project enables rapid deployment for testing use cases.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "2dd90c299bb1",
+  "source": "elastic",
+  "titre": "Stopping Vulnerable Driver Attacks",
+  "lien": "https://www.elastic.co/security-labs/blog/stopping-vulnerable-driver-attacks",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "This post includes a primer on kernel mode attacks, along with Elastic’s recommendations for securing users from kernel attacks leveraging vulnerable drivers.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "2e97cdf411ad",
+  "source": "elastic",
+  "titre": "Identifying beaconing malware using Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/identifying-beaconing-malware-using-elastic",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "In this blog, we walk users through identifying beaconing malware in their environment using our beaconing identification framework.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3c02efc7477e",
+  "source": "elastic",
+  "titre": "Detect Credential Access with Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/detect-credential-access",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "Elastic Endpoint Security provides events that enable defenders with visibility on techniques and procedures which are commonly leveraged to access sensitive files and registry objects.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "015db21b0d10",
+  "source": "elastic",
+  "titre": "Ingesting threat data with the Threat Intel Filebeat module",
+  "lien": "https://www.elastic.co/security-labs/blog/ingesting-threat-data-with-the-threat-intel-filebeat-module",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "Tutorial that walks through setting up Filebeat to push threat intelligence feeds into your Elastic Stack.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e9be6e4a3d6e",
+  "source": "huggingface",
+  "titre": "How Hugging Face Accelerated Development of Witty Works Writing Assistant",
+  "lien": "https://huggingface.co/blog/classification-use-cases",
+  "date": "2023-03-01T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

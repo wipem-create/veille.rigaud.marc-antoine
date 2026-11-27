@@ -1,0 +1,66 @@
+[
+ {
+  "id": "25ba920c3794",
+  "source": "elastic",
+  "titre": "Introducing a New Vulnerability Class: False File Immutability",
+  "lien": "https://www.elastic.co/security-labs/threat-command/false-file-immutability",
+  "date": "2024-07-11T00:00:00+00:00",
+  "resume": "This article introduces a previously-unnamed class of Windows vulnerability that demonstrates the dangers of assumption and describes some unintended security consequences.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "757eba558faa",
+  "source": "huggingface",
+  "titre": "How NuminaMath Won the 1st AIMO Progress Prize",
+  "lien": "https://huggingface.co/blog/winning-aimo-progress-prize",
+  "date": "2024-07-11T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

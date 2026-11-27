@@ -1,0 +1,31 @@
+[
+ {
+  "id": "e22eef0fdec2",
+  "source": "welivesecurity",
+  "titre": "Eyes wide open: How to mitigate the security and privacy risks of smart glasses",
+  "lien": "https://www.welivesecurity.com/en/privacy/eyes-wide-open-mitigate-security-privacy-risks-smart-glasses/",
+  "date": "2026-05-11T08:55:00+00:00",
+  "resume": "Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

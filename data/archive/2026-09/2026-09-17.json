@@ -1,0 +1,37 @@
+[
+ {
+  "id": "f6498fdbdddf",
+  "source": "welivesecurity",
+  "titre": "Beware the SparroWock: The backdoor that bites, the commands that catch",
+  "lien": "https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/",
+  "date": "2026-09-17T08:50:00+00:00",
+  "resume": "ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

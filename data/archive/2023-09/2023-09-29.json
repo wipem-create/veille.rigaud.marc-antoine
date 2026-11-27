@@ -1,0 +1,103 @@
+[
+ {
+  "id": "e0fb67180053",
+  "source": "elastic",
+  "titre": "Accelerating Elastic detection tradecraft with LLMs",
+  "lien": "https://www.elastic.co/security-labs/threat-command/accelerating-elastic-detection-tradecraft-with-llms",
+  "date": "2023-09-29T00:00:00+00:00",
+  "resume": "Learn more about how Elastic Security Labs has been focused on accelerating our detection engineering workflows by tapping into more generative AI capabilities.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "936251be73bc",
+  "source": "huggingface",
+  "titre": "Ethics and Society Newsletter #5: Hugging Face Goes To Washington and Other Summer 2023 Musings",
+  "lien": "https://huggingface.co/blog/ethics-soc-5",
+  "date": "2023-09-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e34b180859d4",
+  "source": "huggingface",
+  "titre": "Finetune Stable Diffusion Models with DDPO via TRL",
+  "lien": "https://huggingface.co/blog/trl-ddpo",
+  "date": "2023-09-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

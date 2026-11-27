@@ -1,0 +1,33 @@
+[
+ {
+  "id": "668a907f9481",
+  "source": "elastic",
+  "titre": "Monitoring Claude Code/Cowork at scale with OTel in Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/claude-code-cowork-monitoring-otel-elastic",
+  "date": "2026-04-25T00:00:00+00:00",
+  "resume": "How Elastic's InfoSec team built a monitoring pipeline for Claude Code and Claude Cowork using their native OTel export capabilities and Elastic's OTel ingestion infrastructure.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

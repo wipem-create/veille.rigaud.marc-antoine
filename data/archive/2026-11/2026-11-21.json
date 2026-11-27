@@ -14,9 +14,9 @@
    "H1:Menaces & APT",
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 89,
+  "score": 90,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 35,
    "corroboration": 20,
    "bruit": 0,
@@ -33,14 +33,16 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 7,
+  "corroboration": 9,
   "corrobore_par": [
    "bleeping",
    "darkreading",
    "elastic",
-   "itconnect",
+   "heise",
    "lemagit",
-   "securityweek"
+   "sekoia",
+   "silicon",
+   "theregister"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -61,9 +63,9 @@
    "H1:Vulnérabilités & correctifs",
    "H2:Agents IA"
   ],
-  "score": 69,
+  "score": 70,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 15,
    "corroboration": 20,
    "bruit": 0,
@@ -77,11 +79,52 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "darkreading",
+   "heise",
+   "krebs",
+   "securityweek",
+   "therecord"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "ff94b1333b87",
+  "source": "thn",
+  "titre": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+  "lien": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+  "date": "2026-11-21T08:49:20+00:00",
+  "resume": "Signal bloque par défaut les captures d'écran pour empêcher les agents IA de lire les conversations.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 63,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
   "corroboration": 4,
   "corrobore_par": [
    "darkreading",
-   "krebs",
-   "securityweek"
+   "silicon",
+   "theregister"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -100,11 +143,11 @@
   "sous_themes": [
    "H1:Vulnérabilités & correctifs"
   ],
-  "score": 54,
+  "score": 62,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 13,
-   "corroboration": 7,
+   "corroboration": 14,
    "bruit": 0,
    "motifs": [
     "critical",
@@ -117,9 +160,90 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 2,
+  "corroboration": 3,
   "corrobore_par": [
-   "darkreading"
+   "darkreading",
+   "securityweek"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "3cc14de93930",
+  "source": "thn",
+  "titre": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+  "lien": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+  "date": "2026-11-21T11:53:07+00:00",
+  "resume": "Démonstration d'injection de prompt : une page web malveillante extrait conversations et mémoire de l'assistant Meta Muse.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA",
+   "H2:Usages & outils"
+  ],
+  "score": 55,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "lebigdata",
+   "lmi",
+   "theverge"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "cec5cefa403c",
+  "source": "krebs",
+  "titre": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+  "lien": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+  "date": "2026-11-21T00:36:39+00:00",
+  "resume": "La société payait les rançons puis facturait les victimes avec une forte marge, sans réel déchiffrement.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 53,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 8,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "securityweek"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -138,9 +262,9 @@
   "sous_themes": [
    "H2:Agents IA"
   ],
-  "score": 50,
+  "score": 52,
   "criteres": {
-   "source": 29.8,
+   "source": 31.9,
    "criticite": 20,
    "corroboration": 0,
    "bruit": 0,
@@ -161,26 +285,22 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
-  "id": "3cc14de93930",
-  "source": "thn",
-  "titre": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-  "lien": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-  "date": "2026-11-21T11:53:07+00:00",
-  "resume": "Démonstration d'injection de prompt : une page web malveillante extrait conversations et mémoire de l'assistant Meta Muse.",
+  "id": "65830991efd2",
+  "source": "theregister",
+  "titre": "PHP 8.6: Things are gonna get a lot more strict around here",
+  "lien": "https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486",
+  "date": "2026-11-20T23:28:47+00:00",
+  "resume": "Like a parent disciplining a misbehaving child, PHP’s annual update clamps down on loose default behaviors to curb malicious hacker horseplay.",
   "horizon": "H1",
   "themes": [
-   "H2"
+   "H1"
   ],
-  "sous_themes": [
-   "H2:Modèles & recherche",
-   "H2:Sécurité de l'IA",
-   "H2:Usages & outils"
-  ],
-  "score": 48,
+  "sous_themes": [],
+  "score": 52,
   "criteres": {
-   "source": 34.2,
+   "source": 31.8,
    "criticite": 0,
-   "corroboration": 14,
+   "corroboration": 20,
    "bruit": 0,
    "motifs": []
   },
@@ -190,83 +310,13 @@
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 3,
+  "corroboration": 4,
   "corrobore_par": [
-   "darkreading",
-   "lebigdata"
+   "mittr",
+   "sans",
+   "theverge"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "ff94b1333b87",
-  "source": "thn",
-  "titre": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-  "lien": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-  "date": "2026-11-21T08:49:20+00:00",
-  "resume": "Signal bloque par défaut les captures d'écran pour empêcher les agents IA de lire les conversations.",
-  "horizon": "H2",
-  "themes": [
-   "H2"
-  ],
-  "sous_themes": [
-   "H2:Agents IA"
-  ],
-  "score": 42,
-  "criteres": {
-   "source": 34.2,
-   "criticite": 8,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "agent"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "cec5cefa403c",
-  "source": "krebs",
-  "titre": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
-  "lien": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-  "date": "2026-11-21T00:36:39+00:00",
-  "resume": "La société payait les rançons puis facturait les victimes avec une forte marge, sans réel déchiffrement.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Phishing & fraude",
-   "H1:Rançongiciels & extorsion"
-  ],
-  "score": 39,
-  "criteres": {
-   "source": 30.6,
-   "criticite": 8,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": [
-    "ransomware"
-   ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
  }
 ]

@@ -1,0 +1,33 @@
+[
+ {
+  "id": "f771a425246d",
+  "source": "welivesecurity",
+  "titre": "Is that vibe coded app safe? 5 checks before you download",
+  "lien": "https://www.welivesecurity.com/en/mobile-security/is-new-vibe-coded-app-safe-5-questions-ask-first/",
+  "date": "2026-09-25T09:00:00+00:00",
+  "resume": "As AI lets anyone build software, here’s how to vet that shiny new app before it exposes your data",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

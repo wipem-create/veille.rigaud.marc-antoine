@@ -1,0 +1,33 @@
+[
+ {
+  "id": "faa465e0ece3",
+  "source": "huggingface",
+  "titre": "DuckDB: analyze 50,000+ datasets stored on the Hugging Face Hub",
+  "lien": "https://huggingface.co/blog/hub-duckdb",
+  "date": "2023-06-07T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

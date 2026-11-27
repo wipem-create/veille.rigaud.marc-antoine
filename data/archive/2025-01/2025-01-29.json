@@ -1,0 +1,39 @@
+[
+ {
+  "id": "66ff9ec5eb43",
+  "source": "elastic",
+  "titre": "Announcing the Elastic Bounty Program for Behavior Rule Protections",
+  "lien": "https://www.elastic.co/security-labs/threat-command/behavior-rule-bug-bounty",
+  "date": "2025-01-29T00:00:00+00:00",
+  "resume": "Elastic is launching an expansion of its security bounty program, inviting researchers to test its SIEM and EDR rules for evasion and bypass techniques, starting with Windows endpoints. This initiative strengthens collaboration with the security community, ensuring Elastic’s defenses remain robust against evolving…",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem",
+    "launch"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

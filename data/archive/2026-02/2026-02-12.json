@@ -1,0 +1,72 @@
+[
+ {
+  "id": "9e8b7eec9ee5",
+  "source": "huggingface",
+  "titre": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
+  "lien": "https://huggingface.co/blog/openenv-turing",
+  "date": "2026-02-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "e69be3c4df9b",
+  "source": "sekoia",
+  "titre": "OysterLoader Unmasked: The Multi-Stage Evasion Loader",
+  "lien": "https://www.sekoia.com/blog/oysterloader-unmasked-the-multi-stage-evasion-loader",
+  "date": "2026-02-12T00:00:00+00:00",
+  "resume": "Unmasking OysterLoader's evasion: from API hammering to custom LZMA. Explore the 4-stage infection chain and its ties to Rhysida ransomware.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

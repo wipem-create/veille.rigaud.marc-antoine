@@ -1,0 +1,74 @@
+[
+ {
+  "id": "cf2f1019b44f",
+  "source": "welivesecurity",
+  "titre": "PromptSpy ushers in the era of Android threats using GenAI",
+  "lien": "https://www.welivesecurity.com/en/eset-research/promptspy-ushers-in-era-android-threats-using-genai/",
+  "date": "2026-02-19T10:30:20+00:00",
+  "resume": "ESET researchers discover PromptSpy, the first known Android malware to abuse generative AI in its execution flow",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "research"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "96dcae60bcd6",
+  "source": "welivesecurity",
+  "titre": "Is Poshmark safe? How to buy and sell without getting scammed",
+  "lien": "https://www.welivesecurity.com/en/scams/poshmark-safe-buy-sell-scammed/",
+  "date": "2026-02-19T07:21:48+00:00",
+  "resume": "Like any other marketplace, the social commerce platform has its share of red flags. It pays to know what to look for so you can shop or sell without headaches.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

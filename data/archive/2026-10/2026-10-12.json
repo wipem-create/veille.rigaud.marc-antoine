@@ -1,0 +1,108 @@
+[
+ {
+  "id": "87139696d9d2",
+  "source": "sekoia",
+  "titre": "Introducing Sekoia Digital Risk: Track Identity-Led Breaches",
+  "lien": "https://www.sekoia.com/blog/with-sekoia-intelligence-we-gave-you-half-the-picture-heres-the-other-half",
+  "date": "2026-10-12T12:49:00+00:00",
+  "resume": "See how stolen credentials move from infostealers to access brokers, and how Sekoia connects exposure data to the actors behind identity-led breaches.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "11c906c920ba",
+  "source": "welivesecurity",
+  "titre": "What to do when a data breach notice doesn't say much",
+  "lien": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
+  "date": "2026-10-12T09:00:00+00:00",
+  "resume": "Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "1c5e57348b05",
+  "source": "elastic",
+  "titre": "Auditing the auditor: Unmasking Apex Accelerator",
+  "lien": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+  "date": "2026-10-12T00:00:00+00:00",
+  "resume": "REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Usages & outils"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "d36b4e26182d",
+  "source": "sekoia",
+  "titre": "PolarEdge: Unveiling an uncovered ORB network",
+  "lien": "https://www.sekoia.com/blog/polaredge-unveiling-an-uncovered-iot-botnet",
+  "date": "2025-02-25T00:00:00+00:00",
+  "resume": "Discover PolarEdge, a newly identified botnet targeting edge devices via CVE-2023-20118, using a stealthy TLS backdoor.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 35,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "cve-"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "3ee667d2bd48",
+  "source": "huggingface",
+  "titre": "FastRTC: The Real-Time Communication Library for Python",
+  "lien": "https://huggingface.co/blog/fastrtc",
+  "date": "2025-02-25T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

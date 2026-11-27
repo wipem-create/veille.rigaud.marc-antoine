@@ -1,0 +1,66 @@
+[
+ {
+  "id": "20d744841ccd",
+  "source": "elastic",
+  "titre": "LUNA Ransomware Attack Pattern Analysis",
+  "lien": "https://www.elastic.co/security-labs/threat-command/luna-ransomware-attack-pattern",
+  "date": "2022-08-31T00:00:00+00:00",
+  "resume": "In this research publication, we'll explore the LUNA attack pattern — a cross-platform ransomware variant.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "7ff467b553c2",
+  "source": "huggingface",
+  "titre": "OpenRAIL: Towards open and responsible AI licensing frameworks",
+  "lien": "https://huggingface.co/blog/open_rail",
+  "date": "2022-08-31T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

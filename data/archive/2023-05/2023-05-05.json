@@ -1,0 +1,41 @@
+[
+ {
+  "id": "938bb8d2a3e0",
+  "source": "elastic",
+  "titre": "Elastic users protected from SUDDENICON’s supply chain attack",
+  "lien": "https://www.elastic.co/security-labs/threat-command/elastic-users-protected-from-suddenicon-supply-chain-attack",
+  "date": "2023-05-05T00:00:00+00:00",
+  "resume": "Elastic Security Labs is releasing a triage analysis to assist 3CX customers in the initial detection of SUDDENICON, a potential supply-chain compromise affecting 3CX VOIP softphone users.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "triage",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

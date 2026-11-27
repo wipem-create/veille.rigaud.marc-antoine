@@ -1,0 +1,97 @@
+[
+ {
+  "id": "9b5888727381",
+  "source": "elastic",
+  "titre": "ClickFix to Cash-Out: Anatomy of a Mexican Banking-Fraud Toolkit",
+  "lien": "https://www.elastic.co/security-labs/threat-command/mexican-banking-fraud-scmbanker-ref6045",
+  "date": "2026-07-08T00:00:00+00:00",
+  "resume": "Elastic Security Labs tracks REF6045, an active operator-assisted banking fraud operation targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "3075e90d6055",
+  "source": "huggingface",
+  "titre": "Native-speed vLLM transformers modeling backend",
+  "lien": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+  "date": "2026-07-08T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "b02fc43c243f",
+  "source": "welivesecurity",
+  "titre": "ESET Threat Report H1 2026",
+  "lien": "https://www.welivesecurity.com/en/eset-research/eset-threat-report-h1-2026/",
+  "date": "2026-07-08T08:45:00+00:00",
+  "resume": "A view of the H1 2026 threat landscape as seen by ESET telemetry and from the perspective of ESET threat detection and research experts.",
+  "horizon": "H1",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

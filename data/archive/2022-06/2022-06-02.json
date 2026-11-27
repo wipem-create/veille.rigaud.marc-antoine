@@ -1,0 +1,212 @@
+[
+ {
+  "id": "5ee2519305f8",
+  "source": "elastic",
+  "titre": "Nimbuspwn: Leveraging vulnerabilities to exploit Linux via Privilege Escalation",
+  "lien": "https://www.elastic.co/security-labs/threat-command/nimbuspwn-leveraging-vulnerabilities-to-exploit-linux-via-privilege-escalation",
+  "date": "2022-06-02T00:00:00+00:00",
+  "resume": "Microsoft 365 Defender team released a post detailing several identified vulnerabilities. These vulnerabilities allow adversarial groups to escalate privileges on Linux systems, allowing for deployment of payloads, ransomware, or other attacks.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "exploit",
+    "ransomware"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "7220a08df5df",
+  "source": "elastic",
+  "titre": "Detection and response for the actively exploited ProxyShell vulnerabilities",
+  "lien": "https://www.elastic.co/security-labs/blog/detection-and-response-for-the-actively-exploited-proxyshell-vulnerabilities",
+  "date": "2022-06-02T00:00:00+00:00",
+  "resume": "In the last week, Elastic Security has observed the exploitation of Microsoft Exchange vulnerabilities associated with ProxyShell. Review the post to find newly released details about this activity.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "actively exploit"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1d2e2bd3e808",
+  "source": "elastic",
+  "titre": "Testing your Okta visibility and detection with Dorothy and Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/threat-command/testing-okta-visibility-and-detection-dorothy",
+  "date": "2022-06-02T00:00:00+00:00",
+  "resume": "Dorothy is a tool for security teams to test their visibility and detection capabilities for their Okta environment. IAM solutions are frequently targeted by adversaries but poorly monitored. Learn how to get started with Dorothy in this post.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "11485c1fe7a4",
+  "source": "elastic",
+  "titre": "Collecting and operationalizing threat data from the Mozi botnet",
+  "lien": "https://www.elastic.co/security-labs/threat-command/collecting-and-operationalizing-threat-data-from-the-mozi-botnet",
+  "date": "2022-06-02T00:00:00+00:00",
+  "resume": "The Mozi botnet is an ongoing malware campaign targeting unsecured and vulnerable networking devices. This post will showcase the analyst journey of collecting, analyzing, and operationalizing threat data from the Mozi botnet.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "1e01b7605af7",
+  "source": "elastic",
+  "titre": "Ransomware, interrupted: Sodinokibi and the supply chain",
+  "lien": "https://www.elastic.co/security-labs/threat-command/ransomware-interrupted-sodinokibi-and-the-supply-chain",
+  "date": "2022-06-02T00:00:00+00:00",
+  "resume": "Learn how Elastic Endpoint Security's behavior-based protections prevented a targeted ransomware attack on multiple endpoints.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4ba9d4b840a3",
+  "source": "elastic",
+  "titre": "Okta and LAPSUS$: What you need to know",
+  "lien": "https://www.elastic.co/security-labs/threat-command/okta-and-lapsus-what-you-need-to-know",
+  "date": "2022-06-02T00:00:00+00:00",
+  "resume": "The latest organization under the microscope of the LAPSUS$ group is Okta. Threat hunt for the recent breach targeting Okta users using these simple steps in Elastic",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

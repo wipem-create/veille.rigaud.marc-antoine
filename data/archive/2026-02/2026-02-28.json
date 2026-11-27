@@ -1,0 +1,35 @@
+[
+ {
+  "id": "1e6b2ff5d770",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – February 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-february-2026/",
+  "date": "2026-02-28T10:00:00+00:00",
+  "resume": "In this roundup, Tony looks at how opportunistic threat actors are taking advantage of weak authentication, unmanaged exposure, and popular AI tools",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

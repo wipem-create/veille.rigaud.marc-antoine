@@ -1,0 +1,186 @@
+[
+ {
+  "id": "e35c16f8965b",
+  "source": "sekoia",
+  "titre": "Sekoia Reveal: Turn fragmented asset data into unified SOC context",
+  "lien": "https://www.sekoia.com/blog/meet-sekoia-reveal-turn-fragmented-asset-data-into-unified-soc-context",
+  "date": "2026-03-31T00:00:00+00:00",
+  "resume": "Security teams do not struggle with a lack of data. They struggle with a lack of context.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "823e18dca2fb",
+  "source": "elastic",
+  "titre": "Fake Installers to Monero: A Multi-Tool Mining Operation",
+  "lien": "https://www.elastic.co/security-labs/threat-command/fake-installers-to-monero",
+  "date": "2026-03-31T00:00:00+00:00",
+  "resume": "Elastic Security Labs dissects a long-running operation deploying RATs, cryptominers, and CPA fraud through fake installer lures, tracking its evolution across campaigns and Monero payouts.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "66623f8c4f54",
+  "source": "huggingface",
+  "titre": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+  "lien": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+  "date": "2026-03-31T15:10:41+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "cb258ca19902",
+  "source": "huggingface",
+  "titre": "Training mRNA Language Models Across 25 Species for $165",
+  "lien": "https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
+  "date": "2026-03-31T08:23:44+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "608ebd06988c",
+  "source": "huggingface",
+  "titre": "TRL v1.0: Post-Training Library Built to Move with the Field",
+  "lien": "https://huggingface.co/blog/trl-v1",
+  "date": "2026-03-31T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d2dc65161529",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – March 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-march-2026/",
+  "date": "2026-03-31T08:27:18+00:00",
+  "resume": "The past four weeks have seen a slew of new cybersecurity wake-up calls that showed why every organization needs a well-thought-out cyber-resilience plan",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

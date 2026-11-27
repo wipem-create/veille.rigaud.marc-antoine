@@ -1,0 +1,93 @@
+[
+ {
+  "id": "92e008e5213b",
+  "source": "elastic",
+  "titre": "Unpacking ICEDID",
+  "lien": "https://www.elastic.co/security-labs/blog/unpacking-icedid",
+  "date": "2023-05-04T00:00:00+00:00",
+  "resume": "ICEDID is known to pack its payloads using custom file formats and a custom encryption scheme. We are releasing a set of tools to automate the unpacking process and help analysts and the community respond to ICEDID.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "9f87d6e2b682",
+  "source": "elastic",
+  "titre": "Click, Click… Boom! Automating Protections Testing with Detonate",
+  "lien": "https://www.elastic.co/security-labs/blog/click-click-boom-automating-protections-testing-with-detonate",
+  "date": "2023-05-04T00:00:00+00:00",
+  "resume": "To automate this process and test our protections at scale, we built Detonate, a system that is used by security research engineers to measure the efficacy of our Elastic Security solution in an automated fashion.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "99f41d9dece4",
+  "source": "huggingface",
+  "titre": "StarCoder: A State-of-the-Art LLM for Code",
+  "lien": "https://huggingface.co/blog/starcoder",
+  "date": "2023-05-04T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

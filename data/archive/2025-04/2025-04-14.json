@@ -1,0 +1,110 @@
+[
+ {
+  "id": "fed4f21c44f6",
+  "source": "sekoia",
+  "titre": "The evolution of the AI SOC: From Hype to Hyper",
+  "lien": "https://www.sekoia.com/blog/agentic-ai-in-soc-operations",
+  "date": "2025-04-14T00:00:00+00:00",
+  "resume": "Explore the impact of Agentic AI in SOC operations and how it boosts efficiency and effectiveness for SOC teams.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "07b77e380f07",
+  "source": "huggingface",
+  "titre": "Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖",
+  "lien": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+  "date": "2025-04-14T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "acqui",
+    "open-source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "625b9dcbfcc9",
+  "source": "huggingface",
+  "titre": "4M Models Scanned: Protect AI + Hugging Face 6 Months In",
+  "lien": "https://huggingface.co/blog/pai-6-month",
+  "date": "2025-04-14T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

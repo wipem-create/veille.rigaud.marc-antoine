@@ -1,0 +1,93 @@
+[
+ {
+  "id": "49a165734fea",
+  "source": "elastic",
+  "titre": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
+  "lien": "https://www.elastic.co/security-labs/threat-command/tclbanker-brazilian-banking-trojan",
+  "date": "2026-05-07T00:00:00+00:00",
+  "resume": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f575216a31b5",
+  "source": "welivesecurity",
+  "titre": "Fake call logs, real payments: How CallPhantom tricks Android users",
+  "lien": "https://www.welivesecurity.com/en/eset-research/fake-call-logs-real-payments-how-callphantom-tricks-android-users/",
+  "date": "2026-05-07T08:51:19+00:00",
+  "resume": "ESET researchers uncovered fraudulent apps on Google Play that claim to provide the call history “for any number” and had been downloaded more than seven million times before being taken down",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "cb90a43e8411",
+  "source": "welivesecurity",
+  "titre": "Fixing the password problem is as easy as 123456",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/fixing-password-problem-as-easy-as-123456/",
+  "date": "2026-05-07T07:00:00+00:00",
+  "resume": "How come it’s still possible to ‘secure’ an online account with a six-digit string?",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

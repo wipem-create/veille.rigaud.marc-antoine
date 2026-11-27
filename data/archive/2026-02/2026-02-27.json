@@ -1,0 +1,69 @@
+[
+ {
+  "id": "762ada5f0b14",
+  "source": "elastic",
+  "titre": "Manage your Elastic security stack as code with the Elastic Stack Terraform provider",
+  "lien": "https://www.elastic.co/security-labs/blog/manage-elastic-with-terraform",
+  "date": "2026-02-27T00:00:00+00:00",
+  "resume": "From detection rules to AI connectors - the latest Terraform provider releases bring security, observability, and ML capabilities to your infrastructure-as-code workflows.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 22,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection",
+    "release"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "ddadec178e37",
+  "source": "welivesecurity",
+  "titre": "Mobile app permissions (still) matter more than you may think",
+  "lien": "https://www.welivesecurity.com/en/mobile-security/mobile-app-permissions-still-matter-more-think/",
+  "date": "2026-02-27T10:00:00+00:00",
+  "resume": "Start using a new app and you’ll often be asked to grant it permissions. But blindly accepting them could expose you to serious privacy and security risks.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

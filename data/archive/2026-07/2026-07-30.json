@@ -1,0 +1,62 @@
+[
+ {
+  "id": "4ea0894cbd38",
+  "source": "huggingface",
+  "titre": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+  "lien": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+  "date": "2026-07-30T15:09:09+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "705f068213bb",
+  "source": "welivesecurity",
+  "titre": "Beyond the screenshot: Why you should verify what you see",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/beyond-screenshot-why-verify-you-see/",
+  "date": "2026-07-30T08:50:00+00:00",
+  "resume": "The screenshot may look convincing, but it doesn’t necessarily prove that the payment, booking or conversation is genuine",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

@@ -1,0 +1,75 @@
+[
+ {
+  "id": "893b86d18742",
+  "source": "huggingface",
+  "titre": "The Open Source Community is backing OpenEnv for Agentic RL",
+  "lien": "https://huggingface.co/blog/openenv-agentic-rl",
+  "date": "2026-06-08T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "40703346b944",
+  "source": "redcanary",
+  "titre": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Assistive agents",
+  "lien": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/",
+  "date": "2026-06-08T15:37:01+00:00",
+  "resume": "Assistive AI agents aren't always helpful—it all depends on who they're working on behalf of.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 37,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "microsoft"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ }
+]

@@ -1,0 +1,39 @@
+[
+ {
+  "id": "b72aaba7baf5",
+  "source": "elastic",
+  "titre": "Microsoft Entra ID OAuth Phishing and Detections",
+  "lien": "https://www.elastic.co/security-labs/blog/entra-id-oauth-phishing-detection",
+  "date": "2025-06-25T00:00:00+00:00",
+  "resume": "This article explores OAuth phishing and token-based abuse in Microsoft Entra ID. Through emulation and analysis of tokens, scope, and device behavior during sign-in activity, we surface high-fidelity signals defenders can use to detect and hunt for OAuth misuse.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

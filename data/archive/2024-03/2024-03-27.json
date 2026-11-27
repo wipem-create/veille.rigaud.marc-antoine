@@ -1,0 +1,39 @@
+[
+ {
+  "id": "3063dc9ecd03",
+  "source": "elastic",
+  "titre": "Unlocking Power Safely: Privilege Escalation via Linux Process Capabilities",
+  "lien": "https://www.elastic.co/security-labs/threat-command/unlocking-power-safely-privilege-escalation-via-linux-process-capabilities",
+  "date": "2024-03-27T00:00:00+00:00",
+  "resume": "Organizations need to understand how Linux features contribute to their attack surface via privilege escalation and how to effectively monitor intrusion attempts using free and open detection capabilities.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

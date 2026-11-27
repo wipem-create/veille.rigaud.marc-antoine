@@ -1,0 +1,110 @@
+[
+ {
+  "id": "f28b9c8b17d6",
+  "source": "elastic",
+  "titre": "Get started with Elastic Security from your AI agent",
+  "lien": "https://www.elastic.co/security-labs/blog/agent-skills-elastic-security",
+  "date": "2026-03-17T00:00:00+00:00",
+  "resume": "Go from zero to a fully populated Elastic Security environment without leaving your IDE, using open source Agent Skills.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 24,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security",
+    "agent",
+    "open source"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b02c36943e52",
+  "source": "huggingface",
+  "titre": "Holotron-12B - High Throughput Computer Use Agent",
+  "lien": "https://huggingface.co/blog/Hcompany/holotron-12b",
+  "date": "2026-03-17T12:33:39+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "95f286e5dc3a",
+  "source": "huggingface",
+  "titre": "State of Open Source on Hugging Face: Spring 2026",
+  "lien": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+  "date": "2026-03-17T16:37:55+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

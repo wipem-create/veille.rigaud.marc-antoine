@@ -1,0 +1,66 @@
+[
+ {
+  "id": "f277b1377265",
+  "source": "elastic",
+  "titre": "NETWIRE Dynamic Configuration Extraction",
+  "lien": "https://www.elastic.co/security-labs/blog/netwire-dynamic-configuration-extraction",
+  "date": "2023-01-30T00:00:00+00:00",
+  "resume": "Elastic Security Labs discusses the NETWIRE trojan and is releasing a tool to dynamically extract configuration files.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "configuration"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f873175c4921",
+  "source": "huggingface",
+  "titre": "The State of Computer Vision at Hugging Face 🤗",
+  "lien": "https://huggingface.co/blog/cv_state",
+  "date": "2023-01-30T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,134 @@
+[
+ {
+  "id": "17e23407a7f8",
+  "source": "elastic",
+  "titre": "Introducing AlertZero: Inbox zero for your alert queue",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-soc-automation-alertzero",
+  "date": "2026-10-08T00:00:00+00:00",
+  "resume": "AlertZero brings AI SOC automation to Elastic Security with four agents, one job each, so the queue stops setting your priorities. Nothing changes in your environment without your approval.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "be3940edce2f",
+  "source": "ncsc",
+  "titre": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
+  "lien": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
+  "date": "2026-10-08T12:00:00+00:00",
+  "resume": "Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "ba0c1ad98565",
+  "source": "huggingface",
+  "titre": "The model that didn't exist, so you made it yourself",
+  "lien": "https://huggingface.co/blog/building-with-ml-intern",
+  "date": "2026-10-08T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "4c1d5c117fbd",
+  "source": "welivesecurity",
+  "titre": "MATCHBOIL: New tricks, same old evil intentions",
+  "lien": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+  "date": "2026-10-08T08:45:00+00:00",
+  "resume": "ESET Research catalogs the changes of UAC-0099’s MATCHBOIL downloader from 2024 to 2026",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

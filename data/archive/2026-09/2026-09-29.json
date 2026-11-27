@@ -1,0 +1,101 @@
+[
+ {
+  "id": "e6b8c9a3f2ea",
+  "source": "huggingface",
+  "titre": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+  "lien": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+  "date": "2026-09-29T13:07:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "3b69ba73884e",
+  "source": "elastic",
+  "titre": "No MDM for Linux? A 68-line Elastic workflow keeps every endpoint's config current",
+  "lien": "https://www.elastic.co/security-labs/blog/linux-endpoint-management-elastic-workflows",
+  "date": "2026-09-29T00:00:00+00:00",
+  "resume": "Elastic InfoSec runs Linux endpoint management through Elastic Defend with a scheduled workflow that gets Cursor and Codex config onto new laptops without piling up duplicate actions on offline hosts, and it works for other config too.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "5fea7efd31ef",
+  "source": "welivesecurity",
+  "titre": "Timeshare exit scams: From fake buyers to recovery fraud",
+  "lien": "https://www.welivesecurity.com/en/scams/timeshare-exit-scams-fake-buyers-recovery-scams/",
+  "date": "2026-09-29T09:00:00+00:00",
+  "resume": "Con artists are targeting timeshare owners who want out – and some victims are hit twice",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

@@ -1,0 +1,73 @@
+[
+ {
+  "id": "18bf7268f7fa",
+  "source": "elastic",
+  "titre": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-vulnerability-triage-bug-bounty-hackerone",
+  "date": "2026-08-04T00:00:00+00:00",
+  "resume": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+  "horizon": "H2",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "report"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b3caa7eddfb7",
+  "source": "ncsc",
+  "titre": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
+  "lien": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+  "date": "2026-08-04T12:00:00+00:00",
+  "resume": "A statement from Ollie Whitehouse, Chief Technology Officer at the NCSC, on AI security following recent incidents.",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ }
+]

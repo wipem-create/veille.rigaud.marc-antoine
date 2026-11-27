@@ -1,0 +1,33 @@
+[
+ {
+  "id": "74977c6078d0",
+  "source": "welivesecurity",
+  "titre": "Unpacking SMB cyber-readiness – and what makes or breaks it",
+  "lien": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-what-makes-breaks-it/",
+  "date": "2026-06-10T09:00:00+00:00",
+  "resume": "A company that's expecting a cyberattack but hasn’t actively prepared for it risks making the hardest decisions at the worst possible moment",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

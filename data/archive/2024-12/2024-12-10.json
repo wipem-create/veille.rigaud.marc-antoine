@@ -1,0 +1,76 @@
+[
+ {
+  "id": "7dc66397f9ca",
+  "source": "elastic",
+  "titre": "Exploring AWS STS AssumeRoot",
+  "lien": "https://www.elastic.co/security-labs/blog/exploring-aws-sts-assumeroot",
+  "date": "2024-12-10T00:00:00+00:00",
+  "resume": "Explore AWS STS AssumeRoot, its risks, detection strategies, and practical scenarios to secure against privilege escalation and account compromise using Elastic's SIEM and CloudTrail data.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "0db69de5d75b",
+  "source": "huggingface",
+  "titre": "LeMaterial: an open source initiative to accelerate materials discovery and research",
+  "lien": "https://huggingface.co/blog/lematerial",
+  "date": "2024-12-10T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "research",
+    "open source"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

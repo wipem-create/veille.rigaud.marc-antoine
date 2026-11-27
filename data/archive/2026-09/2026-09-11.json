@@ -1,0 +1,39 @@
+[
+ {
+  "id": "ef11db1ac3da",
+  "source": "elastic",
+  "titre": "Linux Detection Engineering - Local Privilege Escalation",
+  "lien": "https://www.elastic.co/security-labs/threat-command/linux-privilege-escalation-detection-framework",
+  "date": "2026-09-11T00:00:00+00:00",
+  "resume": "Seven of the thirteen Linux privilege escalation CVEs we tracked in 2026 turned out to be the same copy-on-write bug pointed at different kernel interfaces. We ran the public proof-of-concept for eleven exploits and two misconfigurations, and noted which rules fired.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Durcissement & DevSecOps",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

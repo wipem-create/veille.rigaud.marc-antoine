@@ -1,0 +1,72 @@
+[
+ {
+  "id": "8a6b0f02247a",
+  "source": "elastic",
+  "titre": "Invisible miners: unveiling GHOSTENGINE’s crypto mining operations",
+  "lien": "https://www.elastic.co/security-labs/threat-command/invisible-miners-unveiling-ghostengine",
+  "date": "2024-05-22T00:00:00+00:00",
+  "resume": "Elastic Security Labs has identified REF4578, an intrusion set incorporating several malicious modules and leveraging vulnerable drivers to disable known security solutions (EDRs) for crypto mining.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs",
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "edr"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "700345dc04f2",
+  "source": "huggingface",
+  "titre": "Deploy models on AWS Inferentia2 from Hugging Face",
+  "lien": "https://huggingface.co/blog/inferentia-inference-endpoints",
+  "date": "2024-05-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

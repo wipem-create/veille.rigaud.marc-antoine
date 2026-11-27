@@ -1,0 +1,65 @@
+[
+ {
+  "id": "8ae9a6e4301e",
+  "source": "elastic",
+  "titre": "Shedding light on the ABYSSWORKER driver",
+  "lien": "https://www.elastic.co/security-labs/threat-command/abyssworker",
+  "date": "2025-03-20T00:00:00+00:00",
+  "resume": "Elastic Security Labs describes ABYSSWORKER, a malicious driver used with the MEDUSA ransomware attack-chain to disable anti-malware tools.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "106187624d81",
+  "source": "huggingface",
+  "titre": "Open R1: How to use OlympicCoder locally for coding",
+  "lien": "https://huggingface.co/blog/olympic-coder-lmstudio",
+  "date": "2025-03-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

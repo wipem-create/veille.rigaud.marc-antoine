@@ -1,0 +1,109 @@
+[
+ {
+  "id": "d968dc475df4",
+  "source": "elastic",
+  "titre": "One SOC, 100 projects: running centralized alert triage on Elastic Security Serverless",
+  "lien": "https://www.elastic.co/security-labs/blog/centralized-alert-triage-cross-project-search",
+  "date": "2026-09-18T00:00:00+00:00",
+  "resume": "We linked one Elastic Security project to 100 others and ran the full prebuilt detection catalog from the origin, with all the ingest landing in the linked projects. It held up, and where it deliberately does not reach is the interesting part.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 50,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 20,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "alert",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "bbb2267ae356",
+  "source": "sekoia",
+  "titre": "SOC Platform Evaluation Checklist for MSSPs: Key Questions for SOC Providers",
+  "lien": "https://www.sekoia.com/blog/soc-platform-evaluation-checklist-for-mssps-4-questions-to-ask",
+  "date": "2026-09-18T14:49:00+00:00",
+  "resume": "Learn the questions to ask about billing, detection, context, and AI oversight to choose the right managed SOC provider.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Usages & outils",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "55ecbaf55433",
+  "source": "welivesecurity",
+  "titre": "‘Nudify’ apps: What to do if someone makes a fake nude of you",
+  "lien": "https://www.welivesecurity.com/en/privacy/nudify-apps-fake-nude-you/",
+  "date": "2026-09-18T09:00:00+00:00",
+  "resume": "Whether you’re a victim, the parent of a victim, or just concerned, here’s what you can do about fake nude images",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

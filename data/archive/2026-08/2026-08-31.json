@@ -1,0 +1,77 @@
+[
+ {
+  "id": "e714b244dac5",
+  "source": "sekoia",
+  "titre": "Why AI SOC Agents Need Context to Investigate Alerts",
+  "lien": "https://www.sekoia.com/blog/ai-soc-agents-are-only-as-good-as-the-context-they-can-see",
+  "date": "2026-08-31T14:41:00+00:00",
+  "resume": "AI SOC agents need more than an alert to investigate threats. See how telemetry, asset data, identities and threat intelligence help explain each verdict.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "760bad7ea056",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – August 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/",
+  "date": "2026-08-31T08:55:00+00:00",
+  "resume": "Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "critical infrastructure"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

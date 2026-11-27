@@ -1,0 +1,137 @@
+[
+ {
+  "id": "9cc98eb3fe88",
+  "source": "elastic",
+  "titre": "Call Stacks: No More Free Passes For Malware",
+  "lien": "https://www.elastic.co/security-labs/threat-command/call-stacks-no-more-free-passes-for-malware",
+  "date": "2025-06-12T00:00:00+00:00",
+  "resume": "We explore the immense value that call stacks bring to malware detection and why Elastic considers them to be vital Windows endpoint telemetry despite the architectural limitations.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "0ff1735384da",
+  "source": "huggingface",
+  "titre": "How Long Prompts Block Other Requests - Optimizing LLM Performance",
+  "lien": "https://huggingface.co/blog/tngtech/llm-performance-blocked-by-long-prompts",
+  "date": "2025-06-12T08:00:13+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H2:Sécurité de l'IA"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "d2b738ada56d",
+  "source": "huggingface",
+  "titre": "Learn the Hugging Face Kernel Hub in 5 Minutes",
+  "lien": "https://huggingface.co/blog/hello-hf-kernels",
+  "date": "2025-06-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "4af7aab26161",
+  "source": "huggingface",
+  "titre": "Featherless AI on Hugging Face Inference Providers 🔥",
+  "lien": "https://huggingface.co/blog/inference-providers-featherless",
+  "date": "2025-06-12T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

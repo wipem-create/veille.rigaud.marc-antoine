@@ -1,0 +1,62 @@
+[
+ {
+  "id": "9337031ea5d0",
+  "source": "sekoia",
+  "titre": "The story behind Sekoia.io Custom Integrations",
+  "lien": "https://www.sekoia.com/blog/the-story-behind-sekoia-io-custom-integrations",
+  "date": "2024-12-12T00:00:00+00:00",
+  "resume": "Experience the creativity and teamwork behind Sekoia.io Custom Integrations. Go behind the scenes of our traditional hackathon.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "85e54e4836f3",
+  "source": "elastic",
+  "titre": "Declawing PUMAKIT",
+  "lien": "https://www.elastic.co/security-labs/threat-command/declawing-pumakit",
+  "date": "2024-12-12T00:00:00+00:00",
+  "resume": "PUMAKIT is a sophisticated loadable kernel module (LKM) rootkit that employs advanced stealth mechanisms to hide its presence and maintain communication with command-and-control servers.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

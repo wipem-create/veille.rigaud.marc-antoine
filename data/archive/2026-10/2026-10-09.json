@@ -1,0 +1,38 @@
+[
+ {
+  "id": "b6cfcc13a963",
+  "source": "sekoia",
+  "titre": "AI And Cybersecurity: An Interview With Cyril Simonnet",
+  "lien": "https://www.sekoia.com/blog/ai-moves-faster-but-humans-are-setting-the-course",
+  "date": "2026-10-09T18:24:00+00:00",
+  "resume": "Sekoia CRO Cyril Simonnet explains how context, runbooks, and human judgment shape AI-powered cybersecurity and the future of the SOC.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

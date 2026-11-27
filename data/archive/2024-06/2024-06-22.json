@@ -1,0 +1,34 @@
+[
+ {
+  "id": "dc7f1a255425",
+  "source": "elastic",
+  "titre": "GrimResource - Microsoft Management Console for initial access and evasion",
+  "lien": "https://www.elastic.co/security-labs/threat-command/grimresource",
+  "date": "2024-06-22T00:00:00+00:00",
+  "resume": "Elastic researchers uncovered a new technique, GrimResource, which allows full code execution via specially crafted MSC files. It underscores a trend of well-resourced attackers favoring innovative initial access methods to evade defenses.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "evade",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

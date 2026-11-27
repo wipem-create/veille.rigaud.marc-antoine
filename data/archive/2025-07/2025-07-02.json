@@ -1,0 +1,33 @@
+[
+ {
+  "id": "6d2bb19e5e8e",
+  "source": "elastic",
+  "titre": "How AI and contextual search enhance defence cybersecurity",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-contextual-search-defense-cybersecurity",
+  "date": "2025-07-02T00:00:00+00:00",
+  "resume": "Contextual search brings clarity, speed, and insight to defence security teams",
+  "horizon": "H3",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

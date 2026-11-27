@@ -1,0 +1,72 @@
+[
+ {
+  "id": "f6d021ba7fea",
+  "source": "elastic",
+  "titre": "Elastic changes the SIEM game with AI-driven security analytics",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-driven-security-analytics",
+  "date": "2025-05-06T00:00:00+00:00",
+  "resume": "Learn more about Elastic's AI-driven security analytics",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Sécurité de l'IA",
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "2294d4df89c4",
+  "source": "elastic",
+  "titre": "Bit ByBit - emulation of the DPRK's largest cryptocurrency heist",
+  "lien": "https://www.elastic.co/security-labs/threat-command/bit-bybit",
+  "date": "2025-05-06T00:00:00+00:00",
+  "resume": "A high-fidelity emulation of the DPRK's largest cryptocurrency heist via a compromised macOS developer and AWS pivots.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

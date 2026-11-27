@@ -1,0 +1,132 @@
+[
+ {
+  "id": "ab36047dfca1",
+  "source": "elastic",
+  "titre": "Unveiling malware behavior trends",
+  "lien": "https://www.elastic.co/security-labs/blog/unveiling-malware-behavior-trends",
+  "date": "2024-03-20T00:00:00+00:00",
+  "resume": "An analysis of a diverse dataset of Windows malware extracted from more than 100,000 samples revealing insights into the most prevalent tactics, techniques, and procedures.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "99b20f12c8f3",
+  "source": "huggingface",
+  "titre": "A Chatbot on your Laptop: Phi-2 on Intel Meteor Lake",
+  "lien": "https://huggingface.co/blog/phi2-intel-meteor-lake",
+  "date": "2024-03-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "a7ab8a8f83f2",
+  "source": "huggingface",
+  "titre": "Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models",
+  "lien": "https://huggingface.co/blog/cosmopedia",
+  "date": "2024-03-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0a59309dbf7b",
+  "source": "huggingface",
+  "titre": "GaLore: Advancing Large Model Training on Consumer-grade Hardware",
+  "lien": "https://huggingface.co/blog/galore",
+  "date": "2024-03-20T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

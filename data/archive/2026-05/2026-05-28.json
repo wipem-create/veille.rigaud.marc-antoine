@@ -1,0 +1,66 @@
+[
+ {
+  "id": "50599d474fcb",
+  "source": "welivesecurity",
+  "titre": "ESET APT Activity Report Q4 2025–Q1 2026",
+  "lien": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+  "date": "2026-05-28T08:45:00+00:00",
+  "resume": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 31,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 5,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "b645bcdf4469",
+  "source": "redcanary",
+  "titre": "Grading on a curve: How to assess a pentest",
+  "lien": "https://redcanary.com/blog/testing-and-validation/pentesting/",
+  "date": "2026-05-28T13:13:04+00:00",
+  "resume": "Defenders don’t need to detect every adversary action to prevent a threat. Here’s a more realistic, optimized approach to testing.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 25,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ }
+]

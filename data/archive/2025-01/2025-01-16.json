@@ -1,0 +1,105 @@
+[
+ {
+  "id": "9e4d03045ebe",
+  "source": "sekoia",
+  "titre": "Sneaky 2FA: exposing a new AiTM Phishing-as-a-Service",
+  "lien": "https://www.sekoia.com/blog/sneaky-2fa-exposing-a-new-aitm-phishing-as-a-service",
+  "date": "2025-01-16T00:00:00+00:00",
+  "resume": "In this blog post, learn about Sneaky 2FA, a new Adversary-in-the-Middle (AiTM) phishing kit targeting Microsoft 365 accounts.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "bdb74236d9b4",
+  "source": "huggingface",
+  "titre": "Introducing multi-backends (TRT-LLM, vLLM) support for Text Generation Inference",
+  "lien": "https://huggingface.co/blog/tgi-multi-backend",
+  "date": "2025-01-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "48ed5f98b27c",
+  "source": "huggingface",
+  "titre": "Timm ❤️ Transformers: Use any timm model with transformers",
+  "lien": "https://huggingface.co/blog/timm-transformers",
+  "date": "2025-01-16T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

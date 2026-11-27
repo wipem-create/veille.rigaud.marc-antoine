@@ -1,0 +1,40 @@
+[
+ {
+  "id": "7057b7290bea",
+  "source": "elastic",
+  "titre": "Behind the tags: How Elastic SIEM grades 1,781 detection rules on noise, speed, and threat coverage",
+  "lien": "https://www.elastic.co/security-labs/blog/elastic-siem-detection-rule-tags",
+  "date": "2026-10-05T00:00:00+00:00",
+  "resume": "This article explains how Elastic SIEM uses a monthly automated telemetry pipeline to score prebuilt detection rules across noise, performance, threat, and profile dimensions, helping security teams decide which rules to enable first.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 26,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "siem",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

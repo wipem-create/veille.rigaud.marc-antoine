@@ -14,11 +14,11 @@
    "H2:Modèles & recherche",
    "H2:Sécurité de l'IA"
   ],
-  "score": 59,
+  "score": 73,
   "criteres": {
-   "source": 34.2,
+   "source": 34.6,
    "criticite": 18,
-   "corroboration": 7,
+   "corroboration": 20,
    "bruit": 0,
    "motifs": [
     "theft",
@@ -26,14 +26,52 @@
    ]
   },
   "retenu": true,
+  "une": true,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "actuia",
+   "huggingface",
+   "lmi"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2a922873bb9f",
+  "source": "thn",
+  "titre": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+  "lien": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+  "date": "2026-11-22T05:03:41+00:00",
+  "resume": "Un fichier piégé permet de sortir du bac à sable Ghostscript et d'exécuter des commandes sur le serveur.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 49,
+  "criteres": {
+   "source": 34.6,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
   "une": false,
   "flash": false,
   "signal": false,
   "signal_termes": [],
   "signal_confirme": null,
-  "corroboration": 2,
+  "corroboration": 3,
   "corrobore_par": [
-   "actuia"
+   "bleeping",
+   "darkreading"
   ],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
@@ -55,46 +93,13 @@
   ],
   "score": 38,
   "criteres": {
-   "source": 29.6,
+   "source": 30.0,
    "criticite": 8,
    "corroboration": 0,
    "bruit": 0,
    "motifs": [
     "soc"
    ]
-  },
-  "retenu": false,
-  "une": false,
-  "flash": false,
-  "signal": false,
-  "signal_termes": [],
-  "signal_confirme": null,
-  "corroboration": 1,
-  "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
- },
- {
-  "id": "2a922873bb9f",
-  "source": "thn",
-  "titre": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-  "lien": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-  "date": "2026-11-22T05:03:41+00:00",
-  "resume": "Un fichier piégé permet de sortir du bac à sable Ghostscript et d'exécuter des commandes sur le serveur.",
-  "horizon": "H1",
-  "themes": [
-   "H1"
-  ],
-  "sous_themes": [
-   "H1:Vulnérabilités & correctifs"
-  ],
-  "score": 34,
-  "criteres": {
-   "source": 34.2,
-   "criticite": 0,
-   "corroboration": 0,
-   "bruit": 0,
-   "motifs": []
   },
   "retenu": false,
   "une": false,

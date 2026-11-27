@@ -1,0 +1,139 @@
+[
+ {
+  "id": "93603db9b171",
+  "source": "elastic",
+  "titre": "Adversary tradecraft 101: Hunting for persistence using Elastic Security (Part 1)",
+  "lien": "https://www.elastic.co/security-labs/blog/hunting-for-persistence-using-elastic-security-part-1",
+  "date": "2022-06-01T00:00:00+00:00",
+  "resume": "Learn how Elastic Endpoint Security and Elastic SIEM can be used to hunt for and detect malicious persistence techniques at scale.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "hunting",
+    "siem"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "633a0fa6137d",
+  "source": "elastic",
+  "titre": "Embracing offensive tooling: Building detections against Koadic using EQL",
+  "lien": "https://www.elastic.co/security-labs/threat-command/embracing-offensive-tooling-building-detections-against-koadic-using-eql",
+  "date": "2022-06-01T00:00:00+00:00",
+  "resume": "Find new ways to build behavioral detections against post-exploitation frameworks such as Koadic using Event Query Language (EQL).",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 40,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "4ef137a53eba",
+  "source": "elastic",
+  "titre": "Practical security engineering: Stateful detection",
+  "lien": "https://www.elastic.co/security-labs/threat-command/practical-security-engineering-stateful-detection",
+  "date": "2022-06-01T00:00:00+00:00",
+  "resume": "By formalizing stateful detection in your rules, as well as your engineering process, you increase your detection coverage over future and past matches. In this blog post, learn why stateful detection is an important concept to implement.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "b26813628445",
+  "source": "elastic",
+  "titre": "Collecting Cobalt Strike Beacons with the Elastic Stack",
+  "lien": "https://www.elastic.co/security-labs/blog/collecting-cobalt-strike-beacons-with-the-elastic-stack",
+  "date": "2022-06-01T00:00:00+00:00",
+  "resume": "Part 1 - Processes and technology needed to extract Cobalt Strike implant beacons",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

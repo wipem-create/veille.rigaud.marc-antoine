@@ -1,0 +1,93 @@
+[
+ {
+  "id": "fbad3aa1df4c",
+  "source": "welivesecurity",
+  "titre": "What to consider before asking an AI chatbot for health advice",
+  "lien": "https://www.welivesecurity.com/en/privacy/what-consider-asking-ai-chatbot-health-advice/",
+  "date": "2026-05-27T08:50:00+00:00",
+  "resume": "Using chatbots for medical advice could elicit hallucinations and even expose you to security and privacy risks. Here’s what’s at stake and how to stay safe.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 38,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "security"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "1481ad420652",
+  "source": "huggingface",
+  "titre": "Reachy Mini goes fully local",
+  "lien": "https://huggingface.co/blog/local-reachy-mini-conversation",
+  "date": "2026-05-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "53c8d0245864",
+  "source": "huggingface",
+  "titre": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+  "lien": "https://huggingface.co/blog/delta-weight-sync",
+  "date": "2026-05-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,94 @@
+[
+ {
+  "id": "0f90f7845292",
+  "source": "elastic",
+  "titre": "Forget vulnerable drivers - Admin is all you need",
+  "lien": "https://www.elastic.co/security-labs/blog/forget-vulnerable-drivers-admin-is-all-you-need",
+  "date": "2023-08-25T00:00:00+00:00",
+  "resume": "Bring Your Own Vulnerable Driver (BYOVD) is an increasingly popular attacker technique whereby a threat actor brings a known-vulnerable signed driver alongside their malware, loads it into the kernel, then exploits it to perform some action within the kernel that they would not otherwise be able to do. Employed by…",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "fb30ed111aba",
+  "source": "huggingface",
+  "titre": "Code Llama: Llama 2 learns to code",
+  "lien": "https://huggingface.co/blog/codellama",
+  "date": "2023-08-25T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "6436f5f3e44b",
+  "source": "huggingface",
+  "titre": "Deprecation of Git Authentication using password",
+  "lien": "https://huggingface.co/blog/password-git-deprecation",
+  "date": "2023-08-25T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

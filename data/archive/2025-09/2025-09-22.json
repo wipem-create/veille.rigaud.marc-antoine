@@ -1,0 +1,98 @@
+[
+ {
+  "id": "6114c73ce273",
+  "source": "huggingface",
+  "titre": "Gaia2 and ARE: Empowering the community to study agents",
+  "lien": "https://huggingface.co/blog/gaia2",
+  "date": "2025-09-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "study"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "7a48db4342c3",
+  "source": "elastic",
+  "titre": "Elastic excels in AV-Comparatives EPR Test 2025: A closer look",
+  "lien": "https://www.elastic.co/security-labs/reports/elastic-av-comparatives-epr-test-2025",
+  "date": "2025-09-22T00:00:00+00:00",
+  "resume": "Elastic shares results of the 2025 AV Comparatives EPR test",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "112bde2b42f2",
+  "source": "huggingface",
+  "titre": "SyGra: The One-Stop Framework for Building Data for LLMs and SLMs",
+  "lien": "https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework",
+  "date": "2025-09-22T06:45:05+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

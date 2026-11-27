@@ -1,0 +1,103 @@
+[
+ {
+  "id": "5c6499d1de4a",
+  "source": "huggingface",
+  "titre": "Your Agent Aced the Task. Will It Do It Again?",
+  "lien": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+  "date": "2026-09-15T16:00:44+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "627416dc0415",
+  "source": "ncsc",
+  "titre": "Iranian cyber targeting of dissidents, activists and journalists",
+  "lien": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+  "date": "2026-09-15T12:00:00+00:00",
+  "resume": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "c0cb7bcc1c73",
+  "source": "ncsc",
+  "titre": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
+  "lien": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+  "date": "2026-09-15T12:00:00+00:00",
+  "resume": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ }
+]

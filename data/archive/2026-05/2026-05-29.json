@@ -1,0 +1,68 @@
+[
+ {
+  "id": "e5e3869d134c",
+  "source": "welivesecurity",
+  "titre": "This month in security with Tony Anscombe – May 2026 edition",
+  "lien": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
+  "date": "2026-05-29T07:30:00+00:00",
+  "resume": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Régulation & éthique"
+  ],
+  "score": 41,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 15,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "zero-day"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "a482e4eaa92e",
+  "source": "huggingface",
+  "titre": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+  "lien": "https://huggingface.co/blog/torch-profiler",
+  "date": "2026-05-29T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

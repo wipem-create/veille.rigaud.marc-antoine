@@ -1,0 +1,35 @@
+[
+ {
+  "id": "7bab4b0e9745",
+  "source": "sekoia",
+  "titre": "Beyond Lazarus: How North Korea Organizes Its Cyber Operations",
+  "lien": "https://www.sekoia.com/blog/beyond-lazarus-organization-of-dprk-cyber-capabilities",
+  "date": "2026-09-07T06:30:00+00:00",
+  "resume": "Co-authored by Sekoia and Kudelski Security, this report maps North Korea’s cyber ecosystem, from state institutions and APT clusters to IT worker operations.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

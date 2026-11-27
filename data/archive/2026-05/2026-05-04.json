@@ -1,0 +1,116 @@
+[
+ {
+  "id": "ac97469212b2",
+  "source": "elastic",
+  "titre": "Elastic Conversational Entity Analytics: threat hunting in a single conversation",
+  "lien": "https://www.elastic.co/security-labs/blog/entity-analytics-agent-builder",
+  "date": "2026-05-04T00:00:00+00:00",
+  "resume": "Conversational Entity Analytics delivers Entity Analytics features as rich inline attachments and Canvas previews into Agent Builder, so you don’t have to leave the conversation.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "threat hunting",
+    "agent"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "f834faff65de",
+  "source": "elastic",
+  "titre": "One agent, the right skills: Elastic Security 9.4 brings domain expertise on demand to every SOC workflow",
+  "lien": "https://www.elastic.co/security-labs/blog/skills-elastic-security-9-4",
+  "date": "2026-05-04T00:00:00+00:00",
+  "resume": "Elastic Security 9.4 introduces skills, modular AI capabilities that teach the Elastic AI Agent how to detect, investigate, and hunt like a specialist. This is how they work, and why they matter for the SOC.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "91c0acc5dd4e",
+  "source": "elastic",
+  "titre": "From plain English to production rule: AI-native Elasticsearch ES|QL detection in Elastic Security",
+  "lien": "https://www.elastic.co/security-labs/blog/ai-esql-detection-rule-creation",
+  "date": "2026-05-04T00:00:00+00:00",
+  "resume": "Elastic Security now lets analysts describe a threat behavior in plain language and receive a complete, validated Elasticsearch ES|QL detection rule in return, no query expertise required.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,31 @@
+[
+ {
+  "id": "3f1f72fe6e78",
+  "source": "elastic",
+  "titre": "Elastic Security scores 100% in AV-Comparatives Business Security Test",
+  "lien": "https://www.elastic.co/security-labs/reports/elastic-security-av-comparatives-business-security-test-2025",
+  "date": "2025-06-09T00:00:00+00:00",
+  "resume": "Elastic Security nailed it with a perfect score of 100% in the most recent AV-Comparatives Business Security Test.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

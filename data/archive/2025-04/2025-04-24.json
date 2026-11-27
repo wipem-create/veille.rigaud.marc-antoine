@@ -1,0 +1,39 @@
+[
+ {
+  "id": "98a4c6182d4f",
+  "source": "elastic",
+  "titre": "Now available: the 2025 State of Detection Engineering at Elastic",
+  "lien": "https://www.elastic.co/security-labs/reports/state-of-detection-engineering-at-elastic-2025",
+  "date": "2025-04-24T00:00:00+00:00",
+  "resume": "The 2025 State of Detection Engineering at Elastic explores how we create, maintain, and assess our SIEM and EDR rulesets.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 44,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "siem",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

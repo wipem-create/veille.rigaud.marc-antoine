@@ -1,0 +1,38 @@
+[
+ {
+  "id": "03bbc91fa02f",
+  "source": "welivesecurity",
+  "titre": "That data breach alert might be a trap",
+  "lien": "https://www.welivesecurity.com/en/scams/data-breach-alert-might-be-trap/",
+  "date": "2026-04-17T09:00:00+00:00",
+  "resume": "Ignoring a real breach notification invites risk, but falling for a bogus one could be even worse. Stop reacting on autopilot.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "breach"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

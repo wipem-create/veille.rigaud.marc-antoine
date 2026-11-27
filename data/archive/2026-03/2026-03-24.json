@@ -1,0 +1,259 @@
+[
+ {
+  "id": "82e6e19689e1",
+  "source": "sekoia",
+  "titre": "Silver Fox: The only Tax Audit Where Fine Print Installs Malware",
+  "lien": "https://www.sekoia.com/blog/silver-fox-the-only-tax-audit-where-the-fine-print-installs-malware",
+  "date": "2026-03-24T00:00:00+00:00",
+  "resume": "Track the 2025-2026 shift of China-based Silver Fox from financial crime to APT espionage. Discover how they exploit tax-themed phishing and RMM tools.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Phishing & fraude"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 17,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "exploit",
+    "apt"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "f4844aebef53",
+  "source": "elastic",
+  "titre": "Supercharge Your SOC",
+  "lien": "https://www.elastic.co/security-labs/blog/supercharge-your-soc",
+  "date": "2026-03-24T00:00:00+00:00",
+  "resume": "Detection Engineering in the Era of AI Agents - The New Frontier.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 54,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 24,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc",
+    "agent",
+    "detection",
+    "new"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "17a11b9cb5e0",
+  "source": "elastic",
+  "titre": "Investigating from the Endpoint Across Your Environment with Elastic Security XDR",
+  "lien": "https://www.elastic.co/security-labs/blog/investigating-from-the-endpoint-across-your-environment",
+  "date": "2026-03-24T00:00:00+00:00",
+  "resume": "This article highlights how Elastic Security XDR unifies endpoint protection with multi-domain security analytics to help analysts trace and contain multi-stage attacks across hybrid and cloud environments.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 45,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "xdr"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "huggingface"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e4fcd913d550",
+  "source": "elastic",
+  "titre": "Streamlining the Security Analyst Experience",
+  "lien": "https://www.elastic.co/security-labs/blog/streamlining-the-security-analyst-experience",
+  "date": "2026-03-24T00:00:00+00:00",
+  "resume": "Alert Triage, Investigation, and Response with Elastic's Agentic Security Operations Platform.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils",
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "2e1357703ac5",
+  "source": "elastic",
+  "titre": "Security Automation with Elastic Workflows: From Alert to Response",
+  "lien": "https://www.elastic.co/security-labs/blog/security-automation-with-elastic-workflows",
+  "date": "2026-03-24T00:00:00+00:00",
+  "resume": "A practical guide to building intelligent, automated security playbooks with Elastic Workflows.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Automatisation & IA au SOC"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "ee6aa7e336cc",
+  "source": "huggingface",
+  "titre": "A New Framework for Evaluating Voice Agents (EVA)",
+  "lien": "https://huggingface.co/blog/ServiceNow-AI/eva",
+  "date": "2026-03-24T02:01:52+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "74c3573401bd",
+  "source": "welivesecurity",
+  "titre": "Cloud workload security: Mind the gaps",
+  "lien": "https://www.welivesecurity.com/en/business-security/cloud-workload-security-mind-gaps/",
+  "date": "2026-03-24T10:00:00+00:00",
+  "resume": "As IT infrastructure expands, visibility and control often lag behind – until an incident forces a reckoning",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

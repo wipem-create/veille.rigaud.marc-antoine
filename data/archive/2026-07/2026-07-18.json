@@ -1,0 +1,35 @@
+[
+ {
+  "id": "aef585b5332a",
+  "source": "elastic",
+  "titre": "New North Korean campaign uses fake coding interviews to steal developer credentials",
+  "lien": "https://www.elastic.co/security-labs/threat-command/contagious-interview-malware-svg-steganography",
+  "date": "2026-07-18T00:00:00+00:00",
+  "resume": "DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

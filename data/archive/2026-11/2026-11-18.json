@@ -1,5 +1,357 @@
 [
  {
+  "id": "a9e09a87ffa7",
+  "source": "mittr",
+  "titre": "The AI Hype Index: AI is everywhere",
+  "lien": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+  "date": "2026-11-18T14:42:44+00:00",
+  "resume": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket…",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 61,
+  "criteres": {
+   "source": 30.6,
+   "criticite": 10,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "billion",
+    "google"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "algorithmwatch",
+   "msft",
+   "sans",
+   "theregister",
+   "theverge"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.457886+00:00"
+ },
+ {
+  "id": "816aa7fac752",
+  "source": "theregister",
+  "titre": "Another critical PHP security release has dropped",
+  "lien": "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+  "date": "2026-11-18T22:38:12+00:00",
+  "resume": "At least one dangerous RCE bug got a fix on Thursday",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 8,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "darkreading",
+   "mittr",
+   "sans",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "1c3d6c22e802",
+  "source": "darkreading",
+  "titre": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+  "lien": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+  "date": "2026-11-18T20:45:49+00:00",
+  "resume": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Usages & outils"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 14,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "launch"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "elastic",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "b9690f84d541",
+  "source": "elastic",
+  "titre": "We caught the agent-framework PyPI compromise six minutes after it published",
+  "lien": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+  "date": "2026-11-18T00:00:00+00:00",
+  "resume": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H3:Automatisation & IA au SOC",
+   "H3:Durcissement & DevSecOps"
+  ],
+  "score": 60,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 10,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "launch"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "lebigdata",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "673894a6641b",
+  "source": "silicon",
+  "titre": "Employeurs IT de l’année 2026 : Airbus, Intel et Mozilla en tête",
+  "lien": "https://www.silicon.fr/emploi-formation-1373/employeurs-it-de-lannee-2026-airbus-intel-et-mozilla-en-tete-230502",
+  "date": "2026-11-18T13:56:24+00:00",
+  "resume": "Airbus est l’Employeur IT de l’année 2026, devant Intel et Mozilla. Établi par Consumer Guidance France pour Silicon, ce classement s’appuie sur 33 073 avis de professionnels IT : 643 entreprises ont été évaluées sur leur attractivité et sur la confiance qu’elles inspirent. Parmi elles, 253 entreprises sont…",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 57,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "france"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "certfr",
+   "darkreading",
+   "lemagit"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "ff727f263cd3",
+  "source": "silicon",
+  "titre": "Face à Claude et ChatGPT, Office devient un argument pour Copilot",
+  "lien": "https://www.silicon.fr/workspace-1376/microsoft-copilot-ignite-2026-230497",
+  "date": "2026-11-18T13:34:32+00:00",
+  "resume": "L'intégration d'Office dans Copilot passe en phase commerciale à l'heure où OpenAI et Anthropic creusent l'aspect « suite collaborative ». ",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 56,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 4,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "openai"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 5,
+  "corrobore_par": [
+   "algorithmwatch",
+   "certfr",
+   "itconnect",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "967060c729e3",
+  "source": "silicon",
+  "titre": "Risque fournisseurs cyber : le déclaratif atteint ses limites",
+  "lien": "https://www.silicon.fr/cybersecurite-1371/risque-fournisseurs-cyber-le-declaratif-atteint-ses-limites-230496",
+  "date": "2026-11-18T12:25:09+00:00",
+  "resume": "L’essentiel Quatre organisations sur dix déclarent avoir subi une attaque liée à l’un de leurs fournisseurs au cours des douze derniers mois. Pourtant, selon l’Observatoire 2026 du risque fournisseur de Board of Cyber et du Cesin, la majorité des entreprises s’appuie encore sur des questionnaires et des documents…",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "elastic",
+   "lemagit",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
+  "id": "1960e299909d",
+  "source": "darkreading",
+  "titre": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+  "lien": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+  "date": "2026-11-18T16:54:52+00:00",
+  "resume": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "sans",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "f10a60d64aea",
+  "source": "darkreading",
+  "titre": "Major Brazilian Signature Apps Enable RCE & Fraud",
+  "lien": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+  "date": "2026-11-18T14:00:00+00:00",
+  "resume": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude",
+   "H1:Réglementation & conformité",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 52,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "itconnect",
+   "krebs",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
   "id": "b48326e6ee07",
   "source": "krebs",
   "titre": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -38,6 +390,44 @@
   "collecte": "2026-11-26T10:30:00+00:00"
  },
  {
+  "id": "12da265f0da0",
+  "source": "silicon",
+  "titre": "CNIL : Macif Vie écope de 5 millions € d’amende pour ses manquements cyber",
+  "lien": "https://www.silicon.fr/data-ia-1372/cnil-macif-vie-ecope-de-5-millions-e-damende-pour-ses-manquements-cyber-230514",
+  "date": "2026-11-18T14:38:53+00:00",
+  "resume": "La CNIL sanctionne Macif Vie de 5 millions € pour ses manquements au RGPD, notamment des mots de passe clients stockés en clair. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Réglementation & conformité"
+  ],
+  "score": 51,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 5,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": [
+    "cnil"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "lemagit",
+   "lmi"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:35.409350+00:00"
+ },
+ {
   "id": "43c2cbca071d",
   "source": "sans",
   "titre": "Java4Shell, NGINX2Shell and more: Why we are not at Yellow",
@@ -52,17 +442,57 @@
    "H1:Vulnérabilités & correctifs",
    "H3:Automatisation & IA au SOC"
   ],
-  "score": 43,
+  "score": 50,
   "criteres": {
-   "source": 29.6,
+   "source": 30.0,
    "criticite": 6,
-   "corroboration": 7,
+   "corroboration": 14,
    "bruit": 0,
    "motifs": [
     "automatis"
    ]
   },
-  "retenu": false,
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "thn"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "933794cd5af3",
+  "source": "theregister",
+  "titre": "AI found more critical bugs in another widely used technology running 225M websites",
+  "lien": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+  "date": "2026-11-18T21:11:04+00:00",
+  "resume": "Open source NGINX joins patchapalooza",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Usages & outils"
+  ],
+  "score": 47,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 8,
+   "corroboration": 7,
+   "bruit": 0,
+   "motifs": [
+    "critical"
+   ]
+  },
+  "retenu": true,
   "une": false,
   "flash": false,
   "signal": false,
@@ -72,8 +502,137 @@
   "corrobore_par": [
    "thn"
   ],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "4c70ab4125ac",
+  "source": "algorithmwatch",
+  "titre": "Job Opening: Operations Manager*in (Office, Events, Projektmanagement)",
+  "lien": "https://algorithmwatch.org/de/job-opening-operations-managerin/",
+  "date": "2026-11-18T16:38:51+00:00",
+  "resume": "AlgorithmWatch sucht eine*n Operations Manager*in (Teilzeit) für Office-Management, Events und internes Projektmanagement.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 46,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 6,
+  "corrobore_par": [
+   "certfr",
+   "itconnect",
+   "lemagit",
+   "silicon",
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ },
+ {
+  "id": "54a1b07f214f",
+  "source": "theregister",
+  "titre": "California tells Waymo to take the next exit after freeway mishaps",
+  "lien": "https://www.theregister.com/security/2026/11/18/california-tells-waymo-to-take-the-next-exit-after-freeway-mishaps/5310841",
+  "date": "2026-11-18T17:45:00+00:00",
+  "resume": "Robotaxi operator suspends driverless rides on high-speed roads nationwide after construction zone incursions and a run-in with patrol vehicles",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "86058f5f8bc8",
+  "source": "theregister",
+  "titre": "Microsoft's official Python agent framework hijacked to distribute malware",
+  "lien": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+  "date": "2026-11-18T17:23:37+00:00",
+  "resume": "In today's how-could-things-get-worse-for-Microsoft news, it seems someone's GitHub org admin creds have been compromised",
+  "horizon": "H1",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H2:Agents IA"
+  ],
+  "score": 32,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
+ },
+ {
+  "id": "b9a3fdb21f4d",
+  "source": "theregister",
+  "titre": "Cyber insurers now want proof you can actually recover",
+  "lien": "https://www.theregister.com/security/2026/11/18/partner-content-cyber-insurers-now-want-proof-you-can-actually-recover/5309325",
+  "date": "2026-11-18T16:00:00+00:00",
+  "resume": "PARTNER CONTENT: As carriers tighten underwriting, a backup job marked green is no longer enough. Here’s the evidence underwriters expect",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:40.548828+00:00"
  },
  {
   "id": "6a98e43cc50e",
@@ -87,9 +646,9 @@
    "H2"
   ],
   "sous_themes": [],
-  "score": 30,
+  "score": 31,
   "criteres": {
-   "source": 29.6,
+   "source": 30.6,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -105,6 +664,171 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "2f04635c5f2e",
+  "source": "darkreading",
+  "titre": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
+  "lien": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+  "date": "2026-11-18T21:59:46+00:00",
+  "resume": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 11,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": [
+    "breach",
+    "apt"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "sekoia",
+   "theregister",
+   "thn"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "8a6b5c2794b6",
+  "source": "huggingface",
+  "titre": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "lien": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "date": "2026-11-18T19:54:56+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "974cfba453ba",
+  "source": "huggingface",
+  "titre": "Why your fine-tuning job takes longer than the FLOPs say",
+  "lien": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+  "date": "2026-11-18T18:53:43+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "9e41dec45730",
+  "source": "huggingface",
+  "titre": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+  "lien": "https://huggingface.co/blog/moe-expert-streaming",
+  "date": "2026-11-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "2c130790b9d3",
+  "source": "huggingface",
+  "titre": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+  "lien": "https://huggingface.co/blog/rumble-2-flash",
+  "date": "2026-11-18T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
  },
  {
   "id": "747f88f77579",
@@ -120,9 +844,9 @@
   "sous_themes": [
    "H1:Phishing & fraude"
   ],
-  "score": 29,
+  "score": 26,
   "criteres": {
-   "source": 29.2,
+   "source": 26.0,
    "criticite": 0,
    "corroboration": 0,
    "bruit": 0,
@@ -138,5 +862,81 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "f9eac76b5e72",
+  "source": "darkreading",
+  "titre": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+  "lien": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+  "date": "2026-11-18T20:38:42+00:00",
+  "resume": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 17,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 13,
+   "corroboration": 7,
+   "bruit": -35,
+   "motifs": [
+    "ransomware",
+    "espionage"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "theregister"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "2b29606e7804",
+  "source": "sans",
+  "titre": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
+  "lien": "https://isc.sans.edu/diary/rss/33528",
+  "date": "2026-11-18T02:00:03+00:00",
+  "resume": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 15,
+  "criteres": {
+   "source": 30.0,
+   "criticite": 0,
+   "corroboration": 20,
+   "bruit": -35,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 8,
+  "corrobore_par": [
+   "bleeping",
+   "darkreading",
+   "lebigdata",
+   "lmi",
+   "therecord",
+   "theregister",
+   "theverge"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.595837+00:00"
  }
 ]

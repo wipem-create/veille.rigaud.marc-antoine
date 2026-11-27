@@ -1,0 +1,212 @@
+[
+ {
+  "id": "9532b0215fcc",
+  "source": "elastic",
+  "titre": "wp2shell hits WordPress: detecting pre-auth RCE from plugin drop to command execution",
+  "lien": "https://www.elastic.co/security-labs/blog/wp2shell-wordpress-rce-detection-elastic-defend",
+  "date": "2026-07-23T00:00:00+00:00",
+  "resume": "We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detection rule walkthrough, IOCs, and hunt guidance.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 46,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "iocs",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "83cd07e38a3d",
+  "source": "elastic",
+  "titre": "How Elasticsearch ES|QL COMPLETION turns noisy curl and wget rules into high-fidelity cloud security alerts",
+  "lien": "https://www.elastic.co/security-labs/blog/esql-completion-curl-wget-detection-triage",
+  "date": "2026-07-23T00:00:00+00:00",
+  "resume": "Elastic InfoSec tested this detection rule pattern on their own cloud fleet, filtering noisy curl and wget events with deterministic logic and LLM triage so only genuine threats reach an analyst.",
+  "horizon": "H3",
+  "themes": [
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "alert",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "db525f991138",
+  "source": "redcanary",
+  "titre": "Intelligence Insights: July 2026",
+  "lien": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-july-2026/",
+  "date": "2026-07-23T17:12:43+00:00",
+  "resume": "ClearFake claims the crown again and CastleLoader debuts in this month’s edition of Intelligence Insights.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 39,
+  "criteres": {
+   "source": 25.4,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "huggingface",
+   "welivesecurity"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.351189+00:00"
+ },
+ {
+  "id": "b93d70363fc8",
+  "source": "sekoia",
+  "titre": "How to Bring Cloud-Grade Security to your Own Stack",
+  "lien": "https://www.sekoia.com/blog/the-best-of-cloud-built-safely-inside-your-own-perimeter",
+  "date": "2026-07-23T12:10:00+00:00",
+  "resume": "Discover why critical infrastructure and regulated sectors are adopting self-hosted SOC platforms for absolute data sovereignty and control.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "f5a5938908a3",
+  "source": "ncsc",
+  "titre": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
+  "lien": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
+  "date": "2026-07-23T12:00:00+00:00",
+  "resume": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.710863+00:00"
+ },
+ {
+  "id": "36173ab2ceb2",
+  "source": "huggingface",
+  "titre": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+  "lien": "https://huggingface.co/blog/nunchaku-diffusers",
+  "date": "2026-07-23T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

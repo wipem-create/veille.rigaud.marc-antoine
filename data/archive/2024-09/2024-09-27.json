@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c67b77583ada",
+  "source": "elastic",
+  "titre": "Betting on Bots: Investigating Linux malware, crypto mining, and gambling API abuse",
+  "lien": "https://www.elastic.co/security-labs/threat-command/betting-on-bots",
+  "date": "2024-09-27T00:00:00+00:00",
+  "resume": "The REF6138 campaign involved cryptomining, DDoS attacks, and potential money laundering via gambling APIs, highlighting the attackers' use of evolving malware and stealthy communication channels.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "2fd3886a0c4c",
+  "source": "huggingface",
+  "titre": "Welcome EmbeddingGemma, Google's new efficient embedding model",
+  "lien": "https://huggingface.co/blog/embeddinggemma",
+  "date": "2025-09-04T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome",
+    "google"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "515c759ab222",
+  "source": "elastic",
+  "titre": "Investigating a Mysteriously Malformed Authenticode Signature",
+  "lien": "https://www.elastic.co/security-labs/threat-command/malformed-authenticode-signature",
+  "date": "2025-09-04T00:00:00+00:00",
+  "resume": "An in-depth investigation tracing a Windows Authenticode validation failure from vague error codes to undocumented kernel routines.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

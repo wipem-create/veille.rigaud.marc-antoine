@@ -1,0 +1,67 @@
+[
+ {
+  "id": "1f45ad4972bf",
+  "source": "sekoia",
+  "titre": "IoC: Boosting Cyber Threat Intelligence for Better Security Ops",
+  "lien": "https://www.sekoia.com/blog/hunting-for-iocs-from-singles-searches-to-an-automated-and-repeatable-process",
+  "date": "2024-10-03T00:00:00+00:00",
+  "resume": "Enhance your security with IoCs. Discover how they identify threats in your logs and strengthen your overall security posture effectively.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [],
+  "score": 46,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 16,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ioc",
+    "log"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "e155fd4348fb",
+  "source": "huggingface",
+  "titre": "A Short Summary of Chinese AI Global Expansion",
+  "lien": "https://huggingface.co/blog/chinese-ai-expansion",
+  "date": "2024-10-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

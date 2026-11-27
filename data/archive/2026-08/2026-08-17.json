@@ -1,0 +1,64 @@
+[
+ {
+  "id": "f4069c161379",
+  "source": "huggingface",
+  "titre": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+  "lien": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+  "date": "2026-08-17T19:46:21+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "b7de02efc1d5",
+  "source": "welivesecurity",
+  "titre": "How QR-code phishing can slip past corporate security measures",
+  "lien": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+  "date": "2026-08-17T09:00:00+00:00",
+  "resume": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

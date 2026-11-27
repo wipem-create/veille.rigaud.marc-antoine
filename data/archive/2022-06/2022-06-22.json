@@ -1,0 +1,71 @@
+[
+ {
+  "id": "ed5bd854f2e7",
+  "source": "elastic",
+  "titre": "A close look at the advanced techniques used in a Malaysian-focused APT campaign",
+  "lien": "https://www.elastic.co/security-labs/threat-command/advanced-techniques-used-in-malaysian-focused-apt-campaign",
+  "date": "2022-06-22T00:00:00+00:00",
+  "resume": "Our Elastic Security research team has focused on advanced techniques used in a Malaysian-focused APT campaign. Learn who’s behind it, how the attack works, observed MITRE attack® techniques, and indicators of compromise.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "mitre"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "a03850d33c4e",
+  "source": "huggingface",
+  "titre": "Convert Transformers to ONNX with Hugging Face Optimum",
+  "lien": "https://huggingface.co/blog/convert-transformers-to-onnx",
+  "date": "2022-06-22T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,100 @@
+[
+ {
+  "id": "ee6b2006e569",
+  "source": "elastic",
+  "titre": "Doing time with the YIPPHB dropper",
+  "lien": "https://www.elastic.co/security-labs/threat-command/doing-time-with-the-yipphb-dropper",
+  "date": "2022-11-21T00:00:00+00:00",
+  "resume": "Elastic Security Labs outlines the steps collect and analyze the various stages of the REF4526 intrusion set. This intrusion set uses a creative approach of Unicode icons in Powershell scripts to install a loader, a dropper, and RAT implants.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e11dcca2d26b",
+  "source": "huggingface",
+  "titre": "Accelerating Document AI",
+  "lien": "https://huggingface.co/blog/document-ai",
+  "date": "2022-11-21T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "b021d50967f7",
+  "source": "huggingface",
+  "titre": "An overview of inference solutions on Hugging Face",
+  "lien": "https://huggingface.co/blog/inference-update",
+  "date": "2022-11-21T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

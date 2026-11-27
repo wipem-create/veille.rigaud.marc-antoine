@@ -1,0 +1,77 @@
+[
+ {
+  "id": "a4263f1f419e",
+  "source": "welivesecurity",
+  "titre": "PHP2Shell: What to know about two critical PHP flaws",
+  "lien": "https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/",
+  "date": "2026-10-26T13:25:00+00:00",
+  "resume": "Here's the lowdown on CVE-2026-109618 and CVE-2026-109619, as well as what website owners and IT teams should do to stay safe – all in a little more than two minutes",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 59,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 13,
+   "corroboration": 20,
+   "bruit": 0,
+   "motifs": [
+    "critical",
+    "cve-"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 4,
+  "corrobore_par": [
+   "elastic",
+   "ncsc",
+   "sekoia"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ },
+ {
+  "id": "ee695d7eb1a5",
+  "source": "elastic",
+  "titre": "Kernel eviction notice: What wesp.sys reveals about the Windows Endpoint Security Platform",
+  "lien": "https://www.elastic.co/security-labs/blog/windows-endpoint-security-platform-wesp",
+  "date": "2026-10-26T00:00:00+00:00",
+  "resume": "Microsoft wants EDR out of the Windows kernel, and the preview binaries show wesp.sys telling a user-mode client that a process is starting, with nothing in its imports to let that client block it.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "edr"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

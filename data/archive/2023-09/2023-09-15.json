@@ -1,0 +1,68 @@
+[
+ {
+  "id": "556901ec4e1d",
+  "source": "elastic",
+  "titre": "Inside Microsoft's plan to kill PPLFault",
+  "lien": "https://www.elastic.co/security-labs/threat-command/inside-microsofts-plan-to-kill-pplfault",
+  "date": "2023-09-15T00:00:00+00:00",
+  "resume": "In this research publication, we'll learn about upcoming improvements to the Windows Code Integrity subsystem that will make it harder for malware to tamper with Anti-Malware processes and other important security features.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "e68083be7abb",
+  "source": "huggingface",
+  "titre": "Optimizing your LLM in production",
+  "lien": "https://huggingface.co/blog/optimize-llm",
+  "date": "2023-09-15T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,36 @@
+[
+ {
+  "id": "9aa8845da78a",
+  "source": "sekoia",
+  "titre": "Booking.com Phishing Campaign Targeting Hotels and Customers",
+  "lien": "https://www.sekoia.com/blog/phishing-campaigns-i-paid-twice-targeting-booking-com-hotels-and-customers",
+  "date": "2025-11-06T00:00:00+00:00",
+  "resume": "Sekoia.io exposes a Booking.com phishing campaign targeting hotels and customers using ClickFix and PureRAT malware.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Phishing & fraude"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

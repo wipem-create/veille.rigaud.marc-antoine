@@ -1,0 +1,130 @@
+[
+ {
+  "id": "73ab9bd3efd7",
+  "source": "huggingface",
+  "titre": "1 Billion Classifications",
+  "lien": "https://huggingface.co/blog/billion-classifications",
+  "date": "2025-02-13T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [
+   "H2:Marché & industrie"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "billion"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "fd141c769782",
+  "source": "sekoia",
+  "titre": "Sekoia Has Achieved ISO 27001 Certification",
+  "lien": "https://www.sekoia.com/blog/sekoia-io-achieves-iso-27001-compliance",
+  "date": "2025-02-13T00:00:00+00:00",
+  "resume": "Sekoia receives ISO 27001, leading international standard in information security management, from the auditor A-LIGN.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "605868ee4f41",
+  "source": "elastic",
+  "titre": "You've Got Malware: FINALDRAFT Hides in Your Drafts",
+  "lien": "https://www.elastic.co/security-labs/threat-command/finaldraft",
+  "date": "2025-02-13T00:00:00+00:00",
+  "resume": "During a recent investigation (REF7707), Elastic Security Labs discovered new malware targeting a foreign ministry. The malware includes a custom loader and backdoor with many features including using Microsoft’s Graph API for C2 communications.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "ddb165510f5b",
+  "source": "elastic",
+  "titre": "From South America to Southeast Asia: The Fragile Web of REF7707",
+  "lien": "https://www.elastic.co/security-labs/threat-command/fragile-web-ref7707",
+  "date": "2025-02-13T00:00:00+00:00",
+  "resume": "REF7707 targeted a South American foreign ministry using novel malware families. Inconsistent evasion tactics and operational security missteps exposed additional adversary-owned infrastructure.",
+  "horizon": "H3",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -1,0 +1,163 @@
+[
+ {
+  "id": "e2cdab4eb79e",
+  "source": "elastic",
+  "titre": "How to correlate Kubernetes audit logs with container runtime data",
+  "lien": "https://www.elastic.co/security-labs/threat-command/kubernetes-audit-logs-container-escape",
+  "date": "2026-09-03T15:19:21+00:00",
+  "resume": "Two fields join the Kubernetes API to what ran inside the pod, and one turns up a container escape your process events never recorded.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 36,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "73a298a58b99",
+  "source": "huggingface",
+  "titre": "Give Your Coding Agents a Memory You Own",
+  "lien": "https://huggingface.co/blog/funes",
+  "date": "2026-09-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA"
+  ],
+  "score": 36,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "854a9cd939be",
+  "source": "huggingface",
+  "titre": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+  "lien": "https://huggingface.co/blog/Hcompany/neomme",
+  "date": "2026-09-03T13:13:48+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "329ed67ed163",
+  "source": "huggingface",
+  "titre": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+  "lien": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+  "date": "2026-09-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "5c9ffa9691c9",
+  "source": "huggingface",
+  "titre": "Training a coding model to paint watercolours with TRL and OpenEnv",
+  "lien": "https://huggingface.co/blog/train-to-paint-with-code",
+  "date": "2026-09-03T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

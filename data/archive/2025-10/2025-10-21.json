@@ -1,0 +1,97 @@
+[
+ {
+  "id": "54c7ffcf8dcf",
+  "source": "sekoia",
+  "titre": "UserAuthenticationMethod: Understanding M365 Sign-In Logs",
+  "lien": "https://www.sekoia.com/blog/userauthenticationmethod-microsoft-365-decode",
+  "date": "2025-10-21T00:00:00+00:00",
+  "resume": "Documentation of the UserAuthenticationMethod field: each bit represents a different authentication method.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 36,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "log"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "2203fae70e31",
+  "source": "huggingface",
+  "titre": "Supercharge your OCR Pipelines with Open Models",
+  "lien": "https://huggingface.co/blog/ocr-open-models",
+  "date": "2025-10-21T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "1c6f869666a2",
+  "source": "huggingface",
+  "titre": "Unlock the power of images with AI Sheets",
+  "lien": "https://huggingface.co/blog/aisheets-unlock-images",
+  "date": "2025-10-21T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

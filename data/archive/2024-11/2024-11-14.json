@@ -1,0 +1,39 @@
+[
+ {
+  "id": "87dbc5113d52",
+  "source": "elastic",
+  "titre": "Streamlining Security: Integrating Amazon Bedrock with Elastic",
+  "lien": "https://www.elastic.co/security-labs/blog/streamlining-security-integrating-amazon-bedrock",
+  "date": "2024-11-14T00:00:00+00:00",
+  "resume": "This article will guide you through the process of setting up the Amazon Bedrock integration and enabling Elastic's prebuilt detection rules to streamline your security operations.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:Détection & threat hunting",
+   "H3:SOC & SIEM"
+  ],
+  "score": 48,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 18,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "detection rules",
+    "detection"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

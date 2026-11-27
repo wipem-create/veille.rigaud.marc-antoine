@@ -1,0 +1,164 @@
+[
+ {
+  "id": "36a1a078466b",
+  "source": "sekoia",
+  "titre": "Integrated Security Operations Center (ISOC): What It Means",
+  "lien": "https://www.sekoia.com/blog/isoc-when-the-soc-stops-being-a-stack-of-tools",
+  "date": "2026-10-15T07:00:00+00:00",
+  "resume": "Learn what an Integrated Security Operations Center (ISOC) means for SOC teams, including its core capabilities, trade-offs, and role in Sekoia's approach.",
+  "horizon": "H3",
+  "themes": [
+   "H3"
+  ],
+  "sous_themes": [
+   "H3:SOC & SIEM"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "soc"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "dde8b65065e5",
+  "source": "huggingface",
+  "titre": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+  "lien": "https://huggingface.co/blog/meta-muse-spark-open",
+  "date": "2026-10-15T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 10,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome",
+    "meta"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "f2c18060258b",
+  "source": "huggingface",
+  "titre": "Apertus 1.5 Release Notes",
+  "lien": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+  "date": "2026-10-15T09:08:45+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "release"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "9cb368175a72",
+  "source": "huggingface",
+  "titre": "Welcome FLUX.3 Image Klein in Diffusers",
+  "lien": "https://huggingface.co/blog/flux-3",
+  "date": "2026-10-15T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "welcome"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "3ed082d4e1bf",
+  "source": "algorithmwatch",
+  "titre": "KI in der Migrationsverwaltung: Keine Experimente mit den Daten von Migrant*innen und klare Grenzen für KI-Systeme",
+  "lien": "https://algorithmwatch.org/de/ki-in-der-migrationsverwaltung-keine-experimente-mit-den-daten-von-migrantinnen-und-klare-grenzen-fur-ki-systeme/",
+  "date": "2026-10-15T13:03:00+00:00",
+  "resume": "In ihrem Policy Papier zum KI-Migrationsverwaltungsgesetz (KIMVG) kritisiert Junior Policy Managerin Nora Oppermann die verpassten Chancen und die eklatanten Risiken des Gesetzentwurfs und stellt vier Empfehlungen auf.",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.4,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:41.692814+00:00"
+ }
+]

@@ -1,0 +1,95 @@
+[
+ {
+  "id": "63403408b0e5",
+  "source": "huggingface",
+  "titre": "Introducing the Ettin Reranker Family",
+  "lien": "https://huggingface.co/blog/ettin-reranker",
+  "date": "2026-05-19T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 6,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "introducing"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "0c11ab7156ea",
+  "source": "huggingface",
+  "titre": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+  "lien": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+  "date": "2026-05-19T18:38:09+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "a22b96a93e58",
+  "source": "welivesecurity",
+  "titre": "The quest for greater tech independence",
+  "lien": "https://www.welivesecurity.com/en/cybersecurity/quest-greater-tech-independence/",
+  "date": "2026-05-19T08:50:00+00:00",
+  "resume": "A complete decoupling from US technology is neither realistic nor necessary, but the changing environment does require nations and companies to reassess their relationships and dependencies",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

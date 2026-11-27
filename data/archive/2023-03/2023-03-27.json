@@ -1,0 +1,64 @@
+[
+ {
+  "id": "dc34e8425be8",
+  "source": "elastic",
+  "titre": "REF2924: how to maintain persistence as an (advanced?) threat",
+  "lien": "https://www.elastic.co/security-labs/threat-command/ref2924-howto-maintain-persistence-as-an-advanced-threat",
+  "date": "2023-03-27T00:00:00+00:00",
+  "resume": "Elastic Security Labs describes new persistence techniques used by the group behind SIESTAGRAPH, NAPLISTENER, and SOMNIRECORD.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "780bd523017a",
+  "source": "huggingface",
+  "titre": "Federated Learning using Hugging Face and Flower",
+  "lien": "https://huggingface.co/blog/fl-with-flower",
+  "date": "2023-03-27T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

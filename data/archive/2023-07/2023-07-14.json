@@ -1,0 +1,66 @@
+[
+ {
+  "id": "152b9834c2c8",
+  "source": "elastic",
+  "titre": "The DPRK strikes using a new variant of RUSTBUCKET",
+  "lien": "https://www.elastic.co/security-labs/threat-command/DPRK-strikes-using-a-new-variant-of-rustbucket",
+  "date": "2023-07-14T00:00:00+00:00",
+  "resume": "Watch out! We’ve recently discovered a variant of RUSTBUCKET. Read this article to understand the new capabilities we’ve observed, as well as how to identify it in your own network.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "a04d58347233",
+  "source": "huggingface",
+  "titre": "Fine-tuning Stable Diffusion models on Intel CPUs",
+  "lien": "https://huggingface.co/blog/stable-diffusion-finetuning-intel",
+  "date": "2023-07-14T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

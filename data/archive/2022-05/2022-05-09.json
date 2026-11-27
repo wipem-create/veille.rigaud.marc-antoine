@@ -1,0 +1,33 @@
+[
+ {
+  "id": "652ec315a73e",
+  "source": "huggingface",
+  "titre": "We Raised $100 Million for Open & Collaborative Machine Learning 🚀",
+  "lien": "https://huggingface.co/blog/series-c",
+  "date": "2022-05-09T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "0328471c105a",
+  "source": "elastic",
+  "titre": "CUBA Ransomware Campaign Analysis",
+  "lien": "https://www.elastic.co/security-labs/threat-command/cuba-ransomware-campaign-analysis",
+  "date": "2022-09-08T00:00:00+00:00",
+  "resume": "Elastic Security observed a ransomware and extortion campaign leveraging a combination of offensive security tools, LOLBAS, and exploits to deliver the CUBA ransomware malware.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H1:Rançongiciels & extorsion"
+  ],
+  "score": 38,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 8,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "ransomware"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "355cdf388fbe",
+  "source": "huggingface",
+  "titre": "Train your first Decision Transformer",
+  "lien": "https://huggingface.co/blog/train-decision-transformers",
+  "date": "2022-09-08T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

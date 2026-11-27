@@ -1,0 +1,33 @@
+[
+ {
+  "id": "adf28d52b09d",
+  "source": "elastic",
+  "titre": "Elastic publishes 2023 Global Threat Report Spring Edition",
+  "lien": "https://www.elastic.co/security-labs/reports/elastic-publishes-2023-global-threat-report-spring-edition",
+  "date": "2023-04-28T00:00:00+00:00",
+  "resume": "This week, we’re publishing a new version of this report that’s online and interactive, which includes additional data covering the remainder of 2022, written using Elastic technologies.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 34,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]

@@ -13,14 +13,94 @@
   "sous_themes": [
    "H1:Rançongiciels & extorsion"
   ],
-  "score": 39,
+  "score": 46,
   "criteres": {
    "source": 30.6,
    "criticite": 8,
-   "corroboration": 0,
+   "corroboration": 7,
    "bruit": 0,
    "motifs": [
     "ransomware"
+   ]
+  },
+  "retenu": true,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 2,
+  "corrobore_par": [
+   "darkreading"
+  ],
+  "iteration": 1,
+  "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "9bc780d08055",
+  "source": "msft",
+  "titre": "Lessons from 59 Linux Kernel Bug Reports",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+  "date": "2026-11-11T16:55:00+00:00",
+  "resume": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings…",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Vulnérabilités & correctifs",
+   "H2:Modèles & recherche",
+   "H2:Régulation & éthique"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.7,
+   "criticite": 0,
+   "corroboration": 14,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 3,
+  "corrobore_par": [
+   "darkreading",
+   "mittr"
+  ],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.836765+00:00"
+ },
+ {
+  "id": "09936140454c",
+  "source": "huggingface",
+  "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+  "lien": "https://huggingface.co/blog/qvac/botpsy",
+  "date": "2026-11-11T05:01:16+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Agents IA",
+   "H2:Marché & industrie",
+   "H2:Modèles & recherche",
+   "H2:Usages & outils"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 14,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "billion"
    ]
   },
   "retenu": false,
@@ -31,8 +111,8 @@
   "signal_confirme": null,
   "corroboration": 1,
   "corrobore_par": [],
-  "iteration": 1,
-  "collecte": "2026-11-26T10:30:00+00:00"
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
  },
  {
   "id": "553b951a7bec",
@@ -66,5 +146,101 @@
   "corrobore_par": [],
   "iteration": 1,
   "collecte": "2026-11-26T10:30:00+00:00"
+ },
+ {
+  "id": "cef782996e74",
+  "source": "darkreading",
+  "titre": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
+  "lien": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
+  "date": "2026-11-11T22:14:44+00:00",
+  "resume": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。",
+  "horizon": "H1",
+  "themes": [],
+  "sous_themes": [],
+  "score": 32,
+  "criteres": {
+   "source": 31.9,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.039202+00:00"
+ },
+ {
+  "id": "5e2fa9f34006",
+  "source": "msft",
+  "titre": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+  "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+  "date": "2026-11-11T19:49:57+00:00",
+  "resume": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. ",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Fuites & intrusions",
+   "H1:Vulnérabilités & correctifs"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.7,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:43.836765+00:00"
+ },
+ {
+  "id": "375e312bc022",
+  "source": "huggingface",
+  "titre": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "lien": "https://huggingface.co/blog/token-pooling",
+  "date": "2026-11-11T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [
+   "H2:Modèles & recherche"
+  ],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
  }
 ]

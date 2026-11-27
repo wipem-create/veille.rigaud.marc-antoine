@@ -1,0 +1,40 @@
+[
+ {
+  "id": "9ac5ada39c19",
+  "source": "sekoia",
+  "titre": "EvilTokens Kit: Device Code Phishing-as-a-service - Part 1",
+  "lien": "https://www.sekoia.com/blog/new-widespread-eviltokens-kit-device-code-phishing-as-a-service-part-1",
+  "date": "2026-03-30T00:00:00+00:00",
+  "resume": "Uncover the new sophisticated EvilTokens device code phishing as-a-service, with AI-augmented features facilitating BEC fraud.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2"
+  ],
+  "sous_themes": [
+   "H1:Phishing & fraude"
+  ],
+  "score": 34,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 4,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "new"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": true,
+  "signal_termes": [
+   "device code"
+  ],
+  "signal_confirme": false,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "id": "4e3eb718eb33",
+  "source": "elastic",
+  "titre": "Sinking macOS Pirate Ships with Elastic Behavior Detections",
+  "lien": "https://www.elastic.co/security-labs/threat-command/sinking-macos-pirate-ships",
+  "date": "2024-03-15T00:00:00+00:00",
+  "resume": "This research looks at a recently found macOS malware campaign using the macOS Endpoint Security Framework paired with the Elastic Agent to hunt and detect the behaviors this malware exhibits.",
+  "horizon": "H3",
+  "themes": [
+   "H1",
+   "H2",
+   "H3"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT",
+   "H2:Agents IA",
+   "H2:Modèles & recherche",
+   "H3:Automatisation & IA au SOC",
+   "H3:Détection & threat hunting"
+  ],
+  "score": 42,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 12,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": [
+    "agent",
+    "detection"
+   ]
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ },
+ {
+  "id": "8c667a38e8fb",
+  "source": "huggingface",
+  "titre": "CPU Optimized Embeddings with 🤗 Optimum Intel and fastRAG",
+  "lien": "https://huggingface.co/blog/intel-fast-embedding",
+  "date": "2024-03-15T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ },
+ {
+  "id": "fd3eb8567094",
+  "source": "huggingface",
+  "titre": "Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset",
+  "lien": "https://huggingface.co/blog/websight",
+  "date": "2024-03-15T00:00:00+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

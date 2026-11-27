@@ -1,0 +1,60 @@
+[
+ {
+  "id": "5714b4eb3473",
+  "source": "sekoia",
+  "titre": "Detecting Multi-Stage Infection Chains Madness",
+  "lien": "https://www.sekoia.com/blog/detecting-multi-stage-infection-chains-madness",
+  "date": "2025-04-22T00:00:00+00:00",
+  "resume": "Learn about detecting multi-stage infection chains using Cloudflare tunnel infrastructures delivering RATs.",
+  "horizon": "H3",
+  "themes": [],
+  "sous_themes": [],
+  "score": 30,
+  "criteres": {
+   "source": 29.6,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.197241+00:00"
+ },
+ {
+  "id": "3b103e66a0d6",
+  "source": "huggingface",
+  "titre": "Finetuning olmOCR to be a faithful OCR-Engine",
+  "lien": "https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine",
+  "date": "2025-04-22T18:33:09+00:00",
+  "resume": "",
+  "horizon": "H2",
+  "themes": [],
+  "sous_themes": [],
+  "score": 28,
+  "criteres": {
+   "source": 27.8,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.590005+00:00"
+ }
+]

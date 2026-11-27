@@ -1,0 +1,33 @@
+[
+ {
+  "id": "4679d93c5149",
+  "source": "welivesecurity",
+  "titre": "Cyber readiness for SMBs: Getting the basics right",
+  "lien": "https://www.welivesecurity.com/en/business-security/cyber-readiness-smbs-getting-basics-right/",
+  "date": "2026-07-03T12:36:41+00:00",
+  "resume": "AI is changing cybercrime, but SMB cyber readiness still largely depends on closing the familiar gaps",
+  "horizon": "H1",
+  "themes": [
+   "H2"
+  ],
+  "sous_themes": [],
+  "score": 26,
+  "criteres": {
+   "source": 26.0,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:37.601812+00:00"
+ }
+]

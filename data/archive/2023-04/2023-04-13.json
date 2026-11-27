@@ -1,0 +1,35 @@
+[
+ {
+  "id": "3819f35b5aea",
+  "source": "elastic",
+  "titre": "BLISTER Loader",
+  "lien": "https://www.elastic.co/security-labs/threat-command/blister-loader",
+  "date": "2023-04-13T00:00:00+00:00",
+  "resume": "The BLISTER loader continues to be actively used to load a variety of malware.",
+  "horizon": "H1",
+  "themes": [
+   "H1"
+  ],
+  "sous_themes": [
+   "H1:Menaces & APT"
+  ],
+  "score": 30,
+  "criteres": {
+   "source": 30.2,
+   "criticite": 0,
+   "corroboration": 0,
+   "bruit": 0,
+   "motifs": []
+  },
+  "retenu": false,
+  "une": false,
+  "flash": false,
+  "signal": false,
+  "signal_termes": [],
+  "signal_confirme": null,
+  "corroboration": 1,
+  "corrobore_par": [],
+  "iteration": 2,
+  "collecte": "2026-11-27T14:45:44.077263+00:00"
+ }
+]
